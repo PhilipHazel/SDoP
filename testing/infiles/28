@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<?sdop toc_sections="no"
+  head_length="24"
+  head_centre_recto="[&arabicpage;]"
+  head_centre_verso="[&arabicpage;]"  
+?>
+
+<book>
+
+<chapter>
+<title>First chapter</title>
+<para>
+This is some text.
+</para>
+</chapter>
+
+<?sdop chapter_skip_head="yes"?>
+
+<chapter>
+<title>Second chapter</title>
+<para>
+This is some text.
+</para>
+</chapter>
+
+<chapter>
+<title>Third chapter</title>
+<para>
+This is some text.
+</para>
+</chapter>
+
+<?sdop chapter_skip_head="no"?>
+
+<chapter>
+<title>Fourth chapter</title>
+<para>
+This is some text.
+</para>
+</chapter>
+</book>
+

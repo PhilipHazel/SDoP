@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+
+<?sdop
+  font_main="12,1.5,serif"
+  numbertitles="yes,no,no"
+  page_full_length="100"
+  page_line_width="386"
+  paper_size="505x665"
+  table_warn_overflow="overprint"
+  toc_sections="no"
+?>
+<para>
+<indexterm>
+<primary>T<?sdop subscript_small="no" subscript_down="16"?><subscript>E</subscript><?sdop subscript_small="yes" subscript_down="33"?>X</primary>
+</indexterm>
+At that time Phoenix users still had access only to line-by-line terminals, so
+GCAL was not an interactive WYSIWYG word processor of the sort that appeared on
+personal computers a few years later. In concept it was similar to T<?sdop subscript_small="no" subscript_down="16"?><subscript>E</subscript><?sdop subscript_small="yes" subscript_down="33"?>X, which
+was being developed at around the same time. However, GCAL was much less
+ambitious; I did not attempt to support mathematical typesetting, nor did I
+consider using any fonts other than those that were already available in the
+various printing devices.
+</para>
+<para>
+Somebody once said that people are either <emphasis>doers</emphasis> or <emphasis>describers</emphasis>. The
+former prefer WYSIWSG interfaces, which you can make do things as you watch,
+whereas the latter (a smaller fraction of the population, I think) prefer to
+create files that describe their requirements, that is, they like markup
+languages. 
+<indexterm>
+<primary>T<?sdop subscript_small="no" subscript_down="16"?><subscript>E</subscript><?sdop subscript_small="yes" subscript_down="33"?>X</primary>
+</indexterm>
+The doers prefer applications like Microsoft Word and Sibelius; the describers
+go for T<?sdop subscript_small="no" subscript_down="16"?><subscript>E</subscript><?sdop subscript_small="yes" subscript_down="33"?>X and PMW. I think it is fair to say that, in general, people who
+compose music or who want to make arrangements just for performance are happy
+with a WYSIWYG approach, but those who are interested in creating high quality
+page images for publication (in effect &#x2018;music engravers&#x2019;) prefer PMW because it
+gives very precise control over the placing of every mark on the page.
+</para>
+<para>
+<indexterm>
+<primary>T<?sdop superscript_small="no" superscript_up="16"?><superscript>O</superscript><?sdop superscript_small="yes" superscript_up="33"?>X</primary>
+</indexterm>
+Testing indexing T<?sdop superscript_small="no" superscript_up="16"?><superscript>O</superscript><?sdop superscript_small="yes" superscript_up="33"?>X.
+</para>
+
+<para>
+<indexterm>
+<primary>T<?sdop subscript_small="no" subscript_down="16"?><subscript>E</subscript><?sdop subscript_small="yes" subscript_down="33"?>X</primary>
+</indexterm>
+At that time Phoenix users still had access only to line-by-line terminals, so
+GCAL was not an interactive WYSIWYG word processor of the sort that appeared on
+personal computers a few years later. In concept it was similar to T<?sdop
+subscript_small="no" subscript_down="16"?><subscript>E</subscript><?sdop
+subscript_small="yes" subscript_down="33"?>X, which was being developed at
+around the same time.
+</para>
+
+<para>
+<indexterm>
+<primary>T<?sdop subscript_small="no"?><subscript>E</subscript><?sdop subscript_small="yes"?>X</primary>
+</indexterm>
+At that time Phoenix users still had access only to line-by-line terminals, so
+GCAL was not an interactive WYSIWYG word processor of the sort that appeared on
+personal computers a few years later. In concept it was similar to T<?sdop
+subscript_small="no"?><subscript>E</subscript><?sdop subscript_small="yes"?>X,
+which was being developed at around the same time.
+</para>
+
+<para>
+<indexterm>
+<primary>T<subscript>E</subscript>X</primary>
+</indexterm>
+The doers prefer applications like Microsoft Word and Sibelius; the describers
+go for T<subscript>E</subscript>X and PMW. 
+</para>
+
+<para>
+<indexterm>
+<primary>T<superscript>E</superscript>X</primary>
+</indexterm>
+Better make sure that subscripts and superscripts, with the same movement
+values, are distinguished. The doers prefer applications like Microsoft Word
+and Sibelius; the describers go for T<superscript>E</superscript>X and PMW.
+</para>
+
+<para>
+<indexterm>
+<primary><emphasis role="rgb=1,0,0">T<subscript>E</subscript>X</emphasis></primary>
+</indexterm>
+The doers prefer applications like Microsoft Word and Sibelius; the describers
+go for <emphasis role="rgb=1,0,0">T<subscript>E</subscript>X</emphasis> and
+PMW.
+</para>
+
+<index>
+<title>Index</title>
+</index>
+

@@ -1,0 +1,43 @@
+THE SIMPLE DOCBOOK XML TO POSTSCRIPT PROCESSOR
+----------------------------------------------
+
+I wrote SDoP because back in 2005 I was frustrated at the lack of free software
+for processing DocBook that could produce really nice typographic output. Much
+of the text formatting logic is taken from SGCAL, a previous typesetter whose
+input was marked up text.
+
+
+UNIX-LIKE SYSTEMS
+-----------------
+
+It should just be a matter of typing
+
+  ./configure
+  make
+  make install
+
+to get youself an installed sdop command. You can run the tests by "make check"
+or "make test". Support for PNG and JPEG images is automatically included if
+the relevent libraries are installed, but you can disable these optional
+features by adding --disable-png or --disable-jpeg to the "configure" command.
+
+There is a man page that lists the command arguments. The main documentation is
+provided as a PDF file file in the doc directory. The xfpt source that was used
+to create the XML that in turn was used to generate the PDF is also included,
+along with the corresponding XML. You can get rid of sdop by "make uninstall".
+
+
+OTHER SYSTEMS
+-------------
+
+SDoP consists almost entirely of Standard C code, and so it should be possible
+to compile it on any system with a Standard C compiler and library. I think the
+only non-standard function call is stat(), to check for a file's existence, and
+that is in a module called sys.c.
+
+Philip Hazel
+First released: 2005
+Last updated: March 2023
+
+Domain:     gmail.com
+Local part: Philip.Hazel

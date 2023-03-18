@@ -1,0 +1,196 @@
+<?sdop warn_unsupported_characters="no" xref_links="no"?>
+<chapter id="CHAPfirst">
+<title>The first chapter</title>
+<para>
+This is text before the first section.
+</para>
+
+<section>
+<title>A section title</title>
+<para>A reference to a chapter above: <xref linkend="CHAPfirst"/>.
+A reference to a section below: <xref linkend="SECTsomething"/>.
+</para>
+</section>
+
+<section id="SECTsomething">
+<title>A nother section title</title>
+<para>
+Text in another section.
+</para>
+</section>
+</chapter>
+
+<chapter>
+<title>Another chapter title</title>
+<section>
+<title>section title</title>
+<para>
+Here's some text.
+</para>
+
+<section id="SUBSECTlabel">
+<title>This is a subsection title</title>
+<para>
+This is the text of the subsection.
+</para>
+</section>
+</section>
+
+<section>
+<title>Another toplevel section</title>
+<para>
+Text for another toplevel section. Let's test some attributes:
+&amp;gt;=&gt;
+&amp;lt;=&lt;
+&amp;#128;=&#128;
+&amp;#x80;=&#x80;
+</para>
+</section>
+</chapter>
+
+<chapter>
+<title>chap title</title>
+<para>
+some text
+<emphasis>emphasized</emphasis>
+should be normal
+<emphasis role="bold">bold</emphasis>
+<literal>literal text</literal>
+</para>
+
+<section>
+<title>This is a section title</title>
+<para>
+This is text in the section.
+<literal>literal<emphasis role="bold">bold literal</emphasis>
+ordinary literal</literal>
+</para>
+
+<para>
+<emphasis>this is italic<literal> and this is literal italic</literal>
+back in normal italic</emphasis> and back in roman.
+</para>
+
+<screen>
+Here's a screen.
+</screen>
+
+<literallayout>
+Literal layout, not monospaced.
+Second line.
+</literallayout>
+
+<literallayout class="monospaced">
+Literal layout, monospaced.
+Second line.
+</literallayout>
+
+<!-- Here is a comment --><para>
+A normal para.
+</para>
+
+<!-- Here is a comment
+     that extends over a line break --><para>
+Another normal para.
+</para>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+&#x261e;
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<programlisting>
+Programlisting &lt;ABC&gt; <emphasis>Italic</emphasis>
+<![CDATA[
+This is a CDATA section. Markup such as < and > should
+be treated literally. Also things like &gt; and so on.
+We can talk about <elements> literally.
+]]>
+Now back in <emphasis>normality</emphasis>.
+</programlisting>
+
+<para>
+Now we need to test a CDATA section in a normal paragraph.
+Within a line <![CDATA[<angled>]]> and now on its own.
+<![CDATA[
+These lines are CDATA, containing <angles> and &persands.
+This is another one.
+]]>
+</para>
+
+</section>
+
+<sect1><title>Test some of the sectN elements</title>
+<para>
+Some text.
+</para>
+
+<sect2><title>A sect2 subsection</title>
+<para>
+More text.
+</para>
+
+<sect3><title>A sect3 subsection</title>
+<para>
+Yet more text.
+</para>
+
+
+<informaltable frame="none">
+<tgroup cols="4" colsep="0" rowsep="0">
+<colspec colwidth="10pt" align="left"/>
+<colspec colwidth="80pt" align="left"/>
+<colspec colwidth="80pt" align="centre"/>
+<colspec colwidth="80pt" align="centre"/>
+<tbody>
+<row>
+<entry></entry>
+<entry>&nbsp;&nbsp;&nbsp;&nbsp;<emphasis role="bold">Name</emphasis></entry>
+<entry><emphasis role="bold">Code point</emphasis></entry>
+<entry><emphasis role="bold">Character</emphasis></entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>&amp;Cacute;</literal></entry>
+<entry><literal>U+0106</literal></entry>
+<entry>&Cacute;</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>&amp;Ccaron;</literal></entry>
+<entry><literal>U+010C</literal></entry>
+<entry>&Ccaron;</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>&amp;Ccedil;</literal></entry>
+<entry><literal>U+00C7</literal></entry>
+<entry>&Ccedil;</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>&amp;Ccirc;</literal></entry>
+<entry><literal>U+0108</literal></entry>
+<entry>&Ccirc;</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>&amp;Cdot;</literal></entry>
+<entry><literal>U+010A</literal></entry>
+<entry>&Cdot;</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+
+</sect3>
+</sect2>
+</sect1>
+
+</chapter>

@@ -1,0 +1,52 @@
+<?sdop
+  toc_printed_sections="yes,yes"
+?>   
+<chapter>
+<title>Test chapter</title>
+<para>Rhubarb.</para>
+<section>
+<title>Section A</title>
+<para>Rhubarb.</para>
+<section>
+<title>Subsection X</title>
+<para>Rhubarb.</para>
+</section>
+</section>
+
+<section>
+<title>Section B</title>
+<para>Rhubarb.</para>
+<section>
+<title>Subsection Y</title>
+<para>Rhubarb.</para>
+</section>
+</section>
+</chapter>
+
+
+<?sdop
+  toc_printed_sections="yes"
+?>   
+<chapter>
+<title>Test chapter</title>
+<para>Rhubarb.</para>
+<section>
+<title>Section A</title>
+<para>Rhubarb.</para>
+<section>
+<title>Subsection X</title>
+<para>Rhubarb.</para>
+</section>
+</section>
+
+<section>
+<title>Section B</title>
+<para>Rhubarb.</para>
+<section>
+<title>Subsection Y</title>
+<para>Rhubarb.</para>
+</section>
+</section>
+
+
+</chapter>

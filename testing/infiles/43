@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V4.1.2.5//EN" "http://www.oasis-open.org/docbook/xml/simple/4.1.2.5/sdocbook.dtd">
+
+<article>
+
+<para>
+This is the first paragraph of the article. Within this article, we are going 
+to include a block quote with an attribution.
+</para>
+<blockquote>
+<attribution><emphasis>William Shakespeare</emphasis></attribution>
+<literallayout>
+What say you? Will you yield, and this avoid?
+Or, guilty in defence, be thus destroyed?
+</literallayout>
+</blockquote>
+<para>
+And now back to your regular programme of paragraphs in the normal format, at 
+the usual indents and justification.
+</para>
+
+<!-- At present, inlinemediaobject is the same as mediaobject. -->
+<inlinemediaobject>
+<audioobject>
+<objectinfo>
+<title>Some title</title>
+</objectinfo>
+<audiodata fileref="abcd"/>
+</audioobject>
+<videoobject>
+<objectinfo>
+<title>Some title</title>
+</objectinfo>
+<videodata fileref="abcd"/>
+</videoobject>
+<textobject>
+<para>That was an audio object.</para>
+</textobject>
+<caption>
+This is a <emphasis>caption</emphasis>.
+</caption>
+</inlinemediaobject>
+
+<para>
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+</para>
+
+<para>
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+</para>
+
+<para>
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+</para>
+
+<para>
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+</para>
+
+<para>
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+</para>
+
+<para>
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+</para>
+
+<mediaobject>
+<audioobject>
+<objectinfo>
+<title>Some title</title>
+</objectinfo>
+<audiodata fileref="abcd"/>
+</audioobject>
+<textobject>
+<para>That was an audio object.</para>
+</textobject>
+<caption>
+This is a <emphasis>caption</emphasis>.
+</caption>
+</mediaobject>
+
+<para>
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+</para>
+
+<para>
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+This paragraph follows a mediaobject. Need to fill the page.
+</para>
+
+<para>
+Test <emphasis>italic <emphasis role="roman">roman</emphasis> italic</emphasis>.
+Cite a title: <citetitle>Alice in Wonderland</citetitle>. Now test a roman word 
+in the middle of a title: <citetitle>Alice through <emphasis role="roman">the 
+</emphasis>Looking Glass</citetitle>.
+</para>
+
+<para>
+Check <computeroutput>computer output</computeroutput>, which is the same as 
+literal. Here is an email address: <email>abcd@x.y.z</email>. Test a bold one:
+<email><emphasis role="bold">xyz@a.b.c</emphasis></email> and a bold roman one:
+<email><emphasis role="roman"><emphasis role="bold">pqr@m.n.o</emphasis>
+</emphasis></email>. This is <replaceable>replaceable</replaceable>.
+This is <literal><replaceable>literal replaceable</replaceable></literal>.
+</para>
+
+<section>
+<sectioninfo>
+<title>Sectioninfo title</title>
+<volumenum>12</volumenum>
+</sectioninfo>
+<title>This is a section title</title>
+<para>This is a paragraph in a section.</para>
+</section>
+
+</article>

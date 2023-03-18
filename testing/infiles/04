@@ -1,0 +1,72 @@
+<?sdop toc_sections="no" ?>
+<para>
+This is a test of automatic hyphenation. Choose a longish word that has several 
+potential hyphenation points: accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando.
+</para>
+<para>
+The last word in the paragraph above should not be hyphenated. But adding 
+another word should change things:
+</para>
+<para>
+This is a test of automatic hyphenation. Choose a longish word that has several 
+potential hyphenation points: accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando con brio.
+</para>
+<para>
+Next we test the case when there is no previous breakpoint in the line.
+</para>
+<para>
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM donuts!
+</para>
+<para>
+Now we repeat all that, with hyphenation turned off:
+</para>
+<?sdop hyphenate="no"?>
+<para>
+This is a test of automatic hyphenation. Choose a longish word that has several 
+potential hyphenation points: accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando.
+</para>
+<para>
+The last word in the paragraph above should not be hyphenated. Next we test the 
+case when there is no previous breakpoint in the line.
+</para>
+<para>
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM donuts!
+</para>
+<para>
+Now we repeat all that again, with hyphenation turned back on:
+</para>
+<?sdop hyphenate="yes"?>
+<para>
+This is a test of automatic hyphenation. Choose a longish word that has several 
+potential hyphenation points: accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando accelerando accelerando accelerando accelerando
+accelerando accelerando.
+</para>
+<para>
+The last word in the paragraph above should not be hyphenated. Next we test the 
+case when there is no previous breakpoint in the line.
+</para>
+<para>
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM donuts!
+</para>
+
+<para>
+Test for a bad entity: &abc%$£; and
+check entity name characters: &a_b:c.d-e; and check &amp;apos &apos; and
+&amp;quot; &quot;.
+</para>
+

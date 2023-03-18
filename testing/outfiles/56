@@ -1,0 +1,279 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.60
+%%CreationDate: Tue Jul 21 19:20:55 2009
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+/vf 4 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (T)S -0.77 R(esting)S 3.162 R("break)S 3.162 R(p)S
+(ermitted)S 3.162 R(here":)S 3.162 R(abcdef)S 3.162 R(abcdef)S
+3.162 R(abcdef)S 3.162 R(abcdef)S 3.162 R(abcdef)S 3.162 R(abc)S
+(def)S 3.162 R(abcdef)S 3.162 R(abcdef)S 3.162 R(abcdef)S 3.162 R(a)S
+(bc)S
+72 756 Mt(def abcdef abcdef)S
+72 733 Mt(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electr)S
+(i)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 721 Mt(electri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(electr)S
+(i)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(b)S -0.22 R(ut)S
+3.529 R(b)S -0.22 R(ut)S 3.529 R(electri)S 1 Sf (\216)S 0 Sf (c)S
+(ation)S 3.529 R(electri-)S
+72 709 Mt 1 Sf (\216)S 0 Sf (cation)S 9.011 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 9.011 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 9.011 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 9.011 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 9.011 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 9.011 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S
+72 697 Mt(electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 674 Mt(Ne)S -0.165 R(xt para has no "no break here".)S
+72 651 Mt(T)S -0.77 R(esting)S 6.116 R("no)S 6.116 R(break)S 6.116 R(h)S
+(ere":)S 6.116 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 6.116 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S
+72 639 Mt(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electr)S
+(i)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 627 Mt(b)S -0.22 R(ut)S 3.529 R(b)S -0.22 R(ut)S 3.529 R(el)S
+(ectri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(e)S
+(lectri-)S
+72 615 Mt 1 Sf (\216)S 0 Sf (cation electri)S 1 Sf (\216)S 0 Sf
+(cation electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 592 Mt(This one has an NBH, b)S -0.22 R(ut not at a breakin)S
+(g place.)S
+72 569 Mt(T)S -0.77 R(esting)S 6.116 R("no)S 6.116 R(break)S 6.116 R(h)S
+(ere":)S 6.116 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 6.116 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S
+72 557 Mt(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electr)S
+(i)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 545 Mt(b)S -0.22 R(ut)S 3.529 R(b)S -0.22 R(ut)S 3.529 R(el)S
+(ectri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 3.529 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 3.529 R(e)S
+(lectri-)S
+72 533 Mt 1 Sf (\216)S 0 Sf (cation electri)S 1 Sf (\216)S 0 Sf
+(cation electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 510 Mt(This one has another NBH, at the breaking place.)S
+72 487 Mt(T)S -0.77 R(esting)S 6.116 R("no)S 6.116 R(break)S 6.116 R(h)S
+(ere":)S 6.116 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 6.116 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S
+72 475 Mt(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electr)S
+(i)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 463 Mt(b)S -0.22 R(ut)S 8.484 R(b)S -0.22 R(ut)S 8.484 R(el)S
+(ectri)S 1 Sf (\216)S 0 Sf (cation)S 8.484 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 8.484 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 8.484 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 8.484 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 8.484 R(electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 451 Mt(electri)S 1 Sf (\216)S 0 Sf (cation electri)S 1 Sf (\216)S
+0 Sf (cation electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 428 Mt(This one has just one NBH, at the pre)S -0.275 R(vio)S
+(us breaking place.)S
+72 405 Mt(T)S -0.77 R(esting)S 6.116 R("no)S 6.116 R(break)S 6.116 R(h)S
+(ere":)S 6.116 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 6.116 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 6.116 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S
+72 393 Mt(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electr)S
+(i)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.429 R(electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 381 Mt(b)S -0.22 R(ut)S 4.752 R(b)S -0.22 R(ut)S 4.752 R(el)S
+(ectri)S 1 Sf (\216)S 0 Sf (cation)S 4.752 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.752 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.752 R(e)S
+(lectri)S 1 Sf (\216)S 0 Sf (cation)S 4.752 R(electri)S 1 Sf (\216)S
+0 Sf (cation)S 4.752 R(electri)S 1 Sf (\216)S 0 Sf (cation)S 4.752 R(e)S
+(lec-)S
+72 369 Mt(tri)S 1 Sf (\216)S 0 Sf (cation electri)S 1 Sf (\216)S
+0 Sf (cation electri)S 1 Sf (\216)S 0 Sf (cation)S
+72 346 Mt(T)S -0.77 R(est)S 5.683 R(k)S -0.11 R(erning)S 5.683 R(o)S
+-0.165 R(v)S -0.165 R(er)S 5.683 R(BPH)S 5.683 R(and)S 5.683 R(N)S
+(BH:)S 5.683 R(normal)S 5.683 R(Y)S -1.21 R(orkshire)S 5.683 R(u)S
+(nk)S -0.11 R(erned)S 5.683 R(Yorkshire)S 5.683 R(BPH)S 5.683 R(Y)S
+-1.21 R(orkshire)S 5.683 R(NBH)S
+72 334 Mt(Y)S -1.21 R(orkshire NBSP Yorkshire)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 1

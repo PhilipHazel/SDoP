@@ -1,0 +1,9 @@
+** 'olist_font' is deprecated: use 'olist_tag_style' instead
+   Detected in element starting in line 20 of infiles/59
+
+** 'olist_format' is deprecated: use 'olist_tag_format' instead
+   Detected in element starting in line 37 of infiles/59
+
+** 'ilist_font' is deprecated: use 'ilist_tag_style' instead
+   Detected in element starting in line 71 of infiles/59
+

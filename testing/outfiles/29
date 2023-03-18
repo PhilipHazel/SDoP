@@ -1,0 +1,480 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.07
+%%CreationDate: Sat Mar 15 16:13:23 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Courier
+%%+ font ZapfDingbats
+%%+ font Symbol
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Courier
+/af4 /af5 /Courier inf
+%%IncludeResource: font ZapfDingbats
+/af6 /af7 /ZapfDingbats inf
+%%IncludeResource: font Symbol
+/af8 /af9 /Symbol inf
+/vf 10 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 11 scalefont put
+vf 5 af5 11 scalefont put
+vf 6 af6 11 scalefont put
+vf 7 af7 11 scalefont put
+vf 8 af8 11 scalefont put
+vf 9 af9 11 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 768 Mt 4 Sf (AElig   00c6   )S 0 Sf (\306)S
+84 756 Mt 4 Sf (Aacute  00c1   )S 0 Sf (\301)S
+84 744 Mt 4 Sf (Abreve  0102   )S 1 Sf (\002)S
+84 732 Mt 4 Sf (Acirc   00c2   )S 0 Sf (\302)S
+84 720 Mt 4 Sf (Agrave  00c0   )S 0 Sf (\300)S
+84 708 Mt 4 Sf (Amacr   0100   )S 1 Sf (\000)S
+84 696 Mt 4 Sf (Aogon   0104   )S 1 Sf (\004)S
+84 684 Mt 4 Sf (Aring   00c5   )S 0 Sf (\305)S
+84 672 Mt 4 Sf (Atilde  00c3   )S 0 Sf (\303)S
+84 660 Mt 4 Sf (Auml    00c4   )S 0 Sf (\304)S
+84 648 Mt 4 Sf (Cacute  0106   )S 1 Sf (\006)S
+84 636 Mt 4 Sf (Ccaron  010c   )S 1 Sf (\014)S
+84 624 Mt 4 Sf (Ccedil  00c7   )S 0 Sf (\307)S
+84 612 Mt 4 Sf (Ccirc   0108   )S 1 Sf (\010)S
+84 600 Mt 4 Sf (Cdot    010a   )S 1 Sf (\012)S
+84 588 Mt 4 Sf (Dcaron  010e   )S 1 Sf (\016)S
+84 576 Mt 4 Sf (Dstrok  0110   )S 1 Sf (\020)S
+84 564 Mt 4 Sf (ENG     014a   )S 1 Sf (J)S
+84 552 Mt 4 Sf (ETH     00d0   )S 0 Sf (\320)S
+84 540 Mt 4 Sf (Eacute  00c9   )S 0 Sf (\311)S
+84 528 Mt 4 Sf (Ecaron  011a   )S 1 Sf (\032)S
+84 516 Mt 4 Sf (Ecirc   00ca   )S 0 Sf (\312)S
+84 504 Mt 4 Sf (Edot    0116   )S 1 Sf (\026)S
+84 492 Mt 4 Sf (Egrave  00c8   )S 0 Sf (\310)S
+84 480 Mt 4 Sf (Emacr   0112   )S 1 Sf (\022)S
+84 468 Mt 4 Sf (Eogon   0118   )S 1 Sf (\030)S
+84 456 Mt 4 Sf (Euml    00cb   )S 0 Sf (\313)S
+84 444 Mt 4 Sf (Euro    20ac   )S 1 Sf (\201)S
+84 432 Mt 4 Sf (Gbreve  011e   )S 1 Sf (\036)S
+84 420 Mt 4 Sf (Gcedil  0122   )S 1 Sf (")S
+84 408 Mt 4 Sf (Gcirc   011c   )S 1 Sf (\034)S
+84 396 Mt 4 Sf (Gdot    0120   )S 1 Sf ( )S
+84 384 Mt 4 Sf (Hcirc   0124   )S 1 Sf ($)S
+84 372 Mt 4 Sf (Hstrok  0126   )S 1 Sf (&)S
+84 360 Mt 4 Sf (IJlig   0132   )S 1 Sf (2)S
+84 348 Mt 4 Sf (Iacute  00cd   )S 0 Sf (\315)S
+84 336 Mt 4 Sf (Icirc   00ce   )S 0 Sf (\316)S
+84 324 Mt 4 Sf (Idot    0130   )S 1 Sf (0)S
+84 312 Mt 4 Sf (Igrave  00cc   )S 0 Sf (\314)S
+84 300 Mt 4 Sf (Imacr   012a   )S 1 Sf (*)S
+84 288 Mt 4 Sf (Iogon   012e   )S 1 Sf (.)S
+84 276 Mt 4 Sf (Itilde  0128   )S 1 Sf (\()S
+84 264 Mt 4 Sf (Iuml    00cf   )S 0 Sf (\317)S
+84 252 Mt 4 Sf (Jcirc   0134   )S 1 Sf (4)S
+84 240 Mt 4 Sf (Kcedil  0136   )S 1 Sf (6)S
+84 228 Mt 4 Sf (Lacute  0139   )S 1 Sf (9)S
+84 216 Mt 4 Sf (Lcaron  013d   )S 1 Sf (=)S
+84 204 Mt 4 Sf (Lcedil  013b   )S 1 Sf (;)S
+84 192 Mt 4 Sf (Lmidot  013f   )S 1 Sf (?)S
+84 180 Mt 4 Sf (Lstrok  0141   )S 1 Sf (A)S
+84 168 Mt 4 Sf (Nacute  0143   )S 1 Sf (C)S
+84 156 Mt 4 Sf (Ncaron  0147   )S 1 Sf (G)S
+84 144 Mt 4 Sf (Ncedil  0145   )S 1 Sf (E)S
+84 132 Mt 4 Sf (Ntilde  00d1   )S 0 Sf (\321)S
+84 120 Mt 4 Sf (OElig   0152   )S 1 Sf (R)S
+84 108 Mt 4 Sf (Oacute  00d3   )S 0 Sf (\323)S
+84 96 Mt 4 Sf (Ocirc   00d4   )S 0 Sf (\324)S
+84 84 Mt 4 Sf (Odblac  0150   )S 1 Sf (P)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 768 Mt 4 Sf (Ograve  00d2   )S 0 Sf (\322)S
+84 756 Mt 4 Sf (Omacr   014c   )S 1 Sf (L)S
+84 744 Mt 4 Sf (Oslash  00d8   )S 0 Sf (\330)S
+84 732 Mt 4 Sf (Otilde  00d5   )S 0 Sf (\325)S
+84 720 Mt 4 Sf (Ouml    00d6   )S 0 Sf (\326)S
+84 708 Mt 4 Sf (Racute  0154   )S 1 Sf (T)S
+84 696 Mt 4 Sf (Rcaron  0158   )S 1 Sf (X)S
+84 684 Mt 4 Sf (Rcedil  0156   )S 1 Sf (V)S
+84 672 Mt 4 Sf (Sacute  015a   )S 1 Sf (Z)S
+84 660 Mt 4 Sf (Scaron  0160   )S 1 Sf (`)S
+84 648 Mt 4 Sf (Scedil  015e   )S 1 Sf (^)S
+84 636 Mt 4 Sf (Scirc   015c   )S 1 Sf (\\)S
+84 624 Mt 4 Sf (THORN   00de   )S 0 Sf (\336)S
+84 612 Mt 4 Sf (Tcaron  0164   )S 1 Sf (d)S
+84 600 Mt 4 Sf (Tcedil  0162   )S 1 Sf (b)S
+84 588 Mt 4 Sf (Tstrok  0166   )S 1 Sf (f)S
+84 576 Mt 4 Sf (Uacute  00da   )S 0 Sf (\332)S
+84 564 Mt 4 Sf (Ubreve  016c   )S 1 Sf (l)S
+84 552 Mt 4 Sf (Ucirc   00db   )S 0 Sf (\333)S
+84 540 Mt 4 Sf (Udblac  0170   )S 1 Sf (p)S
+84 528 Mt 4 Sf (Ugrave  00d9   )S 0 Sf (\331)S
+84 516 Mt 4 Sf (Umacr   016a   )S 1 Sf (j)S
+84 504 Mt 4 Sf (Uogon   0172   )S 1 Sf (r)S
+84 492 Mt 4 Sf (Uring   016e   )S 1 Sf (n)S
+84 480 Mt 4 Sf (Utilde  0168   )S 1 Sf (h)S
+84 468 Mt 4 Sf (Uuml    00dc   )S 0 Sf (\334)S
+84 456 Mt 4 Sf (Wcirc   0174   )S 1 Sf (t)S
+84 444 Mt 4 Sf (Yacute  00dd   )S 0 Sf (\335)S
+84 432 Mt 4 Sf (Ycirc   0176   )S 1 Sf (v)S
+84 420 Mt 4 Sf (Yuml    0178   )S 1 Sf (x)S
+84 408 Mt 4 Sf (Zacute  0179   )S 1 Sf (y)S
+84 396 Mt 4 Sf (Zcaron  017d   )S 1 Sf (})S
+84 384 Mt 4 Sf (Zdot    017b   )S 1 Sf ({)S
+84 372 Mt 4 Sf (aacute  00e1   )S 0 Sf (\341)S
+84 360 Mt 4 Sf (abreve  0103   )S 1 Sf (\003)S
+84 348 Mt 4 Sf (acirc   00e2   )S 0 Sf (\342)S
+84 336 Mt 4 Sf (aelig   00e6   )S 0 Sf (\346)S
+84 324 Mt 4 Sf (agrave  00e0   )S 0 Sf (\340)S
+84 312 Mt 4 Sf (amacr   0101   )S 1 Sf (\001)S
+84 300 Mt 4 Sf (aogon   0105   )S 1 Sf (\005)S
+84 288 Mt 4 Sf (aring   00e5   )S 0 Sf (\345)S
+84 276 Mt 4 Sf (atilde  00e3   )S 0 Sf (\343)S
+84 264 Mt 4 Sf (auml    00e4   )S 0 Sf (\344)S
+84 192 Mt 4 Sf (brvbar  00a6   )S 0 Sf (\246)S
+84 168 Mt 4 Sf (cacute  0107   )S 1 Sf (\007)S
+84 144 Mt 4 Sf (ccaron  010d   )S 1 Sf (\015)S
+84 132 Mt 4 Sf (ccedil  00e7   )S 0 Sf (\347)S
+84 120 Mt 4 Sf (ccirc   0109   )S 1 Sf (\011)S
+84 108 Mt 4 Sf (cdot    0a0b   )S 1 Sf (\013)S
+84 96 Mt 4 Sf (cent    00a2   )S 0 Sf (\242)S
+84 84 Mt 4 Sf (check   2713   )S 6 Sf (3)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 756 Mt 4 Sf (clubs   2663   )S 8 Sf (\247)S
+84 744 Mt 4 Sf (copy    00a9   )S 0 Sf (\251)S
+84 720 Mt 4 Sf (cross   2717   )S 6 Sf (7)S
+84 708 Mt 4 Sf (curren  00a4   )S 0 Sf (\244)S
+84 696 Mt 4 Sf (darr    2193   )S 8 Sf (\257)S
+84 672 Mt 4 Sf (dcaron  010f   )S 1 Sf (\017)S
+84 660 Mt 4 Sf (deg     00b0   )S 0 Sf (\260)S
+84 648 Mt 4 Sf (diams   2666   )S 8 Sf (\250)S
+84 636 Mt 4 Sf (divide  00f7   )S 0 Sf (\367)S
+84 600 Mt 4 Sf (dstrok  0111   )S 1 Sf (\021)S
+84 564 Mt 4 Sf (eacute  00e9   )S 0 Sf (\351)S
+84 552 Mt 4 Sf (ecaron  011b   )S 1 Sf (\033)S
+84 540 Mt 4 Sf (ecirc   00ea   )S 0 Sf (\352)S
+84 528 Mt 4 Sf (edot    0117   )S 1 Sf (\027)S
+84 516 Mt 4 Sf (egrave  00e8   )S 0 Sf (\350)S
+84 504 Mt 4 Sf (emacr   0113   )S 1 Sf (\023)S
+84 492 Mt 4 Sf (eng     014b   )S 1 Sf (K)S
+84 480 Mt 4 Sf (eogon   0119   )S 1 Sf (\031)S
+84 468 Mt 4 Sf (eth     00f0   )S 0 Sf (\360)S
+84 456 Mt 4 Sf (euml    00eb   )S 0 Sf (\353)S
+84 396 Mt 4 Sf (filig   fb01   )S 1 Sf (\216)S
+84 372 Mt 4 Sf (fllig   fb02   )S 1 Sf (\217)S
+84 360 Mt 4 Sf (frac12  00bd   )S 0 Sf (\275)S
+84 336 Mt 4 Sf (frac14  00bc   )S 0 Sf (\274)S
+84 264 Mt 4 Sf (frac34  00be   )S 0 Sf (\276)S
+84 168 Mt 4 Sf (gbreve  011f   )S 1 Sf (\037)S
+84 156 Mt 4 Sf (gcirc   011d   )S 1 Sf (\035)S
+84 144 Mt 4 Sf (gdot    0121   )S 1 Sf (!)S
+84 132 Mt 4 Sf (half    00bd   )S 0 Sf (\275)S
+84 120 Mt 4 Sf (hcirc   0125   )S 1 Sf (%)S
+84 108 Mt 4 Sf (hearts  2665   )S 8 Sf (\251)S
+84 96 Mt 4 Sf (hellip  2026   )S 1 Sf (\213)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 768 Mt 4 Sf (hstrok  0127   )S 1 Sf (')S
+84 744 Mt 4 Sf (iacute  00ed   )S 0 Sf (\355)S
+84 732 Mt 4 Sf (icirc   00ee   )S 0 Sf (\356)S
+84 720 Mt 4 Sf (iexcl   00a1   )S 0 Sf (\241)S
+84 708 Mt 4 Sf (igrave  00ec   )S 0 Sf (\354)S
+84 696 Mt 4 Sf (ijlig   0133   )S 1 Sf (3)S
+84 684 Mt 4 Sf (imacr   012b   )S 1 Sf (+)S
+84 660 Mt 4 Sf (inodot  0131   )S 1 Sf (1)S
+84 648 Mt 4 Sf (iogon   012f   )S 1 Sf (/)S
+84 636 Mt 4 Sf (iquest  00bf   )S 0 Sf (\277)S
+84 624 Mt 4 Sf (itilde  0129   )S 1 Sf (\))S
+84 612 Mt 4 Sf (iuml    00ef   )S 0 Sf (\357)S
+84 600 Mt 4 Sf (jcirc   0135   )S 1 Sf (5)S
+84 588 Mt 4 Sf (kcedil  0137   )S 1 Sf (7)S
+84 576 Mt 4 Sf (kgreen  0138   )S 1 Sf (8)S
+84 564 Mt 4 Sf (lacute  013a   )S 1 Sf (:)S
+84 552 Mt 4 Sf (laquo   00ab   )S 0 Sf (\253)S
+84 540 Mt 4 Sf (larr    2190   )S 8 Sf (\254)S
+84 528 Mt 4 Sf (lcaron  013e   )S 1 Sf (>)S
+84 516 Mt 4 Sf (lcedil  013c   )S 1 Sf (<)S
+84 504 Mt 4 Sf (ldquo   201c   )S 1 Sf (\237)S
+84 492 Mt 4 Sf (ldquor  201e   )S 1 Sf (\236)S
+84 468 Mt 4 Sf (lmidot  0140   )S 1 Sf (@)S
+84 456 Mt 4 Sf (loz     25ca   )S 1 Sf (\227)S
+84 444 Mt 4 Sf (lsquo   2018   )S 1 Sf (\241)S
+84 432 Mt 4 Sf (lsquor  201a   )S 1 Sf (\243)S
+84 420 Mt 4 Sf (lstrok  0142   )S 1 Sf (B)S
+84 372 Mt 4 Sf (malt    2720   )S 6 Sf (@)S
+84 348 Mt 4 Sf (mdash   2014   )S 1 Sf (\214)S
+84 336 Mt 4 Sf (micro   00b5   )S 0 Sf (\265)S
+84 324 Mt 4 Sf (middot  00b7   )S 0 Sf (\267)S
+84 312 Mt 4 Sf (mldr    2026   )S 1 Sf (\213)S
+84 300 Mt 4 Sf (nacute  0144   )S 1 Sf (D)S
+84 288 Mt 4 Sf (napos   0149   )S 1 Sf (I)S
+84 264 Mt 4 Sf (ncaron  0148   )S 1 Sf (H)S
+84 252 Mt 4 Sf (ncedil  0146   )S 1 Sf (F)S
+84 240 Mt 4 Sf (ndash   2013   )S 1 Sf (\215)S
+84 216 Mt 4 Sf (not     00ac   )S 0 Sf (\254)S
+84 204 Mt 4 Sf (ntilde  00f1   )S 0 Sf (\361)S
+84 192 Mt 4 Sf (oacute  00f3   )S 0 Sf (\363)S
+84 180 Mt 4 Sf (ocirc   00f4   )S 0 Sf (\364)S
+84 168 Mt 4 Sf (odblac  0151   )S 1 Sf (Q)S
+84 156 Mt 4 Sf (oelig   0153   )S 1 Sf (S)S
+84 144 Mt 4 Sf (ograve  00f2   )S 0 Sf (\362)S
+84 120 Mt 4 Sf (omacr   014d   )S 1 Sf (M)S
+84 108 Mt 4 Sf (ordf    00aa   )S 0 Sf (\252)S
+84 96 Mt 4 Sf (ordm    00ba   )S 0 Sf (\272)S
+84 84 Mt 4 Sf (oslash  00f8   )S 0 Sf (\370)S
+72 72 Mt( )S
+294.249 60 Mt(4)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 5 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 768 Mt 4 Sf (otilde  00f5   )S 0 Sf (\365)S
+84 756 Mt 4 Sf (ouml    00f6   )S 0 Sf (\366)S
+84 744 Mt 4 Sf (para    00b6   )S 0 Sf (\266)S
+84 732 Mt 4 Sf (phone   260e   )S 6 Sf (%)S
+84 720 Mt 4 Sf (plusmn  00b1   )S 0 Sf (\261)S
+84 708 Mt 4 Sf (pound   00a3   )S 0 Sf (\243)S
+84 696 Mt 4 Sf (racute  0155   )S 1 Sf (U)S
+84 684 Mt 4 Sf (raquo   00bb   )S 0 Sf (\273)S
+84 672 Mt 4 Sf (rarr    2192   )S 8 Sf (\256)S
+84 660 Mt 4 Sf (rcaron  0159   )S 1 Sf (Y)S
+84 648 Mt 4 Sf (rcedil  0157   )S 1 Sf (W)S
+84 636 Mt 4 Sf (rdquo   201d   )S 1 Sf (\240)S
+84 624 Mt 4 Sf (rdquor  201d   )S 1 Sf (\240)S
+84 600 Mt 4 Sf (reg     00ae   )S 0 Sf (\256)S
+84 588 Mt 4 Sf (rsquo   2019   )S 1 Sf (\242)S
+84 576 Mt 4 Sf (rsquor  2019   )S 1 Sf (\242)S
+84 528 Mt 4 Sf (sacute  015b   )S 1 Sf ([)S
+84 516 Mt 4 Sf (scaron  0161   )S 1 Sf (a)S
+84 504 Mt 4 Sf (scedil  015f   )S 1 Sf (_)S
+84 492 Mt 4 Sf (scirc   015d   )S 1 Sf (])S
+84 480 Mt 4 Sf (sect    00a7   )S 0 Sf (\247)S
+84 468 Mt 4 Sf (sext    2736   )S 6 Sf (V)S
+84 444 Mt 4 Sf (shy     00ad   )S 0 Sf (\255)S
+84 432 Mt 4 Sf (spades  2660   )S 8 Sf (\252)S
+84 396 Mt 4 Sf (sup1    00b9   )S 0 Sf (\271)S
+84 384 Mt 4 Sf (sup2    00b2   )S 0 Sf (\262)S
+84 372 Mt 4 Sf (sup3    00b3   )S 0 Sf (\263)S
+84 360 Mt 4 Sf (szlig   00df   )S 0 Sf (\337)S
+84 336 Mt 4 Sf (tcaron  0165   )S 1 Sf (e)S
+84 324 Mt 4 Sf (tcedil  0163   )S 1 Sf (c)S
+84 300 Mt 4 Sf (thorn   00fe   )S 0 Sf (\376)S
+84 288 Mt 4 Sf (times   00d7   )S 0 Sf (\327)S
+84 276 Mt 4 Sf (trade   2122   )S 1 Sf (\252)S
+84 264 Mt 4 Sf (tstrok  0167   )S 1 Sf (g)S
+84 252 Mt 4 Sf (uacute  00fa   )S 0 Sf (\372)S
+84 240 Mt 4 Sf (uarr    2191   )S 8 Sf (\255)S
+84 228 Mt 4 Sf (ubreve  016d   )S 1 Sf (m)S
+84 216 Mt 4 Sf (ucirc   00fb   )S 0 Sf (\373)S
+84 204 Mt 4 Sf (udblac  0171   )S 1 Sf (q)S
+84 192 Mt 4 Sf (ugrave  00f9   )S 0 Sf (\371)S
+84 156 Mt 4 Sf (umacr   016b   )S 1 Sf (k)S
+84 144 Mt 4 Sf (uogon   0173   )S 1 Sf (s)S
+84 120 Mt 4 Sf (uring   016f   )S 1 Sf (o)S
+84 108 Mt 4 Sf (utilde  0169   )S 1 Sf (i)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(5)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 6 6
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 768 Mt 4 Sf (uuml    00fc   )S 0 Sf (\374)S
+84 744 Mt 4 Sf (wcirc   0175   )S 1 Sf (u)S
+84 732 Mt 4 Sf (yacute  00fd   )S 0 Sf (\375)S
+84 720 Mt 4 Sf (ycirc   0177   )S 1 Sf (w)S
+84 708 Mt 4 Sf (yen     00a5   )S 0 Sf (\245)S
+84 696 Mt 4 Sf (yuml    00ff   )S 0 Sf (\377)S
+84 684 Mt 4 Sf (zacute  017a   )S 1 Sf (z)S
+84 672 Mt 4 Sf (zcaron  017e   )S 1 Sf (~)S
+84 660 Mt 4 Sf (zdot    017c   )S 1 Sf (|)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(6)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 6

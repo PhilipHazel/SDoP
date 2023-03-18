@@ -1,0 +1,57 @@
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+Roman text
+</para>
+</listitem>
+<listitem>
+<para>
+<emphasis>Italic</emphasis> text
+</para>
+</listitem>
+<listitem>
+<para>
+<emphasis role="bold">Bold</emphasis> text
+</para>
+</listitem>
+<listitem>
+<para>
+<emphasis><emphasis role="bold">Bold italic</emphasis></emphasis> text
+</para>
+</listitem>
+<listitem>
+<para>
+<literal>Fixed-width</literal> text
+</para>
+</listitem>
+<listitem>
+<para>
+<emphasis role="smallfont">SMALL CAPS</emphasis> text.
+</para>
+</listitem>
+<listitem>
+<para>
+<emphasis role="rgb=1,0,0">Red text.</emphasis>
+</para>
+</listitem>
+<listitem>
+<para>
+Normal roman again.
+</para>
+</listitem>
+</orderedlist>
+<para>
+<?sdop olist_tag_format="[%s]"?>
+</para>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+List with different style of numeration.
+</para>
+</listitem>
+<listitem>
+<para>
+Just need two items to check.
+</para>
+</listitem>
+</orderedlist>

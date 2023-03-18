@@ -1,0 +1,225 @@
+<?sdop
+  serif_family="Times"
+  table_warn_overflow="overprint"
+  toc_sections="no"
+?>
+<informaltable frame="none">
+<tgroup cols="7" colsep="0" rowsep="0">
+<colspec colwidth="10pt" align="left"/>
+<colspec colwidth="1*" align="left"/>
+<colspec colwidth="1*" align="centre"/>
+<colspec colwidth="3*" align="left"/>
+<colspec colwidth="1*" align="left"/>
+<colspec colwidth="1*" align="centre"/>
+<colspec colwidth="3*" align="left"/>
+<tbody>
+<row>
+<entry></entry>
+<entry><literal>U+0108</literal></entry>
+<entry>&#x0108;</entry>
+<entry>C with circumflex</entry>
+<entry><literal>U+013F</literal></entry>
+<entry>&#x013F;</entry>
+<entry>L with middle dot</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0109</literal></entry>
+<entry>&#x0109;</entry>
+<entry>c with circumflex</entry>
+<entry><literal>U+0140</literal></entry>
+<entry>&#x0140;</entry>
+<entry>l with middle dot</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+010A</literal></entry>
+<entry>&#x010A;</entry>
+<entry>C with dot above</entry>
+<entry><literal>U+0149</literal></entry>
+<entry>&#x0149;</entry>
+<entry>n with leading apostrophe</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+010B</literal></entry>
+<entry>&#x010B;</entry>
+<entry>c with dot above</entry>
+<entry><literal>U+014A</literal></entry>
+<entry>&#x014A;</entry>
+<entry>capital <quote>eng</quote> (N with hook)</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0114</literal></entry>
+<entry>&#x0114;</entry>
+<entry>E with breve</entry>
+<entry><literal>U+014B</literal></entry>
+<entry>&#x014B;</entry>
+<entry>lower case <quote>eng</quote></entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0115</literal></entry>
+<entry>&#x0115;</entry>
+<entry>e with breve</entry>
+<entry><literal>U+014E</literal></entry>
+<entry>&#x014E;</entry>
+<entry>O with breve</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+011c</literal></entry>
+<entry>&#x011c;</entry>
+<entry>G with circumflex</entry>
+<entry><literal>U+014F</literal></entry>
+<entry>&#x014F;</entry>
+<entry>o with breve</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+011d</literal></entry>
+<entry>&#x011d;</entry>
+<entry>g with circumflex</entry>
+<entry><literal>U+015C</literal></entry>
+<entry>&#x015C;</entry>
+<entry>S with circumflex</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0120</literal></entry>
+<entry>&#x0120;</entry>
+<entry>G with dot above</entry>
+<entry><literal>U+015D</literal></entry>
+<entry>&#x015D;</entry>
+<entry>s with circumflex</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0121</literal></entry>
+<entry>&#x0121;</entry>
+<entry>g with dot above</entry>
+<entry><literal>U+0162</literal></entry>
+<entry>&#x0162;</entry>
+<entry>T with cedilla</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0124</literal></entry>
+<entry>&#x0124;</entry>
+<entry>H with circumflex</entry>
+<entry><literal>U+0163</literal></entry>
+<entry>&#x0163;</entry>
+<entry>t with cedilla</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0125</literal></entry>
+<entry>&#x0125;</entry>
+<entry>h with circumflex</entry>
+<entry><literal>U+0166</literal></entry>
+<entry>&#x0166;</entry>
+<entry>T with stroke</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0126</literal></entry>
+<entry>&#x0126;</entry>
+<entry>H with stroke</entry>
+<entry><literal>U+0167</literal></entry>
+<entry>&#x0167;</entry>
+<entry>t with stroke</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0127</literal></entry>
+<entry>&#x0127;</entry>
+<entry>h with stroke</entry>
+<entry><literal>U+0168</literal></entry>
+<entry>&#x0168;</entry>
+<entry>U with tilde</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0128</literal></entry>
+<entry>&#x0128;</entry>
+<entry>I with tilde</entry>
+<entry><literal>U+0169</literal></entry>
+<entry>&#x0169;</entry>
+<entry>u with tilde</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0129</literal></entry>
+<entry>&#x0129;</entry>
+<entry>i with tilde</entry>
+<entry><literal>U+016C</literal></entry>
+<entry>&#x016C;</entry>
+<entry>U with breve</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+012C</literal></entry>
+<entry>&#x012C;</entry>
+<entry>I with breve</entry>
+<entry><literal>U+016D</literal></entry>
+<entry>&#x016D;</entry>
+<entry>u with breve</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+012D</literal></entry>
+<entry>&#x012D;</entry>
+<entry>i with breve</entry>
+<entry><literal>U+0174</literal></entry>
+<entry>&#x0174;</entry>
+<entry>W with circumflex</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0132</literal></entry>
+<entry>&#x0132;</entry>
+<entry>IJ ligature</entry>
+<entry><literal>U+0175</literal></entry>
+<entry>&#x0175;</entry>
+<entry>w with circumflex</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0133</literal></entry>
+<entry>&#x0133;</entry>
+<entry>ij ligature</entry>
+<entry><literal>U+0176</literal></entry>
+<entry>&#x0176;</entry>
+<entry>Y with circumflex</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0134</literal></entry>
+<entry>&#x0134;</entry>
+<entry>J with circumflex</entry>
+<entry><literal>U+0177</literal></entry>
+<entry>&#x0177;</entry>
+<entry>y with circumflex</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0135</literal></entry>
+<entry>&#x0135;</entry>
+<entry>j with circumflex</entry>
+<entry><literal>U+017F</literal></entry>
+<entry>&#x017F;</entry>
+<entry>long s</entry>
+</row>
+<row>
+<entry></entry>
+<entry><literal>U+0138</literal></entry>
+<entry>&#x0138;</entry>
+<entry>small <quote>kra</quote> (Greenlandic)</entry>
+<entry><literal>U+221E</literal></entry>
+<entry>&#x221E;</entry>
+<entry>infinity sign</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>

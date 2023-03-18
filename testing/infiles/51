@@ -1,0 +1,64 @@
+<?sdop toc_sections="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+
+<section>
+<title>About H<subscript>2</subscript>O</title>
+<para>
+This is all about water (H<subscript>2</subscript>O).
+</para>
+</section>
+
+<section>
+<title>A title with T<?sdop subscript_small="no" subscript_down="20"?><subscript>E</subscript><?sdop subscript_small="yes" subscript_down="33"?>X in it</title>
+<para>
+The T<?sdop subscript_small="no" subscript_down="20"?><subscript>E</subscript><?sdop subscript_small="yes" subscript_down="33"?>X page formatter is well-known.
+</para>
+</section>
+
+<section>
+<title>A title with T<?sdop subscript_down="50"?><subscript>E</subscript><?sdop subscript_down="33"?>X in it</title>
+<para>
+The T<?sdop subscript_down="50"?><subscript>E</subscript><?sdop subscript_down="33"?>X page formatter is well-known.
+</para>
+</section>
+
+<section>
+<title>About H<subscript>2</subscript>O</title>
+<para>
+This is all about water (H<subscript>2</subscript>O).
+</para>
+</section>
+
+
+
+
+<section>
+<title>About H<superscript>2</superscript>O</title>
+<para>
+This is all about water (H<superscript>2</superscript>O).
+</para>
+</section>
+
+<section>
+<title>A title with T<?sdop superscript_small="no" superscript_up="20"?><superscript>E</superscript><?sdop superscript_small="yes" superscript_up="33"?>X in it</title>
+<para>
+The T<?sdop superscript_small="no" superscript_up="20"?><superscript>E</superscript><?sdop superscript_small="yes" superscript_up="33"?>X page formatter is well-known.
+</para>
+</section>
+
+<section>
+<title>A title with T<?sdop superscript_up="50"?><superscript>E</superscript><?sdop superscript_up="33"?>X in it</title>
+<para>
+The T<?sdop superscript_up="50"?><superscript>E</superscript><?sdop superscript_up="33"?>X page formatter is well-known.
+</para>
+</section>
+
+<section>
+<title>About H<superscript>2</superscript>O</title>
+<para>
+This is all about water (H<superscript>2</superscript>O).
+</para>
+</section>
+

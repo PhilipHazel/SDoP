@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<book>
+<!-- ============================================================= -->
+<bookinfo>
+<keywordset>
+<keyword>A</keyword>
+<keyword>B</keyword>
+</keywordset>
+<title>How to show a corpauthor</title>
+<titleabbrev>xfpt</titleabbrev>
+<date>22 March 2007</date>
+<corpauthor>Some Corporation plc</corpauthor>
+<author>
+<affiliation>
+<jobtitle>Official Writer</jobtitle>
+<orgname>Author's affiliation</orgname>
+</affiliation>
+<honorific>Dr</honorific>
+<lineage>Snr</lineage>
+<othername>XXXX</othername>
+</author>
+<editor>
+<affiliation>
+<jobtitle>Official Editor</jobtitle>
+<orgname>Editor's affiliation</orgname>
+</affiliation>
+<firstname>Hitch</firstname>
+<honorific>Mr</honorific>
+<lineage>Jnr</lineage>
+<othername>Q</othername>
+<surname>Hiker</surname>
+</editor>
+<othercredit>
+<affiliation>
+<jobtitle>Other Creditor</jobtitle>
+<orgname>Other Credit's affiliation</orgname>
+</affiliation>
+<firstname>Other</firstname>
+<honorific>Dr</honorific>
+<lineage>Snr</lineage>
+<othername>X</othername>
+<surname>Credit</surname>
+</othercredit>
+<edition>V0.00</edition>
+<issuenum>245</issuenum>
+<revhistory>
+  <revision>
+  <revnumber>0.00</revnumber>
+  <date>16 March 2008</date>
+  <revremark>Should be ignored</revremark>
+  </revision>
+  <revision>
+  <revnumber>0.01</revnumber>
+  <date>16 March 2008</date>
+  <authorinitials>PH</authorinitials>
+  <revdescription>
+    <para>
+    This is a paragraph description.
+    </para>
+  </revdescription>        
+  </revision>
+  <revision>
+  <revnumber>0.02</revnumber>
+  <date>29 April 2008</date>
+  <revdescription>
+  <table>
+  <title>Revision Description</title>
+  <tgroup cols="3">
+  <colspec colwidth="100"/>
+  <colspec colwidth="100"/>
+  <colspec colwidth="100"/>
+  <tbody>
+  <row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+  <row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+  <row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+  </tbody>
+  </tgroup>
+  </table>
+  </revdescription>
+  </revision>     
+</revhistory>
+<copyright><year>2008</year><holder>Some Corporation plc</holder></copyright>
+<legalnotice>
+<para>This is the first legal notice.</para>
+</legalnotice>
+<legalnotice>
+<para>This is the second legal notice.</para>
+</legalnotice>
+<pubdate>31 February 9999</pubdate>
+<publishername>A. Publisher</publishername>
+<releaseinfo>Release 0.00</releaseinfo>
+<subjectset>
+  <subject weight="42">
+  <subjectterm>some term</subjectterm>
+  </subject>
+</subjectset>     
+<volumenum>42</volumenum>
+</bookinfo>
+<!-- ============================================================= -->
+<chapter>
+<title>Introduction</title>
+<literallayout>
+Author_orgname: &author_orgname;
+Author_honorific: &author_honorific;
+Author_jobtitle: &author_jobtitle;
+Author_lineage: &author_lineage;
+Author_othername: &author_othername;
+Editor: &editor_honorific; &editor_firstname; &editor_othername; &editor_surname; &editor_lineage;
+Editor_jobtitle: &editor_jobtitle;
+Editor_honorific: &editor_honorific;
+Editor_lineage: &editor_lineage;
+Editor_othername: &editor_othername;
+Othercredit: &othercredit_honorific; &othercredit_firstname; &othercredit_othername; &othercredit_surname; &othercredit_lineage;
+Othercredit_jobtitle: &othercredit_jobtitle;
+Othercredit_honorific: &othercredit_honorific;
+Othercredit_lineage: &othercredit_lineage;
+Othercredit_othername: &othercredit_othername;
+
+Corpauthor: &author_corpauthor;
+Edition: &book_edition;
+Issue: &book_issuenum;
+Pubdate: &book_pubdate;
+Publishername: &book_publishername;
+Releaseinfo: &book_releaseinfo;
+Volumenum: &book_volumenum;
+</literallayout>
+
+<?sdop insert="legalnotice"?>
+
+<?sdop insert="revdescription"?>
+
+<para>
+<emphasis role="smallfont">
+This text should be in a <emphasis>smaller</emphasis> font.
+</emphasis>
+But this is normal.
+</para>
+
+<blockquote>
+<title>Block quote title</title>
+<attribution>A.B.C.</attribution>
+<para>
+This is the text of the block quote.
+</para>
+</blockquote>
+<para>
+This is a normal paragraph.
+</para>
+
+</chapter>
+
+
+<?sdop blockquote_ruled="yes"?>
+
+<chapter>
+<title>Block quotes and notes</title>
+
+<epigraph><attribution><emphasis>Anon</emphasis></attribution>
+<para>
+This is the text of an epigraph that comes at the start of chapter. Test an 
+indented item within it.
+</para>                                                            
+<itemizedlist>
+<listitem>
+<para>
+First bulleted point.
+</para>
+</listitem>
+<listitem>
+<para>
+Next bulleted point.
+</para>
+</listitem>
+</itemizedlist>
+<para>
+Back after the indented item.
+</para>
+</epigraph>
+
+<para>
+A dummy para. A dummy para. A dummy para. A dummy para. A dummy para.
+A dummy para. A dummy para. A dummy para. A dummy para. A dummy para.
+A dummy para. A dummy para. A dummy para. A dummy para. A dummy para.
+A dummy para. A dummy para. A dummy para. A dummy para. A dummy para.
+A dummy para. A dummy para. A dummy para. A dummy para. A dummy para.
+A dummy para. A dummy para. A dummy para. A dummy para. A dummy para.
+</para>
+<blockquote>
+<title>This block quote has a title</title>
+<attribution>A.B.C.</attribution>
+<para>
+This is the text of the block quote.
+This is the text of the block quote.
+This is the text of the block quote.
+This is the text of the block quote.
+This is the text of the block quote.
+This is the text of the block quote.
+</para>
+</blockquote>
+<para>
+This is a normal paragraph. This is a normal paragraph. This is a normal
+paragraph. This is a normal paragraph. This is a normal paragraph. This is a
+normal paragraph.
+</para>
+
+<note>
+<title>A titled note</title>
+<para>
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+</para>
+</note>
+
+<para>
+This is a normal paragraph. This is a normal paragraph. This is a normal
+paragraph. This is a normal paragraph. This is a normal paragraph. This is a
+normal paragraph.
+</para>
+
+<note>
+<para>
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+</para>
+<itemizedlist>
+<listitem>
+<para>
+First bulleted point.
+</para>
+</listitem>
+<listitem>
+<para>
+Next bulleted point.
+</para>
+</listitem>
+</itemizedlist>
+<para>
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+This is some text for a note.
+</para>
+</note>
+
+<para>
+This is a normal paragraph. This is a normal paragraph. This is a normal
+paragraph. This is a normal paragraph. This is a normal paragraph. This is a
+normal paragraph.
+</para>
+
+<para>
+This is a normal paragraph. This is a normal paragraph. This is a normal
+paragraph. This is a normal paragraph. This is a normal paragraph. This is a
+normal paragraph.
+</para>
+<para>
+This is a normal paragraph. This is a normal paragraph. This is a normal
+paragraph. This is a normal paragraph. This is a normal paragraph. This is a
+normal paragraph.
+</para>
+<para>
+This is a normal paragraph. This is a normal paragraph. This is a normal
+paragraph. This is a normal paragraph. This is a normal paragraph. This is a
+normal paragraph.
+</para>
+<para>
+This is a normal paragraph. This is a normal paragraph. This is a normal
+paragraph. This is a normal paragraph. This is a normal paragraph. This is a
+normal paragraph.
+</para>
+<para>
+This is a normal paragraph. This is a normal paragraph. This is a normal
+paragraph. This is a normal paragraph. This is a normal paragraph. This is a
+normal paragraph.
+</para>
+
+</chapter>
+
+<chapter>
+<title>A chapter with sidebars</title>
+<para>
+This is the first paragraph.
+</para>
+
+<blockquote>
+<title>Sidebar title</title>
+<titleabbrev>Ignore</titleabbrev>
+<para>
+This is the text of the sidebar.
+</para>
+</blockquote>
+<para>
+This is a normal paragraph, containing a <systemitem>systemitem</systemitem>,
+a <userinput>userinput</userinput>, and a <trademark>trademark</trademark>
+element.
+</para>
+
+</chapter>
+
+</book>

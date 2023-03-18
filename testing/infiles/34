@@ -1,0 +1,68 @@
+<?sdop scale_typesize_base="26"
+       ilist_indent="50,50,0"
+       olist_indent="50,50,0"
+       toc_sections="no" 
+?>
+
+<chapter><title>Chapter title</title>
+
+<para>
+The quick brown fox.
+<emphasis role="ZapfDingbats/9">!abcd!</emphasis>
+</para>
+
+
+<itemizedlist>
+<listitem>
+<para>
+This is a paragraph in an identified list.
+</para>
+<literallayout>
+  The <emphasis role="bold">quick</emphasis> brown
+  fox jumps <emphasis>over</emphasis>
+  the lazy.
+</literallayout>
+<para>
+Back from the display.     
+</para>
+</listitem>
+</itemizedlist>
+
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+First item in an ordered list.
+</para>
+</listitem>
+</orderedlist>
+
+
+<?sdop font_ilist_tag="14,0,serif,bold"
+       font_olist_tag="14,0,sanserif,roman"?>
+
+<itemizedlist>
+<listitem>
+<para>
+This is a paragraph in an identified list. The tag font size was specified as 
+14.
+</para>
+<literallayout>
+  The <emphasis role="bold">quick</emphasis> brown
+  fox jumps <emphasis>over</emphasis>
+  the lazy.
+</literallayout>
+<para>
+Back from the display.     
+</para>
+</listitem>
+</itemizedlist>
+
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+First item in an ordered list.
+</para>
+</listitem>
+</orderedlist>
+
+</chapter>

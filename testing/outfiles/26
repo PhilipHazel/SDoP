@@ -1,0 +1,252 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.52
+%%CreationDate: Sun Dec 14 17:10:33 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Helvetica
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Helvetica
+/af6 /af7 /Helvetica inf
+/vf 18 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af4 13 scalefont put
+vf 7 af5 13 scalefont put
+vf 8 af0 9.6 scalefont put
+vf 9 af1 9.6 scalefont put
+vf 10 af4 24 scalefont put
+vf 11 af5 24 scalefont put
+vf 12 af4 11.5 scalefont put
+vf 13 af5 11.5 scalefont put
+vf 14 af6 11 scalefont put
+vf 15 af7 11 scalefont put
+vf 16 af4 11 scalefont put
+vf 17 af5 11 scalefont put
+%%EndSetup
+
+%%Page: i 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 754 Mt 10 Sf ( )S
+72 728 Mt( )S
+72 702 Mt( )S
+72 676 Mt( )S
+184.968 650 Mt(This is a titled book)S
+72 624 Mt( )S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: iii 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+262.336 764 Mt 4 Sf (Contents)S
+72 737 Mt 16 Sf (Preface)S 4.14 R 0 Sf (......................)S
+(.............................................................)S
+(.............................................................)S
+515.883 737 Mt 16 Sf (v)S
+72 725 Mt 14 Sf ( )S
+72 713 Mt 16 Sf (Forwar)S -0.22 R(d)S 2.842 R 0 Sf (..........)S
+(.............................................................)S
+(.............................................................)S
+(.........)S
+509.767 713 Mt 16 Sf (vii)S
+72 701 Mt 14 Sf ( )S
+72 689 Mt 16 Sf (1.  Intr)S -0.22 R(oduction)S 3.15 R 0 Sf (..)S
+(.............................................................)S
+(.............................................................)S
+(......)S
+515.883 689 Mt 16 Sf (1)S
+72 677 Mt 14 Sf ( )S
+72 665 Mt(    1.1  Should h)S -0.33 R(yphenate)S 4.404 R 0 Sf
+(.............................................................)S
+(.....................................................)S
+515.883 665 Mt 14 Sf (1)S
+72 653 Mt(    1.2  Should not h)S -0.33 R(yphenate)S 2.556 R 0 Sf
+(.............................................................)S
+(...............................................)S
+515.883 653 Mt 14 Sf (1)S
+72 641 Mt( )S
+72 629 Mt 16 Sf (Inde)S -0.165 R(x)S 4.316 R 0 Sf (...........)S
+(.............................................................)S
+(.............................................................)S
+(...............)S
+515.883 629 Mt 16 Sf (2)S
+72 72 Mt 0 Sf ( )S
+288.133 60 Mt 2 Sf ([iii])S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: v 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+268.096 764 Mt 4 Sf (Preface)S
+72 737 Mt 0 Sf (This is the pref)S -0.11 R(ace. This is random)S
+( te)S -0.165 R(xt. The quick bro)S -0.275 R(wn fox jumps o)S
+-0.165 R(v)S -0.165 R(er the lazy dog.)S
+72 704 Mt 6 Sf (A section in a preface)S
+72 681 Mt 0 Sf (This is a section in a pref)S -0.11 R(ace. It )S
+(should be unnumbered.)S
+72 72 Mt( )S
+279.707 60 Mt 2 Sf (<<v>>)S
+488.196 60 Mt(Pr)S -0.407 R(eface)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 3

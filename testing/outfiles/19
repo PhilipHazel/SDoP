@@ -1,0 +1,1572 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.52
+%%CreationDate: Sun Dec 14 17:10:16 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Times-Bold
+%%+ font Courier
+%%+ font Courier-Bold
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Times-Bold
+/af6 /af7 /Times-Bold inf
+%%IncludeResource: font Courier
+/af8 /af9 /Courier inf
+%%IncludeResource: font Courier-Bold
+/af10 /af11 /Courier-Bold inf
+/vf 18 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af0 7 scalefont put
+vf 7 af1 7 scalefont put
+vf 8 af0 9 scalefont put
+vf 9 af1 9 scalefont put
+vf 10 af2 9 scalefont put
+vf 11 af3 9 scalefont put
+vf 12 af6 9 scalefont put
+vf 13 af7 9 scalefont put
+vf 14 af8 9 scalefont put
+vf 15 af9 9 scalefont put
+vf 16 af10 11 scalefont put
+vf 17 af11 11 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+241.6 764 Mt 4 Sf (1. Intr)S -0.32 R(oduction)S
+72 737 Mt 0 Sf (This)S 3.445 R(is)S 3.445 R(a)S 3.445 R(paragr)S
+(aph)S 3.445 R(with)S 3.445 R(a)S 3.445 R 2 Sf (footnote)S -0.165 R(.)S 0 4 RMt
+6 Sf (1)S 0 -4 RMt 3.445 R 2 Sf (Continue)S 3.445 R 0 Sf (with)S
+3.445 R(the)S 3.445 R(original)S 3.445 R(paragraph.)S 3.445 R(G)S
+(i)S -0.275 R(v)S -0.165 R(e)S 3.445 R(it)S 3.445 R(also)S 3.445 R(s)S
+(ome)S 3.445 R(length.)S
+72 725 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(f)S
+(ox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(t)S
+(he)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S 3.919 R(quic)S
+(k)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(jumps)S
+3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 713 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(j)S
+(umps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S 3.512 R(br)S
+(o)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.512 R(the)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(T)S
+(he)S 3.512 R(quick)S
+72 701 Mt(bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S -0.165 R(e)S
+(r the lazy dog. The quick bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S
+-0.165 R(er the lazy dog.)S
+72 678 Mt(This is another paragraph that follo)S -0.275 R(ws t)S
+(he one in which there w)S -0.11 R(as a footnote.)S 0.5 Slw 72 105 Mt
+72 0 RLt St
+6 Sf 72 97.333 Mt (1)S 82 94 Mt 8 Sf (This)S 3.451 R(is)S 3.451 R(t)S
+(he)S 3.451 R 10 Sf (footnote)S 3.451 R 8 Sf (itself.)S 3.451 R(I)S
+(t)S 3.451 R(is)S 3.451 R(a)S 3.451 R(separate)S 3.451 R(parag)S
+(raph)S 3.451 R(within)S 3.451 R(the)S 3.451 R(original)S 3.451 R(p)S
+(aragraph.)S 3.451 R(Gi)S -0.225 R(v)S -0.135 R(e)S 3.451 R(it)S
+3.451 R(some)S 3.451 R(length.)S 3.451 R(Gi)S -0.225 R(v)S -0.135 R(e)S
+3.451 R(it)S 3.451 R(some)S
+82 84 Mt(length. The quick bro)S -0.225 R(wn fox jumps o)S -0.135 R(v)S
+-0.135 R(er the lazy dog.)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+226.4 764 Mt 4 Sf (2. Another c)S -0.16 R(hapter)S
+72 737 Mt 0 Sf (This is a paragraph without a footnote.)S
+72 718.133 Mt(This paragraph is going to ha)S -0.22 R(v)S -0.165 R(e)S
+( se)S -0.275 R(v)S -0.165 R(eral)S 0 4 RMt 6 Sf (1)S 0 -4 RMt
+0 Sf ( )S(footnotes)S 0 4 RMt 6 Sf (2)S 0 -4 RMt 0 Sf ( )S(in )S
+(it)S 0 4 RMt 6 Sf (3)S 0 -4 RMt 0 Sf ( )S(in order to see ho)S
+-0.275 R(w that w)S -0.11 R(orks out.)S
+72 699.266 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 687.266 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 675.266 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 663.266 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 644.399 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 632.399 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 620.399 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 608.399 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 589.532 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 577.532 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 565.532 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 553.532 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 534.665 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 522.665 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 510.665 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 498.665 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 480 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 468 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 456 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 444 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 426 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 414 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 402 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 390 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 372 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 360 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 348 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 336 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 318 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 306 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 294 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 282 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 264 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 252 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 240 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 228 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 210 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 198 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 186 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 174 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S 0.5 Slw 72 160 Mt 72 0 RLt St
+6 Sf 72 152.333 Mt (1)S 82 149 Mt 8 Sf (The)S 3.045 R 9 Sf (\216)S
+8 Sf (rst)S 3.045 R(footnote.)S 3.045 R(Gi)S -0.225 R(v)S -0.135 R(e)S
+3.045 R(this)S 3.045 R(some)S 3.045 R(length)S 3.045 R(so)S 3.045 R(w)S
+(e)S 3.045 R(can)S 3.045 R(see)S 3.045 R(what)S 3.045 R(that)S
+3.045 R(looks)S 3.045 R(lik)S -0.09 R(e.)S 3.045 R(The)S 3.045 R(q)S
+(uick)S 3.045 R(bro)S -0.225 R(wn)S 3.045 R(fox)S 3.045 R(jump)S
+(s)S 3.045 R(o)S -0.135 R(v)S -0.135 R(er)S 3.045 R(the)S 3.045 R(l)S
+(azy)S
+82 139 Mt(dog. The quick bro)S -0.225 R(wn fox jumps o)S -0.135 R(v)S
+-0.135 R(er the lazy dog.)S
+82 124 Mt(Sometimes)S 3.019 R(a)S 3.019 R(footnote)S 3.019 R(c)S
+(an)S 3.019 R(ha)S -0.18 R(v)S -0.135 R(e)S 3.019 R(more)S 3.019 R(t)S
+(han)S 3.019 R(one)S 3.019 R(paragraph,)S 3.019 R(so)S 3.019 R(l)S
+(et's)S 3.019 R(check)S 3.019 R(that.)S 3.019 R(Better)S 3.019 R(a)S
+(lso)S 3.019 R(check)S 3.019 R 10 Sf (italic)S 3.019 R 8 Sf (a)S
+(nd)S 3.019 R 12 Sf (bold)S 3.019 R 8 Sf (te)S -0.135 R(xt)S 3.019 R(a)S
+(nd)S
+82 114 Mt(also )S 14 Sf (literal)S 8 Sf ( te)S -0.135 R(xt.)S
+6 Sf 72 102.333 Mt (2)S 82 99 Mt 8 Sf (The second footnote. A )S
+(short one.)S
+6 Sf 72 87.333 Mt (3)S 82 84 Mt 8 Sf (The third footnote.)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 756 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 744 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 732 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 714 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 702 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 690 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 678 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 660 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 648 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 636 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 624 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 606 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 594 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 582 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 570 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 552 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 540 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 528 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 516 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 498 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 486 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 474 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 462 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 444 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 432 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 420 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 408 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 390 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 378 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 366 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 354 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 336 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 324 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 312 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 300 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 282 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 270 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 258 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 246 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 228 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 216 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 204 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 192 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 174 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 162 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 150 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 138 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 120 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 108 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 96 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 84 Mt(that the placing of the footnotes doesn't mess with t)S
+(he normal te)S -0.165 R(xt.)S
+72 72 Mt( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 756 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 744 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 732 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 712.336 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 700.336 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 688.336 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 676.336 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 656.672 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 644.672 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 632.672 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 620.672 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 601.008 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 589.008 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 577.008 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 565.008 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 545.344 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 533.344 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 521.344 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 509.344 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 489.68 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 477.68 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 465.68 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 453.68 Mt(that the placing of the footnotes doesn't mess wi)S
+(th the normal te)S -0.165 R(xt.)S
+72 434.016 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 422.016 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 410.016 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 398.016 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 379 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 367 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 355 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 343 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 325 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 313 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 301 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 289 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 271 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 259 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 247 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 235 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 217 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 205 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 193 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 181 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 163 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 151 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 139 Mt(footnotes doesn't mess with the normal te)S -0.165 R(x)S
+(t.)S
+72 121 Mt(OK,)S 3.838 R(no)S -0.275 R(w)S 3.838 R(we)S 3.838 R(w)S
+-0.11 R(ant)S 3.838 R(to)S 3.838 R 1 Sf (\216)S 0 Sf (ll)S 3.838 R(u)S
+(p)S 3.838 R(the)S 3.838 R(rest)S 3.838 R(of)S 3.838 R(the)S 3.838 R(p)S
+(age)S 3.838 R(to)S 3.838 R(ensure)S 3.838 R(that)S 3.838 R(th)S
+(e)S 3.838 R(placing)S 3.838 R(of)S 0 4 RMt 6 Sf (1)S 0 -4 RMt
+3.838 R 0 Sf (the)S 3.838 R(footnotes)S 3.838 R(doesn't)S
+72 109 Mt(mess)S 3.298 R(with)S 3.298 R(the)S 3.298 R(normal)S
+3.298 R(te)S -0.165 R(xt.)S 3.298 R(OK,)S 3.298 R(no)S -0.275 R(w)S
+3.298 R(we)S 3.298 R(w)S -0.11 R(ant)S 3.298 R(to)S 3.298 R 1 Sf
+(\216)S 0 Sf (ll)S 3.298 R(up)S 3.298 R(the)S 3.298 R(rest)S 3.298 R(o)S
+(f)S 3.298 R(the)S 3.298 R(page)S 3.298 R(to)S 3.298 R(ensure)S
+3.298 R(that)S 3.298 R(the)S 3.298 R(placing)S 0.5 Slw 72 95 Mt
+72 0 RLt St
+6 Sf 72 87.333 Mt (1)S 82 84 Mt 8 Sf (This should force the pa)S
+(ragraph o)S -0.135 R(v)S -0.135 R(er onto a ne)S -0.225 R(w p)S
+(age, or at least split it.)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(4)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 5 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (of)S 3.145 R(the)S 3.145 R(footnotes)S 3.145 R(d)S
+(oesn't)S 3.145 R(mess)S 3.145 R(with)S 3.145 R(the)S 3.145 R(n)S
+(ormal)S 3.145 R(te)S -0.165 R(xt.)S 3.145 R(OK,)S 3.145 R(no)S
+-0.275 R(w)S 3.145 R(we)S 3.145 R(w)S -0.11 R(ant)S 3.145 R(to)S
+3.145 R 1 Sf (\216)S 0 Sf (ll)S 3.145 R(up)S 3.145 R(the)S 3.145 R(r)S
+(est)S 3.145 R(of)S 3.145 R(the)S 3.145 R(page)S 3.145 R(to)S
+72 756 Mt(ensure that the placing of the footnotes doesn't mes)S
+(s with the normal te)S -0.165 R(xt.)S
+72 733 Mt(OK,)S 0 4 RMt 6 Sf (1)S 0 -4 RMt 3.445 R 0 Sf (no)S
+-0.275 R(w)S 0 4 RMt 6 Sf (2)S 0 -4 RMt 3.445 R 0 Sf (we)S 0 4 RMt
+6 Sf (3)S 0 -4 RMt 3.445 R 0 Sf (w)S -0.11 R(ant)S 0 4 RMt 6 Sf
+(4)S 0 -4 RMt 3.445 R 0 Sf (to)S 0 4 RMt 6 Sf (5)S 0 -4 RMt 3.445 R
+1 Sf (\216)S 0 Sf (ll)S 0 4 RMt 6 Sf (6)S 0 -4 RMt 3.445 R 0 Sf
+(up)S 0 4 RMt 6 Sf (7)S 0 -4 RMt 3.445 R 0 Sf (the)S 0 4 RMt 6 Sf
+(8)S 0 -4 RMt 3.445 R 0 Sf (rest)S 0 4 RMt 6 Sf (9)S 0 -4 RMt
+3.445 R 0 Sf (of)S 0 4 RMt 6 Sf (10)S 0 -4 RMt 3.445 R 0 Sf (t)S
+(he)S 0 4 RMt 6 Sf (11)S 0 -4 RMt 3.445 R 0 Sf (page)S 3.445 R(t)S
+(o)S 3.445 R(ensure)S 3.445 R(that)S 3.445 R(the)S 3.445 R(pla)S
+(cing)S 3.445 R(of)S 3.445 R(the)S 3.445 R(footnotes)S
+72 721 Mt(doesn't)S 3.378 R(mess)S 3.378 R(with)S 3.378 R(the)S
+3.378 R(normal)S 3.378 R(te)S -0.165 R(xt.)S 3.378 R(OK,)S 3.378 R(n)S
+(o)S -0.275 R(w)S 3.378 R(we)S 3.378 R(w)S -0.11 R(ant)S 3.378 R(t)S
+(o)S 3.378 R 1 Sf (\216)S 0 Sf (ll)S 3.378 R(up)S 3.378 R(the)S
+3.378 R(rest)S 3.378 R(of)S 3.378 R(the)S 3.378 R(page)S 3.378 R(t)S
+(o)S 3.378 R(ensure)S 3.378 R(that)S 3.378 R(the)S
+72 709 Mt(placing)S 3.149 R(of)S 3.149 R(the)S 3.149 R(footnot)S
+(es)S 3.149 R(doesn't)S 3.149 R(mess)S 3.149 R(with)S 3.149 R(t)S
+(he)S 3.149 R(normal)S 3.149 R(te)S -0.165 R(xt.)S 3.149 R(OK,)S
+3.149 R(no)S -0.275 R(w)S 3.149 R(we)S 3.149 R(w)S -0.11 R(ant)S
+3.149 R(to)S 3.149 R 1 Sf (\216)S 0 Sf (ll)S 3.149 R(up)S 3.149 R(t)S
+(he)S 3.149 R(rest)S 3.149 R(of)S 3.149 R(the)S
+72 697 Mt(page to ensure that the placing of the footnotes doe)S
+(sn't mess with the normal te)S -0.165 R(xt.)S
+84 674 Mt(T)S -0.77 R(est a footnote)S 0 4 RMt 6 Sf (12)S 0 -4 RMt
+0 Sf ( on a literal layout line.)S 0.5 Slw 72 260 Mt 72 0 RLt St
+6 Sf 72 252.333 Mt (1)S 82 249 Mt 8 Sf (F)S -0.135 R(ootnote 1)S
+(.)S
+6 Sf 72 237.333 Mt (2)S 82 234 Mt 8 Sf (F)S -0.135 R(ootnote 2)S
+(.)S
+6 Sf 72 222.333 Mt (3)S 82 219 Mt 8 Sf (F)S -0.135 R(ootnote 3)S
+(.)S
+6 Sf 72 207.333 Mt (4)S 82 204 Mt 8 Sf (F)S -0.135 R(ootnote 4)S
+(.)S
+6 Sf 72 192.333 Mt (5)S 82 189 Mt 8 Sf (F)S -0.135 R(ootnote 5)S
+(.)S
+6 Sf 72 177.333 Mt (6)S 82 174 Mt 8 Sf (F)S -0.135 R(ootnote 6)S
+(.)S
+6 Sf 72 162.333 Mt (7)S 82 159 Mt 8 Sf (F)S -0.135 R(ootnote 7)S
+(.)S
+6 Sf 72 147.333 Mt (8)S 82 144 Mt 8 Sf (F)S -0.135 R(ootnote 8)S
+(.)S
+6 Sf 72 132.333 Mt (9)S 82 129 Mt 8 Sf (F)S -0.135 R(ootnote 9)S
+(.)S
+6 Sf 72 117.333 Mt (10)S 82 114 Mt 8 Sf (F)S -0.135 R(ootnote )S
+(10.)S
+6 Sf 72 102.333 Mt (11)S 82 99 Mt 8 Sf (F)S -0.135 R(ootnote 1)S
+(1.)S
+6 Sf 72 87.333 Mt (12)S 82 84 Mt 8 Sf (Lik)S -0.09 R(e this.)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(5)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 6 6
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (OK,)S 3.838 R(no)S -0.275 R(w)S 3.838 R(we)S 3.838 R(w)S
+-0.11 R(ant)S 3.838 R(to)S 3.838 R 1 Sf (\216)S 0 Sf (ll)S 3.838 R(u)S
+(p)S 3.838 R(the)S 3.838 R(rest)S 3.838 R(of)S 3.838 R(the)S 3.838 R(p)S
+(age)S 3.838 R(to)S 3.838 R(ensure)S 3.838 R(that)S 3.838 R(th)S
+(e)S 3.838 R(placing)S 3.838 R(of)S 0 4 RMt 6 Sf (1)S 0 -4 RMt
+3.838 R 0 Sf (the)S 3.838 R(footnotes)S 3.838 R(doesn't)S
+72 756 Mt(mess)S 3.298 R(with)S 3.298 R(the)S 3.298 R(normal)S
+3.298 R(te)S -0.165 R(xt.)S 3.298 R(OK,)S 3.298 R(no)S -0.275 R(w)S
+3.298 R(we)S 3.298 R(w)S -0.11 R(ant)S 3.298 R(to)S 3.298 R 1 Sf
+(\216)S 0 Sf (ll)S 3.298 R(up)S 3.298 R(the)S 3.298 R(rest)S 3.298 R(o)S
+(f)S 3.298 R(the)S 3.298 R(page)S 3.298 R(to)S 3.298 R(ensure)S
+3.298 R(that)S 3.298 R(the)S 3.298 R(placing)S
+72 744 Mt(of)S 3.145 R(the)S 3.145 R(footnotes)S 3.145 R(doesn)S
+('t)S 3.145 R(mess)S 3.145 R(with)S 3.145 R(the)S 3.145 R(norm)S
+(al)S 3.145 R(te)S -0.165 R(xt.)S 3.145 R(OK,)S 3.145 R(no)S -0.275 R(w)S
+3.145 R(we)S 3.145 R(w)S -0.11 R(ant)S 3.145 R(to)S 3.145 R 1 Sf
+(\216)S 0 Sf (ll)S 3.145 R(up)S 3.145 R(the)S 3.145 R(rest)S 3.145 R(o)S
+(f)S 3.145 R(the)S 3.145 R(page)S 3.145 R(to)S
+72 732 Mt(ensure that the placing of the footnotes doesn't mes)S
+(s with the normal te)S -0.165 R(xt.)S 0 4 RMt 6 Sf (2)S
+72 712.674 Mt 0 Sf (OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S
+2.774 R(w)S -0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf
+(ll)S 2.774 R(up)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(t)S
+(he)S 2.774 R(page)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(tha)S
+(t)S 2.774 R(the)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S
+2.774 R(footnotes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 700.674 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 688.674 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 676.674 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 657.348 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 645.348 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 633.348 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 621.348 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 602.022 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 590.022 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 578.022 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 566.022 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 547 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 535 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 523 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 511 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 493 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 481 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 469 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 457 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 439 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 427 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 415 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 403 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 385 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 373 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 361 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 349 Mt(that)S 3.413 R(the)S 3.413 R(placing)S 3.413 R(of)S
+3.413 R(the)S 3.413 R(footnotes)S 3.413 R(doesn't)S 3.413 R(me)S
+(ss)S 3.413 R(with)S 3.413 R(the)S 3.413 R(normal)S 3.413 R(te)S
+-0.165 R(xt.)S 3.413 R(The)S 3.413 R(quick)S 3.413 R(bro)S -0.275 R(w)S
+(n)S 3.413 R(fox)S 3.413 R(jumps)S 3.413 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 0.5 Slw 72 335 Mt 72 0 RLt St
+6 Sf 72 327.333 Mt (1)S 82 324 Mt 8 Sf (This footnote had <foo)S
+(tnote> at the start of a line.)S
+6 Sf 72 312.333 Mt (2)S 82 309 Mt 8 Sf (No)S -0.225 R(w check )S
+(literallayout.)S
+92.5 294 Mt(Literal layout, not monospaced.)S
+92.5 284 Mt(Second line.)S
+92.5 269 Mt 14 Sf (Literal layout, monospaced.)S
+92.5 259 Mt(Second line.)S
+79 244 Mt ()S 8 Sf (\(1\))show 103 244 Mt(First)S
+79 229 Mt (\(2\))show 103 229 Mt(Last)S
+103 214 Mt(Ne)S -0.225 R(w para in last)S
+101.5 199 Mt (\267) show 113.5 199 Mt(Nested)S
+112 184 Mt  9 Sf (\230) show 124 184 Mt 8 Sf (Nest 2)S
+122.5 169 Mt (o) show 134.5 169 Mt(Nest)S 2.874 R(3)S 2.874 R(w)S
+(ith)S 2.874 R(a)S 2.874 R(couple)S 2.874 R(of)S 2.874 R(items)S
+2.874 R(to)S 2.874 R(sho)S -0.225 R(w)S 2.874 R(ho)S -0.225 R(w)S
+2.874 R(it)S 2.874 R(looks.)S 2.874 R(Mak)S -0.09 R(e)S 2.874 R(t)S
+(his)S 2.874 R(one)S 2.874 R(long)S 2.874 R(enough)S 2.874 R(s)S
+(o)S 2.874 R(that)S 2.874 R(it)S 2.874 R(will)S 2.874 R(ha)S -0.18 R(v)S
+-0.135 R(e)S 2.874 R(to)S 2.874 R(be)S
+134.5 159 Mt(split onto more than one line.)S
+122.5 144 Mt (o) show 134.5 144 Mt(Items to sho)S -0.225 R(w h)S
+(o)S -0.225 R(w it looks)S
+133 129 Mt (\267) show 145 129 Mt(Nest 4)S
+142 114 Mt (\(1\))show 166 114 Mt(Nest 5)S
+103 99 Mt(Should be back in outer list.)S
+79 84 Mt (\(3\))show 103 84 Mt(Another item.)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(6)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 7 7
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (the)S 2.941 R(lazy)S 2.941 R(dog.)S 2.941 R(Th)S
+(e)S 2.941 R(quick)S 2.941 R(bro)S -0.275 R(wn)S 2.941 R(fox)S
+2.941 R(jumps)S 2.941 R(o)S -0.165 R(v)S -0.165 R(er)S 2.941 R(t)S
+(he)S 2.941 R(lazy)S 2.941 R(dog.)S 2.941 R(The)S 2.941 R(quic)S
+(k)S 2.941 R(bro)S -0.275 R(wn)S 2.941 R(fox)S 2.941 R(jumps)S
+2.941 R(o)S -0.165 R(v)S -0.165 R(er)S 2.941 R(the)S 2.941 R(l)S
+(azy)S
+72 756 Mt(dog.)S 3.8 R(The)S 3.8 R(quick)S 3.8 R(bro)S -0.275 R(w)S
+(n)S 3.8 R(fox)S 3.8 R(jumps)S 3.8 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.8 R(the)S 3.8 R(lazy)S 3.8 R(dog.)S 3.8 R(The)S 3.8 R(q)S
+(uick)S 3.8 R(bro)S -0.275 R(wn)S 3.8 R(fox)S 3.8 R(jumps)S 3.8 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.8 R(the)S 3.8 R(lazy)S 3.8 R(dog.)S
+72 744 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(f)S
+(ox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(t)S
+(he)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S 3.919 R(quic)S
+(k)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(jumps)S
+3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 732 Mt(quick bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S -0.165 R(e)S
+(r the lazy dog.)S
+72 710.058 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 698.058 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 686.058 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 674.058 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S 0 4 RMt 6 Sf (1)S
+72 652.116 Mt 0 Sf (OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S
+2.774 R(w)S -0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf
+(ll)S 2.774 R(up)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(t)S
+(he)S 2.774 R(page)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(tha)S
+(t)S 2.774 R(the)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S
+2.774 R(footnotes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 640.116 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 628.116 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 616.116 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 594.174 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 582.174 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 570.174 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 558.174 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 536.232 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 524.232 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 512.232 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 500.232 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 478.29 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 466.29 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 454.29 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 442.29 Mt(that the placing of the footnotes doesn't mess wi)S
+(th the normal te)S -0.165 R(xt.)S
+72 420.348 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 408.348 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S
+-0.165 R(xt.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(w)S
+(e)S 3.121 R(w)S -0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S
+0 Sf (ll)S 3.121 R(up)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(o)S
+(f)S 3.121 R(the)S 3.121 R(page)S 3.121 R(to)S 3.121 R(ensure)S
+3.121 R(that)S 3.121 R(the)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(t)S
+(he)S
+72 396.348 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 384.348 Mt(that the placing of the footnotes doesn't mess w)S
+(ith the normal te)S -0.165 R(xt.)S
+72 363 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 351 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 339 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 327 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 309 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 297 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 285 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 273 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 255 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 243 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 231 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 219 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 201 Mt(OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 189 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 177 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 165 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S 0.5 Slw 72 151 Mt 72 0 RLt St
+6 Sf 72 143.333 Mt (1)S 82 140 Mt 8 Sf (This is a paragraph th)S
+(at precedes a table in a footnote.)S
+82 121.3 Mt(inline)S
+147 121.3 Mt(this)S 3.671 R(is)S 3.671 R(a)S 3.671 R(paragraph)S
+147 111.3 Mt(of se)S -0.225 R(v)S -0.135 R(eral lines)S
+259.999 121.3 Mt(right)S
+301.006 121.3 Mt(centre)S 82 106.3 Mt 320 0 RLt St
+82 96.3 Mt 9 Sf (\216)S 8 Sf (rst entry)S -0.585 R(, sec-)S
+82 86.3 Mt(ond line)S
+147 96.3 Mt(ne)S -0.135 R(xt data)S 142 131.55 Mt 0 -49.25 RLt St
+222 131.55 Mt 0 -49.25 RLt St 282 131.55 Mt 0 -49.25 RLt St 342 131.55 Mt
+0 -49.25 RLt St
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(7)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 8 8
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (OK,)S 2.774 R(no)S -0.275 R(w)S 2.774 R(we)S 2.774 R(w)S
+-0.11 R(ant)S 2.774 R(to)S 2.774 R 1 Sf (\216)S 0 Sf (ll)S 2.774 R(u)S
+(p)S 2.774 R(the)S 2.774 R(rest)S 2.774 R(of)S 2.774 R(the)S 2.774 R(p)S
+(age)S 2.774 R(to)S 2.774 R(ensure)S 2.774 R(that)S 2.774 R(th)S
+(e)S 2.774 R(placing)S 2.774 R(of)S 2.774 R(the)S 2.774 R(foot)S
+(notes)S 2.774 R(doesn't)S 2.774 R(mess)S
+72 756 Mt(with)S 3.121 R(the)S 3.121 R(normal)S 3.121 R(te)S -0.165 R(x)S
+(t.)S 3.121 R(OK,)S 3.121 R(no)S -0.275 R(w)S 3.121 R(we)S 3.121 R(w)S
+-0.11 R(ant)S 3.121 R(to)S 3.121 R 1 Sf (\216)S 0 Sf (ll)S 3.121 R(u)S
+(p)S 3.121 R(the)S 3.121 R(rest)S 3.121 R(of)S 3.121 R(the)S 3.121 R(p)S
+(age)S 3.121 R(to)S 3.121 R(ensure)S 3.121 R(that)S 3.121 R(th)S
+(e)S 3.121 R(placing)S 3.121 R(of)S 3.121 R(the)S
+72 744 Mt(footnotes)S 2.997 R(doesn't)S 2.997 R(mess)S 2.997 R(w)S
+(ith)S 2.997 R(the)S 2.997 R(normal)S 2.997 R(te)S -0.165 R(xt)S
+(.)S 2.997 R(OK,)S 2.997 R(no)S -0.275 R(w)S 2.997 R(we)S 2.997 R(w)S
+-0.11 R(ant)S 2.997 R(to)S 2.997 R 1 Sf (\216)S 0 Sf (ll)S 2.997 R(u)S
+(p)S 2.997 R(the)S 2.997 R(rest)S 2.997 R(of)S 2.997 R(the)S 2.997 R(p)S
+(age)S 2.997 R(to)S 2.997 R(ensure)S
+72 732 Mt(that the placing of the footnotes doesn't mess with )S
+(the normal te)S -0.165 R(xt.)S
+72 709 Mt(The quick bro)S -0.275 R(wn)S 0 4 RMt 6 Sf (1)S 0 -4 RMt
+0 Sf ( )S(fox jumps o)S -0.165 R(v)S -0.165 R(er the lazy dog.)S
+72 686 Mt(The quick )S 2 Sf (br)S -0.495 R(own)S 0 4 RMt 6 Sf
+(2)S 0 -4 RMt 0 Sf ( )S(fox jumps o)S -0.165 R(v)S -0.165 R(er)S
+( the lazy dog.)S
+72 663 Mt(The quick )S 16 Sf (brown)S 0 4 RMt 6 Sf (3)S 0 -4 RMt
+0 Sf ( )S(fox jumps o)S -0.165 R(v)S -0.165 R(er the lazy dog.)S
+0.5 Slw 72 125 Mt 72 0 RLt St
+6 Sf 72 117.333 Mt (1)S 82 114 Mt 8 Sf (This is a footnote.)S
+6 Sf 72 102.333 Mt (2)S 82 99 Mt 8 Sf (This is a footnote.)S
+6 Sf 72 87.333 Mt (3)S 82 84 Mt 8 Sf (This is a footnote.)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(8)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 8

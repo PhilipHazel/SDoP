@@ -1,0 +1,58 @@
+#/bin/sh
+
+# Script to make an SDoP release
+
+if [ ! "$1" ]; then
+  echo "*** Version number missing ***"
+  exit 1
+fi
+
+# The name of the release directory
+
+dir=sdop-$1
+
+# These files are detrailed and copied; do not detrail the test data
+# because there may be significant trailing spaces. The configure files
+# are also omitted from the detrailing.
+
+files="Makefile.in configure.ac \
+  README LICENCE NOTICE AUTHORS NEWS INSTALL ChangeLog"
+
+echo Detrailing
+./Detrail $files src/*.c src/*.h
+
+docfiles="doc/sdop.1 doc/sdop.xfpt doc/sdop.xml doc/sdop.pdf"
+shfiles="share/HyphenData share/PSheader share/arttemplate \
+  share/foottable share/headtable \
+  share/foottable-p share/headtable-p \
+  share/foottable-t share/headtable-t \
+  share/indexcollate share/titletemplate share/toctemplate"
+
+echo Building release
+
+mkdir Releases/$dir
+mkdir Releases/$dir/doc
+mkdir Releases/$dir/share
+mkdir Releases/$dir/share/fontmetrics
+mkdir Releases/$dir/src
+mkdir Releases/$dir/testing
+mkdir Releases/$dir/testing/infiles
+mkdir Releases/$dir/testing/outfiles
+mkdir Releases/$dir/testing/fontmetrics
+
+cp $files configure install-sh mkinstalldirs Releases/$dir
+cp src/*.{c,h} src/Makefile src/hyphenlist Releases/$dir/src
+cp $docfiles              Releases/$dir/doc
+cp $shfiles               Releases/$dir/share
+cp share/fontmetrics/*    Releases/$dir/share/fontmetrics
+cp testing/runtest        Releases/$dir/testing
+cp testing/infiles/*      Releases/$dir/testing/infiles
+cp testing/outfiles/*     Releases/$dir/testing/outfiles
+cp testing/fontmetrics/*  Releases/$dir/testing/fontmetrics
+
+cd Releases
+
+tar cf $dir.tar $dir
+bzip2 -9 $dir.tar
+
+#End

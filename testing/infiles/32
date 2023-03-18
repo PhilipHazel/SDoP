@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<?sdop toc_sections="no"?>
+
+<book>
+<chapter><title>Chapter title</title>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+A reference to figure <xref linkend="FIGfirst"/>.
+</para>
+
+<figure id="FIGfirst">
+<title>This is the first figure title.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+<para>
+This is a paragraph that follows the figure.
+Another reference to figure <xref linkend="FIGfirst"/>.
+</para>
+
+<?sdop figure_number_format="%s"
+       figure_title_format="Fig. %s:- " ?>
+       
+<figure id="FIGsecond">
+<title>This is the second figure title.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+<para>
+Here's a reference to figure <xref linkend="FIGsecond"/>.
+</para>
+ 
+<?sdop figure_number_format=""
+       figure_title_format="" ?>
+       
+<figure id="FIGthird">
+<title>This is the third figure title.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+<para>
+Here's a reference to figure <xref linkend="FIGthird"/>.
+</para>
+ 
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS"/>
+</imageobject>
+</mediaobject>
+</informalfigure>
+
+<para>
+We can't reference an informal figure.
+</para>
+ 
+
+<?sdop figure_number_format="%s"
+       figure_title_format="(%s) " ?>
+       
+<figure id="FIGfourth">
+<title>This is the fourth figure title.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS" align="centre"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+<para>
+Here's a reference to figure <xref linkend="FIGfourth"/>.
+</para>
+ 
+<figure id="FIGfifth">
+<title>This is the fifth figure title.</title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS" align="right"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+<para>
+Here's a reference to figure <xref linkend="FIGfifth"/>.
+</para>
+ 
+<figure id="FIGsixth">
+<title>This is the sixth figure title. It is a rather long title that is going 
+to fill several lines. Let us see how it turns out when it is actually printed 
+below the figure. </title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS" align="centre"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+<para>
+Here's a reference to figure <xref linkend="FIGsixth"/>.
+</para>
+
+<?sdop figure_title_justify="left"?> 
+<figure id="FIGseventh">
+<title>This is the seventh figure title. It is a rather long title that is going 
+to fill several lines. Let us see how it turns out when it is actually printed 
+below the figure. </title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS" align="centre"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+<para>
+Here's a reference to figure <xref linkend="FIGseventh"/>.
+</para>
+ 
+<?sdop figure_title_justify="both"?> 
+<figure id="FIGeighth">
+<title>This is the eighth figure title. It is a rather long title that is going 
+to fill several lines. Let us see how it turns out when it is actually printed 
+below the figure. </title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS" align="centre"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+<para>
+Here's a reference to figure <xref linkend="FIGeighth"/>.
+</para>
+ 
+<?sdop figure_title_justify="centre"
+       figure_title_width="300"?> 
+<figure id="FIGninth">
+<title>This is the ninth figure title. It is a rather long title that is going 
+to fill several lines. Let us see how it turns out when it is actually printed 
+below the figure. </title>
+<mediaobject>
+<imageobject>
+<imagedata fileref="eps1.eps" format="EPS" align="centre"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+<para>
+Here's a reference to figure <xref linkend="FIGninth"/>.
+</para>
+ 
+<figure>
+<title>This is a figure moved (1.0in,-0.5in).</title>
+<mediaobject>
+<imageobject role="1in,-0.5in">
+<imagedata fileref="eps1.eps" format="EPS"/>
+</imageobject>
+</mediaobject>
+</figure>
+
+
+
+</chapter>
+</book>

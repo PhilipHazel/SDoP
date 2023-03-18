@@ -1,0 +1,19 @@
+** Error: unknown named entity "bad"
+   Detected in element starting in line 41 of infiles/41
+
+** Error: unknown named entity "badbad"
+   Detected in element starting in line 41 of infiles/41
+
+** Error: unknown named entity "bad"
+   Detected while processing TOC lines
+
+** Error: unknown named entity "badbad"
+   Detected while processing TOC lines
+
+** Error: unknown named entity "bad" in head or footlines
+   Detected in element starting in line 45 of infiles/41
+
+** Error: unknown named entity "badbad" in head or footlines
+   Detected in element starting in line 45 of infiles/41
+
+** Warning: generated output may be flawed.

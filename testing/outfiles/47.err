@@ -1,0 +1,13 @@
+** Error: "char" setting must specify just one character
+   Detected in element starting in line 335 of infiles/47
+
+** Error: "char" setting must specify just one character
+   Detected in element starting in line 360 of infiles/47
+
+** Error: "char" alignment would cause underflow; used "left"
+   Detected in element starting in line 339 of infiles/47
+
+** Error: "char" alignment would cause overflow; used "right"
+   Detected in element starting in line 369 of infiles/47
+
+** Warning: generated output may be flawed.

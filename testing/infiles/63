@@ -1,0 +1,335 @@
+<para>
+An initial paragraph to show where the line end is. Add some text to make it
+long enough to go onto another line so we can see if the justification and line
+length is correct.
+</para>
+
+<itemizedlist>
+<listitem>
+<para>
+First item. Add some text to make it long enough to go onto another line so we 
+can see if the justification and line length is correct.
+</para>
+</listitem>
+<listitem>
+<para>
+Second item. Add some text to make it long enough to go onto another line so we 
+can see if the justification and line length is correct.
+</para>
+</listitem>
+</itemizedlist>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+First item. Add some text to make it long enough to go onto another line so we 
+can see if the justification and line length is correct.
+</para>
+</listitem>
+<listitem>
+<para>
+Second item. Add some text to make it long enough to go onto another line so we 
+can see if the justification and line length is correct.
+</para>
+</listitem>
+</orderedlist>
+
+<para>
+The quick brown fox. Check things in a footnote.
+<footnote>
+<para>
+Now check literallayout.
+</para>
+<literallayout>
+Literal layout, not monospaced.
+Second line.
+</literallayout>
+
+<literallayout class="monospaced">
+Literal layout, monospaced.
+Second line.
+</literallayout>
+
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+First
+</para>
+</listitem>
+<listitem>
+<para>
+Last
+</para>
+<para>
+New para in last
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nested
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 2
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 3 with a couple of items to show how it looks. Make this one long enough 
+so that it will have to be split onto more than one line.
+</para>
+</listitem>
+<listitem>
+<para>
+Items to show how it looks
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 4
+</para>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+Nest 5
+</para>
+</listitem>
+</orderedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<para>
+Should be back in outer list.
+</para>
+</listitem>
+<listitem>
+<para>
+Another item.
+</para>
+</listitem>
+</orderedlist>
+</footnote>
+</para>
+
+
+<para>
+At this point, we change the tag styles.
+<?sdop olist_tag_style="italic"?>
+<?sdop ilist_tag_style="italic"?>
+</para>
+<itemizedlist mark="U+00a7">
+<listitem>
+<para>
+First item.
+</para>
+</listitem>
+<listitem>
+<para>
+Second item.
+</para>
+</listitem>
+</itemizedlist>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+First item.
+</para>
+</listitem>
+<listitem>
+<para>
+Second item.
+</para>
+</listitem>
+</orderedlist>
+
+<para>
+Now change the tag font sizes.
+<?sdop font_olist_tag="15,2,serif,roman"?>
+<?sdop font_ilist_tag="15,2,sanserif,bold"?>
+</para>
+<itemizedlist mark="U+00a7">
+<listitem>
+<para>
+First item. Add some text to make it long enough to go onto another line so we 
+can see if the justification and line length is correct.
+</para>
+</listitem>
+<listitem>
+<para>
+Second item. Add some text to make it long enough to go onto another line so we 
+can see if the justification and line length is correct.
+</para>
+</listitem>
+</itemizedlist>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+First item.
+</para>
+</listitem>
+<listitem>
+<para>
+Second item.
+</para>
+</listitem>
+</orderedlist>
+
+
+<para>
+The quick brown fox. Another footnote, with changed tag fonts.
+<footnote>
+<para>
+Now check literallayout.
+</para>
+<literallayout>
+Literal layout, not monospaced.
+Second line.
+</literallayout>
+
+<literallayout class="monospaced">
+Literal layout, monospaced.
+Second line.
+</literallayout>
+
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+First
+</para>
+</listitem>
+<listitem>
+<para>
+Last
+</para>
+<para>
+New para in last
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nested
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 2
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 3 with a couple of items to show how it looks. Make this one long enough 
+so that it will have to be split onto more than one line.
+</para>
+</listitem>
+<listitem>
+<para>
+Items to show how it looks
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 4
+</para>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+Nest 5
+</para>
+</listitem>
+</orderedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<para>
+Should be back in outer list.
+</para>
+</listitem>
+<listitem>
+<para>
+Another item.
+</para>
+</listitem>
+</orderedlist>
+
+</footnote>
+</para>
+
+<?sdop font_olist_tag="13,2,sanserif,italic" olist_tag_rgb="1,0,0"?>
+<?sdop font_ilist_tag="13,2,serif,bolditalic" ilist_tag_rgb="0,1,0"?>
+
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+First
+</para>
+</listitem>
+<listitem>
+<para>
+Last
+</para>
+<para>
+New para in last
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nested
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 2
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 3 with a couple of items to show how it looks. Make this one long enough 
+so that it will have to be split onto more than one line.
+</para>
+</listitem>
+<listitem>
+<para>
+Items to show how it looks
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 4
+</para>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+Nest 5
+</para>
+</listitem>
+</orderedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<para>
+Should be back in outer list.
+</para>
+</listitem>
+<listitem>
+<para>
+Another item.
+</para>
+</listitem>
+</orderedlist>
+
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<book>
+<?sdop toc_sections="no"/>
+<?sdop numbertitles="no"/>
+<?sdop foot_length="0"/>
+<informaltable frame="none">
+<tgroup cols="5" colsep="0" rowsep="0">
+<colspec colwidth="40" align="right"/>
+<colspec colwidth="54" align="right"/>
+<colspec colwidth="30" align="right"/>
+<colspec colwidth="40" align="centre"/>
+<colspec colwidth="160" align="left"/>
+<tbody>
+
+<row>
+<entry><literal>TEST</literal></entry>
+<entry>TEST</entry>
+<entry>X</entry>
+<entry>X</entry>
+<entry><emphasis role="bold">test</emphasis></entry>
+</row>
+<row>
+<entry><literal>062C</literal></entry>
+<entry>JEEM</entry>
+<entry>j</entry>
+<entry><emphasis role="OmArabicRsimms/12">&#125;</emphasis></entry>
+<entry><emphasis role="bold">g</emphasis>em</entry>
+</row>
+<row>
+<entry><literal>062D</literal></entry>
+<entry>HAH</entry>
+<entry>h</entry>
+<entry><emphasis role="OmArabicRsimms/12">&#130;</emphasis></entry>
+<entry>gutteral h</entry>
+</row>
+<row>
+<entry><literal>FECA</literal></entry>
+<entry>AINfin</entry>
+<entry></entry>
+<entry><emphasis role="OmArabicRsimms/12">&#173;</emphasis></entry>
+<entry>ainfin</entry>
+</row>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+</book>

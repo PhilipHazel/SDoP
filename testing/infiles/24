@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<?sdop toc_sections="no"?>
+
+<book>
+
+<chapter>
+<title>Introduction</title>
+<para>
+This is some leading text.
+<mediaobject>
+
+<imageobject>
+<imagedata fileref="jpeg.jpg" format="JPEG" scale="60"/>
+</imageobject>
+
+<textobject>
+<para>
+This is substitute text for the object.
+</para>
+</textobject>
+
+<textobject>
+<para>
+This text should never be seen.
+</para>
+</textobject>
+
+</mediaobject>
+</para>
+
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+<para>
+<mediaobject>
+<imageobject>
+<imagedata fileref="jpeg.jpg" align="center"
+depth="300"/>
+</imageobject>
+<textobject>
+<para>
+This is substitute text for the object.
+</para>
+</textobject>
+</mediaobject>
+</para>
+
+<para>
+This is a paragraph of normal text. Several of them will be used to fill up the 
+page and ensure that the next media object is pushed onto the following page. 
+This is a check that we are getting the depth of the object correct. The quick 
+brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.
+</para>
+
+</chapter>
+</book>

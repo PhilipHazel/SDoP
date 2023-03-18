@@ -1,0 +1,143 @@
+<?sdop
+  foot_right_recto="&chaptertitle; (&chapternumber;)"
+  foot_right_verso="&chaptertitle; (&chapternumber;)"
+?>   
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<book>
+<chapter>
+<title>Test chapter with &#x2018;quotes&#x2019; in the title</title>
+<para>
+This is a non-empty paragraph, followed by an special empty paragraph, notated
+as a single zero-width space.
+</para>
+<para>
+&#x200b;
+</para>
+<para>
+This is a following paragraph. The space above should be narrower than if
+a true empty line were printed.
+</para>
+<para>
+So is this, to show a normal paragraph gap. Then an empty para that contains 
+one hard space, so it won&#x2019;t be special.
+</para>
+<para>
+&nbsp;
+</para>
+<para>
+Next paragraph. The gap between this and the last should be larger.
+</para>
+</chapter>
+
+<chapter>
+<title>Chapter entities: &times; &cross; &check;</title>
+<para>
+Another test chapter.
+</para>
+</chapter>
+
+<chapter>
+<title>Bad entities &bad; &badbad; and &#x2013; a dash</title>
+<para>
+Another test chapter.
+</para>
+</chapter>
+
+<chapter>
+<title>A chapter with an abstract</title>
+<abstract><para>In brief, this chapter &hellip;</para></abstract>
+<para>
+This is a real paragraph. Check an abbreviation. <abbrev>U.N.I.T.</abbrev> is
+fictitious. And an acronym such as <acronym>scuba</acronym> or 
+<acronym>PIN</acronym>.
+</para>
+</chapter>
+
+<chapter>
+<title>A chapter with a subtitle</title>
+<subtitle>In which we witter on</subtitle>
+<para>
+Rhubarb rhubarb rhubarb rhubarb rhubarb and so on and so forth and so on etc 
+etc etc ribbit ribbit ribbit.
+</para>
+</chapter>
+
+<chapter>
+<title>A chapter with an epigraph</title>
+<epigraph><attribution><emphasis>Anon</emphasis></attribution>
+<para>
+This is the text of an epigraph that comes at the start of chapter in this 
+particular example.
+</para>
+</epigraph>
+<para>
+This is the first paragraph.
+This is the first paragraph.
+This is the first paragraph.
+This is the first paragraph.
+This is the first paragraph.
+This is the first paragraph.
+Reference an example: <xref linkend="EX001"/>.
+</para>
+
+<example><title>A listing</title>
+<programlisting>
+Line 1
+Line 2
+</programlisting>
+</example>
+
+<?sdop example_number_format="[%s]"
+       example_title_format="Ex. %s "
+       example_title_justify="centre"
+       example_title_width="150" ?>
+       
+<example id="EX001">
+<title>Another listing, longish, centred title in 150pt</title>
+<programlisting>
+Line 1          <lineannotation>This is an annotation</lineannotation>
+Line 2
+</programlisting>
+</example>
+
+<para>
+For a footnote with an id,
+<footnote id="F001">
+<para>
+This is a footnote with an ID.
+</para>
+</footnote>
+it is possible to refer to the same footnote from elsewhere, like that.
+<footnoteref linkend="F001"/>
+This is most commonly used in tables. For example:
+</para> 
+<informaltable>
+<tgroup cols="2">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row>
+<entry>foo<footnote id="FNA"><para>A meaningless word</para></footnote></entry>
+<entry>3<footnote id="FNB"><para>A meaningless number</para></footnote></entry>
+</row>
+<row>
+<entry>bar<footnoteref linkend="FNA"/></entry>
+<entry>5<footnoteref linkend="FNB"/></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<para>
+We can even forward reference<footnoteref linkend="F002"/> a footnote that
+appears later in the page. 
+<footnote id="F002">
+<para>
+That is, have "footnoteref" precede "footnote".
+</para>
+</footnote>
+Check that &lt;link&gt; is <link linkend="rhubarb">completely</link> ignored.
+</para>
+
+</chapter>
+</book>

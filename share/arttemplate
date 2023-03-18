@@ -1,0 +1,46 @@
+<!-- This is a template for the stuff that follows the title and subtitle of an 
+article. --> 
+
+<informaltable frame="none">
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colwidth="1*"/>
+<colspec colwidth="7*" align="center"/>
+<colspec colwidth="1*"/>
+<tbody>
+
+<?sdop ifdef="author_surname"?>
+<row>
+<entry></entry><entry><emphasis role="bold">&author_firstname; &author_surname;</emphasis></entry>
+</row>
+<?sdop endif=""?>
+
+<?sdop ifdef="author_orgname"?>
+<row>
+<entry></entry><entry>&author_orgname;</entry>
+</row>
+<row>
+<entry>&nbsp;</entry>
+</row>
+<row>
+<entry>&nbsp;</entry>
+</row>
+<?sdop endif=""?>
+
+<?sdop ifdef="author_corpauthor"?>
+<row>
+<entry></entry><entry><emphasis role="bold">&author_corpauthor;</emphasis></entry>
+</row>
+<row>
+<entry>&nbsp;</entry>
+</row>
+<?sdop endif=""?>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<emphasis role="smallfont">
+<?sdop insert="legalnotice"?>
+</emphasis>
+
+<!-- End of template for article info -->

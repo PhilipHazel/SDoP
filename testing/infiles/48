@@ -1,0 +1,219 @@
+<chapter id="CHAPsyntaxsummary">
+<title>Syntax summary</title>
+<para>
+<indexterm>
+<primary>syntax summary</primary>
+</indexterm>
+<indexterm>
+<primary>summary of syntax</primary>
+</indexterm>
+</para>
+<section>
+<title>Preprocessing directives</title>
+<para>
+These may occur at any point in an input file; each one must occupy a line
+on its own.
+</para>
+<literallayout>
+<literal>*comment</literal> &lt;<emphasis>rest of line</emphasis>&gt;
+<literal>*define</literal> <emphasis>name</emphasis> <emphasis>rest of line</emphasis>
+<literal>*else</literal>
+<literal>*fi</literal>
+<literal>*if</literal> <emphasis>condition</emphasis>
+<literal>*if not</literal> <emphasis>condition</emphasis>
+<literal>*include</literal> "<emphasis>file name</emphasis>"
+</literallayout>
+</section>
+<section>
+<title>Heading directives</title>
+<para>
+Those marked with an asterisk may appear only at the head of a PMW input file,
+not at the start of the second or subsequent movements. Those marked with a
+dagger affect only the movement in which they appear.
+</para>
+<literallayout>
+<literal> Accadjusts</literal> &lt;<emphasis>n</emphasis>&gt; &lt;<emphasis>n</emphasis>&gt; ... &lt;<emphasis>up to 8 numbers</emphasis>&gt;
+<literal> Accspacing</literal> <emphasis>n1</emphasis> <emphasis>n2</emphasis> <emphasis>n3</emphasis> <emphasis>n4</emphasis> <emphasis>n5</emphasis>
+<literal> Bar</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Barcount</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Barlinesize</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Barlinespace</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Barlinestyle</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Barnumberlevel</literal> <emphasis>sign</emphasis>&lt;&lt;n&gt;&gt;
+<literal> Barnumbers</literal> <emphasis>enclosure</emphasis> <emphasis>interval</emphasis> <emphasis>fontsize</emphasis> <emphasis>font</emphasis>
+<literal> Beamendrests</literal>
+<literal> Beamflaglength</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Beamthickness</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Bottommargin</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Brace</literal> <emphasis>n-m</emphasis> ...
+<literal> Bracestyle</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Bracket</literal> <emphasis>n-m</emphasis> ...
+<literal> Breakbarlines</literal> <emphasis>n1</emphasis> <emphasis>n2</emphasis> ...
+<literal> Breakbarlinesx</literal> <emphasis>n1</emphasis> <emphasis>n2</emphasis> ...
+<literal> Breveledgerextra</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Breverests</literal>
+<literal> Caesurastyle</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Check</literal>
+<literal> Checkdoublebars</literal>
+<literal> Clefsize</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Clefstyle</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Clefwidths</literal> <emphasis>n1</emphasis> ... <emphasis>n5</emphasis>
+<literal> Copyzero</literal> &lt;<emphasis>n</emphasis>&gt;/<emphasis>m</emphasis> ...
+<literal> Cuegracesize</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Cuesize</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Dotspacefactor</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Doublenotes</literal>
+<literal> Draw</literal> <emphasis>drawing definition</emphasis> <literal>enddraw</literal>
+<literal> Endlinesluradjust</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Endlineslurstyle</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Endlinetieadjust</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Endlinetiestyle</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Extenderlevel</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Fbsize</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Footing</literal> <emphasis>fontsize</emphasis> "<emphasis>string</emphasis>" <emphasis>space</emphasis>
+<literal> Footing</literal> draw <emphasis>name</emphasis> <emphasis>space</emphasis>
+<literal> Footnotesep</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Footnotesize</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Gracesize</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Gracespacing</literal> &lt;<emphasis>n</emphasis>&gt; <emphasis>m</emphasis>
+<literal> Gracestyle</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Hairpinlinewidth</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Hairpinwidth</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Halvenotes</literal>
+<literal> Heading</literal> <emphasis>fontsize</emphasis> "<emphasis>string</emphasis>" <emphasis>space</emphasis>
+<literal> Heading</literal> draw <emphasis>name</emphasis> <emphasis>space</emphasis>
+<literal> Hyphenstring</literal> "<emphasis>string</emphasis>"
+<literal> Hyphenthreshold</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Join</literal> <emphasis>n-m</emphasis> ...
+<literal> Joindotted</literal> <emphasis>n-m</emphasis> ...
+<literal> Justify</literal> <emphasis>edges</emphasis>
+<literal>&dagger;Key</literal> <emphasis>key signature</emphasis>
+<literal> Keydoublebar</literal>
+<literal> Keysinglebar</literal>
+<literal> Keywarn</literal>
+<literal>*Landscape</literal>
+<literal> Lastfooting</literal> <emphasis>fontsize</emphasis> "<emphasis>string</emphasis>" <emphasis>space</emphasis>
+<literal> Lastfooting</literal> draw <emphasis>name</emphasis> <emphasis>space</emphasis>
+<literal>.newline</literal>
+<literal>&dagger;Layout</literal> <emphasis>n1</emphasis> <emphasis>n2</emphasis> ...
+<literal> Leftmargin</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Linelength</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Longrestfont</literal> <emphasis>fontsize</emphasis> <emphasis>font</emphasis>
+<literal>*Magnification</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Maxbeamslope</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal>*Maxvertjustify</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Midichannel</literal> &lt;<emphasis>n</emphasis>&gt; "<emphasis>name or number</emphasis>" <emphasis>staves</emphasis>
+<literal> Midistart</literal> &lt;<emphasis>n</emphasis>&gt; &lt;<emphasis>n</emphasis>&gt; &lt;<emphasis>n</emphasis>&gt; ...
+<literal> Miditempo</literal> &lt;<emphasis>n</emphasis>&gt; <emphasis>n/m</emphasis> ...
+<literal> Miditranspose</literal> <emphasis>n/m</emphasis> ...
+<literal> Midivolume</literal> &lt;<emphasis>n</emphasis>&gt; <emphasis>n/m</emphasis> ...
+<literal> Midkeyspacing</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Midtimespacing</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal>*Musicfont</literal> "<emphasis>font name</emphasis>"
+<literal> Nobeamendrests</literal>
+<literal> Nocheck</literal>
+<literal> Nocheckdoublebars</literal>
+<literal>*Nokerning</literal>
+<literal> Nokeywarn</literal>
+<literal> Nosluroverwarnings</literal>
+<literal> Nospreadunderlay</literal>
+<literal> Notespacing</literal> *<emphasis>factor</emphasis>
+<literal> Notespacing</literal> <emphasis>n1</emphasis> ... <emphasis>n8</emphasis>
+<literal>&dagger;Notime</literal>
+<literal> Notimebase</literal>
+<literal> Notimewarn</literal>
+<literal> Nounderlayextenders</literal>
+<literal> Overlaydepth</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Overlaysize</literal> <emphasis>fontsize</emphasis>
+<literal>*Page</literal> &lt;<emphasis>n</emphasis>&gt; <emphasis>m</emphasis>
+<literal> Pagefooting</literal> <emphasis>fontsize</emphasis> "<emphasis>string</emphasis>" <emphasis>space</emphasis>
+<literal> Pagefooting</literal> draw <emphasis>name</emphasis> <emphasis>space</emphasis>
+<literal> Pageheading</literal> <emphasis>fontsize</emphasis> "<emphasis>string</emphasis>" <emphasis>space</emphasis>
+<literal> Pageheading</literal> draw <emphasis>name</emphasis> <emphasis>space</emphasis>
+<literal>*Pagelength</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Playtempo</literal> &lt;<emphasis>n</emphasis>&gt; <emphasis>n/m</emphasis> ...
+<literal> Playtranspose</literal> <emphasis>n/m</emphasis> ...
+<literal> Playvolume</literal> &lt;<emphasis>n</emphasis>&gt; <emphasis>n/m</emphasis> ...
+<literal> Pmwversion</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Printtime</literal> <emphasis>time</emphasis> "<emphasis>string 1</emphasis>" "<emphasis>string 2</emphasis>"
+<literal> Psfooting</literal> "<emphasis>PostScript string</emphasis>"
+<literal> Psheading</literal> "<emphasis>PostScript string</emphasis>"
+<literal> Pslastfooting</literal> "<emphasis>PostScript string</emphasis>"
+<literal> Pspagefooting</literal> "<emphasis>PostScript string</emphasis>"
+<literal> Pspageheading</literal> "<emphasis>PostScript string</emphasis>"
+<literal>*Pssetup</literal> "<emphasis>PostScript string</emphasis>"
+<literal> Rehearsalmarks</literal> <emphasis>style</emphasis> <emphasis>fontsize</emphasis> <emphasis>fontname</emphasis>
+<literal> Repeatbarfont</literal> <emphasis>fontsize</emphasis> <emphasis>font</emphasis>
+<literal> Repeatstyle</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Selectstaves</literal> <emphasis>n-m</emphasis> ...
+<literal>*Sheetdepth</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal>*Sheetsize</literal> A4 <emphasis>or</emphasis> A3
+<literal>*Sheetwidth</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Shortenstems</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Sluroverwarnings</literal>
+<literal> Smallcapsize</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal>&dagger;$$Startbracketbar</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Startlinespacing</literal> <emphasis>c</emphasis> <emphasis>k</emphasis> <emphasis>t</emphasis> &lt;<emphasis>n</emphasis>&gt;
+<literal>&dagger;$$Startnotime</literal>
+<literal> Stavesize(s)</literal> <emphasis>n/m</emphasis> ...
+<literal> Stavespacing</literal> &lt;<emphasis>n</emphasis>&gt; <emphasis>n/b</emphasis> ...
+<literal> Stavespacing</literal> &lt;<emphasis>n</emphasis>&gt; <emphasis>n/a/b</emphasis> ...
+<literal> Stemlengths</literal> <emphasis>n1</emphasis> ... <emphasis>n6</emphasis>
+<literal> Stemswap</literal> <emphasis>direction</emphasis>
+<literal> Stemswaplevel</literal> <emphasis>n/m</emphasis> ...
+<literal>&dagger;Suspend</literal> &lt;<emphasis>n</emphasis>&gt; ...
+<literal> Systemgap</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal>*Textfont</literal> <emphasis>fontword</emphasis> "<emphasis>font name</emphasis>"
+<literal> Textsize(s)</literal> &lt;<emphasis>n</emphasis>&gt; ...
+<literal> Thinbracket</literal> <emphasis>n-m</emphasis> ...
+<literal>&dagger;Time</literal> <emphasis>time signature</emphasis>
+<literal> Timebase</literal>
+<literal> Timefont</literal> <emphasis>fontsize</emphasis> <emphasis>name</emphasis>
+<literal> Timewarn</literal>
+<literal> Topmargin</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal>&dagger;Transpose</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Transposedacc</literal> force
+<literal> Transposedacc</literal> noforce
+<literal> Transposedkey</literal> <emphasis>key 1</emphasis> use <emphasis>key 2</emphasis>
+<literal> Trillstring</literal> "<emphasis>string</emphasis>"
+<literal> Tripletfont</literal> <emphasis>fontsize</emphasis> <emphasis>name</emphasis>
+<literal> Tripletlinewidth</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Underlaydepth</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal> Underlayextenders</literal>
+<literal> Underlaysize</literal> <emphasis>fontsize</emphasis>
+<literal> Underlaystyle</literal> &lt;<emphasis>n</emphasis>&gt;
+<literal>&dagger;Unfinished</literal>
+<literal> Vertaccsize</literal> &lt;<emphasis>n</emphasis>&gt;
+</literallayout>
+<?sdop
+  index_sort_omit="[]&rdquo;&ldquo;" 
+?>   
+<para>
+<indexterm>
+<primary>abc</primary>
+</indexterm>
+<indexterm>
+<primary><emphasis role="bold">abc</emphasis></primary>
+</indexterm>
+<indexterm>
+<primary>[abc]</primary>
+</indexterm>
+<indexterm>
+<primary>&#x201c;abc in quotes&#x201d;</primary>
+</indexterm>
+<indexterm>
+<primary>def</primary>
+</indexterm>
+<indexterm>
+<primary>xyz</primary>
+</indexterm>
+Although Aspic has support for including text in drawings, it does no 
+text processing of its own, in the sense that it contains no code for finding 
+the size of text strings. 
+</para>
+</section>
+</chapter>
+
+<index>
+<title>Index</title>
+</index>

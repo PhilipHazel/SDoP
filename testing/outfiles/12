@@ -1,0 +1,2477 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.70
+%%CreationDate: Tue Jan 25 15:00:52 2011
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Times-Bold
+%%+ font Courier
+%%+ font Helvetica
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 4 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+[/Title (Title page) /Page 1 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Contents) /Page 3 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (1.  Introduction) /Page 5 /View [/XYZ null null 1] /Count -5 /OUT pdfmark
+[/Title (    1.1  The xfpt command line) /Page 5 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    1.2  A short xfpt example) /Page 6 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    1.3  Literal and non-literal processing) /Page 6 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    1.4  Format of directive lines) /Page 7 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    1.5  Calling macros) /Page 7 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (2.  Flag sequences) /Page 8 /View [/XYZ null null 1] /Count -5 /OUT pdfmark
+[/Title (    2.1  Flag sequences for XML entities and xfpt variables) /Page 8 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    2.2  Flag sequences for calling macros) /Page 8 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    2.3  Other flag sequences) /Page 8 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    2.4  Unrecognized flag sequences) /Page 9 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    2.5  Standard flag sequences) /Page 9 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (3.  Built-in directive processing) /Page 10 /View [/XYZ null null 1] /Count -13 /OUT pdfmark
+[/Title (    3.1  The .arg directive) /Page 10 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.2  The .eacharg directive) /Page 10 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.3  The .echo directive) /Page 10 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.4  The .endarg directive) /Page 11 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.5  The .endeach directive) /Page 11 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.6  The .flag directive) /Page 11 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.7  The .include directive) /Page 11 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.8  The .literal directive) /Page 11 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.9  The .macro directive) /Page 11 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.10  The .pop directive) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.11  The .push directive) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.12  The .revision directive) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    3.13  The .set directive) /Page 13 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (4.  The standard macros for DocBook) /Page 14 /View [/XYZ null null 1] /Count -12 /OUT pdfmark
+[/Title (    4.1  Overall setup) /Page 14 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.2  Chapters, sections, and subsections) /Page 14 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.3  URL references) /Page 14 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.4  Itemized lists) /Page 15 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.5  Ordered lists) /Page 15 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.6  Variable lists) /Page 15 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.7  Nested lists) /Page 16 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.8  Displayed text) /Page 16 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.9  Block quotes) /Page 16 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.10  Revision markings) /Page 16 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.11  Informal tables) /Page 17 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.12  Indexes) /Page 18 /View [/XYZ null null 1] /OUT pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Times-Bold
+/af6 /af7 /Times-Bold inf
+%%IncludeResource: font Courier
+/af8 /af9 /Courier inf
+%%IncludeResource: font Helvetica
+/af10 /af11 /Helvetica inf
+/vf 22 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af6 11 scalefont put
+vf 7 af7 11 scalefont put
+vf 8 af8 11 scalefont put
+vf 9 af9 11 scalefont put
+vf 10 af4 13 scalefont put
+vf 11 af5 13 scalefont put
+vf 12 af4 24 scalefont put
+vf 13 af5 24 scalefont put
+vf 14 af4 16 scalefont put
+vf 15 af5 16 scalefont put
+vf 16 af4 11.5 scalefont put
+vf 17 af5 11.5 scalefont put
+vf 18 af10 11 scalefont put
+vf 19 af11 11 scalefont put
+vf 20 af4 11 scalefont put
+vf 21 af5 11 scalefont put
+%%EndSetup
+
+%%Page: i 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 754 Mt 12 Sf ( )S
+72 728 Mt( )S
+72 702 Mt( )S
+72 676 Mt( )S
+151.164 650 Mt(The xfpt plain te)S -0.36 R(xt to XML)S
+239.22 624 Mt(pr)S -0.48 R(ocessor)S
+72 598 Mt( )S
+252.016 580.75 Mt 14 Sf (Philip Haz)S 0.16 R(el)S
+72 563.5 Mt( )S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: ii 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768.5 Mt 16 Sf (The xfpt plain te)S -0.172 R(xt to XML pr)S
+-0.23 R(ocessor)S
+72 745.5 Mt 0 Sf (Author: Philip Hazel)S
+72 733.5 Mt( )S
+72 710.5 Mt(Cop)S -0.11 R(yright \251 2007 Uni)S -0.275 R(v)S
+-0.165 R(ersity of Cambridge)S
+72 687.5 Mt(Re)S -0.275 R(vision 0.01     22 March 2007)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: iii 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+262.336 764 Mt 4 Sf (Contents)S
+72 737 Mt 20 Sf (1.  Intr)S -0.22 R(oduction)S 3.15 R 0 Sf (..)S
+(.............................................................)S
+(.............................................................)S
+(......)S
+515.883 737 Mt 20 Sf (1)S
+72 725 Mt 18 Sf ( )S
+72 713 Mt(    1.1  The xfpt command line)S 3.48 R 0 Sf (......)S
+(.............................................................)S
+(.......................................)S
+515.883 713 Mt 18 Sf (1)S
+72 701 Mt(    1.2  A shor)S 0.44 R(t xfpt e)S -0.33 R(xample)S
+3.37 R 0 Sf (.................................................)S
+(.............................................................)S
+515.883 701 Mt 18 Sf (2)S
+72 689 Mt(    1.3  Liter)S -0.11 R(al and non-liter)S -0.11 R(a)S
+(l processing)S 2.765 R 0 Sf (................................)S
+(.........................................................)S
+515.883 689 Mt 18 Sf (2)S
+72 677 Mt(    1.4  F)S -0.33 R(or)S 0.275 R(mat of directiv)S
+-0.275 R(e lines)S 3.821 R 0 Sf (.............................)S
+(.............................................................)S
+(..............)S
+515.883 677 Mt 18 Sf (3)S
+72 665 Mt(    1.5  Calling macros)S 3.513 R 0 Sf (............)S
+(.............................................................)S
+(...............................................)S
+515.883 665 Mt 18 Sf (3)S
+72 653 Mt( )S
+72 641 Mt 20 Sf (2.  Fla)S -0.11 R(g sequences)S 3.92 R 0 Sf ()S
+(.............................................................)S
+(.............................................................)S
+(.)S
+515.883 641 Mt 20 Sf (4)S
+72 629 Mt 18 Sf ( )S
+72 617 Mt(    2.1  Flag sequences f)S -0.33 R(or XML entities )S
+(and xfpt v)S -0.275 R(ar)S 0.165 R(iab)S -0.22 R(les)S 3.766 R
+0 Sf (........................................................)S
+(.)S
+515.883 617 Mt 18 Sf (4)S
+72 605 Mt(    2.2  Flag sequences f)S -0.33 R(or calling macro)S
+(s)S 3.183 R 0 Sf (...........................................)S
+(...........................................)S
+515.883 605 Mt 18 Sf (4)S
+72 593 Mt(    2.3  Other flag sequences)S 4.69 R 0 Sf (.......)S
+(.............................................................)S
+(........................................)S
+515.883 593 Mt 18 Sf (4)S
+72 581 Mt(    2.4  Unrecogniz)S -0.165 R(ed flag sequences)S 3.007 R
+0 Sf (........................................................)S
+(......................................)S
+515.883 581 Mt 18 Sf (5)S
+72 569 Mt(    2.5  Standard flag sequences)S 4.063 R 0 Sf (...)S
+(.............................................................)S
+(......................................)S
+515.883 569 Mt 18 Sf (5)S
+72 557 Mt( )S
+72 545 Mt 20 Sf (3.  Built-in directive pr)S -0.22 R(ocessing)S
+4.635 R 0 Sf (................................................)S
+(...................................................)S
+515.883 545 Mt 20 Sf (6)S
+72 533 Mt 18 Sf ( )S
+72 521 Mt(    3.1  The .arg directiv)S -0.275 R(e)S 2.545 R 0 Sf
+(.............................................................)S
+(.......................................................)S
+515.883 521 Mt 18 Sf (6)S
+72 509 Mt(    3.2  The .eacharg directiv)S -0.275 R(e)S 3.447 R
+0 Sf (........................................................)S
+(...................................................)S
+515.883 509 Mt 18 Sf (6)S
+72 497 Mt(    3.3  The .echo directiv)S -0.275 R(e)S 2.842 R 0 Sf
+(.............................................................)S
+(....................................................)S
+515.883 497 Mt 18 Sf (6)S
+72 485 Mt(    3.4  The .endarg directiv)S -0.275 R(e)S 3.447 R
+0 Sf (........................................................)S
+(.....................................................)S
+515.883 485 Mt 18 Sf (7)S
+72 473 Mt(    3.5  The .endeach directiv)S -0.275 R(e)S 3.744 R
+0 Sf (........................................................)S
+(..................................................)S
+515.883 473 Mt 18 Sf (7)S
+72 461 Mt(    3.6  The .flag directiv)S -0.275 R(e)S 3.458 R 0 Sf
+(.............................................................)S
+(......................................................)S
+515.883 461 Mt 18 Sf (7)S
+72 449 Mt(    3.7  The .include directiv)S -0.275 R(e)S 2.842 R
+0 Sf (........................................................)S
+(.....................................................)S
+515.883 449 Mt 18 Sf (7)S
+72 437 Mt(    3.8  The .liter)S -0.11 R(al directiv)S -0.275 R(e)S
+3.271 R 0 Sf (................................................)S
+(.............................................................)S
+(...)S
+515.883 437 Mt 18 Sf (7)S
+72 425 Mt(    3.9  The .macro directiv)S -0.275 R(e)S 4.382 R
+0 Sf (........................................................)S
+(......................................................)S
+515.883 425 Mt 18 Sf (7)S
+72 413 Mt(    3.10  The .pop directiv)S -0.275 R(e)S 2.226 R 0 Sf
+(.............................................................)S
+(....................................................)S
+515.883 413 Mt 18 Sf (8)S
+72 401 Mt(    3.11  The .push directiv)S -0.275 R(e)S 2.226 R
+0 Sf (........................................................)S
+(.......................................................)S
+515.883 401 Mt 18 Sf (8)S
+72 389 Mt(    3.12  The .re)S -0.33 R(vision directiv)S -0.275 R(e)S
+2.259 R 0 Sf (................................................)S
+(..........................................................)S
+515.883 389 Mt 18 Sf (8)S
+72 377 Mt(    3.13  The .set directiv)S -0.275 R(e)S 3.15 R 0 Sf
+(.............................................................)S
+(.....................................................)S
+515.883 377 Mt 18 Sf (9)S
+72 365 Mt( )S
+72 353 Mt 20 Sf (4.  The standar)S -0.22 R(d macr)S -0.22 R(os)S
+( f)S -0.22 R(or DocBook)S 2.325 R 0 Sf (.....................)S
+(.............................................................)S
+(....)S
+509.767 353 Mt 20 Sf (10)S
+72 341 Mt 18 Sf ( )S
+72 329 Mt(    4.1  Ov)S -0.275 R(er)S -0.11 R(all setup)S 2.963 R
+0 Sf (........................................................)S
+(.............................................................)S
+(....)S
+509.767 329 Mt 18 Sf (10)S
+72 317 Mt(    4.2  Chapters)S -0.165 R(, sections)S -0.165 R(,)S
+( and subsections)S 3.766 R 0 Sf (............................)S
+(....................................................)S
+509.767 317 Mt 18 Sf (10)S
+72 305 Mt(    4.3  URL ref)S -0.33 R(erences)S 4.437 R 0 Sf (.)S
+(.............................................................)S
+(......................................................)S
+509.767 305 Mt 18 Sf (10)S
+72 293 Mt(    4.4  Itemiz)S -0.165 R(ed lists)S 3.975 R 0 Sf ()S
+(.............................................................)S
+(............................................................)S
+509.767 293 Mt 18 Sf (11)S
+72 281 Mt(    4.5  Ordered lists)S 2.281 R 0 Sf (.............)S
+(.............................................................)S
+(................................................)S
+509.767 281 Mt 18 Sf (11)S
+72 269 Mt(    4.6  V)S -0.77 R(ar)S 0.165 R(iab)S -0.22 R(le l)S
+(ists)S 3.106 R 0 Sf (........................................)S
+(.............................................................)S
+(.....................)S
+509.767 269 Mt 18 Sf (11)S
+72 257 Mt(    4.7  Nested lists)S 2.281 R 0 Sf (..............)S
+(.............................................................)S
+(.................................................)S
+509.767 257 Mt 18 Sf (12)S
+72 245 Mt(    4.8  Displa)S -0.33 R(y)S -0.22 R(ed te)S -0.33 R(x)S
+(t)S 4.679 R 0 Sf (...........................................)S
+(.............................................................)S
+(...............)S
+509.767 245 Mt 18 Sf (12)S
+72 233 Mt(    4.9  Bloc)S -0.22 R(k quotes)S 4.624 R 0 Sf (...)S
+(.............................................................)S
+(.........................................................)S
+509.767 233 Mt 18 Sf (12)S
+72 221 Mt(    4.10  Re)S -0.33 R(vision mar)S 0.165 R(kings)S
+4.58 R 0 Sf (.................................................)S
+(............................................................)S
+509.767 221 Mt 18 Sf (12)S
+72 209 Mt(    4.11  Inf)S -0.33 R(or)S 0.275 R(mal tab)S -0.22 R(l)S
+(es)S 3.15 R 0 Sf (...........................................)S
+(.............................................................)S
+(............)S
+509.767 209 Mt 18 Sf (13)S
+72 197 Mt(    4.12  Inde)S -0.33 R(x)S -0.33 R(es)S 4.151 R 0 Sf
+(.............................................................)S
+(.............................................................)S
+(......)S
+509.767 197 Mt 18 Sf (14)S
+72 72 Mt 0 Sf ( )S
+292.412 60 Mt 2 Sf (iii)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: iv 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 1 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+241.6 764 Mt 4 Sf (1. Intr)S -0.32 R(oduction)S
+72 737 Mt 2 Sf (xfpt)S 3.321 R 0 Sf (is)S 3.321 R(a)S 3.321 R(p)S
+(rogram)S 3.321 R(that)S 3.321 R(reads)S 3.321 R(a)S 3.321 R(m)S
+(ark)S -0.11 R(ed-up)S 3.321 R(ASCII)S 3.321 R(source)S 3.321 R
+1 Sf (\216)S 0 Sf (le,)S 3.321 R(and)S 3.321 R(con)S -0.44 R(v)S
+-0.165 R(erts)S 3.321 R(it)S 3.321 R(into)S 3.321 R(XML.)S 3.321 R(I)S
+(t)S 3.321 R(w)S -0.11 R(as)S 3.321 R(written)S
+72 725 Mt(with)S 5.308 R(DocBook)S 5.308 R(XML)S 5.308 R(in)S
+5.308 R(mind,)S 5.308 R(b)S -0.22 R(ut)S 5.308 R(can)S 5.308 R(a)S
+(lso)S 5.308 R(be)S 5.308 R(used)S 5.308 R(for)S 5.308 R(other)S
+5.308 R(forms)S 5.308 R(of)S 5.308 R(XML.)S 5.308 R(Unlik)S -0.11 R(e)S
+5.308 R 2 Sf (AsciiDoc)S
+72 713 Mt 0 Sf (\()S 6 Sf (http://www)S -0.77 R(.methods.co.nz)S
+(/asciidoc/)S 0 Sf (\),)S 4.159 R 2 Sf (xfpt)S 4.159 R 0 Sf (d)S
+(oes)S 4.159 R(not)S 4.159 R(try)S 4.159 R(to)S 4.159 R(produc)S
+(e)S 4.159 R(XML)S 4.159 R(from)S 4.159 R(a)S 4.159 R(document)S
+4.159 R(that)S 4.159 R(is)S
+72 701 Mt(also)S 2.976 R(usable)S 2.976 R(as)S 2.976 R(a)S 2.976 R(f)S
+(reestanding)S 2.976 R(ASCII)S 2.976 R(document.)S 2.976 R(The)S
+2.976 R(input)S 2.976 R(for)S 2.976 R 2 Sf (xfpt)S 2.976 R 0 Sf
+(is)S 2.976 R(v)S -0.165 R(ery)S 2.976 R(de)S 1 Sf (\216)S 0 Sf
+(nitely)S 2.976 R 1 Sf (\237)S 0 Sf (mark)S -0.11 R(ed)S 2.976 R(u)S
+(p)S 1 Sf (\240)S 0 Sf (.)S 2.976 R(This)S
+72 689 Mt(mak)S -0.11 R(es)S 5.353 R(it)S 5.353 R(less)S 5.353 R(a)S
+(mbiguous)S 5.353 R(for)S 5.353 R(lar)S -0.198 R(ge)S 5.353 R(a)S
+(nd/or)S 5.353 R(complicated)S 5.353 R(documents.)S 5.353 R 2 Sf
+(xfpt)S 5.353 R 0 Sf (is)S 5.353 R(also)S 5.353 R(much)S 5.353 R(f)S
+-0.11 R(aster)S 5.353 R(than)S
+72 677 Mt 2 Sf (AsciiDoc)S 0 Sf ( because it is written in C a)S
+(nd does not rely on pattern matching.)S
+72 656.982 Mt 2 Sf (xfpt)S 3.579 R 0 Sf (is)S 3.579 R(aimed)S
+3.579 R(at)S 3.579 R(users)S 3.579 R(who)S 3.579 R(understand)S
+3.579 R(the)S 3.579 R(XML)S 3.579 R(that)S 3.579 R(the)S -0.165 R(y)S
+3.579 R(are)S 3.579 R(generating.)S 3.579 R(It)S 3.579 R(mak)S
+-0.11 R(es)S 3.579 R(it)S 3.579 R(easy)S 3.579 R(to)S 3.579 R(i)S
+(nclude)S
+72 644.982 Mt(literal)S 3.591 R(XML,)S 3.591 R(either)S 3.591 R(i)S
+(n)S 3.591 R(blocks,)S 3.591 R(or)S 3.591 R(within)S 3.591 R(p)S
+(aragraphs.)S 3.591 R 2 Sf (xfpt)S 3.591 R 0 Sf (restricts)S 3.591 R(i)S
+(tself)S 3.591 R(to)S 3.591 R(tw)S -0.11 R(o)S 3.591 R(special)S
+3.591 R(characters)S 3.591 R(that)S
+72 632.982 Mt(trigger all its processing.)S
+72 612.964 Mt 2 Sf (xfpt)S 3.241 R 0 Sf (treats)S 3.241 R(an)S
+-0.165 R(y)S 3.241 R(input)S 3.241 R(line)S 3.241 R(that)S 3.241 R(s)S
+(tarts)S 3.241 R(with)S 3.241 R(a)S 3.241 R(dot)S 3.241 R(as)S
+3.241 R(a)S 3.241 R 2 Sf (dir)S -0.407 R(ective)S 3.241 R 0 Sf
+(line.)S 3.241 R(Directi)S -0.275 R(v)S -0.165 R(es)S 3.241 R(c)S
+(ontrol)S 3.241 R(the)S 3.241 R(w)S -0.11 R(ay)S 3.241 R(the)S
+3.241 R(input)S
+72 600.964 Mt(is)S 3.886 R(processed.)S 3.886 R(A)S 3.886 R(sm)S
+(all)S 3.886 R(number)S 3.886 R(of)S 3.886 R(directi)S -0.275 R(v)S
+-0.165 R(es)S 3.886 R(are)S 3.886 R(implemented)S 3.886 R(in)S
+3.886 R(the)S 3.886 R(program)S 3.886 R(itself.)S 3.886 R(A)S
+3.886 R(macro)S 3.886 R(f)S -0.11 R(acility)S
+72 588.964 Mt(mak)S -0.11 R(es)S 3.058 R(it)S 3.058 R(possible)S
+3.058 R(to)S 3.058 R(combine)S 3.058 R(these)S 3.058 R(in)S 3.058 R(v)S
+-0.275 R(arious)S 3.058 R(w)S -0.11 R(ays)S 3.058 R(to)S 3.058 R(d)S
+(e)S 1 Sf (\216)S 0 Sf (ne)S 3.058 R(directi)S -0.275 R(v)S -0.165 R(e)S
+(s)S 3.058 R(for)S 3.058 R(higher)S -0.22 R(-le)S -0.275 R(v)S
+-0.165 R(el)S 3.058 R(concepts)S 3.058 R(such)S
+72 576.964 Mt(as)S 2.826 R(chapters)S 2.826 R(and)S 2.826 R(se)S
+(ctions.)S 2.826 R(A)S 2.826 R(standard)S 2.826 R(macro)S 2.826 R(l)S
+(ibrary)S 2.826 R(that)S 2.826 R(generates)S 2.826 R(a)S 2.826 R(s)S
+(imple)S 2.826 R(subset)S 2.826 R(of)S 2.826 R(DocBook)S 2.826 R(X)S
+(ML)S 2.826 R(is)S
+72 564.964 Mt(pro)S -0.165 R(vided.)S 3.033 R(The)S 3.033 R(on)S
+(ly)S 3.033 R(XML)S 3.033 R(element)S 3.033 R(that)S 3.033 R(t)S
+(he)S 3.033 R(program)S 3.033 R(itself)S 3.033 R(generates)S 3.033 R(i)S
+(s)S 3.033 R 8 Sf (<para>)S 0 Sf (;)S 3.033 R(all)S 3.033 R(th)S
+(e)S 3.033 R(others)S 3.033 R(must)S 3.033 R(be)S
+72 552.964 Mt(included)S 2.922 R(as)S 2.922 R(literal)S 2.922 R(X)S
+(ML,)S 2.922 R(either)S 2.922 R(directly)S 2.922 R(in)S 2.922 R(t)S
+(he)S 2.922 R(input)S 2.922 R(te)S -0.165 R(xt,)S 2.922 R(or)S
+-0.44 R(,)S 2.922 R(more)S 2.922 R(commonly)S -0.715 R(,)S 2.922 R(a)S
+(s)S 2.922 R(part)S 2.922 R(of)S 2.922 R(the)S 2.922 R(te)S -0.165 R(x)S
+(t)S 2.922 R(that)S 2.922 R(is)S
+72 540.964 Mt(generated by a macro call.)S
+72 520.946 Mt(The)S 4.158 R(ampersand)S 4.158 R(character)S 4.158 R(i)S
+(s)S 4.158 R(special)S 4.158 R(within)S 4.158 R(non-literal)S
+4.158 R(te)S -0.165 R(xt)S 4.158 R(that)S 4.158 R(is)S 4.158 R(p)S
+(rocessed)S 4.158 R(by)S 4.158 R 2 Sf (xfpt)S 0 Sf (.)S 4.158 R(A)S
+(n)S 4.158 R(ampersand)S
+72 508.946 Mt(introduces)S 3.231 R(a)S 3.231 R 2 Sf (fla)S -0.11 R(g)S
+3.231 R(sequence)S 3.231 R 0 Sf (that)S 3.231 R(modi)S 1 Sf (\216)S
+0 Sf (es)S 3.231 R(the)S 3.231 R(output.)S 3.231 R(Ampersand)S
+3.231 R(w)S -0.11 R(as)S 3.231 R(chosen)S 3.231 R(because)S 3.231 R(i)S
+(t)S 3.231 R(is)S 3.231 R(also)S 3.231 R(special)S
+72 496.946 Mt(in)S 4.13 R(XML.)S 4.13 R(As)S 4.13 R(well)S 4.13 R(a)S
+(s)S 4.13 R(recognizing)S 4.13 R(flag)S 4.13 R(sequences)S 4.13 R(t)S
+(hat)S 4.13 R(be)S -0.165 R(gin)S 4.13 R(with)S 4.13 R(an)S 4.13 R(a)S
+(mpersand,)S 4.13 R 2 Sf (xfpt)S 4.13 R 0 Sf (con)S -0.44 R(v)S
+-0.165 R(erts)S 4.13 R(gra)S -0.22 R(v)S -0.165 R(e)S
+72 484.946 Mt(accents)S 2.804 R(and)S 2.804 R(apostrophes)S 2.804 R(t)S
+(hat)S 2.804 R(appear)S 2.804 R(in)S 2.804 R(non-literal)S 2.804 R(t)S
+(e)S -0.165 R(xt)S 2.804 R(into)S 2.804 R(typographic)S 2.804 R(o)S
+(pening)S 2.804 R(and)S 2.804 R(closing)S 2.804 R(quotes,)S 2.804 R(a)S
+(s)S
+72 472.946 Mt(follo)S -0.275 R(ws:)S
+84 452.928 Mt 8 Sf ( `    )S 0 Sf (  becomes  )S 1 Sf (\241)S
+84 440.928 Mt 8 Sf ( '    )S 0 Sf (  becomes  )S 1 Sf (\242)S
+72 420.91 Mt 0 Sf (W)S -0.44 R(ithin)S 3.259 R(normal)S 3.259 R(i)S
+(nput)S 3.259 R(te)S -0.165 R(xt,)S 3.259 R(ampersand,)S 3.259 R(g)S
+(ra)S -0.22 R(v)S -0.165 R(e)S 3.259 R(accent,)S 3.259 R(and)S
+3.259 R(apostrophe)S 3.259 R(are)S 3.259 R(the)S 3.259 R(only)S
+3.259 R(characters)S 3.259 R(that)S 3.259 R(cause)S
+72 408.91 Mt 2 Sf (xfpt)S 4.574 R 0 Sf (to)S 4.574 R(change)S
+4.574 R(the)S 4.574 R(input)S 4.574 R(te)S -0.165 R(xt,)S 4.574 R(a)S
+(nd)S 4.574 R(this)S 4.574 R(applies)S 4.574 R(only)S 4.574 R(t)S
+(o)S 4.574 R(non-literal)S 4.574 R(te)S -0.165 R(xt.)S 4.574 R(I)S
+(n)S 4.574 R(literal)S 4.574 R(te)S -0.165 R(xt,)S 4.574 R(the)S
+(re)S 4.574 R(are)S 4.574 R(no)S
+72 396.91 Mt(markup)S 3.307 R(characters,)S 3.307 R(and)S 3.307 R(o)S
+(nly)S 3.307 R(a)S 3.307 R(dot)S 3.307 R(at)S 3.307 R(the)S 3.307 R(s)S
+(tart)S 3.307 R(of)S 3.307 R(a)S 3.307 R(line)S 3.307 R(is)S 3.307 R(r)S
+(ecognized)S 3.307 R(as)S 3.307 R(special.)S 3.307 R(W)S -0.44 R(i)S
+(thin)S 3.307 R(the)S 3.307 R(body)S 3.307 R(of)S 3.307 R(a)S
+72 384.91 Mt(macro,)S 4.619 R(there)S 4.619 R(is)S 4.619 R(one)S
+4.619 R(more)S 4.619 R(special)S 4.619 R(character:)S 4.619 R(t)S
+(he)S 4.619 R(dollar)S 4.619 R(character)S 4.619 R(is)S 4.619 R(u)S
+(sed)S 4.619 R(to)S 4.619 R(introduce)S 4.619 R(an)S 4.619 R(a)S
+(r)S -0.198 R(gument)S
+72 372.91 Mt(substitution.)S
+72 352.892 Mt(Notwithstanding)S 3.192 R(the)S 3.192 R(pre)S -0.275 R(v)S
+(ious)S 3.192 R(paragraph,)S 3.192 R 2 Sf (xfpt)S 3.192 R 0 Sf
+(kno)S -0.275 R(ws)S 3.192 R(that)S 3.192 R(it)S 3.192 R(is)S
+3.192 R(generating)S 3.192 R(XML,)S 3.192 R(and)S 3.192 R(in)S
+3.192 R(all)S 3.192 R(cases)S 3.192 R(when)S
+72 340.892 Mt(a)S 3.716 R(literal)S 3.716 R(ampersand)S 3.716 R(o)S
+(r)S 3.716 R(angle)S 3.716 R(brack)S -0.11 R(et)S 3.716 R(is)S
+3.716 R(required)S 3.716 R(in)S 3.716 R(the)S 3.716 R(output,)S
+3.716 R(the)S 3.716 R(appropriate)S 3.716 R(XML)S 3.716 R(enti)S
+(ty)S 3.716 R(reference)S
+72 328.892 Mt(\()S 8 Sf (&amp;)S 0 Sf (, )S 8 Sf (&lt;)S 0 Sf
+(, or )S 8 Sf (&gt;)S 0 Sf (, respecti)S -0.275 R(v)S -0.165 R(e)S
+(ly\) is generated.)S
+72 298.981 Mt 10 Sf (1.1 The )S(xfpt)S( command line)S
+72 279.842 Mt 0 Sf (The format of the )S 2 Sf (xfpt)S 0 Sf ( c)S
+(ommand line is:)S
+84 259.824 Mt 8 Sf (xfpt [)S 2 Sf (options)S 8 Sf (] [)S 2 Sf
+(input sour)S -0.407 R(ce)S 8 Sf (])S
+72 241.139 Mt 0 Sf (If no input is speci)S 1 Sf (\216)S 0 Sf (e)S
+(d, the standard input is read. There are three options:)S
+84 223.139 Mt 8 Sf (-help)S
+72 205.139 Mt 0 Sf (This option causes )S 2 Sf (xfpt)S 0 Sf ( )S
+(to output its )S 1 Sf (\237)S 0 Sf (usage)S 1 Sf (\240)S 0 Sf
+( message, and e)S -0.165 R(xit.)S
+84 187.139 Mt 8 Sf (-o )S 2 Sf (<output destination>)S
+72 169.139 Mt 0 Sf (This)S 4.292 R(option)S 4.292 R(o)S -0.165 R(v)S
+-0.165 R(errides)S 4.292 R(the)S 4.292 R(def)S -0.11 R(ault)S
+4.292 R(destination.)S 4.292 R(If)S 4.292 R(the)S 4.292 R(stan)S
+(dard)S 4.292 R(input)S 4.292 R(is)S 4.292 R(being)S 4.292 R(r)S
+(ead,)S 4.292 R(the)S 4.292 R(def)S -0.11 R(ault)S 4.292 R(des)S
+(ti-)S
+72 157.139 Mt(nation)S 3.328 R(is)S 3.328 R(the)S 3.328 R(stan)S
+(dard)S 3.328 R(output.)S 3.328 R(Otherwise,)S 3.328 R(the)S 3.328 R(d)S
+(ef)S -0.11 R(ault)S 3.328 R(destination)S 3.328 R(is)S 3.328 R(t)S
+(he)S 3.328 R(name)S 3.328 R(of)S 3.328 R(the)S 3.328 R(input)S
+3.328 R 1 Sf (\216)S 0 Sf (le)S 3.328 R(with)S 3.328 R(the)S
+72 145.139 Mt(e)S -0.165 R(xtension)S 2.964 R 2 Sf (.xml)S 0 Sf
+(,)S 2.964 R(replacing)S 2.964 R(its)S 2.964 R(e)S -0.165 R(xi)S
+(sting)S 2.964 R(e)S -0.165 R(xtension)S 2.964 R(if)S 2.964 R(t)S
+(here)S 2.964 R(is)S 2.964 R(one.)S 2.964 R(A)S 2.964 R(single)S
+2.964 R(h)S -0.055 R(yphen)S 2.964 R(character)S 2.964 R(can)S
+2.964 R(be)S 2.964 R(gi)S -0.275 R(v)S -0.165 R(en)S
+72 133.139 Mt(as an output destination to refer to the standar)S
+(d output.)S
+84 115.139 Mt 8 Sf (-S )S 2 Sf (<dir)S -0.407 R(ectory path>)S
+72 97.139 Mt 0 Sf (This)S 3.522 R(option)S 3.522 R(o)S -0.165 R(v)S
+-0.165 R(errides)S 3.522 R(the)S 3.522 R(path)S 3.522 R(to)S 3.522 R
+2 Sf (xfpt)S 1 Sf (\242)S 0 Sf -0.605 R(s)S 3.522 R(library)S
+3.522 R(directory)S 3.522 R(that)S 3.522 R(is)S 3.522 R(b)S -0.22 R(u)S
+(ilt)S 3.522 R(into)S 3.522 R(the)S 3.522 R(program.)S 3.522 R(T)S
+(his)S 3.522 R(mak)S -0.11 R(es)S 3.522 R(it)S
+72 85.139 Mt(possible to use or test alternate libraries.)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 6
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 767 Mt 10 Sf (1.2 A shor)S 0.26 R(t )S(xfpt)S( e)S -0.195 R(x)S
+(ample)S
+72 747.334 Mt 0 Sf (Here)S 3.378 R(is)S 3.378 R(a)S 3.378 R(v)S
+-0.165 R(ery)S 3.378 R(short)S 3.378 R(e)S -0.165 R(xample)S 3.378 R(o)S
+(f)S 3.378 R(a)S 3.378 R(complete)S 3.378 R 2 Sf (xfpt)S 3.378 R
+0 Sf (input)S 3.378 R 1 Sf (\216)S 0 Sf (le)S 3.378 R(that)S 3.378 R(u)S
+(ses)S 3.378 R(some)S 3.378 R(of)S 3.378 R(the)S 3.378 R(stand)S
+(ard)S 3.378 R(macros)S 3.378 R(and)S
+72 735.334 Mt(flags:)S
+84 714.557 Mt 8 Sf ( .include stdflags)S
+84 702.557 Mt( .include stdmacs)S
+84 690.557 Mt( .docbook)S
+84 678.557 Mt( .book)S
+84 654.557 Mt( .chapter "The first chapter")S
+84 642.557 Mt( This is the text of the first chapter. Here is )S
+(an &'italic'&)S
+84 630.557 Mt( word, and here is a &*bold*& one.)S
+84 606.557 Mt( .section "This is a section heading")S
+84 594.557 Mt( We can use the &*ilist*& macro to generate an i)S
+(temized list:)S
+84 582.557 Mt( .ilist)S
+84 570.557 Mt( The first item in the list.)S
+84 558.557 Mt( .next)S
+84 546.557 Mt( The last item in the list.)S
+84 534.557 Mt( .endlist)S
+84 510.557 Mt( There are also standard macros for ordered list)S
+(s, literal)S
+84 498.557 Mt( layout blocks, code blocks, URL references, ind)S
+(ex entries)S
+84 486.557 Mt( and tables.)S
+72 456.224 Mt 10 Sf (1.3 Literal and non-literal pr)S -0.26 R(o)S
+(cessing)S
+72 436.558 Mt 2 Sf (xfpt)S 0 Sf ( processes non-directi)S -0.275 R(v)S
+-0.165 R(e input lines in one of four w)S -0.11 R(ays \(kno)S
+-0.275 R(wn as )S 1 Sf (\237)S 0 Sf (modes)S 1 Sf (\240)S 0 Sf
+(\):)S
+72 415.781 Mt (\267) show 84 415.781 Mt(In)S 3.146 R(the)S 3.146 R(d)S
+(ef)S -0.11 R(ault)S 3.146 R(mode,)S 3.146 R(te)S -0.165 R(xt)S
+3.146 R(is)S 3.146 R(processed)S 3.146 R(paragraph)S 3.146 R(b)S
+(y)S 3.146 R(paragraph.)S 3.146 R(The)S 3.146 R(end)S 3.146 R(o)S
+(f)S 3.146 R(a)S 3.146 R(paragraph)S 3.146 R(is)S 3.146 R(indi)S
+(cated)S
+84 403.781 Mt(by)S 3.372 R(the)S 3.372 R(end)S 3.372 R(of)S 3.372 R(t)S
+(he)S 3.372 R(input,)S 3.372 R(a)S 3.372 R(blank)S 3.372 R(lin)S
+(e,)S 3.372 R(or)S 3.372 R(by)S 3.372 R(an)S 3.372 R(occurrenc)S
+(e)S 3.372 R(of)S 3.372 R(the)S 3.372 R 6 Sf (.literal)S 3.372 R
+0 Sf (directi)S -0.275 R(v)S -0.165 R(e.)S 3.372 R(Other)S 3.372 R(d)S
+(irecti)S -0.275 R(v)S -0.165 R(es)S
+84 391.781 Mt(\(for)S 3.618 R(e)S -0.165 R(xample,)S 3.618 R 6 Sf
+(.include)S 0 Sf (\))S 3.618 R(do)S 3.618 R(not)S 3.618 R(of)S
+3.618 R(themselv)S -0.165 R(es)S 3.618 R(terminate)S 3.618 R(a)S
+3.618 R(paragraph.)S 3.618 R(Most)S 3.618 R(of)S 3.618 R(the)S
+3.618 R(standard)S 3.618 R(macros)S
+84 379.781 Mt(\(such)S 4.538 R(as)S 4.538 R 6 Sf (.chapter)S 4.538 R
+0 Sf (and)S 4.538 R 6 Sf (.section)S 0 Sf (\))S 4.538 R(force)S
+4.538 R(a)S 4.538 R(paragraph)S 4.538 R(end)S 4.538 R(by)S 4.538 R(s)S
+(tarting)S 4.538 R(their)S 4.538 R(contents)S 4.538 R(with)S 4.538 R(a)S
+4.538 R 6 Sf (.literal)S
+84 367.781 Mt 0 Sf (directi)S -0.275 R(v)S -0.165 R(e.)S
+84 347.004 Mt(Because)S 4.956 R 2 Sf (xfpt)S 4.956 R 0 Sf (rea)S
+(ds)S 4.956 R(a)S 4.956 R(whole)S 4.956 R(paragraph)S 4.956 R(b)S
+(efore)S 4.956 R(processing)S 4.956 R(it,)S 4.956 R(error)S 4.956 R(m)S
+(essages)S 4.956 R(contain)S 4.956 R(the)S 4.956 R(phrase)S
+84 335.004 Mt 1 Sf (\237)S 0 Sf (detected near line )S 2 Sf (n)S
+(nn)S 1 Sf (\240)S 0 Sf (, where the line number is typically )S
+(that of the last line of the paragraph.)S
+72 314.227 Mt (\267) show 84 314.227 Mt(In)S 2.839 R(the)S 2.839 R
+1 Sf (\237)S 0 Sf (literal)S 2.839 R(layout)S 1 Sf (\240)S 2.839 R
+0 Sf (mode,)S 2.839 R(te)S -0.165 R(xt)S 2.839 R(is)S 2.839 R(p)S
+(rocessed)S 2.839 R(line)S 2.839 R(by)S 2.839 R(line,)S 2.839 R(b)S
+-0.22 R(ut)S 2.839 R(is)S 2.839 R(otherwise)S 2.839 R(handled)S
+2.839 R(as)S 2.839 R(in)S 2.839 R(the)S 2.839 R(def)S -0.11 R(a)S
+(ult)S
+84 302.227 Mt(mode.)S 4.508 R(The)S 4.508 R(only)S 4.508 R(rea)S
+(l)S 4.508 R(dif)S -0.275 R(ference)S 4.508 R(this)S 4.508 R(m)S
+(ak)S -0.11 R(es)S 4.508 R(to)S 4.508 R(the)S 4.508 R(markup)S
+4.508 R(from)S 4.508 R(the)S 4.508 R(user)S 1 Sf (\242)S 0 Sf
+-0.605 R(s)S 4.508 R(point)S 4.508 R(of)S 4.508 R(vie)S -0.275 R(w)S
+4.508 R(is)S 4.508 R(that)S
+84 290.227 Mt(paired)S 3.361 R(flags)S 3.361 R(must)S 3.361 R(b)S
+(e)S 3.361 R(on)S 3.361 R(the)S 3.361 R(same)S 3.361 R(line.)S
+3.361 R(In)S 3.361 R(this)S 3.361 R(mode,)S 3.361 R(error)S 3.361 R(m)S
+(essages)S 3.361 R(are)S 3.361 R(more)S 3.361 R(lik)S -0.11 R(e)S
+(ly)S 3.361 R(to)S 3.361 R(contain)S 3.361 R(the)S
+84 278.227 Mt(e)S -0.165 R(xact)S 3.256 R(line)S 3.256 R(numbe)S
+(r)S 3.256 R(where)S 3.256 R(the)S 3.256 R(f)S -0.11 R(ault)S
+3.256 R(lies.)S 3.256 R(Literal)S 3.256 R(layout)S 3.256 R(mod)S
+(e)S 3.256 R(is)S 3.256 R(used)S 3.256 R(by)S 3.256 R(the)S 3.256 R(s)S
+(tandard)S 3.256 R 6 Sf (.display)S 3.256 R 0 Sf (macro)S
+84 266.227 Mt(to generate )S 8 Sf (<literallayout>)S 0 Sf ( el)S
+(ements.)S
+72 247.666 Mt (\267) show 84 247.666 Mt(In)S 3.199 R(the)S 3.199 R
+1 Sf (\237)S 0 Sf (literal)S 3.199 R(te)S -0.165 R(xt)S 1 Sf (\240)S
+3.199 R 0 Sf (mode,)S 3.199 R(te)S -0.165 R(xt)S 3.199 R(is)S
+3.199 R(also)S 3.199 R(processed)S 3.199 R(line)S 3.199 R(by)S
+3.199 R(line,)S 3.199 R(b)S -0.22 R(ut)S 3.199 R(no)S 3.199 R(f)S
+(lags)S 3.199 R(are)S 3.199 R(recognized.)S 3.199 R(The)S 3.199 R(o)S
+(nly)S
+84 235.666 Mt(modi)S 1 Sf (\216)S 0 Sf (cation)S 4.011 R 2 Sf
+(xfpt)S 4.011 R 0 Sf (mak)S -0.11 R(es)S 4.011 R(to)S 4.011 R(t)S
+(he)S 4.011 R(te)S -0.165 R(xt)S 4.011 R(is)S 4.011 R(to)S 4.011 R(t)S
+(urn)S 4.011 R(ampersand)S 4.011 R(and)S 4.011 R(angle)S 4.011 R(b)S
+(rack)S -0.11 R(et)S 4.011 R(characters)S 4.011 R(into)S 4.011 R(X)S
+(ML)S
+84 223.666 Mt(entity)S 11.196 R(references.)S 11.196 R(This)S
+11.196 R(mode)S 11.196 R(is)S 11.196 R(used)S 11.196 R(by)S 11.196 R(t)S
+(he)S 11.196 R(standard)S 11.196 R 6 Sf (.code)S 11.196 R 0 Sf
+(macro)S 11.196 R(to)S 11.196 R(generate)S
+84 211.666 Mt 8 Sf (<literallayout>)S 0 Sf ( elements that inc)S
+(lude )S 8 Sf (class=monospaced)S 0 Sf (.)S
+72 193.666 Mt (\267) show 84 193.666 Mt(In)S 4.126 R(the)S 4.126 R
+1 Sf (\237)S 0 Sf (literal)S 4.126 R(XML)S 1 Sf (\240)S 4.126 R
+0 Sf (mode,)S 4.126 R(te)S -0.165 R(xt)S 4.126 R(lines)S 4.126 R(a)S
+(re)S 4.126 R(copied)S 4.126 R(to)S 4.126 R(the)S 4.126 R(outp)S
+(ut)S 4.126 R(without)S 4.126 R(modi)S 1 Sf (\216)S 0 Sf (cati)S
+(on.)S 4.126 R(This)S 4.126 R(is)S 4.126 R(the)S
+84 181.666 Mt(easiest)S 6.598 R(w)S -0.11 R(ay)S 6.598 R(to)S
+6.598 R(include)S 6.598 R(a)S 6.598 R(chunk)S 6.598 R(of)S 6.598 R(l)S
+(iteral)S 6.598 R(XML)S 6.598 R(in)S 6.598 R(the)S 6.598 R(out)S
+(put.)S 6.598 R(An)S 6.598 R(e)S -0.165 R(xample)S 6.598 R(mig)S
+(ht)S 6.598 R(be)S 6.598 R(the)S
+84 169.666 Mt 8 Sf (<bookinfo>)S 3.284 R 0 Sf (element,)S 3.284 R(w)S
+(hich)S 3.284 R(occurs)S 3.284 R(only)S 3.284 R(once)S 3.284 R(i)S
+(n)S 3.284 R(a)S 3.284 R(document.)S 3.284 R(It)S 3.284 R(is)S
+3.284 R(not)S 3.284 R(w)S -0.11 R(orth)S 3.284 R(setting)S 3.284 R(u)S
+(p)S 3.284 R(a)S 3.284 R(macro)S
+84 157.666 Mt(for a one-of)S -0.275 R(f item lik)S -0.11 R(e t)S
+(his.)S
+72 139.666 Mt(The)S 4.57 R 6 Sf (.literal)S 4.57 R 0 Sf (direc)S
+(ti)S -0.275 R(v)S -0.165 R(e)S 4.57 R(switches)S 4.57 R(betwe)S
+(en)S 4.57 R(the)S 4.57 R(modes.)S 4.57 R(It)S 4.57 R(is)S 4.57 R(n)S
+(ot)S 4.57 R(normally)S 4.57 R(used)S 4.57 R(directly)S -0.715 R(,)S
+4.57 R(b)S -0.22 R(ut)S 4.57 R(instead)S 4.57 R(is)S
+72 127.666 Mt(incorported into appropriate macro de)S 1 Sf (\216)S
+0 Sf (nitions.)S
+72 109.666 Mt(Directi)S -0.275 R(v)S -0.165 R(e)S 3.469 R(line)S
+(s)S 3.469 R(are)S 3.469 R(recognized)S 3.469 R(and)S 3.469 R(a)S
+(cted)S 3.469 R(upon)S 3.469 R(in)S 3.469 R(all)S 3.469 R(four)S
+3.469 R(modes.)S 3.469 R(Ho)S -0.275 R(we)S -0.275 R(v)S -0.165 R(e)S
+(r)S -0.44 R(,)S 3.469 R(an)S 3.469 R(unrecognized)S 3.469 R(l)S
+(ine)S 3.469 R(that)S
+72 97.666 Mt(starts)S 3.396 R(with)S 3.396 R(a)S 3.396 R(dot)S
+3.396 R(in)S 3.396 R(the)S 3.396 R(literal)S 3.396 R(te)S -0.165 R(x)S
+(t)S 3.396 R(or)S 3.396 R(literal)S 3.396 R(XML)S 3.396 R(mode)S
+3.396 R(is)S 3.396 R(treated)S 3.396 R(as)S 3.396 R(data.)S 3.396 R(I)S
+(n)S 3.396 R(the)S 3.396 R(other)S 3.396 R(modes,)S 3.396 R(su)S
+(ch)S 3.396 R(a)S
+72 85.666 Mt(line pro)S -0.165 R(v)S -0.22 R(ok)S -0.11 R(es a)S
+(n error)S -0.605 R(.)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 7
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (If)S 3.313 R(you)S 3.313 R(need)S 3.313 R(to)S
+3.313 R(ha)S -0.22 R(v)S -0.165 R(e)S 3.313 R(a)S 3.313 R(data)S
+3.313 R(line)S 3.313 R(that)S 3.313 R(be)S -0.165 R(gins)S 3.313 R(w)S
+(ith)S 3.313 R(a)S 3.313 R(dot)S 3.313 R(in)S 3.313 R(literal)S
+3.313 R(layout)S 3.313 R(mode,)S 3.313 R(you)S 3.313 R(can)S 3.313 R(e)S
+(ither)S 3.313 R(specify)S 3.313 R(it)S
+72 756 Mt(by)S 3.02 R(character)S 3.02 R(number)S -0.44 R(,)S
+3.02 R(or)S 3.02 R(precede)S 3.02 R(it)S 3.02 R(with)S 3.02 R(s)S
+(ome)S 3.02 R(non-acting)S 3.02 R(markup.)S 3.02 R(These)S 3.02 R(t)S
+(w)S -0.11 R(o)S 3.02 R(e)S -0.165 R(xamples)S 3.02 R(are)S 3.02 R(b)S
+(oth)S 3.02 R(v)S -0.275 R(alid:)S
+84 733.645 Mt 8 Sf (&#x2e;start with a dot)S
+84 721.645 Mt(&''&.start with a dot)S
+72 699.29 Mt 0 Sf (The)S 3.504 R(second)S 3.504 R(e)S -0.165 R(x)S
+(ample)S 3.504 R(assumes)S 3.504 R(the)S 3.504 R(standard)S 3.504 R(f)S
+(lags)S 3.504 R(are)S 3.504 R(de)S 1 Sf (\216)S 0 Sf (ned:)S 3.504 R(i)S
+(t)S 3.504 R(precedes)S 3.504 R(the)S 3.504 R(dot)S 3.504 R(wi)S
+(th)S 3.504 R(an)S 3.504 R(empty)S 3.504 R(italic)S
+72 687.29 Mt(string. Ho)S -0.275 R(we)S -0.275 R(v)S -0.165 R(e)S
+(r)S -0.44 R(, this is untidy because the empty string will be)S
+( carried o)S -0.165 R(v)S -0.165 R(er into the XML.)S
+72 664.935 Mt(In)S 3.005 R(literal)S 3.005 R(te)S -0.165 R(xt)S
+3.005 R(or)S 3.005 R(literal)S 3.005 R(XML)S 3.005 R(mode,)S 3.005 R(i)S
+(t)S 3.005 R(is)S 3.005 R(not)S 3.005 R(possible)S 3.005 R(to)S
+3.005 R(ha)S -0.22 R(v)S -0.165 R(e)S 3.005 R(a)S 3.005 R(data)S
+3.005 R(line)S 3.005 R(that)S 3.005 R(starts)S 3.005 R(with)S
+3.005 R(a)S 3.005 R(dot)S 3.005 R(follo)S -0.275 R(wed)S
+72 652.935 Mt(by)S 3.467 R(the)S 3.467 R(name)S 3.467 R(of)S 3.467 R(a)S
+3.467 R(directi)S -0.275 R(v)S -0.165 R(e)S 3.467 R(or)S 3.467 R(m)S
+(acro.)S 3.467 R(Y)S -1.21 R(ou)S 3.467 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.467 R(to)S 3.467 R(use)S 3.467 R(literal)S 3.467 R(layout)S
+3.467 R(mode)S 3.467 R(if)S 3.467 R(you)S 3.467 R(require)S 3.467 R(s)S
+(uch)S 3.467 R(output.)S
+72 640.935 Mt(Another)S 2.757 R(solution,)S 2.757 R(which)S 2.757 R(i)S
+(s)S 2.757 R(used)S 2.757 R(in)S 2.757 R(the)S 2.757 R(source)S
+2.757 R(for)S 2.757 R(this)S 2.757 R(document)S 2.757 R(\(wher)S
+(e)S 2.757 R(man)S -0.165 R(y)S 2.757 R(e)S -0.165 R(xamples)S
+2.757 R(sho)S -0.275 R(w)S 2.757 R(directi)S -0.275 R(v)S -0.165 R(e)S
+72 628.935 Mt(lines\), is to indent e)S -0.275 R(v)S -0.165 R(e)S
+(ry displayed line by one space, and thereby a)S -0.22 R(v)S -0.22 R(o)S
+(id the problem altogether)S -0.605 R(.)S
+72 597.371 Mt 10 Sf (1.4 Format of directive lines)S
+72 576.166 Mt 0 Sf (If)S 3.152 R(an)S 3.152 R(input)S 3.152 R(l)S
+(ine)S 3.152 R(starts)S 3.152 R(with)S 3.152 R(a)S 3.152 R(dot)S
+3.152 R(follo)S -0.275 R(wed)S 3.152 R(by)S 3.152 R(a)S 3.152 R(s)S
+(pace,)S 3.152 R(it)S 3.152 R(is)S 3.152 R(ignored)S 3.152 R(b)S
+(y)S 3.152 R 2 Sf (xfpt)S 0 Sf (.)S 3.152 R(This)S 3.152 R(pro)S
+-0.165 R(vides)S 3.152 R(a)S 3.152 R(f)S -0.11 R(acility)S 3.152 R(f)S
+(or)S
+72 564.166 Mt(including)S 3.289 R(comments)S 3.289 R(in)S 3.289 R(t)S
+(he)S 3.289 R(input.)S 3.289 R(Otherwise,)S 3.289 R(the)S 3.289 R(d)S
+(ot)S 3.289 R(must)S 3.289 R(be)S 3.289 R(follo)S -0.275 R(wed)S
+3.289 R(by)S 3.289 R(a)S 3.289 R(directi)S -0.275 R(v)S -0.165 R(e)S
+3.289 R(or)S 3.289 R(macro)S 3.289 R(name,)S
+72 552.166 Mt(and)S 3.406 R(possibly)S 3.406 R(one)S 3.406 R(o)S
+(r)S 3.406 R(more)S 3.406 R(ar)S -0.198 R(guments.)S 3.406 R(A)S
+(r)S -0.198 R(guments)S 3.406 R(that)S 3.406 R(are)S 3.406 R(s)S
+(trings)S 3.406 R(are)S 3.406 R(delimited)S 3.406 R(by)S 3.406 R(w)S
+(hite)S 3.406 R(space)S 3.406 R(unless)S
+72 540.166 Mt(the)S -0.165 R(y)S 3.141 R(are)S 3.141 R(enclose)S
+(d)S 3.141 R(in)S 3.141 R(single)S 3.141 R(or)S 3.141 R(double)S
+3.141 R(quotes.)S 3.141 R(The)S 3.141 R(delimiting)S 3.141 R(q)S
+(uote)S 3.141 R(character)S 3.141 R(can)S 3.141 R(be)S 3.141 R(i)S
+(ncluded)S 3.141 R(within)S 3.141 R(a)S
+72 528.166 Mt(quoted string by doubling it. Here are some e)S
+-0.165 R(xamples:)S
+84 505.811 Mt 8 Sf (.literal layout)S
+84 493.811 Mt(.set version 0.00)S
+84 481.811 Mt(.row "Jack's house" 'Jill''s house')S
+72 459.456 Mt 0 Sf (An)S 3.336 R(unrecognized)S 3.336 R(direct)S
+(i)S -0.275 R(v)S -0.165 R(e)S 3.336 R(line)S 3.336 R(normally)S
+3.336 R(causes)S 3.336 R(an)S 3.336 R(error;)S 3.336 R(ho)S -0.275 R(w)S
+(e)S -0.275 R(v)S -0.165 R(er)S -0.44 R(,)S 3.336 R(in)S 3.336 R(t)S
+(he)S 3.336 R(literal)S 3.336 R(te)S -0.165 R(xt)S 3.336 R(and)S
+3.336 R(literal)S 3.336 R(XML)S
+72 447.456 Mt(modes, an unrecognized line that starts with a d)S
+(ot is treated as a data line.)S
+72 415.892 Mt 10 Sf (1.5 Calling macr)S -0.26 R(os)S
+72 394.687 Mt 0 Sf (Macros)S 3.161 R(are)S 3.161 R(de)S 1 Sf (\216)S
+0 Sf (ned)S 3.161 R(by)S 3.161 R(the)S 3.161 R 6 Sf (.macr)S -0.198 R(o)S
+3.161 R 0 Sf (directi)S -0.275 R(v)S -0.165 R(e,)S 3.161 R(whi)S
+(ch)S 3.161 R(is)S 3.161 R(described)S 3.161 R(in)S 3.161 R(se)S
+(ction)S 3.161 R 0 0 1 setrgbcolor
+[/Rect [402.159 391.687 417.909 405.687] /Page 11 /View [/XYZ 0 523 null] /LNK pdfmark
+(3.9)S 0 0 0 setrgbcolor(.)S 3.161 R(There)S 3.161 R(are)S 3.161 R(t)S
+(w)S -0.11 R(o)S 3.161 R(w)S -0.11 R(ays)S 3.161 R(of)S
+72 382.687 Mt(calling)S 3.599 R(a)S 3.599 R(macro.)S 3.599 R(I)S
+(t)S 3.599 R(can)S 3.599 R(be)S 3.599 R(called)S 3.599 R(in)S
+3.599 R(the)S 3.599 R(same)S 3.599 R(w)S -0.11 R(ay)S 3.599 R(a)S
+(s)S 3.599 R(a)S 3.599 R(directi)S -0.275 R(v)S -0.165 R(e,)S
+3.599 R(or)S 3.599 R(it)S 3.599 R(can)S 3.599 R(be)S 3.599 R(c)S
+(alled)S 3.599 R(from)S 3.599 R(within)S 3.599 R(te)S -0.165 R(x)S
+(t)S
+72 370.687 Mt(that is being processed. The second case is call)S
+(ed an )S 1 Sf (\237)S 0 Sf (inline macro call)S 1 Sf (\240)S
+0 Sf (.)S
+72 348.332 Mt(When)S 3.107 R(a)S 3.107 R(macro)S 3.107 R(is)S
+3.107 R(called)S 3.107 R(as)S 3.107 R(a)S 3.107 R(directi)S -0.275 R(v)S
+-0.165 R(e,)S 3.107 R(its)S 3.107 R(name)S 3.107 R(is)S 3.107 R(g)S
+(i)S -0.275 R(v)S -0.165 R(en)S 3.107 R(after)S 3.107 R(a)S 3.107 R(d)S
+(ot)S 3.107 R(at)S 3.107 R(the)S 3.107 R(start)S 3.107 R(of)S
+3.107 R(a)S 3.107 R(line,)S 3.107 R(and)S 3.107 R(the)S 3.107 R(n)S
+(ame)S
+72 336.332 Mt(may)S 2.759 R(be)S 2.759 R(follo)S -0.275 R(wed)S
+2.759 R(by)S 2.759 R(an)S -0.165 R(y)S 2.759 R(number)S 2.759 R(o)S
+(f)S 2.759 R(optional)S 2.759 R(ar)S -0.198 R(guments,)S 2.759 R(i)S
+(n)S 2.759 R(the)S 2.759 R(same)S 2.759 R(w)S -0.11 R(ay)S 2.759 R(a)S
+(s)S 2.759 R(a)S 2.759 R(b)S -0.22 R(uilt-in)S 2.759 R(directi)S
+-0.275 R(v)S -0.165 R(e)S 2.759 R(\(see)S 2.759 R(the)S
+72 324.332 Mt(pre)S -0.275 R(vious section\). F)S -0.165 R(or )S
+(e)S -0.165 R(xample:)S
+84 301.977 Mt 8 Sf (.chapter "Chapter title" chapter-reference)S
+72 282.41 Mt 0 Sf (The)S 4.493 R(contents)S 4.493 R(of)S 4.493 R(t)S
+(he)S 4.493 R(macro,)S 4.493 R(after)S 4.493 R(ar)S -0.198 R(g)S
+(ument)S 4.493 R(substitution,)S 4.493 R(are)S 4.493 R(process)S
+(ed)S 4.493 R(in)S 4.493 R(e)S -0.165 R(xactly)S 4.493 R(the)S
+4.493 R(same)S 4.493 R(w)S -0.11 R(ay)S 4.493 R(as)S
+72 270.41 Mt(normal input lines. A macro that is called as a d)S
+(irecti)S -0.275 R(v)S -0.165 R(e may contain nested macro cal)S
+(ls.)S
+72 252.41 Mt(When)S 4.972 R(a)S 4.972 R(macro)S 4.972 R(is)S 4.972 R(c)S
+(alled)S 4.972 R(from)S 4.972 R(within)S 4.972 R(a)S 4.972 R(t)S
+(e)S -0.165 R(xt)S 4.972 R(string,)S 4.972 R(its)S 4.972 R(nam)S
+(e)S 4.972 R(is)S 4.972 R(gi)S -0.275 R(v)S -0.165 R(en)S 4.972 R(a)S
+(fter)S 4.972 R(an)S 4.972 R(ampersand,)S 4.972 R(and)S 4.972 R(i)S
+(s)S
+72 240.41 Mt(follo)S -0.275 R(wed)S 4.968 R(by)S 4.968 R(an)S
+4.968 R(opening)S 4.968 R(parenthesis.)S 4.968 R(Ar)S -0.198 R(g)S
+(uments,)S 4.968 R(delimited)S 4.968 R(by)S 4.968 R(commas,)S
+4.968 R(can)S 4.968 R(then)S 4.968 R(follo)S -0.275 R(w)S -0.715 R(,)S
+4.968 R(up)S 4.968 R(to)S 4.968 R(a)S
+72 228.41 Mt(closing)S 4.289 R(parenthesis.)S 4.289 R(If)S 4.289 R(a)S
+(n)S 4.289 R(ar)S -0.198 R(gument)S 4.289 R(contains)S 4.289 R(a)S
+4.289 R(comma)S 4.289 R(or)S 4.289 R(a)S 4.289 R(closing)S 4.289 R(p)S
+(arenthesis,)S 4.289 R(it)S 4.289 R(must)S 4.289 R(be)S 4.289 R(q)S
+(uoted.)S
+72 216.41 Mt(White)S 3.6 R(space)S 3.6 R(after)S 3.6 R(a)S 3.6 R(s)S
+(eparating)S 3.6 R(comma)S 3.6 R(is)S 3.6 R(ignored.)S 3.6 R(T)S
+(he)S 3.6 R(most)S 3.6 R(common)S 3.6 R(e)S -0.165 R(xample)S
+3.6 R(of)S 3.6 R(this)S 3.6 R(type)S 3.6 R(of)S 3.6 R(macro)S
+72 204.41 Mt(call is the standard macro for generating a URL r)S
+(eference:)S
+84 186.41 Mt 8 Sf (Refer to a URL via &url\(http://x.example,t)S
+(his text\).)S
+72 168.41 Mt 0 Sf (There)S 3.393 R(are)S 3.393 R(dif)S -0.275 R(f)S
+(erences)S 3.393 R(in)S 3.393 R(the)S 3.393 R(beha)S -0.22 R(v)S
+(iour)S 3.393 R(of)S 3.393 R(macros,)S 3.393 R(depending)S 3.393 R(o)S
+(n)S 3.393 R(which)S 3.393 R(w)S -0.11 R(ay)S 3.393 R(the)S -0.165 R(y)S
+3.393 R(are)S 3.393 R(called.)S 3.393 R(A)S 3.393 R(macro)S
+72 156.41 Mt(that)S 3.872 R(is)S 3.872 R(called)S 3.872 R(inli)S
+(ne)S 3.872 R(may)S 3.872 R(not)S 3.872 R(contain)S 3.872 R(re)S
+(ferences)S 3.872 R(to)S 3.872 R(other)S 3.872 R(macros;)S 3.872 R(i)S
+(t)S 3.872 R(must)S 3.872 R(contain)S 3.872 R(only)S 3.872 R(t)S
+(e)S -0.165 R(xt)S 3.872 R(lines)S 3.872 R(and)S
+72 144.41 Mt(calls)S 3.472 R(to)S 3.472 R(b)S -0.22 R(uilt-in)S
+3.472 R(directi)S -0.275 R(v)S -0.165 R(es.)S 3.472 R(Also,)S
+3.472 R(ne)S -0.275 R(wlines)S 3.472 R(that)S 3.472 R(terminat)S
+(e)S 3.472 R(te)S -0.165 R(xt)S 3.472 R(lines)S 3.472 R(within)S
+3.472 R(the)S 3.472 R(macro)S 3.472 R(are)S 3.472 R(not)S 3.472 R(i)S
+(ncluded)S
+72 132.41 Mt(in the output.)S
+72 114.41 Mt(A)S 3.564 R(macro)S 3.564 R(that)S 3.564 R(can)S
+3.564 R(be)S 3.564 R(called)S 3.564 R(inline)S 3.564 R(can)S 3.564 R(a)S
+(l)S -0.11 R(w)S -0.11 R(ays)S 3.564 R(be)S 3.564 R(called)S 3.564 R(a)S
+(s)S 3.564 R(a)S 3.564 R(directi)S -0.275 R(v)S -0.165 R(e,)S
+3.564 R(b)S -0.22 R(ut)S 3.564 R(the)S 3.564 R(opposite)S 3.564 R(i)S
+(s)S 3.564 R(not)S 3.564 R(al)S -0.11 R(w)S -0.11 R(ays)S
+72 102.41 Mt(true.)S 4.011 R(Macros)S 4.011 R(are)S 4.011 R(us)S
+(ually)S 4.011 R(designed)S 4.011 R(to)S 4.011 R(be)S 4.011 R(c)S
+(alled)S 4.011 R(either)S 4.011 R(one)S 4.011 R(w)S -0.11 R(ay)S
+4.011 R(or)S 4.011 R(the)S 4.011 R(other)S -0.605 R(.)S 4.011 R(H)S
+(o)S -0.275 R(we)S -0.275 R(v)S -0.165 R(er)S -0.44 R(,)S 4.011 R(t)S
+(he)S 4.011 R 6 Sf (.new)S 4.011 R 0 Sf (and)S
+72 90.41 Mt 6 Sf (.index)S 0 Sf ( macros in the standard libra)S
+(ry are e)S -0.165 R(xamples of macros that are designed be ca)S
+(lled either w)S -0.11 R(ay)S -0.715 R(.)S
+72 72 Mt( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 8
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+228.16 764 Mt 4 Sf (2. Fla)S -0.16 R(g sequences)S
+72 737 Mt 0 Sf (Only)S 4.824 R(one)S 4.824 R(flag)S 4.824 R(se)S
+(quence)S 4.824 R(is)S 4.824 R(b)S -0.22 R(uilt-into)S 4.824 R(t)S
+(he)S 4.824 R(code)S 4.824 R(itself.)S 4.824 R(If)S 4.824 R(an)S
+4.824 R(input)S 4.824 R(line)S 4.824 R(ends)S 4.824 R(with)S 4.824 R(t)S
+(hree)S 4.824 R(ampersands)S
+72 725 Mt(\(ignoring)S 2.976 R(trailing)S 2.976 R(white)S 2.976 R(s)S
+(pace\),)S 2.976 R(the)S 2.976 R(ampersands)S 2.976 R(are)S 2.976 R(r)S
+(emo)S -0.165 R(v)S -0.165 R(ed,)S 2.976 R(and)S 2.976 R(the)S
+2.976 R(ne)S -0.165 R(xt)S 2.976 R(input)S 2.976 R(line,)S 2.976 R(w)S
+(ith)S 2.976 R(an)S -0.165 R(y)S 2.976 R(leading)S
+72 713 Mt(white)S 4.147 R(space)S 4.147 R(remo)S -0.165 R(v)S
+-0.165 R(ed,)S 4.147 R(is)S 4.147 R(joined)S 4.147 R(to)S 4.147 R(t)S
+(he)S 4.147 R(original)S 4.147 R(line.)S 4.147 R(This)S 4.147 R(h)S
+(appens)S 4.147 R(before)S 4.147 R(an)S -0.165 R(y)S 4.147 R(o)S
+(ther)S 4.147 R(processing,)S 4.147 R(and)S
+72 701 Mt(may in)S -0.44 R(v)S -0.22 R(olv)S -0.165 R(e an)S -0.165 R(y)S
+( number of lines. Thus:)S
+84 682.786 Mt 8 Sf (The quick &&&)S
+84 670.786 Mt(    brown &&&)S
+84 658.786 Mt(      fox.)S
+72 640.572 Mt 0 Sf (produces e)S -0.165 R(xactly the same outp)S
+(ut as:)S
+84 622.358 Mt 8 Sf (The quick brown fox.)S
+72 593.272 Mt 10 Sf (2.1 Fla)S -0.13 R(g sequences f)S -0.26 R(o)S
+(r XML entities and )S(xfpt)S( v)S -0.26 R(ariab)S -0.13 R(les)S
+72 575.164 Mt 0 Sf (If)S 4.919 R(an)S 4.919 R(ampersand)S 4.919 R(i)S
+(s)S 4.919 R(follo)S -0.275 R(wed)S 4.919 R(by)S 4.919 R(a)S 4.919 R(#)S
+4.919 R(character)S -0.44 R(,)S 4.919 R(a)S 4.919 R(number)S -0.44 R(,)S
+4.919 R(and)S 4.919 R(a)S 4.919 R(semicolon,)S 4.919 R(it)S 4.919 R(i)S
+(s)S 4.919 R(understood)S 4.919 R(as)S 4.919 R(a)S
+72 563.164 Mt(numerical)S 3.776 R(reference)S 3.776 R(to)S 3.776 R(a)S
+(n)S 3.776 R(XML)S 3.776 R(entity)S -0.715 R(,)S 3.776 R(and)S
+3.776 R(is)S 3.776 R(passed)S 3.776 R(through)S 3.776 R(unmodi)S
+1 Sf (\216)S 0 Sf (ed.)S 3.776 R(The)S 3.776 R(number)S 3.776 R(c)S
+(an)S 3.776 R(be)S 3.776 R(deci-)S
+72 551.164 Mt(mal, or he)S -0.165 R(xadecimal preceded by )S 8 Sf
+(x)S 0 Sf (. F)S -0.165 R(or e)S -0.165 R(xample:)S
+84 532.95 Mt 8 Sf (This is an Ohm sign: &#x2126;.)S
+84 520.95 Mt(This is a degree sign: &#176;.)S
+72 502.736 Mt 0 Sf (If)S 4.877 R(an)S 4.877 R(ampersand)S 4.877 R(i)S
+(s)S 4.877 R(follo)S -0.275 R(wed)S 4.877 R(by)S 4.877 R(a)S 4.877 R(l)S
+(etter)S -0.44 R(,)S 4.877 R(a)S 4.877 R(sequence)S 4.877 R(of)S
+4.877 R(letters,)S 4.877 R(digits,)S 4.877 R(and)S 4.877 R(dot)S
+(s)S 4.877 R(is)S 4.877 R(read.)S 4.877 R(If)S 4.877 R(this)S
+4.877 R(is)S
+72 490.736 Mt(terminated)S 2.752 R(by)S 2.752 R(a)S 2.752 R(se)S
+(micolon,)S 2.752 R(the)S 2.752 R(characters)S 2.752 R(between)S
+2.752 R(the)S 2.752 R(ampersand)S 2.752 R(and)S 2.752 R(the)S
+2.752 R(semicolon)S 2.752 R(are)S 2.752 R(interpreted)S 2.752 R(a)S
+(s)S
+72 478.736 Mt(an entity name. This can be:)S
+72 460.522 Mt (\267) show 84 460.522 Mt(The)S 3.351 R(name)S 3.351 R(o)S
+(f)S 3.351 R(an)S 3.351 R(inb)S -0.22 R(uilt)S 3.351 R 2 Sf (x)S
+(fpt)S 3.351 R 0 Sf (v)S -0.275 R(ariable.)S 3.351 R(At)S 3.351 R(p)S
+(resent,)S 3.351 R(there)S 3.351 R(is)S 3.351 R(only)S 3.351 R(o)S
+(ne)S 3.351 R(of)S 3.351 R(these,)S 3.351 R(called)S 3.351 R 8 Sf
+(xfpt.rev)S 0 Sf (.)S 3.351 R(Its)S
+84 448.522 Mt(use is described with the )S 6 Sf (.r)S -0.198 R(e)S
+-0.165 R(vision)S 0 Sf ( directi)S -0.275 R(v)S -0.165 R(e bel)S
+(o)S -0.275 R(w)S -0.715 R(.)S
+72 430.308 Mt (\267) show 84 430.308 Mt(The name of a user v)S
+-0.275 R(ariable that has been set by the )S 6 Sf (.set)S 0 Sf
+( directi)S -0.275 R(v)S -0.165 R(e, also described belo)S -0.275 R(w)S
+-0.715 R(.)S
+72 412.108 Mt (\267) show 84 412.108 Mt(The)S 3.279 R(name)S 3.279 R(o)S
+(f)S 3.279 R(an)S 3.279 R(XML)S 3.279 R(entity)S -0.715 R(.)S
+3.279 R(This)S 3.279 R(is)S 3.279 R(assumed)S 3.279 R(if)S 3.279 R(t)S
+(he)S 3.279 R(name)S 3.279 R(is)S 3.279 R(not)S 3.279 R(recogn)S
+(ized)S 3.279 R(as)S 3.279 R(one)S 3.279 R(of)S 3.279 R(the)S
+3.279 R(pre)S -0.275 R(vious)S
+84 400.108 Mt(types. In this case, the input te)S -0.165 R(xt )S
+(is passed to the output without modi)S 1 Sf (\216)S 0 Sf (cat)S
+(ion. F)S -0.165 R(or e)S -0.165 R(xample:)S
+96 382.108 Mt 8 Sf (This is an Ohm sign: &Ohm;.)S
+72 353.108 Mt 10 Sf (2.2 Fla)S -0.13 R(g sequences f)S -0.26 R(o)S
+(r calling macr)S -0.26 R(os)S
+72 335.108 Mt 0 Sf (If)S 3.594 R(an)S 3.594 R(ampersand)S 3.594 R(i)S
+(s)S 3.594 R(follo)S -0.275 R(wed)S 3.594 R(by)S 3.594 R(a)S 3.594 R(s)S
+(equence)S 3.594 R(of)S 3.594 R(alphanumeric)S 3.594 R(charact)S
+(ers)S 3.594 R(starting)S 3.594 R(with)S 3.594 R(a)S 3.594 R(l)S
+(etter)S -0.44 R(,)S 3.594 R(termin-)S
+72 323.108 Mt(ated)S 5.737 R(by)S 5.737 R(an)S 5.737 R(opening)S
+5.737 R(parenthesis,)S 5.737 R(the)S 5.737 R(characters)S 5.737 R(b)S
+(etween)S 5.737 R(the)S 5.737 R(ampersand)S 5.737 R(and)S 5.737 R(t)S
+(he)S 5.737 R(parenthesis)S 5.737 R(are)S
+72 311.108 Mt(interpreted as the name of a macro. See section )S 0 0 1 setrgbcolor
+[/Rect [281.166 308.108 296.916 322.108] /Page 7 /View [/XYZ 0 527 null] /LNK pdfmark
+(1.5)S 0 0 0 setrgbcolor( for more details.)S
+72 282.108 Mt 10 Sf (2.3 Other fla)S -0.13 R(g sequences)S
+72 264.108 Mt 0 Sf (An)S -0.165 R(y)S 2.768 R(other)S 2.768 R(f)S
+(lag)S 2.768 R(sequences)S 2.768 R(that)S 2.768 R(are)S 2.768 R(n)S
+(eeded)S 2.768 R(must)S 2.768 R(be)S 2.768 R(de)S 1 Sf (\216)S
+0 Sf (ned)S 2.768 R(by)S 2.768 R(means)S 2.768 R(of)S 2.768 R(t)S
+(he)S 2.768 R 6 Sf (.flag)S 2.768 R 0 Sf (directi)S -0.275 R(v)S
+-0.165 R(e.)S 2.768 R(These)S 2.768 R(are)S 2.768 R(of)S
+72 252.108 Mt(tw)S -0.11 R(o)S 3.542 R(types,)S 3.542 R(standa)S
+(lone)S 3.542 R(and)S 3.542 R(paired.)S 3.542 R(Both)S 3.542 R(c)S
+(ases)S 3.542 R(de)S 1 Sf (\216)S 0 Sf (ne)S 3.542 R(replaceme)S
+(nt)S 3.542 R(te)S -0.165 R(xt.)S 3.542 R(This)S 3.542 R(is)S
+3.542 R(al)S -0.11 R(w)S -0.11 R(ays)S 3.542 R(literal;)S 3.542 R(i)S
+(t)S 3.542 R(is)S 3.542 R(not)S
+72 240.108 Mt(itself scanned for flag occurrences.)S
+72 222.108 Mt(Lines)S 2.896 R(are)S 2.896 R(scanned)S 2.896 R(f)S
+(rom)S 2.896 R(left)S 2.896 R(to)S 2.896 R(right)S 2.896 R(whe)S
+(n)S 2.896 R(flags)S 2.896 R(are)S 2.896 R(being)S 2.896 R(int)S
+(erpreted.)S 2.896 R(If)S 2.896 R(there)S 2.896 R(is)S 2.896 R(a)S
+(n)S -0.165 R(y)S 2.896 R(ambiguity)S 2.896 R(when)S 2.896 R(a)S
+72 210.108 Mt(te)S -0.165 R(xt)S 3.889 R(string)S 3.889 R(is)S
+3.889 R(being)S 3.889 R(scanned,)S 3.889 R(the)S 3.889 R(longe)S
+(st)S 3.889 R(flag)S 3.889 R(sequence)S 3.889 R(wins.)S 3.889 R(T)S
+(hus,)S 3.889 R(it)S 3.889 R(is)S 3.889 R(possible)S 3.889 R(\()S
+(as)S 3.889 R(in)S 3.889 R(the)S 3.889 R(standard)S
+72 198.108 Mt(flag)S 2.817 R(sequences\))S 2.817 R(to)S 2.817 R(d)S
+(e)S 1 Sf (\216)S 0 Sf (ne)S 2.817 R(both)S 2.817 R 8 Sf (&<)S
+2.817 R 0 Sf (and)S 2.817 R 8 Sf (&<<)S 2.817 R 0 Sf (as)S 2.817 R(f)S
+(lags,)S 2.817 R(pro)S -0.165 R(vided)S 2.817 R(that)S 2.817 R(y)S
+(ou)S 2.817 R(ne)S -0.275 R(v)S -0.165 R(er)S 2.817 R(w)S -0.11 R(a)S
+(nt)S 2.817 R(to)S 2.817 R(follo)S -0.275 R(w)S 2.817 R(the)S
+2.817 R 1 Sf (\216)S 0 Sf (rst)S 2.817 R(of)S
+72 186.108 Mt(them with a )S 8 Sf (<)S 0 Sf ( character)S -0.605 R(.)S
+72 168.108 Mt(Y)S -1.21 R(ou)S 3.377 R(can)S 3.377 R(de)S 1 Sf
+(\216)S 0 Sf (ne)S 3.377 R(flags)S 3.377 R(that)S 3.377 R(star)S
+(t)S 3.377 R(with)S 3.377 R 8 Sf (&#)S 0 Sf (,)S 3.377 R(b)S -0.22 R(u)S
+(t)S 3.377 R(these)S 3.377 R(must)S 3.377 R(be)S 3.377 R(used)S
+3.377 R(with)S 3.377 R(care,)S 3.377 R(lest)S 3.377 R(the)S -0.165 R(y)S
+3.377 R(be)S 3.377 R(misinterpreted)S
+72 156.108 Mt(as numerical references to XML entities.)S
+72 138.108 Mt(A)S 3.091 R(standalone)S 3.091 R(flag)S 3.091 R(c)S
+(onsists)S 3.091 R(of)S 3.091 R(an)S 3.091 R(ampersand)S 3.091 R(f)S
+(ollo)S -0.275 R(wed)S 3.091 R(by)S 3.091 R(an)S -0.165 R(y)S
+3.091 R(number)S 3.091 R(of)S 3.091 R(non-alphanumeric)S 3.091 R(c)S
+(haracters.)S
+72 126.108 Mt(When)S 4.842 R(it)S 4.842 R(is)S 4.842 R(encount)S
+(ered,)S 4.842 R(it)S 4.842 R(is)S 4.842 R(replaced)S 4.842 R(b)S
+(y)S 4.842 R(its)S 4.842 R(replacement)S 4.842 R(te)S -0.165 R(x)S
+(t.)S 4.842 R(F)S -0.165 R(or)S 4.842 R(e)S -0.165 R(xample,)S
+4.842 R(in)S 4.842 R(the)S 4.842 R(standard)S 4.842 R(flag)S
+72 114.108 Mt(de)S 1 Sf (\216)S 0 Sf (nitions, )S 8 Sf (&&)S 0 Sf
+( is de)S 1 Sf (\216)S 0 Sf (ned as a standalone flag with wit)S
+(h the replacement te)S -0.165 R(xt )S 8 Sf (&amp;)S 0 Sf (.)S
+72 96.108 Mt(A)S 4.035 R(paired)S 4.035 R(flag)S 4.035 R(is)S
+4.035 R(de)S 1 Sf (\216)S 0 Sf (ned)S 4.035 R(as)S 4.035 R(tw)S
+-0.11 R(o)S 4.035 R(sequences.)S 4.035 R(The)S 4.035 R 1 Sf (\216)S
+0 Sf (rst)S 4.035 R(tak)S -0.11 R(es)S 4.035 R(the)S 4.035 R(s)S
+(ame)S 4.035 R(form)S 4.035 R(as)S 4.035 R(a)S 4.035 R(standal)S
+(one)S 4.035 R(flag.)S 4.035 R(The)S
+72 84.108 Mt(second)S 3.05 R(also)S 3.05 R(consists)S 3.05 R(o)S
+(f)S 3.05 R(non-alphanumeric)S 3.05 R(characters,)S 3.05 R(b)S
+-0.22 R(ut)S 3.05 R(need)S 3.05 R(not)S 3.05 R(start)S 3.05 R(w)S
+(ith)S 3.05 R(an)S 3.05 R(ampersand.)S 3.05 R(It)S 3.05 R(is)S
+3.05 R(often)S
+72 72 Mt( )S
+294.249 60 Mt(4)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 5 9
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (de)S 1 Sf (\216)S 0 Sf (ned)S 3.604 R(as)S 3.604 R(t)S
+(he)S 3.604 R(re)S -0.275 R(v)S -0.165 R(erse)S 3.604 R(of)S 3.604 R(t)S
+(he)S 3.604 R 1 Sf (\216)S 0 Sf (rst)S 3.604 R(sequence.)S 3.604 R(W)S
+(hen)S 3.604 R(the)S 3.604 R 1 Sf (\216)S 0 Sf (rst)S 3.604 R(s)S
+(equence)S 3.604 R(of)S 3.604 R(a)S 3.604 R(paired)S 3.604 R(f)S
+(lag)S 3.604 R(is)S 3.604 R(encountered,)S
+72 756 Mt(its)S 5.299 R(partner)S 5.299 R(is)S 5.299 R(e)S -0.165 R(x)S
+(pected)S 5.299 R(to)S 5.299 R(be)S 5.299 R(found)S 5.299 R(wi)S
+(thin)S 5.299 R(the)S 5.299 R(same)S 5.299 R(paragraph)S 5.299 R(\()S
+(or)S 5.299 R(line,)S 5.299 R(in)S 5.299 R(literal)S 5.299 R(l)S
+(ayout)S 5.299 R(mode\).)S
+72 744 Mt(Furthermore,)S 5.102 R(multiple)S 5.102 R(occurrence)S
+(s)S 5.102 R(of)S 5.102 R(paired)S 5.102 R(flags)S 5.102 R(mus)S
+(t)S 5.102 R(be)S 5.102 R(correctly)S 5.102 R(nested.)S 5.102 R(F)S
+-0.165 R(or)S 5.102 R(e)S -0.165 R(xample,)S 5.102 R(in)S 5.102 R(t)S
+(he)S
+72 732 Mt(standard)S 4.431 R(de)S 1 Sf (\216)S 0 Sf (nitions,)S
+4.431 R 8 Sf (&')S 4.431 R 0 Sf (and)S 4.431 R 8 Sf ('&)S 4.431 R
+0 Sf (are)S 4.431 R(de)S 1 Sf (\216)S 0 Sf (ned)S 4.431 R(as)S
+4.431 R(a)S 4.431 R(flag)S 4.431 R(pair)S 4.431 R(for)S 4.431 R(e)S
+(nclosing)S 4.431 R(te)S -0.165 R(xt)S 4.431 R(in)S 4.431 R(an)S
+4.431 R 8 Sf (<emphasis>)S
+72 720 Mt 0 Sf (element. Each member of the pair is replaced b)S
+(y its replacement te)S -0.165 R(xt.)S
+72 697 Mt(Note)S 4.105 R(that,)S 4.105 R(though)S 4.105 R 2 Sf
+(xfpt)S 4.105 R 0 Sf (diagnoses)S 4.105 R(an)S 4.105 R(error)S
+4.105 R(for)S 4.105 R(badly)S 4.105 R(nested)S 4.105 R(flag)S
+4.105 R(pairs,)S 4.105 R(it)S 4.105 R(does)S 4.105 R(not)S 4.105 R(p)S
+(re)S -0.275 R(v)S -0.165 R(ent)S 4.105 R(you)S 4.105 R(from)S
+72 685 Mt(generating)S 3.159 R(in)S -0.44 R(v)S -0.275 R(alid)S
+3.159 R(XML.)S 3.159 R(F)S -0.165 R(or)S 3.159 R(e)S -0.165 R(x)S
+(ample,)S 3.159 R(DocBook)S 3.159 R(does)S 3.159 R(not)S 3.159 R(a)S
+(llo)S -0.275 R(w)S 3.159 R 8 Sf (<emphasis>)S 3.159 R 0 Sf (w)S
+(ithin)S 3.159 R 8 Sf (<literal>)S 0 Sf (,)S
+72 673 Mt(though it does allo)S -0.275 R(w )S 8 Sf (<literal>)S
+0 Sf ( within )S 8 Sf (<emphasis>)S 0 Sf (.)S
+72 640 Mt 10 Sf (2.4 Unrecogniz)S 0.13 R(ed fla)S -0.13 R(g se)S
+(quences)S
+72 617 Mt 0 Sf (If)S 5.355 R(an)S 5.355 R(ampersand)S 5.355 R(i)S
+(s)S 5.355 R(not)S 5.355 R(follo)S -0.275 R(wed)S 5.355 R(by)S
+5.355 R(a)S 5.355 R(character)S 5.355 R(sequence)S 5.355 R(in)S
+5.355 R(one)S 5.355 R(of)S 5.355 R(the)S 5.355 R(forms)S 5.355 R(d)S
+(escribed)S 5.355 R(in)S 5.355 R(the)S
+72 605 Mt(preceding sections, an error occurs.)S
+72 572 Mt 10 Sf (2.5 Standar)S -0.26 R(d fla)S -0.13 R(g seque)S
+(nces)S
+72 549 Mt 0 Sf (These are the standalone flag sequences that a)S
+(re de)S 1 Sf (\216)S 0 Sf (ned in the )S 2 Sf (stdfla)S -0.11 R(g)S
+(s)S 0 Sf ( )S 1 Sf (\216)S 0 Sf (le in the )S 2 Sf (xfpt)S 0 Sf
+( library:)S
+84 526 Mt 8 Sf (&&        )S 0 Sf ( becomes )S 8 Sf ( &amp;)S
+0 Sf ( \(ampersand\))S
+84 514 Mt 8 Sf (&--       )S 0 Sf ( becomes )S 8 Sf ( &ndash;)S
+0 Sf ( \(en-dash\))S
+84 502 Mt 8 Sf (&~        )S 0 Sf ( becomes )S 8 Sf ( &nbsp;)S
+0 Sf ( \()S 1 Sf (\241)S 0 Sf (hard)S 1 Sf (\242)S 0 Sf ( spac)S
+(e\))S
+72 479 Mt(These are the flag pairs that are de)S 1 Sf (\216)S
+0 Sf (ned in the )S 2 Sf (stdfla)S -0.11 R(gs)S 0 Sf ( )S 1 Sf
+(\216)S 0 Sf (le in the )S 2 Sf (xfpt)S 0 Sf ( library:)S
+84 456 Mt 8 Sf (&"..."&   )S 0 Sf ( becomes )S 8 Sf (<quote>..)S
+(.</quote>)S
+84 444 Mt(&'...'&   )S 0 Sf ( becomes )S 8 Sf (<emphasis>...</)S
+(emphasis>)S
+84 432 Mt(&*...*&   )S 0 Sf ( becomes )S 8 Sf (<emphasis role=)S
+("bold">...</emphasis>)S
+84 420 Mt(&`...`&   )S 0 Sf ( becomes )S 8 Sf (<literal>...</l)S
+(iteral>)S
+84 408 Mt(&_..._&   )S 0 Sf ( becomes )S 8 Sf (<filename>...</)S
+(filename>)S
+84 396 Mt(&\(...\)&   )S 0 Sf ( becomes )S 8 Sf (<command>...<)S
+(/command>)S
+84 384 Mt(&[...]&   )S 0 Sf ( becomes )S 8 Sf (<function>...</)S
+(function>)S
+84 372 Mt(&%...%&   )S 0 Sf ( becomes )S 8 Sf (<option>...</op)S
+(tion>)S
+84 360 Mt(&$...$&   )S 0 Sf ( becomes )S 8 Sf (<varname>...</v)S
+(arname>)S
+84 348 Mt(&<...>&   )S 0 Sf ( becomes )S 8 Sf (<...>)S
+84 336 Mt(&<<...>>& )S 0 Sf ( becomes )S 8 Sf (<xref linkend=")S
+(..."/>)S
+72 313 Mt 0 Sf (F)S -0.165 R(or)S 3.998 R(e)S -0.165 R(xample,)S
+3.998 R(if)S 3.998 R(you)S 3.998 R(w)S -0.11 R(ant)S 3.998 R(t)S
+(o)S 3.998 R(include)S 3.998 R(a)S 3.998 R(literal)S 3.998 R(X)S
+(ML)S 3.998 R(element)S 3.998 R(in)S 3.998 R(your)S 3.998 R(ou)S
+(tput,)S 3.998 R(you)S 3.998 R(can)S 3.998 R(do)S 3.998 R(it)S
+3.998 R(lik)S -0.11 R(e)S 3.998 R(this:)S
+72 301 Mt 8 Sf (&<element>&)S 0 Sf (.)S 4.353 R(If)S 4.353 R(y)S
+(ou)S 4.353 R(w)S -0.11 R(ant)S 4.353 R(to)S 4.353 R(include)S
+4.353 R(a)S 4.353 R(longer)S 4.353 R(sequence)S 4.353 R(of)S 4.353 R(l)S
+(iteral)S 4.353 R(XML,)S 4.353 R(changing)S 4.353 R(to)S 4.353 R(t)S
+(he)S 4.353 R(literal)S
+72 289 Mt(XML mode may be more con)S -0.44 R(v)S -0.165 R(enie)S
+(nt.)S
+72 72 Mt( )S
+294.249 60 Mt(5)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 6 10
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+180.68 764 Mt 4 Sf (3. Built-in directive pr)S -0.32 R(ocessin)S
+(g)S
+72 737 Mt 0 Sf (The)S 3.073 R(directi)S -0.275 R(v)S -0.165 R(e)S
+(s)S 3.073 R(that)S 3.073 R(are)S 3.073 R(b)S -0.22 R(uilt)S 3.073 R(i)S
+(nto)S 3.073 R(the)S 3.073 R(code)S 3.073 R(of)S 3.073 R 2 Sf
+(xfpt)S 3.073 R 0 Sf (are)S 3.073 R(no)S -0.275 R(w)S 3.073 R(d)S
+(escribed)S 3.073 R(in)S 3.073 R(alphabetical)S 3.073 R(order)S
+-0.605 R(.)S 3.073 R(Y)S -1.21 R(ou)S 3.073 R(can)S 3.073 R(se)S
+(e)S
+72 725 Mt(more e)S -0.165 R(xamples of their use in the de)S 1 Sf
+(\216)S 0 Sf (nitions of the standard macros in chapter )S 0 0 1 setrgbcolor
+[/Rect [419.106 722 426.606 736] /Page 14 /View [/XYZ 0 780 null] /LNK pdfmark
+(4)S 0 0 0 setrgbcolor(.)S
+72 695.097 Mt 10 Sf (3.1 The )S(.ar)S -0.195 R(g)S( directive)S
+72 675.968 Mt 0 Sf (This)S 3.407 R(directi)S -0.275 R(v)S -0.165 R(e)S
+3.407 R(may)S 3.407 R(appear)S 3.407 R(only)S 3.407 R(within)S
+3.407 R(the)S 3.407 R(body)S 3.407 R(of)S 3.407 R(a)S 3.407 R(m)S
+(acro.)S 3.407 R(It)S 3.407 R(must)S 3.407 R(be)S 3.407 R(foll)S
+(o)S -0.275 R(wed)S 3.407 R(by)S 3.407 R(a)S 3.407 R(single)S
+3.407 R(number)S -0.44 R(,)S
+72 663.968 Mt(optionally)S 2.79 R(preceded)S 2.79 R(by)S 2.79 R(a)S
+2.79 R(minus)S 2.79 R(sign.)S 2.79 R(If)S 2.79 R(the)S 2.79 R(n)S
+(umber)S 2.79 R(is)S 2.79 R(positi)S -0.275 R(v)S -0.165 R(e)S
+2.79 R(\(no)S 2.79 R(minus)S 2.79 R(sign\),)S 2.79 R(subsequen)S
+(t)S 2.79 R(lines,)S 2.79 R(up)S 2.79 R(to)S
+72 651.968 Mt(a)S 5.247 R 6 Sf (.endar)S -0.11 R(g)S 5.247 R 0 Sf
+(directi)S -0.275 R(v)S -0.165 R(e,)S 5.247 R(are)S 5.247 R(sk)S
+(ipped)S 5.247 R(unless)S 5.247 R(the)S 5.247 R(macro)S 5.247 R(h)S
+(as)S 5.247 R(been)S 5.247 R(called)S 5.247 R(with)S 5.247 R(a)S
+(t)S 5.247 R(least)S 5.247 R(that)S 5.247 R(number)S 5.247 R(o)S
+(f)S
+72 639.968 Mt(ar)S -0.198 R(guments)S 4.712 R(and)S 4.712 R(th)S
+(e)S 4.712 R(gi)S -0.275 R(v)S -0.165 R(en)S 4.712 R(ar)S -0.198 R(g)S
+(ument)S 4.712 R(is)S 4.712 R(not)S 4.712 R(an)S 4.712 R(empty)S
+4.712 R(string.)S 4.712 R(If)S 4.712 R(the)S 4.712 R(number)S
+4.712 R(is)S 4.712 R(ne)S -0.165 R(g)S -0.055 R(ati)S -0.275 R(v)S
+-0.165 R(e)S 4.712 R(\(minus)S 4.712 R(sign)S
+72 627.968 Mt(present\),)S 3.914 R(subsequent)S 3.914 R(lines)S
+3.914 R(are)S 3.914 R(skipped)S 3.914 R(if)S 3.914 R(the)S 3.914 R(m)S
+(acro)S 3.914 R(has)S 3.914 R(been)S 3.914 R(called)S 3.914 R(w)S
+(ith)S 3.914 R(fe)S -0.275 R(wer)S 3.914 R(than)S 3.914 R(that)S
+3.914 R(number)S 3.914 R(of)S
+72 615.968 Mt(ar)S -0.198 R(guments, or with an empty string f)S
+(or the gi)S -0.275 R(v)S -0.165 R(en ar)S -0.198 R(gument. F)S
+-0.165 R(or e)S -0.165 R(xample:)S
+84 595.965 Mt 8 Sf (.macro example)S
+84 583.965 Mt(.arg 2)S
+84 571.965 Mt(Use these lines if there are at least 2 argument)S
+(s)S
+84 559.965 Mt(and the second one is not empty. Normally there )S
+(would)S
+84 547.965 Mt(be a reference to the 2nd argument.)S
+84 535.965 Mt(.endarg)S
+84 523.965 Mt(.arg -2)S
+84 511.965 Mt(Use this line unless there are at least 2 argume)S
+(nts)S
+84 499.965 Mt(and the second one is not empty.)S
+84 487.965 Mt(.endarg)S
+84 475.965 Mt(.endmacro)S
+72 446.062 Mt 10 Sf (3.2 The )S(.eac)S -0.13 R(har)S -0.195 R(g)S( )S
+(directive)S
+72 426.933 Mt 0 Sf (This)S 3.059 R(directi)S -0.275 R(v)S -0.165 R(e)S
+3.059 R(may)S 3.059 R(appear)S 3.059 R(only)S 3.059 R(within)S
+3.059 R(the)S 3.059 R(body)S 3.059 R(of)S 3.059 R(a)S 3.059 R(m)S
+(acro.)S 3.059 R(It)S 3.059 R(may)S 3.059 R(optionally)S 3.059 R(b)S
+(e)S 3.059 R(follo)S -0.275 R(wed)S 3.059 R(by)S 3.059 R(a)S 3.059 R(s)S
+(ingle)S
+72 414.933 Mt(number;)S 4.917 R(if)S 4.917 R(omitted)S 4.917 R(t)S
+(he)S 4.917 R(v)S -0.275 R(alue)S 4.917 R(is)S 4.917 R(tak)S -0.11 R(e)S
+(n)S 4.917 R(to)S 4.917 R(be)S 4.917 R(1.)S 4.917 R(Subsequent)S
+4.917 R(lines,)S 4.917 R(up)S 4.917 R(to)S 4.917 R(a)S 4.917 R
+6 Sf (.endeach)S 4.917 R 0 Sf (directi)S -0.275 R(v)S -0.165 R(e)S
+(,)S 4.917 R(are)S
+72 402.933 Mt(processed)S 4.561 R(multiple)S 4.561 R(times,)S
+4.561 R(once)S 4.561 R(for)S 4.561 R(each)S 4.561 R(remaining)S
+4.561 R(ar)S -0.198 R(gument.)S 4.561 R(Unlik)S -0.11 R(e)S 4.561 R
+6 Sf (.ar)S -0.11 R(g)S 0 Sf (,)S 4.561 R(an)S 4.561 R(ar)S -0.198 R(g)S
+(ument)S 4.561 R(that)S 4.561 R(is)S 4.561 R(an)S
+72 390.933 Mt(empty string is not treated specially)S -0.715 R(.)S
+72 370.93 Mt(The)S 3.898 R(number)S 3.898 R(gi)S -0.275 R(v)S
+-0.165 R(en)S 3.898 R(with)S 3.898 R 6 Sf (.eachar)S -0.11 R(g)S
+3.898 R 0 Sf (de)S 1 Sf (\216)S 0 Sf (nes)S 3.898 R(which)S 3.898 R(a)S
+(r)S -0.198 R(gument)S 3.898 R(to)S 3.898 R(start)S 3.898 R(wi)S
+(th.)S 3.898 R(While)S 3.898 R(these)S 3.898 R(lines)S 3.898 R(a)S
+(re)S 3.898 R(being)S
+72 358.93 Mt(processed,)S 3.927 R(the)S 3.927 R(remaining)S 3.927 R(m)S
+(acro)S 3.927 R(ar)S -0.198 R(guments)S 3.927 R(can)S 3.927 R(b)S
+(e)S 3.927 R(referenced)S 3.927 R(relati)S -0.275 R(v)S -0.165 R(e)S
+3.927 R(to)S 3.927 R(the)S 3.927 R(current)S 3.927 R(ar)S -0.198 R(g)S
+(ument.)S 3.927 R 8 Sf ($+1)S
+72 346.93 Mt 0 Sf (refers to the current ar)S -0.198 R(gument,)S
+( )S 8 Sf ($+2)S 0 Sf ( to the ne)S -0.165 R(xt ar)S -0.198 R(g)S
+(ument, and so on.)S
+72 326.927 Mt(The)S 3.499 R 6 Sf (.endeach)S 3.499 R 0 Sf (dir)S
+(ecti)S -0.275 R(v)S -0.165 R(e)S 3.499 R(may)S 3.499 R(also)S
+3.499 R(be)S 3.499 R(follo)S -0.275 R(wed)S 3.499 R(by)S 3.499 R(a)S
+3.499 R(number)S -0.44 R(,)S 3.499 R(ag)S -0.055 R(ain)S 3.499 R(d)S
+(ef)S -0.11 R(aulting)S 3.499 R(to)S 3.499 R(1.)S 3.499 R(When)S
+3.499 R 6 Sf (.endeach)S 3.499 R 0 Sf (is)S
+72 314.927 Mt(reached,)S 3.66 R(the)S 3.66 R(current)S 3.66 R(a)S
+(r)S -0.198 R(gument)S 3.66 R(number)S 3.66 R(is)S 3.66 R(incr)S
+(emented)S 3.66 R(by)S 3.66 R(that)S 3.66 R(number)S -0.605 R(.)S
+3.66 R(If)S 3.66 R(there)S 3.66 R(are)S 3.66 R(still)S 3.66 R(u)S
+(nused)S 3.66 R(ar)S -0.198 R(gu-)S
+72 302.927 Mt(ments a)S -0.22 R(v)S -0.275 R(ailable, the line)S
+(s between )S 6 Sf (.eachar)S -0.11 R(g)S 0 Sf ( and )S 6 Sf (.)S
+(endeach)S 0 Sf ( are processed ag)S -0.055 R(ain.)S
+72 283.258 Mt(This)S 3.864 R(e)S -0.165 R(xample)S 3.864 R(is)S
+3.864 R(tak)S -0.11 R(en)S 3.864 R(from)S 3.864 R(the)S 3.864 R(c)S
+(oding)S 3.864 R(for)S 3.864 R(the)S 3.864 R(standard)S 3.864 R
+6 Sf (.r)S -0.198 R(o)S -0.11 R(w)S 3.864 R 0 Sf (macro,)S 3.864 R(w)S
+(hich)S 3.864 R(generates)S 3.864 R(an)S 3.864 R 8 Sf (<entry>)S
+72 271.258 Mt 0 Sf (element for each of its ar)S -0.198 R(gume)S
+(nts:)S
+84 253.258 Mt 8 Sf (.eacharg)S
+84 241.258 Mt(&<entry>&$+1&</entry>&)S
+84 229.258 Mt(.endeach)S
+72 211.258 Mt 0 Sf (This)S 3.432 R(e)S -0.165 R(xample)S 3.432 R(i)S
+(s)S 3.432 R(tak)S -0.11 R(en)S 3.432 R(from)S 3.432 R(the)S 3.432 R(c)S
+(oding)S 3.432 R(for)S 3.432 R(the)S 3.432 R(standard)S 3.432 R
+6 Sf (.itable)S 3.432 R 0 Sf (macro,)S 3.432 R(which)S 3.432 R(p)S
+(rocesses)S 3.432 R(ar)S -0.198 R(guments)S 3.432 R(in)S
+72 199.258 Mt(pairs to de)S 1 Sf (\216)S 0 Sf (ne the table)S
+1 Sf (\242)S 0 Sf -0.605 R(s columns, starting from the )S 1 Sf
+(\216)S 0 Sf (fth ar)S -0.198 R(gument:)S
+84 181.258 Mt 8 Sf (.eacharg 5)S
+84 169.258 Mt(&<colspec colwidth="$+1" align="$+2"/>&)S
+84 157.258 Mt(.endeach 2)S
+72 128.258 Mt 10 Sf (3.3 The )S(.ec)S -0.13 R(ho)S( directive)S
+72 110.258 Mt 0 Sf (This)S 3.052 R(directi)S -0.275 R(v)S -0.165 R(e)S
+3.052 R(tak)S -0.11 R(es)S 3.052 R(a)S 3.052 R(single)S 3.052 R(s)S
+(tring)S 3.052 R(ar)S -0.198 R(gument.)S 3.052 R(It)S 3.052 R(w)S
+(rites)S 3.052 R(it)S 3.052 R(to)S 3.052 R(the)S 3.052 R(stand)S
+(ard)S 3.052 R(error)S 3.052 R(stream.)S 3.052 R(W)S -0.44 R(i)S
+(thin)S 3.052 R(a)S 3.052 R(macro,)S
+72 98.258 Mt(ar)S -0.198 R(gument)S 3.133 R(substitution)S 3.133 R(t)S
+(ak)S -0.11 R(es)S 3.133 R(place,)S 3.133 R(b)S -0.22 R(ut)S 3.133 R(n)S
+(o)S 3.133 R(other)S 3.133 R(processing)S 3.133 R(is)S 3.133 R(d)S
+(one)S 3.133 R(on)S 3.133 R(the)S 3.133 R(string.)S 3.133 R(Th)S
+(is)S 3.133 R(directi)S -0.275 R(v)S -0.165 R(e)S 3.133 R(can)S
+3.133 R(be)S
+72 86.258 Mt(useful for deb)S -0.22 R(ugging macros or writing)S
+( comments to the user)S -0.605 R(.)S
+72 72 Mt( )S
+294.249 60 Mt(6)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 7 11
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 767 Mt 10 Sf (3.4 The )S(.endar)S -0.195 R(g)S( directive)S
+72 748.239 Mt 0 Sf (See the description of )S 6 Sf (.ar)S -0.11 R(g)S
+0 Sf ( abo)S -0.165 R(v)S -0.165 R(e.)S
+72 718.63 Mt 10 Sf (3.5 The )S(.endeac)S -0.13 R(h)S( directiv)S
+(e)S
+72 699.869 Mt 0 Sf (See the description of )S 6 Sf (.eachar)S
+-0.11 R(g)S 0 Sf ( abo)S -0.165 R(v)S -0.165 R(e.)S
+72 670.26 Mt 10 Sf (3.6 The )S(.fla)S -0.13 R(g)S( directive)S
+72 651.499 Mt 0 Sf (This)S 3.203 R(directi)S -0.275 R(v)S -0.165 R(e)S
+3.203 R(is)S 3.203 R(used)S 3.203 R(to)S 3.203 R(de)S 1 Sf (\216)S
+0 Sf (ne)S 3.203 R(flag)S 3.203 R(sequences.)S 3.203 R(The)S 3.203 R(d)S
+(irecti)S -0.275 R(v)S -0.165 R(e)S 3.203 R(must)S 3.203 R(be)S
+3.203 R(follo)S -0.275 R(wed)S 3.203 R(either)S 3.203 R(by)S 3.203 R(a)S
+3.203 R(standalone)S
+72 639.499 Mt(flag)S 4.639 R(sequence)S 4.639 R(and)S 4.639 R(o)S
+(ne)S 4.639 R(string)S 4.639 R(in)S 4.639 R(quotes,)S 4.639 R(o)S
+(r)S 4.639 R(by)S 4.639 R(a)S 4.639 R(flag)S 4.639 R(pair)S 4.639 R(a)S
+(nd)S 4.639 R(tw)S -0.11 R(o)S 4.639 R(strings)S 4.639 R(in)S
+4.639 R(quotes.)S 4.639 R(White)S 4.639 R(space)S
+72 627.499 Mt(separates these items. F)S -0.165 R(or e)S -0.165 R(x)S
+(ample:)S
+84 608.093 Mt 8 Sf (.flag && "&amp;")S
+84 596.093 Mt(.flag &" "&  "<quote>"  "</quote>")S
+72 576.687 Mt 0 Sf (There)S 3.344 R(are)S 3.344 R(more)S 3.344 R(e)S
+-0.165 R(xamples)S 3.344 R(in)S 3.344 R(the)S 3.344 R(de)S 1 Sf
+(\216)S 0 Sf (nitions)S 3.344 R(of)S 3.344 R(the)S 3.344 R(sta)S
+(ndard)S 3.344 R(flags.)S 3.344 R(If)S 3.344 R(you)S 3.344 R(r)S
+(ede)S 1 Sf (\216)S 0 Sf (ne)S 3.344 R(an)S 3.344 R(e)S -0.165 R(x)S
+(isting)S 3.344 R(flag,)S 3.344 R(the)S
+72 564.687 Mt(ne)S -0.275 R(w de)S 1 Sf (\216)S 0 Sf (nition o)S
+-0.165 R(v)S -0.165 R(errides the old. There is no w)S -0.11 R(a)S
+(y to re)S -0.275 R(v)S -0.165 R(ert to the pre)S -0.275 R(vio)S
+(us de)S 1 Sf (\216)S 0 Sf (nition.)S
+72 535.078 Mt 10 Sf (3.7 The )S(.inc)S -0.26 R(lude)S( directi)S
+(ve)S
+72 516.317 Mt 0 Sf (This)S 3.358 R(directi)S -0.275 R(v)S -0.165 R(e)S
+3.358 R(must)S 3.358 R(be)S 3.358 R(follo)S -0.275 R(wed)S 3.358 R(b)S
+(y)S 3.358 R(a)S 3.358 R(single)S 3.358 R(string)S 3.358 R(ar)S
+-0.198 R(gument)S 3.358 R(that)S 3.358 R(is)S 3.358 R(the)S 3.358 R(p)S
+(ath)S 3.358 R(to)S 3.358 R(a)S 3.358 R 1 Sf (\216)S 0 Sf (le.)S
+3.358 R(The)S 3.358 R(contents)S 3.358 R(of)S
+72 504.317 Mt(the)S 2.853 R 1 Sf (\216)S 0 Sf (le)S 2.853 R(ar)S
+(e)S 2.853 R(read)S 2.853 R(and)S 2.853 R(incorporated)S 2.853 R(i)S
+(nto)S 2.853 R(the)S 2.853 R(input)S 2.853 R(at)S 2.853 R(this)S
+2.853 R(point.)S 2.853 R(If)S 2.853 R(the)S 2.853 R(string)S 2.853 R(d)S
+(oes)S 2.853 R(not)S 2.853 R(contain)S 2.853 R(an)S -0.165 R(y)S
+2.853 R(slashes,)S
+72 492.317 Mt(the path to the )S 2 Sf (xfpt)S 0 Sf ( library i)S
+(s prepended. Otherwise, the path is used unaltered.)S
+72 462.708 Mt 10 Sf (3.8 The )S(.literal)S( directive)S
+72 443.947 Mt 0 Sf (This)S 4.08 R(must)S 4.08 R(be)S 4.08 R(fo)S
+(llo)S -0.275 R(wed)S 4.08 R(by)S 4.08 R(one)S 4.08 R(of)S 4.08 R(t)S
+(he)S 4.08 R(w)S -0.11 R(ords)S 4.08 R 1 Sf (\237)S 0 Sf (layo)S
+(ut)S 1 Sf (\240)S 0 Sf (,)S 4.08 R 1 Sf (\237)S 0 Sf (te)S -0.165 R(x)S
+(t)S 1 Sf (\240)S 0 Sf (,)S 4.08 R 1 Sf (\237)S 0 Sf (of)S -0.275 R(f)S
+1 Sf (\240)S 0 Sf (,)S 4.08 R(or)S 4.08 R 1 Sf (\237)S 0 Sf (x)S
+(ml)S 1 Sf (\240)S 0 Sf (.)S 4.08 R(It)S 4.08 R(forces)S 4.08 R(a)S
+(n)S 4.08 R(end)S 4.08 R(to)S 4.08 R(a)S
+72 431.947 Mt(pre)S -0.275 R(vious)S 2.918 R(paragraph,)S 2.918 R(i)S
+(f)S 2.918 R(there)S 2.918 R(is)S 2.918 R(one,)S 2.918 R(and)S
+2.918 R(then)S 2.918 R(switches)S 2.918 R(between)S 2.918 R(pr)S
+(ocessing)S 2.918 R(modes.)S 2.918 R(The)S 2.918 R(def)S -0.11 R(a)S
+(ult)S 2.918 R(mode)S 2.918 R(is)S
+72 419.947 Mt(the)S 3.209 R 1 Sf (\237)S 0 Sf (of)S -0.275 R(f)S
+1 Sf (\240)S 3.209 R 0 Sf (mode,)S 3.209 R(in)S 3.209 R(which)S
+3.209 R(te)S -0.165 R(xt)S 3.209 R(is)S 3.209 R(processed)S 3.209 R(p)S
+(aragraph)S 3.209 R(by)S 3.209 R(paragraph,)S 3.209 R(and)S 3.209 R(f)S
+(lags)S 3.209 R(are)S 3.209 R(recognized.)S 3.209 R(Section)S
+72 407.947 Mt 0 0 1 setrgbcolor
+[/Rect [71 404.947 86.75 418.947] /Page 6 /View [/XYZ 0 503 null] /LNK pdfmark
+(1.3)S 0 0 0 setrgbcolor( describes ho)S -0.275 R(w input line)S
+(s are processed in the four modes.)S
+72 378.338 Mt 10 Sf (3.9 The )S(.macr)S -0.26 R(o)S( directive)S
+72 359.577 Mt 0 Sf (This)S 2.912 R(directi)S -0.275 R(v)S -0.165 R(e)S
+2.912 R(is)S 2.912 R(used)S 2.912 R(to)S 2.912 R(de)S 1 Sf (\216)S
+0 Sf (ne)S 2.912 R(macros.)S 2.912 R(It)S 2.912 R(must)S 2.912 R(b)S
+(e)S 2.912 R(follo)S -0.275 R(wed)S 2.912 R(by)S 2.912 R(a)S 2.912 R(m)S
+(acro)S 2.912 R(name,)S 2.912 R(and)S 2.912 R(then,)S 2.912 R(o)S
+(ptionally)S -0.715 R(,)S 2.912 R(by)S
+72 347.577 Mt(an)S -0.165 R(y)S 3.599 R(number)S 3.599 R(of)S
+3.599 R(ar)S -0.198 R(guments.)S 3.599 R(The)S 3.599 R(macro)S
+3.599 R(name)S 3.599 R(can)S 3.599 R(be)S 3.599 R(an)S -0.165 R(y)S
+3.599 R(sequence)S 3.599 R(of)S 3.599 R(non-whitespace)S 3.599 R(c)S
+(haracters.)S 3.599 R(The)S
+72 335.577 Mt(ar)S -0.198 R(guments)S 3.99 R(in)S 3.99 R(the)S
+3.99 R(de)S 1 Sf (\216)S 0 Sf (nition)S 3.99 R(pro)S -0.165 R(v)S
+(ide)S 3.99 R(def)S -0.11 R(ault)S 3.99 R(v)S -0.275 R(alues.)S
+3.99 R(The)S 3.99 R(follo)S -0.275 R(wing)S 3.99 R(lines,)S 3.99 R(u)S
+(p)S 3.99 R(to)S 3.99 R 6 Sf (.endmacr)S -0.198 R(o)S 0 Sf (,)S
+3.99 R(form)S 3.99 R(the)S
+72 323.577 Mt(body)S 3.124 R(of)S 3.124 R(the)S 3.124 R(macro.)S
+3.124 R(The)S -0.165 R(y)S 3.124 R(are)S 3.124 R(not)S 3.124 R(p)S
+(rocessed)S 3.124 R(in)S 3.124 R(an)S -0.165 R(y)S 3.124 R(w)S
+-0.11 R(ay)S 3.124 R(when)S 3.124 R(the)S 3.124 R(macro)S 3.124 R(i)S
+(s)S 3.124 R(de)S 1 Sf (\216)S 0 Sf (ned;)S 3.124 R(the)S -0.165 R(y)S
+3.124 R(are)S 3.124 R(processed)S
+72 311.577 Mt(only when the macro is called \(see section )S 0 0 1 setrgbcolor
+[/Rect [259.793 308.577 275.543 322.577] /Page 7 /View [/XYZ 0 527 null] /LNK pdfmark
+(1.5)S 0 0 0 setrgbcolor(\).)S
+72 292.171 Mt(W)S -0.44 R(ithin)S 3.706 R(the)S 3.706 R(body)S
+3.706 R(of)S 3.706 R(a)S 3.706 R(macro,)S 3.706 R(ar)S -0.198 R(g)S
+(ument)S 3.706 R(substitutions)S 3.706 R(can)S 3.706 R(be)S 3.706 R(s)S
+(peci)S 1 Sf (\216)S 0 Sf (ed)S 3.706 R(by)S 3.706 R(means)S 3.706 R(o)S
+(f)S 3.706 R(a)S 3.706 R(dollar)S 3.706 R(character)S
+72 280.171 Mt(and)S 2.885 R(an)S 2.885 R(ar)S -0.198 R(gument)S
+2.885 R(number)S -0.44 R(,)S 2.885 R(for)S 2.885 R(e)S -0.165 R(x)S
+(ample,)S 2.885 R 8 Sf ($3)S 2.885 R 0 Sf (for)S 2.885 R(the)S
+2.885 R(third)S 2.885 R(ar)S -0.198 R(gument.)S 2.885 R(See)S
+2.885 R(also)S 2.885 R 6 Sf (.eachar)S -0.11 R(g)S 2.885 R 0 Sf
+(abo)S -0.165 R(v)S -0.165 R(e)S 2.885 R(for)S 2.885 R(the)S 2.885 R(u)S
+(se)S
+72 268.171 Mt(of)S 3.658 R 8 Sf ($+)S 3.658 R 0 Sf (to)S 3.658 R(r)S
+(efer)S 3.658 R(to)S 3.658 R(relati)S -0.275 R(v)S -0.165 R(e)S
+3.658 R(ar)S -0.198 R(guments)S 3.658 R(when)S 3.658 R(looping)S
+3.658 R(through)S 3.658 R(them.)S 3.658 R(A)S 3.658 R(referenc)S
+(e)S 3.658 R(to)S 3.658 R(an)S 3.658 R(ar)S -0.198 R(gument)S
+3.658 R(that)S 3.658 R(is)S
+72 256.171 Mt(not supplied, and is not gi)S -0.275 R(v)S -0.165 R(e)S
+(n a def)S -0.11 R(ault, results in an empty substitution.)S
+72 237.805 Mt(There is also a f)S -0.11 R(acility for a condit)S
+(ional substitution. A reference to an ar)S -0.198 R(gument of)S
+( the form:)S
+84 219.805 Mt 8 Sf ($=)S 2 Sf (<digits><delimiter><te)S -0.22 R(x)S
+(t><delimiter>)S
+72 201.805 Mt 0 Sf (inserts)S 3.268 R(the)S 3.268 R(te)S -0.165 R(x)S
+(t)S 3.268 R(if)S 3.268 R(the)S 3.268 R(ar)S -0.198 R(gument)S
+3.268 R(is)S 3.268 R(de)S 1 Sf (\216)S 0 Sf (ned)S 3.268 R(and)S
+3.268 R(is)S 3.268 R(not)S 3.268 R(an)S 3.268 R(empty)S 3.268 R(s)S
+(tring,)S 3.268 R(and)S 3.268 R(nothing)S 3.268 R(otherwise.)S
+3.268 R(The)S 3.268 R(te)S -0.165 R(xt)S
+72 189.805 Mt(is)S 3.922 R(itself)S 3.922 R(scanned)S 3.922 R(f)S
+(or)S 3.922 R(flags)S 3.922 R(and)S 3.922 R(ar)S -0.198 R(gume)S
+(nt)S 3.922 R(substitutions.)S 3.922 R(The)S 3.922 R(delimiter)S
+3.922 R(must)S 3.922 R(be)S 3.922 R(a)S 3.922 R(single)S 3.922 R(c)S
+(haracter)S 3.922 R(that)S
+72 177.805 Mt(does not appear in the te)S -0.165 R(xt. F)S -0.165 R(o)S
+(r e)S -0.165 R(xample:)S
+84 159.805 Mt 8 Sf (&<chapter$=2+ id="$2"+>&)S
+72 141.805 Mt 0 Sf (If this appears in a macro that is called )S
+(with only one ar)S -0.198 R(gument, the result is:)S
+84 123.805 Mt 8 Sf (<chapter>)S
+72 105.805 Mt 0 Sf (b)S -0.22 R(ut if the second ar)S -0.198 R(g)S
+(ument is, say )S 8 Sf (abcd)S 0 Sf (, the result is:)S
+84 87.805 Mt 8 Sf (<chapter id="abcd">)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(7)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 8 12
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This conditional feature can be used with both)S
+( absolute and relati)S -0.275 R(v)S -0.165 R(e ar)S -0.198 R(g)S
+(ument references.)S
+72 749.724 Mt(If a dollar character is required as data within)S
+( the body of a macro, it must be doubled. F)S -0.165 R(or e)S
+-0.165 R(xample:)S
+84 731.448 Mt 8 Sf (.macro price)S
+84 719.448 Mt(The price is $$1.)S
+84 707.448 Mt(.endmacro)S
+72 689.172 Mt 0 Sf (If)S 2.787 R(you)S 2.787 R(rede)S 1 Sf (\216)S
+0 Sf (ne)S 2.787 R(an)S 2.787 R(e)S -0.165 R(xisting)S 2.787 R(m)S
+(acro,)S 2.787 R(the)S 2.787 R(ne)S -0.275 R(w)S 2.787 R(de)S
+1 Sf (\216)S 0 Sf (nition)S 2.787 R(o)S -0.165 R(v)S -0.165 R(e)S
+(rrides)S 2.787 R(the)S 2.787 R(old.)S 2.787 R(There)S 2.787 R(i)S
+(s)S 2.787 R(no)S 2.787 R(w)S -0.11 R(ay)S 2.787 R(to)S 2.787 R(r)S
+(e)S -0.275 R(v)S -0.165 R(ert)S 2.787 R(to)S 2.787 R(the)S
+72 677.172 Mt(pre)S -0.275 R(vious)S 3.242 R(de)S 1 Sf (\216)S
+0 Sf (nition.)S 3.242 R(If)S 3.242 R(you)S 3.242 R(de)S 1 Sf (\216)S
+0 Sf (ne)S 3.242 R(a)S 3.242 R(macro)S 3.242 R(whose)S 3.242 R(n)S
+(ame)S 3.242 R(is)S 3.242 R(the)S 3.242 R(same)S 3.242 R(as)S
+3.242 R(the)S 3.242 R(name)S 3.242 R(of)S 3.242 R(a)S 3.242 R(b)S
+-0.22 R(uilt-in)S 3.242 R(directi)S -0.275 R(v)S -0.165 R(e)S
+72 665.172 Mt(you will not be able to call it, because )S 2 Sf
+(xfpt)S 0 Sf ( looks for b)S -0.22 R(uilt-in directi)S -0.275 R(v)S
+-0.165 R(es before it looks for macros.)S
+72 646.896 Mt(It)S 4.33 R(is)S 4.33 R(possible)S 4.33 R(to)S 4.33 R(d)S
+(e)S 1 Sf (\216)S 0 Sf (ne)S 4.33 R(a)S 4.33 R(macro)S 4.33 R(w)S
+(ithin)S 4.33 R(a)S 4.33 R(macro,)S 4.33 R(though)S 4.33 R(cle)S
+(arly)S 4.33 R(care)S 4.33 R(must)S 4.33 R(be)S 4.33 R(tak)S -0.11 R(e)S
+(n)S 4.33 R(with)S 4.33 R(ar)S -0.198 R(gument)S
+72 634.896 Mt(references to ensure that substitutions happen a)S
+(t the right le)S -0.275 R(v)S -0.165 R(el.)S
+72 605.784 Mt 10 Sf (3.10 The )S(.pop)S( directive)S
+72 587.644 Mt 2 Sf (xfpt)S 3.059 R 0 Sf (k)S -0.11 R(eeps)S 3.059 R(a)S
+3.059 R(stack)S 3.059 R(of)S 3.059 R(te)S -0.165 R(xt)S 3.059 R(s)S
+(trings)S 3.059 R(that)S 3.059 R(are)S 3.059 R(manipulated)S 3.059 R(b)S
+(y)S 3.059 R(the)S 3.059 R 6 Sf (.push)S 3.059 R 0 Sf (and)S 3.059 R
+6 Sf (.pop)S 3.059 R 0 Sf (directi)S -0.275 R(v)S -0.165 R(es.)S
+3.059 R(When)S 3.059 R(the)S 3.059 R(end)S
+72 575.644 Mt(of)S 3.556 R(the)S 3.556 R(input)S 3.556 R(is)S
+3.556 R(reached,)S 3.556 R(an)S -0.165 R(y)S 3.556 R(strings)S
+3.556 R(that)S 3.556 R(remain)S 3.556 R(on)S 3.556 R(the)S 3.556 R(s)S
+(tack)S 3.556 R(are)S 3.556 R(popped)S 3.556 R(of)S -0.275 R(f)S
+(,)S 3.556 R(processed)S 3.556 R(for)S 3.556 R(flags,)S 3.556 R(a)S
+(nd)S
+72 563.644 Mt(written to the output.)S
+72 545.368 Mt(Each)S 3.531 R(string)S 3.531 R(on)S 3.531 R(the)S
+3.531 R(stack)S 3.531 R(may)S -0.715 R(,)S 3.531 R(optionally)S
+-0.715 R(,)S 3.531 R(be)S 3.531 R(associated)S 3.531 R(with)S
+3.531 R(an)S 3.531 R(upper)S 3.531 R(case)S 3.531 R(letter)S -0.605 R(.)S
+3.531 R(If)S 3.531 R 6 Sf (.pop)S 3.531 R 0 Sf (is)S 3.531 R(f)S
+(ollo)S -0.275 R(wed)S
+72 533.368 Mt(by)S 3.656 R(an)S 3.656 R(upper)S 3.656 R(case)S
+3.656 R(letter)S -0.44 R(,)S 3.656 R(it)S 3.656 R(searches)S 3.656 R(d)S
+(o)S -0.275 R(wn)S 3.656 R(the)S 3.656 R(stack)S 3.656 R(for)S
+3.656 R(a)S 3.656 R(string)S 3.656 R(with)S 3.656 R(the)S 3.656 R(s)S
+(ame)S 3.656 R(letter)S -0.605 R(.)S 3.656 R(If)S 3.656 R(it)S
+3.656 R(cannot)S 3.656 R 1 Sf (\216)S 0 Sf (nd)S
+72 521.368 Mt(one,)S 4.379 R(it)S 4.379 R(does)S 4.379 R(nothi)S
+(ng.)S 4.379 R(Otherwise,)S 4.379 R(it)S 4.379 R(pops)S 4.379 R(o)S
+(f)S -0.275 R(f,)S 4.379 R(processes,)S 4.379 R(and)S 4.379 R(w)S
+(rites)S 4.379 R(out)S 4.379 R(all)S 4.379 R(the)S 4.379 R(str)S
+(ings)S 4.379 R(do)S -0.275 R(wn)S 4.379 R(to)S 4.379 R(and)S
+72 509.368 Mt(including the one that matches.)S
+72 491.092 Mt(If)S 3.15 R 6 Sf (.pop)S 3.15 R 0 Sf (is)S 3.15 R(g)S
+(i)S -0.275 R(v)S -0.165 R(en)S 3.15 R(without)S 3.15 R(a)S 3.15 R(f)S
+(ollo)S -0.275 R(wing)S 3.15 R(letter)S -0.44 R(,)S 3.15 R(it)S
+3.15 R(pops)S 3.15 R(one)S 3.15 R(string)S 3.15 R(of)S -0.275 R(f)S
+3.15 R(the)S 3.15 R(stack)S 3.15 R(and)S 3.15 R(writes)S 3.15 R(i)S
+(t)S 3.15 R(out.)S 3.15 R(If)S 3.15 R(there)S 3.15 R(is)S
+72 479.092 Mt(nothing on the stack, an error occurs.)S
+72 449.98 Mt 10 Sf (3.11 The )S(.push)S( directive)S
+72 431.84 Mt 0 Sf (This)S 3.045 R(directi)S -0.275 R(v)S -0.165 R(e)S
+3.045 R(pushes)S 3.045 R(a)S 3.045 R(string)S 3.045 R(onto)S 3.045 R(t)S
+(he)S 3.045 R(stack.)S 3.045 R(If)S 3.045 R(the)S 3.045 R(rest)S
+3.045 R(of)S 3.045 R(the)S 3.045 R(command)S 3.045 R(line)S 3.045 R(s)S
+(tarts)S 3.045 R(with)S 3.045 R(an)S 3.045 R(upper)S 3.045 R(c)S
+(ase)S
+72 419.84 Mt(letter)S 2.799 R(follo)S -0.275 R(wed)S 2.799 R(b)S
+(y)S 2.799 R(white)S 2.799 R(space,)S 2.799 R(that)S 2.799 R(l)S
+(etter)S 2.799 R(is)S 2.799 R(associated)S 2.799 R(with)S 2.799 R(t)S
+(he)S 2.799 R(string)S 2.799 R(that)S 2.799 R(is)S 2.799 R(pus)S
+(hed,)S 2.799 R(which)S 2.799 R(consists)S 2.799 R(of)S
+72 407.84 Mt(the rest of the line. F)S -0.165 R(or e)S -0.165 R(x)S
+(ample, the )S 6 Sf (.chapter)S 0 Sf ( macro contains this lin)S
+(e:)S
+84 389.564 Mt 8 Sf (.push C &</chapter>&)S
+72 371.288 Mt 0 Sf (Earlier in the macro there is the line:)S
+84 353.28 Mt 8 Sf (.pop C)S
+72 335.28 Mt 0 Sf (This)S 3.308 R(arrangement)S 3.308 R(ensure)S
+(s)S 3.308 R(that)S 3.308 R(an)S -0.165 R(y)S 3.308 R(pre)S -0.275 R(v)S
+(ious)S 3.308 R(chapter)S 3.308 R(is)S 3.308 R(terminated)S 3.308 R(b)S
+(efore)S 3.308 R(starting)S 3.308 R(a)S 3.308 R(ne)S -0.275 R(w)S
+3.308 R(one,)S 3.308 R(and)S 3.308 R(also)S
+72 323.28 Mt(when the end of the input is reached.)S
+72 294.28 Mt 10 Sf (3.12 The )S(.re)S -0.195 R(vision)S( direc)S
+(tive)S
+72 276.28 Mt 0 Sf (This)S 2.96 R(directi)S -0.275 R(v)S -0.165 R(e)S
+2.96 R(is)S 2.96 R(pro)S -0.165 R(vided)S 2.96 R(to)S 2.96 R(m)S
+(ak)S -0.11 R(e)S 2.96 R(it)S 2.96 R(easy)S 2.96 R(to)S 2.96 R(s)S
+(et)S 2.96 R(the)S 2.96 R 8 Sf (revisionflag)S 2.96 R 0 Sf (at)S
+(trib)S -0.22 R(ute)S 2.96 R(on)S 2.96 R(XML)S 2.96 R(elements)S
+2.96 R(in)S 2.96 R(a)S
+72 264.28 Mt(gi)S -0.275 R(v)S -0.165 R(en)S 3.381 R(portion)S
+3.381 R(of)S 3.381 R(the)S 3.381 R(document.)S 3.381 R(The)S 3.381 R(D)S
+(ocBook)S 3.381 R(speci)S 1 Sf (\216)S 0 Sf (cation)S 3.381 R(s)S
+(tates)S 3.381 R(that)S 3.381 R(the)S 3.381 R 8 Sf (revisionfl)S
+(ag)S 3.381 R 0 Sf (attrib)S -0.22 R(ute)S
+72 252.28 Mt(is common to all elements.)S
+72 234.28 Mt(The)S 2.788 R 6 Sf (.r)S -0.198 R(e)S -0.165 R(vi)S
+(sion)S 2.788 R 0 Sf (directi)S -0.275 R(v)S -0.165 R(e)S 2.788 R(m)S
+(ust)S 2.788 R(be)S 2.788 R(follo)S -0.275 R(wed)S 2.788 R(by)S
+2.788 R(one)S 2.788 R(of)S 2.788 R(the)S 2.788 R(w)S -0.11 R(o)S
+(rds)S 2.788 R 1 Sf (\237)S 0 Sf (changed)S 1 Sf (\240)S 0 Sf
+(,)S 2.788 R 1 Sf (\237)S 0 Sf (added)S 1 Sf (\240)S 0 Sf (,)S
+2.788 R 1 Sf (\237)S 0 Sf (deleted)S 1 Sf (\240)S 0 Sf (,)S 2.788 R(o)S
+(r)S 2.788 R 1 Sf (\237)S 0 Sf (of)S -0.275 R(f)S 1 Sf (\240)S
+0 Sf (.)S
+72 222.28 Mt(F)S -0.165 R(or)S 3.357 R(an)S -0.165 R(y)S 3.357 R(v)S
+-0.275 R(alue)S 3.357 R(other)S 3.357 R(than)S 3.357 R 1 Sf (\237)S
+0 Sf (of)S -0.275 R(f)S 1 Sf (\240)S 0 Sf (,)S 3.357 R(it)S 3.357 R(c)S
+(auses)S 3.357 R(the)S 3.357 R(internal)S 3.357 R(v)S -0.275 R(a)S
+(riable)S 3.357 R 2 Sf (xfpt.r)S -0.407 R(e)S -0.165 R(v)S 3.357 R
+0 Sf (to)S 3.357 R(be)S 3.357 R(set)S 3.357 R(to)S 3.357 R 8 Sf
+(revisionflag=)S
+72 210.28 Mt 0 Sf (follo)S -0.275 R(wed by the gi)S -0.275 R(v)S
+-0.165 R(en ar)S -0.198 R(gument. If the ar)S -0.198 R(gument )S
+(is )S 1 Sf (\237)S 0 Sf (of)S -0.275 R(f)S 1 Sf (\240)S 0 Sf
+(, the internal v)S -0.275 R(ariable is emptied.)S
+72 192.28 Mt(The)S 4.394 R(contents)S 4.394 R(of)S 4.394 R 2 Sf
+(xfpt.r)S -0.407 R(e)S -0.165 R(v)S 4.394 R 0 Sf (are)S 4.394 R(i)S
+(ncluded)S 4.394 R(in)S 4.394 R(e)S -0.275 R(v)S -0.165 R(ery)S
+4.394 R 8 Sf (<para>)S 4.394 R 0 Sf (element)S 4.394 R(that)S
+4.394 R 2 Sf (xfpt)S 4.394 R 0 Sf (generates.)S 4.394 R(In)S 4.394 R(a)S
+(ddition,)S 4.394 R(a)S
+72 180.28 Mt(number of the standard macros contain references )S
+(to )S 2 Sf (xfpt.r)S -0.407 R(e)S -0.165 R(v)S 0 Sf ( in appr)S
+(opriate places. Thus, setting:)S
+84 162.28 Mt 8 Sf (.revision changed)S
+72 144.28 Mt 0 Sf (should cause all subsequent te)S -0.165 R(x)S
+(t to be mark)S -0.11 R(ed up with )S 8 Sf (revisionflag)S 0 Sf
+( attrib)S -0.22 R(utes, until)S
+84 126.28 Mt 8 Sf (.revision off)S
+72 108.28 Mt 0 Sf (is)S 5.044 R(encountered.)S 5.044 R(Unfortu)S
+(nately)S -0.715 R(,)S 5.044 R(at)S 5.044 R(the)S 5.044 R(time)S
+5.044 R(of)S 5.044 R(writing,)S 5.044 R(not)S 5.044 R(all)S 5.044 R(D)S
+(ocBook)S 5.044 R(processing)S 5.044 R(softw)S -0.11 R(are)S 5.044 R(p)S
+(ays)S
+72 96.28 Mt(attention)S 7.408 R(to)S 7.408 R(the)S 7.408 R 8 Sf
+(revisionflag)S 7.408 R 0 Sf (attrib)S -0.22 R(ute.)S 7.408 R(F)S
+(urthermore,)S 7.408 R(some)S 7.408 R(softw)S -0.11 R(are)S 7.408 R(g)S
+(rumbles)S 7.408 R(that)S 7.408 R(it)S 7.408 R(is)S
+72 84.28 Mt 1 Sf (\237)S 0 Sf (une)S -0.165 R(xpected)S 1 Sf (\240)S
+0 Sf ( on some elements, though it does still seem to process )S
+(it correctly)S -0.715 R(.)S
+72 72 Mt( )S
+294.249 60 Mt(8)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 9 13
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (F)S -0.165 R(or)S 3 R(handling)S 3 R(the)S 3 R(m)S
+(ost)S 3 R(common)S 3 R(case)S 3 R(\(setting)S 3 R(and)S 3 R(u)S
+(nsetting)S 3 R 1 Sf (\237)S 0 Sf (changed)S 1 Sf (\240)S 0 Sf
+(\),)S 3 R(the)S 3 R(standard)S 3 R(macros)S 3 R 6 Sf (.new)S
+3 R 0 Sf (and)S
+72 756 Mt 6 Sf (.wen)S 0 Sf ( are pro)S -0.165 R(vided \(see s)S
+(ection )S 0 0 1 setrgbcolor
+[/Rect [207.686 753 228.936 767] /Page 16 /View [/XYZ 0 369 null] /LNK pdfmark
+(4.10)S 0 0 0 setrgbcolor(\).)S
+72 723 Mt 10 Sf (3.13 The )S(.set)S( directive)S
+72 700 Mt 0 Sf (This)S 3.562 R(directi)S -0.275 R(v)S -0.165 R(e)S
+3.562 R(must)S 3.562 R(be)S 3.562 R(follo)S -0.275 R(wed)S 3.562 R(b)S
+(y)S 3.562 R(a)S 3.562 R(name)S 3.562 R(and)S 3.562 R(a)S 3.562 R(t)S
+(e)S -0.165 R(xt)S 3.562 R(string.)S 3.562 R(It)S 3.562 R(de)S
+1 Sf (\216)S 0 Sf (nes)S 3.562 R(a)S 3.562 R(user)S 3.562 R(v)S
+-0.275 R(ariable)S 3.562 R(and)S 3.562 R(gi)S -0.275 R(v)S -0.165 R(e)S
+(s)S 3.562 R(it)S 3.562 R(a)S
+72 688 Mt(name.)S 4.463 R(A)S 4.463 R(reference)S 4.463 R(to)S
+4.463 R(the)S 4.463 R(name)S 4.463 R(in)S 4.463 R(the)S 4.463 R(s)S
+(tyle)S 4.463 R(of)S 4.463 R(an)S 4.463 R(XML)S 4.463 R(entity)S
+4.463 R(causes)S 4.463 R(the)S 4.463 R(string)S 4.463 R(to)S 4.463 R(b)S
+(e)S 4.463 R(substituted,)S
+72 676 Mt(without further processing. F)S -0.165 R(or e)S -0.165 R(x)S
+(ample:)S
+84 653 Mt 8 Sf (.set version 4.99)S
+72 630 Mt 0 Sf (This)S 3.179 R(could)S 3.179 R(be)S 3.179 R(re)S
+(ferenced)S 3.179 R(as)S 3.179 R 8 Sf (&version;)S 0 Sf (.)S 3.179 R(I)S
+(f)S 3.179 R(a)S 3.179 R(v)S -0.275 R(ariable)S 3.179 R(is)S 3.179 R(g)S
+(i)S -0.275 R(v)S -0.165 R(en)S 3.179 R(the)S 3.179 R(name)S 3.179 R(o)S
+(f)S 3.179 R(an)S 3.179 R(XML)S 3.179 R(entity)S -0.715 R(,)S
+3.179 R(you)S 3.179 R(will)S
+72 618 Mt(not)S 3.752 R(be)S 3.752 R(able)S 3.752 R(to)S 3.752 R(r)S
+(efer)S 3.752 R(to)S 3.752 R(the)S 3.752 R(XML)S 3.752 R(entit)S
+(y)S -0.715 R(,)S 3.752 R(because)S 3.752 R(local)S 3.752 R(v)S
+-0.275 R(ariables)S 3.752 R(tak)S -0.11 R(e)S 3.752 R(preceden)S
+(ce.)S 3.752 R(There)S 3.752 R(is)S 3.752 R(no)S 3.752 R(w)S -0.11 R(a)S
+(y)S 3.752 R(to)S
+72 606 Mt(delete a local v)S -0.275 R(ariable after it has bee)S
+(n de)S 1 Sf (\216)S 0 Sf (ned.)S
+72 72 Mt( )S
+294.249 60 Mt(9)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 10 14
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+157.448 764 Mt 4 Sf (4. The standar)S -0.32 R(d macr)S -0.32 R(o)S
+(s f)S -0.32 R(or DocBook)S
+72 737 Mt 0 Sf (A)S 4.13 R(set)S 4.13 R(of)S 4.13 R(simple)S 4.13 R(m)S
+(acros)S 4.13 R(for)S 4.13 R(commonly)S 4.13 R(needed)S 4.13 R(D)S
+(ocBook)S 4.13 R(features)S 4.13 R(is)S 4.13 R(pro)S -0.165 R(v)S
+(ided)S 4.13 R(in)S 4.13 R 2 Sf (xfpt)S 1 Sf (\242)S 0 Sf -0.605 R(s)S
+4.13 R(library)S -0.715 R(.)S 4.13 R(This)S
+72 725 Mt(may)S 3.255 R(be)S 3.255 R(e)S -0.165 R(xtended)S 3.255 R(a)S
+(s)S 3.255 R(e)S -0.165 R(xperience)S 3.255 R(with)S 3.255 R 2 Sf
+(xfpt)S 3.255 R 0 Sf (accumulates.)S 3.255 R(The)S 3.255 R(sta)S
+(ndard)S 3.255 R(macros)S 3.255 R(assume)S 3.255 R(that)S 3.255 R(t)S
+(he)S 3.255 R(standard)S
+72 713 Mt(flags are de)S 1 Sf (\216)S 0 Sf (ned, so a document)S
+( that is going to use these features should start with:)S
+84 694.21 Mt 8 Sf (.include stdflags)S
+84 682.21 Mt(.include stdmacs)S
+72 663.42 Mt 0 Sf (All)S 3.162 R(the)S 3.162 R(standard)S 3.162 R(m)S
+(acros)S 3.162 R(e)S -0.165 R(xcept)S 3.162 R 6 Sf (new)S 0 Sf
+(,)S 3.162 R 6 Sf (index)S 0 Sf (,)S 3.162 R(and)S 3.162 R 6 Sf
+(url)S 3.162 R 0 Sf (are)S 3.162 R(intended)S 3.162 R(to)S 3.162 R(b)S
+(e)S 3.162 R(called)S 3.162 R(as)S 3.162 R(directi)S -0.275 R(v)S
+-0.165 R(e)S 3.162 R(lines.)S 3.162 R(Their)S
+72 651.42 Mt(names are therefore sho)S -0.275 R(wn with a lead)S
+(ing dot in the discussion belo)S -0.275 R(w)S -0.715 R(.)S
+72 622.091 Mt 10 Sf (4.1 Overall setup)S
+72 603.679 Mt 0 Sf (There)S 4.391 R(are)S 4.391 R(tw)S -0.11 R(o)S
+4.391 R(macros)S 4.391 R(that)S 4.391 R(should)S 4.391 R(be)S
+4.391 R(used)S 4.391 R(only)S 4.391 R(once,)S 4.391 R(at)S 4.391 R(t)S
+(he)S 4.391 R(start)S 4.391 R(of)S 4.391 R(the)S 4.391 R(docum)S
+(ent.)S 4.391 R(The)S 4.391 R 6 Sf (.docbook)S
+72 591.679 Mt 0 Sf (macro)S 4.021 R(has)S 4.021 R(no)S 4.021 R(a)S
+(r)S -0.198 R(guments.)S 4.021 R(It)S 4.021 R(inserts)S 4.021 R(i)S
+(nto)S 4.021 R(the)S 4.021 R(output)S 4.021 R 1 Sf (\216)S 0 Sf
+(le)S 4.021 R(the)S 4.021 R(standard)S 4.021 R(header)S 4.021 R(m)S
+(aterial)S 4.021 R(for)S 4.021 R(a)S 4.021 R(DocBook)S
+72 579.679 Mt(XML )S 1 Sf (\216)S 0 Sf (le, which is:)S
+84 560.889 Mt 8 Sf (<?xml version="1.0" encoding="UTF-8"?>)S
+84 548.889 Mt(<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML)S
+( V4.2//EN")S
+84 536.889 Mt("http://www.oasis-open.org/docbook/xml/4.2/docbo)S
+(okx.dtd">)S
+72 518.099 Mt 0 Sf (The)S 4.007 R 6 Sf (.book)S 4.007 R 0 Sf (m)S
+(acro)S 4.007 R(has)S 4.007 R(no)S 4.007 R(ar)S -0.198 R(gumen)S
+(ts.)S 4.007 R(It)S 4.007 R(generates)S 4.007 R 8 Sf (<book>)S
+4.007 R 0 Sf (and)S 4.007 R(pushes)S 4.007 R 8 Sf (</book>)S 4.007 R
+0 Sf (onto)S 4.007 R(the)S 4.007 R(stack)S 4.007 R(so)S
+72 506.099 Mt(that it will be output at the end.)S
+72 476.77 Mt 10 Sf (4.2 Chapter)S -0.195 R(s, sections, and su)S
+(bsections)S
+72 458.358 Mt 0 Sf (Chapters,)S 3.803 R(sections,)S 3.803 R(an)S
+(d)S 3.803 R(subsections)S 3.803 R(are)S 3.803 R(supported)S 3.803 R(b)S
+(y)S 3.803 R(three)S 3.803 R(macros)S 3.803 R(that)S 3.803 R(a)S
+(ll)S 3.803 R(operate)S 3.803 R(in)S 3.803 R(the)S 3.803 R(sam)S
+(e)S 3.803 R(w)S -0.11 R(ay)S -0.715 R(.)S
+72 446.358 Mt(The)S -0.165 R(y)S 3.146 R(are)S 3.146 R 6 Sf (.)S
+(chapter)S 0 Sf (,)S 3.146 R 6 Sf (.section)S 0 Sf (,)S 3.146 R(a)S
+(nd)S 3.146 R 6 Sf (.subsection)S 0 Sf (.)S 3.146 R(The)S -0.165 R(y)S
+3.146 R(tak)S -0.11 R(e)S 3.146 R(either)S 3.146 R(one,)S 3.146 R(t)S
+(w)S -0.11 R(o,)S 3.146 R(or)S 3.146 R(three)S 3.146 R(ar)S -0.198 R(g)S
+(uments.)S 3.146 R(The)S 3.146 R 1 Sf (\216)S 0 Sf (rst)S
+72 434.358 Mt(ar)S -0.198 R(gument)S 2.891 R(is)S 2.891 R(the)S
+2.891 R(title.)S 2.891 R(If)S 2.891 R(a)S 2.891 R(second)S 2.891 R(a)S
+(r)S -0.198 R(gument)S 2.891 R(is)S 2.891 R(present,)S 2.891 R(a)S
+(nd)S 2.891 R(is)S 2.891 R(not)S 2.891 R(an)S 2.891 R(empty)S
+2.891 R(string,)S 2.891 R(it)S 2.891 R(is)S 2.891 R(set)S 2.891 R(a)S
+(s)S 2.891 R(an)S 2.891 R(ID,)S 2.891 R(and)S
+72 422.358 Mt(can be used in cross-references. F)S -0.165 R(or)S
+( e)S -0.165 R(xample:)S
+84 403.568 Mt 8 Sf (.chapter "Introduction")S
+72 384.778 Mt 0 Sf (sets no ID, b)S -0.22 R(ut)S
+84 365.988 Mt 8 Sf (.section "A section title" "SECTdemo")S
+72 347.824 Mt 0 Sf (can be referenced from else)S -0.275 R(whe)S
+(re in the document by a phrase such as:)S
+84 329.824 Mt 8 Sf (see section &<<SECTdemo>>&)S
+72 311.824 Mt 0 Sf (When)S 3.005 R(the)S 3.005 R(title)S 3.005 R(o)S
+(f)S 3.005 R(a)S 3.005 R(chapter)S 3.005 R(of)S 3.005 R(sectio)S
+(n)S 3.005 R(is)S 3.005 R(being)S 3.005 R(used)S 3.005 R(as)S
+3.005 R(a)S 3.005 R(running)S 3.005 R(head)S 3.005 R(or)S 3.005 R(f)S
+(oot)S 3.005 R(\(for)S 3.005 R(e)S -0.165 R(xample\),)S 3.005 R(i)S
+(t)S 3.005 R(may)S 3.005 R(be)S
+72 299.824 Mt(too)S 3.254 R(long)S 3.254 R(to)S 3.254 R 1 Sf (\216)S
+0 Sf (t)S 3.254 R(comfortably)S 3.254 R(into)S 3.254 R(the)S 3.254 R(a)S
+-0.22 R(v)S -0.275 R(ailable)S 3.254 R(space.)S 3.254 R(DocBoo)S
+(k)S 3.254 R(pro)S -0.165 R(vides)S 3.254 R(the)S 3.254 R(f)S
+-0.11 R(acility)S 3.254 R(for)S 3.254 R(a)S 3.254 R(title)S 3.254 R(a)S
+(bbre)S -0.275 R(vi-)S
+72 287.824 Mt(ation)S 3.284 R(to)S 3.284 R(be)S 3.284 R(speci)S
+1 Sf (\216)S 0 Sf (ed)S 3.284 R(to)S 3.284 R(deal)S 3.284 R(wi)S
+(th)S 3.284 R(this)S 3.284 R(problem.)S 3.284 R(If)S 3.284 R(a)S
+3.284 R(third)S 3.284 R(ar)S -0.198 R(gument)S 3.284 R(is)S 3.284 R(g)S
+(i)S -0.275 R(v)S -0.165 R(en)S 3.284 R(to)S 3.284 R(one)S 3.284 R(o)S
+(f)S 3.284 R(these)S 3.284 R(macros,)S 3.284 R(it)S
+72 275.824 Mt(causes)S 3.887 R(a)S 3.887 R 8 Sf (<titleabbrev>)S
+3.887 R 0 Sf (element)S 3.887 R(to)S 3.887 R(be)S 3.887 R(gene)S
+(rated.)S 3.887 R(In)S 3.887 R(this)S 3.887 R(case,)S 3.887 R(a)S
+3.887 R(second)S 3.887 R(ar)S -0.198 R(gument)S 3.887 R(must)S
+3.887 R(also)S 3.887 R(be)S
+72 263.824 Mt(pro)S -0.165 R(vided, b)S -0.22 R(ut if you do n)S
+(ot need an ID, the second ar)S -0.198 R(gument can be an empt)S
+(y string. F)S -0.165 R(or e)S -0.165 R(xample:)S
+84 245.824 Mt 8 Sf (.chapter "This chapter has quite a long ti)S
+(tle" "" "Long title")S
+72 227.824 Mt 0 Sf (Where)S 3.053 R(and)S 3.053 R(when)S 3.053 R(t)S
+(he)S 3.053 R(abbre)S -0.275 R(viation)S 3.053 R(is)S 3.053 R(u)S
+(sed)S 3.053 R(in)S 3.053 R(place)S 3.053 R(of)S 3.053 R(the)S
+3.053 R(full)S 3.053 R(title)S 3.053 R(is)S 3.053 R(controlled)S
+3.053 R(by)S 3.053 R(the)S 3.053 R(stylesheet)S 3.053 R(when)S
+72 215.824 Mt(the XML is processed.)S
+72 197.824 Mt(These)S 3.256 R(three)S 3.256 R(macros)S 3.256 R(u)S
+(se)S 3.256 R(the)S 3.256 R(stack)S 3.256 R(to)S 3.256 R(ensur)S
+(e)S 3.256 R(that)S 3.256 R(each)S 3.256 R(chapter)S -0.44 R(,)S
+3.256 R(section,)S 3.256 R(and)S 3.256 R(subsection)S 3.256 R(i)S
+(s)S 3.256 R(terminated)S 3.256 R(at)S
+72 185.824 Mt(the)S 2.77 R(correct)S 2.77 R(point.)S 2.77 R(F)S
+-0.165 R(or)S 2.77 R(e)S -0.165 R(xample,)S 2.77 R(starting)S
+2.77 R(a)S 2.77 R(ne)S -0.275 R(w)S 2.77 R(section)S 2.77 R(au)S
+(tomatically)S 2.77 R(terminates)S 2.77 R(an)S 2.77 R(open)S 2.77 R(s)S
+(ubsection)S 2.77 R(and)S
+72 173.824 Mt(a pre)S -0.275 R(vious section.)S
+72 144.824 Mt 10 Sf (4.3 URL ref)S -0.13 R(erences)S
+72 126.824 Mt 0 Sf (The)S 3.927 R 6 Sf (url)S 3.927 R 0 Sf (ma)S
+(cro)S 3.927 R(generates)S 3.927 R(URL)S 3.927 R(references,)S
+3.927 R(and)S 3.927 R(is)S 3.927 R(intended)S 3.927 R(to)S 3.927 R(b)S
+(e)S 3.927 R(called)S 3.927 R(inline)S 3.927 R(within)S 3.927 R(t)S
+(he)S 3.927 R(te)S -0.165 R(xt)S 3.927 R(that)S 3.927 R(is)S
+72 114.824 Mt(being)S 4.192 R(processed.)S 4.192 R(It)S 4.192 R(g)S
+(enerates)S 4.192 R(a)S 4.192 R 8 Sf (<ulink>)S 4.192 R 0 Sf (e)S
+(lement,)S 4.192 R(and)S 4.192 R(has)S 4.192 R(either)S 4.192 R(o)S
+(ne)S 4.192 R(or)S 4.192 R(tw)S -0.11 R(o)S 4.192 R(ar)S -0.198 R(g)S
+(uments.)S 4.192 R(The)S 4.192 R 1 Sf (\216)S 0 Sf (rst)S
+72 102.824 Mt(ar)S -0.198 R(gument is the URL, and the second )S
+(is the te)S -0.165 R(xt that describes it. F)S -0.165 R(or e)S
+-0.165 R(xample:)S
+84 84.824 Mt 8 Sf (More details are &url\(http://x.example, he)S
+(re\).)S
+72 72 Mt 0 Sf ( )S
+291.499 60 Mt(10)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 11 15
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This generates the follo)S -0.275 R(wing XML:)S
+84 748.964 Mt 8 Sf (More details are <ulink url="http://x.exam)S
+(ple">here</ulink>.)S
+72 729.928 Mt 0 Sf (If)S 2.963 R(the)S 2.963 R(second)S 2.963 R(a)S
+(r)S -0.198 R(gument)S 2.963 R(is)S 2.963 R(absent,)S 2.963 R(t)S
+(he)S 2.963 R(contents)S 2.963 R(of)S 2.963 R(the)S 2.963 R 1 Sf
+(\216)S 0 Sf (rst)S 2.963 R(ar)S -0.198 R(gument)S 2.963 R(are)S
+2.963 R(used)S 2.963 R(instead.)S 2.963 R(If)S 2.963 R 6 Sf (u)S
+(rl)S 2.963 R 0 Sf (is)S 2.963 R(called)S 2.963 R(as)S
+72 717.928 Mt(a)S 3.505 R(directi)S -0.275 R(v)S -0.165 R(e,)S
+3.505 R(there)S 3.505 R(will)S 3.505 R(be)S 3.505 R(a)S 3.505 R(n)S
+(e)S -0.275 R(wline)S 3.505 R(in)S 3.505 R(the)S 3.505 R(outpu)S
+(t)S 3.505 R(after)S 3.505 R 8 Sf (</ulink>)S 0 Sf (,)S 3.505 R(w)S
+(hich)S 3.505 R(in)S 3.505 R(most)S 3.505 R(cases)S 3.505 R(\()S
+(such)S 3.505 R(as)S 3.505 R(the)S
+72 705.928 Mt(e)S -0.165 R(xample abo)S -0.165 R(v)S -0.165 R(e)S
+(\), you do not w)S -0.11 R(ant.)S
+72 676.489 Mt 10 Sf (4.4 Itemiz)S 0.13 R(ed lists)S
+72 657.941 Mt 0 Sf (The)S 4.007 R 6 Sf (.ilist)S 4.007 R 0 Sf
+(macro)S 4.007 R(marks)S 4.007 R(the)S 4.007 R(start)S 4.007 R(o)S
+(f)S 4.007 R(an)S 4.007 R(itemized)S 4.007 R(list,)S 4.007 R(t)S
+(he)S 4.007 R(items)S 4.007 R(of)S 4.007 R(which)S 4.007 R(are)S
+4.007 R(normally)S 4.007 R(rendered)S 4.007 R(with)S
+72 645.941 Mt(b)S -0.22 R(ullets)S 2.985 R(or)S 2.985 R(simila)S
+(r)S 2.985 R(markings.)S 2.985 R(The)S 2.985 R(macro)S 2.985 R(c)S
+(an)S 2.985 R(optionally)S 2.985 R(be)S 2.985 R(called)S 2.985 R(w)S
+(ith)S 2.985 R(one)S 2.985 R(ar)S -0.198 R(gument,)S 2.985 R(f)S
+(or)S 2.985 R(which)S 2.985 R(there)S 2.985 R(is)S
+72 633.941 Mt(no)S 3.238 R(def)S -0.11 R(ault.)S 3.238 R(If)S
+3.238 R(the)S 3.238 R(ar)S -0.198 R(gument)S 3.238 R(is)S 3.238 R(p)S
+(resent,)S 3.238 R(it)S 3.238 R(is)S 3.238 R(used)S 3.238 R(to)S
+3.238 R(add)S 3.238 R(a)S 3.238 R 8 Sf (mark=)S 3.238 R 0 Sf (a)S
+(ttrib)S -0.22 R(ute)S 3.238 R(to)S 3.238 R(the)S 3.238 R 8 Sf
+(<itemizedlist>)S
+72 621.941 Mt 0 Sf (element)S 2.919 R(that)S 2.919 R(is)S 2.919 R(g)S
+(enerated.)S 2.919 R(The)S 2.919 R(mark)S 2.919 R(names)S 2.919 R(t)S
+(hat)S 2.919 R(can)S 2.919 R(be)S 2.919 R(used)S 2.919 R(depen)S
+(d)S 2.919 R(on)S 2.919 R(the)S 2.919 R(softw)S -0.11 R(are)S
+2.919 R(that)S 2.919 R(processes)S 2.919 R(the)S
+72 609.941 Mt(resulting XML. F)S -0.165 R(or HTML output, )S 1 Sf
+(\237)S 0 Sf (square)S 1 Sf (\240)S 0 Sf ( and )S 1 Sf (\237)S
+0 Sf (opencircle)S 1 Sf (\240)S 0 Sf ( w)S -0.11 R(ork in some)S
+( bro)S -0.275 R(wsers.)S
+72 590.905 Mt(The)S 3.466 R(te)S -0.165 R(xt)S 3.466 R(for)S 3.466 R(t)S
+(he)S 3.466 R 1 Sf (\216)S 0 Sf (rst)S 3.466 R(item)S 3.466 R(f)S
+(ollo)S -0.275 R(ws)S 3.466 R(the)S 3.466 R(macro)S 3.466 R(ca)S
+(ll.)S 3.466 R(The)S 3.466 R(start)S 3.466 R(of)S 3.466 R(the)S
+3.466 R(ne)S -0.165 R(xt)S 3.466 R(item)S 3.466 R(is)S 3.466 R(i)S
+(ndicated)S 3.466 R(by)S 3.466 R(the)S 3.466 R 6 Sf (.next)S
+72 578.905 Mt 0 Sf (macro, and the end of the list by )S 6 Sf
+(.endlist)S 0 Sf (. F)S -0.165 R(or e)S -0.165 R(xample:)S
+84 559.869 Mt 8 Sf (.ilist)S
+84 547.869 Mt(This is the first item.)S
+84 535.869 Mt(.next)S
+84 523.869 Mt(This is the next item.)S
+84 511.869 Mt(.endlist)S
+72 492.833 Mt 0 Sf (There may be more than one paragraph in an)S
+( item.)S
+72 463.394 Mt 10 Sf (4.5 Or)S -0.26 R(dered lists)S
+72 444.846 Mt 0 Sf (The)S 2.84 R 6 Sf (.olist)S 2.84 R 0 Sf (m)S
+(acro)S 2.84 R(marks)S 2.84 R(the)S 2.84 R(start)S 2.84 R(of)S
+2.84 R(an)S 2.84 R(ordered)S 2.84 R(list,)S 2.84 R(the)S 2.84 R(i)S
+(tems)S 2.84 R(of)S 2.84 R(which)S 2.84 R(are)S 2.84 R(numbere)S
+(d.)S 2.84 R(If)S 2.84 R(no)S 2.84 R(ar)S -0.198 R(gument)S 2.84 R(i)S
+(s)S
+72 432.846 Mt(gi)S -0.275 R(v)S -0.165 R(en,)S 3.088 R(arabic)S
+3.088 R(numerals)S 3.088 R(are)S 3.088 R(used.)S 3.088 R(One)S
+3.088 R(of)S 3.088 R(the)S 3.088 R(follo)S -0.275 R(wing)S 3.088 R(w)S
+-0.11 R(ords)S 3.088 R(can)S 3.088 R(be)S 3.088 R(gi)S -0.275 R(v)S
+-0.165 R(en)S 3.088 R(as)S 3.088 R(the)S 3.088 R(macro)S 1 Sf
+(\242)S 0 Sf -0.605 R(s)S 3.088 R(ar)S -0.198 R(gument)S 3.088 R(t)S
+(o)S
+72 420.846 Mt(specify the numeration:)S
+84 402.096 Mt 8 Sf (arabic     )S 0 Sf (   arabic numerals)S
+84 390.096 Mt 8 Sf (loweralpha )S 0 Sf (   lo)S -0.275 R(wer c)S
+(ase letters)S
+84 378.096 Mt 8 Sf (lowerroman )S 0 Sf (   lo)S -0.275 R(wer c)S
+(ase roman numerals)S
+84 366.096 Mt 8 Sf (upperalpha )S 0 Sf (   upper case letters)S
+84 354.096 Mt 8 Sf (upperroman )S 0 Sf (   upper case roman nu)S
+(merals)S
+72 336.096 Mt(The)S 3.466 R(te)S -0.165 R(xt)S 3.466 R(for)S 3.466 R(t)S
+(he)S 3.466 R 1 Sf (\216)S 0 Sf (rst)S 3.466 R(item)S 3.466 R(f)S
+(ollo)S -0.275 R(ws)S 3.466 R(the)S 3.466 R(macro)S 3.466 R(ca)S
+(ll.)S 3.466 R(The)S 3.466 R(start)S 3.466 R(of)S 3.466 R(the)S
+3.466 R(ne)S -0.165 R(xt)S 3.466 R(item)S 3.466 R(is)S 3.466 R(i)S
+(ndicated)S 3.466 R(by)S 3.466 R(the)S 3.466 R 6 Sf (.next)S
+72 324.096 Mt 0 Sf (macro, and the end of the list by )S 6 Sf
+(.endlist)S 0 Sf (. F)S -0.165 R(or e)S -0.165 R(xample:)S
+84 306.096 Mt 8 Sf (.olist lowerroman)S
+84 294.096 Mt(This is the first item.)S
+84 282.096 Mt(.next)S
+84 270.096 Mt(This is the next item.)S
+84 258.096 Mt(.endlist)S
+72 240.096 Mt 0 Sf (There may be more than one paragraph in an)S
+( item.)S
+72 211.096 Mt 10 Sf (4.6 V)S -0.78 R(ariab)S -0.13 R(le lists)S
+72 193.096 Mt 0 Sf (A)S 2.908 R(v)S -0.275 R(ariable)S 2.908 R(l)S
+(ist)S 2.908 R(is)S 2.908 R(one)S 2.908 R(in)S 2.908 R(which)S
+2.908 R(each)S 2.908 R(entry)S 2.908 R(is)S 2.908 R(composed)S
+2.908 R(of)S 2.908 R(a)S 2.908 R(set)S 2.908 R(of)S 2.908 R(on)S
+(e)S 2.908 R(or)S 2.908 R(more)S 2.908 R(terms)S 2.908 R(and)S
+2.908 R(an)S 2.908 R(associated)S
+72 181.096 Mt(description.)S 3.35 R(T)S -0.88 R(ypically)S -0.715 R(,)S
+3.35 R(the)S 3.35 R(terms)S 3.35 R(are)S 3.35 R(printed)S 3.35 R(i)S
+(n)S 3.35 R(a)S 3.35 R(style)S 3.35 R(that)S 3.35 R(mak)S -0.11 R(e)S
+(s)S 3.35 R(them)S 3.35 R(stand)S 3.35 R(out,)S 3.35 R(and)S 3.35 R(t)S
+(he)S 3.35 R(description)S
+72 169.096 Mt(is)S 4.257 R(indented)S 4.257 R(underneath.)S 4.257 R(T)S
+(he)S 4.257 R(start)S 4.257 R(of)S 4.257 R(a)S 4.257 R(v)S -0.275 R(a)S
+(riable)S 4.257 R(list)S 4.257 R(is)S 4.257 R(indicated)S 4.257 R(b)S
+(y)S 4.257 R(the)S 4.257 R 6 Sf (.vlist)S 4.257 R 0 Sf (macro,)S
+4.257 R(which)S 4.257 R(has)S 4.257 R(one)S
+72 157.096 Mt(optional ar)S -0.198 R(gument. If present, it de)S
+1 Sf (\216)S 0 Sf (nes a title for the list.)S
+72 139.096 Mt(Each)S 2.809 R(entry)S 2.809 R(is)S 2.809 R(de)S
+1 Sf (\216)S 0 Sf (ned)S 2.809 R(by)S 2.809 R(a)S 2.809 R 6 Sf
+(.vitem)S 2.809 R 0 Sf (macro,)S 2.809 R(whose)S 2.809 R(ar)S
+-0.198 R(guments)S 2.809 R(are)S 2.809 R(the)S 2.809 R(terms.)S
+2.809 R(This)S 2.809 R(is)S 2.809 R(follo)S -0.275 R(wed)S 2.809 R(b)S
+(y)S 2.809 R(the)S 2.809 R(body)S
+72 127.096 Mt(of the entry)S -0.715 R(. The list is terminated)S
+( by the )S 6 Sf (.endlist)S 0 Sf ( macro. F)S -0.165 R(or e)S
+-0.165 R(xample:)S
+84 109.096 Mt 8 Sf (.vlist "Font filename extensions")S
+84 97.096 Mt(.vitem "TTF")S
+84 85.096 Mt(TrueType fonts.)S
+72 72 Mt 0 Sf ( )S
+291.499 60 Mt(11)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 12 16
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 768 Mt 8 Sf (.vitem "PFA" "PFB")S
+84 756 Mt(PostScript fonts.)S
+84 744 Mt(.endlist)S
+72 724.842 Mt 0 Sf (As for the other lists, there may be more )S
+(than one paragraph in an item.)S
+72 695.349 Mt 10 Sf (4.7 Nested lists)S
+72 676.732 Mt 0 Sf (Lists)S 2.998 R(may)S 2.998 R(be)S 2.998 R(n)S
+(ested)S 2.998 R(as)S 2.998 R(required.)S 2.998 R(Some)S 2.998 R(D)S
+(ocBook)S 2.998 R(processors)S 2.998 R(automatically)S 2.998 R(c)S
+(hoose)S 2.998 R(dif)S -0.275 R(ferent)S 2.998 R(b)S -0.22 R(u)S
+(llets)S 2.998 R(for)S
+72 664.732 Mt(nested)S 3.996 R(itemized)S 3.996 R(lists,)S 3.996 R(b)S
+-0.22 R(ut)S 3.996 R(others)S 3.996 R(do)S 3.996 R(not.)S 3.996 R(T)S
+(he)S 3.996 R 6 Sf (.endlist)S 3.996 R 0 Sf (macro)S 3.996 R(h)S
+(as)S 3.996 R(no)S 3.996 R(useful)S 3.996 R(ar)S -0.198 R(gume)S
+(nts.)S 3.996 R(An)S -0.165 R(y)S 3.996 R(te)S -0.165 R(xt)S 3.996 R(t)S
+(hat)S
+72 652.732 Mt(follo)S -0.275 R(ws)S 3.811 R(it)S 3.811 R(is)S
+3.811 R(treated)S 3.811 R(as)S 3.811 R(a)S 3.811 R(comment.)S
+3.811 R(This)S 3.811 R(can)S 3.811 R(pro)S -0.165 R(vide)S 3.811 R(a)S
+(n)S 3.811 R(annotation)S 3.811 R(f)S -0.11 R(acility)S 3.811 R(t)S
+(hat)S 3.811 R(may)S 3.811 R(mak)S -0.11 R(e)S 3.811 R(the)S 3.811 R(i)S
+(nput)S
+72 640.732 Mt(easier to understand when lists are nested.)S
+72 611.239 Mt 10 Sf (4.8 Displa)S -0.26 R(y)S -0.13 R(ed te)S
+-0.195 R(xt)S
+72 592.622 Mt 0 Sf (In)S 3.664 R(displayed)S 3.664 R(te)S -0.165 R(x)S
+(t)S 3.664 R(each)S 3.664 R(non-directi)S -0.275 R(v)S -0.165 R(e)S
+3.664 R(input)S 3.664 R(line)S 3.664 R(generates)S 3.664 R(one)S
+3.664 R(output)S 3.664 R(line.)S 3.664 R(The)S 3.664 R 8 Sf (<)S
+(literallayout>)S
+72 580.622 Mt 0 Sf (DocBook)S 3.497 R(element)S 3.497 R(is)S 3.497 R(u)S
+(sed)S 3.497 R(to)S 3.497 R(achie)S -0.275 R(v)S -0.165 R(e)S
+3.497 R(this.)S 3.497 R(T)S -0.88 R(w)S -0.11 R(o)S 3.497 R(ki)S
+(nds)S 3.497 R(of)S 3.497 R(displayed)S 3.497 R(te)S -0.165 R(x)S
+(t)S 3.497 R(are)S 3.497 R(supported)S 3.497 R(by)S 3.497 R(th)S
+(e)S 3.497 R(standard)S
+72 568.622 Mt(macros. The)S -0.165 R(y dif)S -0.275 R(fer in t)S
+(heir handling of the te)S -0.165 R(xt itself.)S
+72 549.464 Mt(The)S 3.957 R(macro)S 3.957 R 6 Sf (.display)S 3.957 R
+0 Sf (is)S 3.957 R(follo)S -0.275 R(wed)S 3.957 R(by)S 3.957 R(l)S
+(ines)S 3.957 R(that)S 3.957 R(are)S 3.957 R(processed)S 3.957 R(i)S
+(n)S 3.957 R(the)S 3.957 R(same)S 3.957 R(w)S -0.11 R(ay)S 3.957 R(a)S
+(s)S 3.957 R(normal)S 3.957 R(paragraphs:)S
+72 537.464 Mt(flags)S 3.685 R(are)S 3.685 R(interpreted,)S 3.685 R(a)S
+(nd)S 3.685 R(so)S 3.685 R(there)S 3.685 R(may)S 3.685 R(be)S
+3.685 R(font)S 3.685 R(changes)S 3.685 R(and)S 3.685 R(so)S 3.685 R(o)S
+(n.)S 3.685 R(The)S 3.685 R(lines)S 3.685 R(are)S 3.685 R(proc)S
+(essed)S 3.685 R(in)S 3.685 R(literal)S
+72 525.464 Mt(layout mode. F)S -0.165 R(or e)S -0.165 R(xample)S
+(:)S
+84 506.306 Mt 8 Sf (.display)S
+84 494.306 Mt(&`-o`&   set output destination)S
+84 482.306 Mt(&`-S`&   set library path)S
+84 470.306 Mt(.endd)S
+72 451.148 Mt 0 Sf (The output is as follo)S -0.275 R(ws:)S
+84 431.99 Mt 8 Sf (-o)S 0 Sf (   set output destination)S
+84 419.99 Mt 8 Sf (-S)S 0 Sf (   set library path)S
+72 401.234 Mt(The)S 3.517 R(macro)S 3.517 R 6 Sf (.code)S 3.517 R
+0 Sf (is)S 3.517 R(follo)S -0.275 R(wed)S 3.517 R(lines)S 3.517 R(t)S
+(hat)S 3.517 R(are)S 3.517 R(not)S 3.517 R(processed)S 3.517 R(i)S
+(n)S 3.517 R(an)S -0.165 R(y)S 3.517 R(w)S -0.11 R(ay)S -0.715 R(,)S
+3.517 R(e)S -0.165 R(xcept)S 3.517 R(to)S 3.517 R(turn)S 3.517 R(a)S
+(mpersands)S 3.517 R(and)S
+72 389.234 Mt(angle)S 6.652 R(brack)S -0.11 R(ets)S 6.652 R(in)S
+(to)S 6.652 R(XML)S 6.652 R(entities.)S 6.652 R(The)S 6.652 R(l)S
+(ines)S 6.652 R(are)S 6.652 R(processed)S 6.652 R(in)S 6.652 R(l)S
+(iteral)S 6.652 R(te)S -0.165 R(xt)S 6.652 R(mode.)S 6.652 R(I)S
+(n)S 6.652 R(addition,)S
+72 377.234 Mt 8 Sf (class="monospaced")S 4.049 R 0 Sf (is)S 4.049 R(a)S
+(dded)S 4.049 R(to)S 4.049 R(the)S 4.049 R 8 Sf (<literallayou)S
+(t>)S 4.049 R 0 Sf (element,)S 4.049 R(so)S 4.049 R(that)S 4.049 R(t)S
+(he)S 4.049 R(lines)S 4.049 R(are)S 4.049 R(dis-)S
+72 365.234 Mt(played in a monospaced font. F)S -0.165 R(or e)S
+-0.165 R(xample:)S
+84 347.234 Mt 8 Sf (.code)S
+84 335.234 Mt(z = sqrt\(x*x + y*y\);)S
+84 323.234 Mt(.endd)S
+72 305.234 Mt 0 Sf (As the e)S -0.165 R(xamples illustrate, bo)S
+(th kinds of display are terminated by the )S 6 Sf (.endd)S 0 Sf
+( macro.)S
+72 276.234 Mt 10 Sf (4.9 Bloc)S -0.26 R(k quotes)S
+72 258.234 Mt 0 Sf (The)S 5.029 R(macro)S 5.029 R(pair)S 5.029 R
+6 Sf (.blockquote)S 5.029 R 0 Sf (and)S 5.029 R 6 Sf (.endbloc)S
+(kquote)S 5.029 R 0 Sf (are)S 5.029 R(used)S 5.029 R(to)S 5.029 R(w)S
+(rap)S 5.029 R(the)S 5.029 R(lines)S 5.029 R(between)S 5.029 R(t)S
+(hem)S 5.029 R(in)S 5.029 R(a)S
+72 246.234 Mt 8 Sf (<blockquote>)S 0 Sf ( element.)S
+72 217.234 Mt 10 Sf (4.10 Re)S -0.195 R(vision markings)S
+72 199.234 Mt 0 Sf (T)S -0.88 R(w)S -0.11 R(o)S 5.115 R(macros)S
+5.115 R(are)S 5.115 R(pro)S -0.165 R(vided)S 5.115 R(to)S 5.115 R(s)S
+(implify)S 5.115 R(setting)S 5.115 R(and)S 5.115 R(unsetting)S
+5.115 R(the)S 5.115 R 1 Sf (\237)S 0 Sf (changed)S 1 Sf (\240)S
+5.115 R 0 Sf (re)S -0.275 R(vision)S 5.115 R(marking)S 5.115 R(\()S
+(see)S
+72 187.234 Mt(section)S 3.215 R 0 0 1 setrgbcolor
+[/Rect [105.378 184.234 126.628 198.234] /Page 12 /View [/XYZ 0 430 null] /LNK pdfmark
+(3.12)S 0 0 0 setrgbcolor(\).)S 3.215 R(When)S 3.215 R(the)S 3.215 R(r)S
+(e)S -0.275 R(vised)S 3.215 R(te)S -0.165 R(xt)S 3.215 R(is)S
+3.215 R(substantial)S 3.215 R(\(for)S 3.215 R(e)S -0.165 R(xam)S
+(ple,)S 3.215 R(a)S 3.215 R(complete)S 3.215 R(paragraph,)S 3.215 R(t)S
+(able,)S 3.215 R(display)S -0.715 R(,)S
+72 175.234 Mt(or section\), it can be placed between )S 6 Sf (.)S
+(new)S 0 Sf ( and )S 6 Sf (.wen)S 0 Sf (, as in this e)S -0.165 R(x)S
+(ample:)S
+84 157.234 Mt 8 Sf (This paragraph is not flagged as changed.)S
+84 145.234 Mt(.new)S
+84 133.234 Mt(This is a changed paragraph that contains a disp)S
+(lay:)S
+84 121.234 Mt(.display)S
+84 109.234 Mt(whatever)S
+84 97.234 Mt(.endd)S
+84 85.234 Mt(This is the next paragraph.)S
+72 72 Mt 0 Sf ( )S
+291.499 60 Mt(12)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 13 17
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 768 Mt 8 Sf (.wen)S
+84 756 Mt(Here is the next, unmarked, paragraph.)S
+72 736.589 Mt 0 Sf (When)S 3.399 R(called)S 3.399 R(lik)S -0.11 R(e)S
+3.399 R(this,)S 3.399 R(without)S 3.399 R(an)S 3.399 R(ar)S -0.198 R(g)S
+(ument,)S 3.399 R 6 Sf (.new)S 3.399 R 0 Sf (terminates)S 3.399 R(t)S
+(he)S 3.399 R(current)S 3.399 R(paragraph,)S 3.399 R(and)S 3.399 R
+6 Sf (.wen)S 3.399 R 0 Sf (al)S -0.11 R(w)S -0.11 R(ays)S
+72 724.589 Mt(does)S 3.415 R(so.)S 3.415 R(Therefore,)S 3.415 R(e)S
+-0.275 R(v)S -0.165 R(en)S 3.415 R(though)S 3.415 R(there)S 3.415 R(a)S
+(re)S 3.415 R(no)S 3.415 R(blank)S 3.415 R(lines)S 3.415 R(bef)S
+(ore)S 3.415 R 6 Sf (.new)S 3.415 R 0 Sf (or)S 3.415 R 6 Sf (.)S
+(wen)S 3.415 R 0 Sf (abo)S -0.165 R(v)S -0.165 R(e,)S 3.415 R(t)S
+(he)S 3.415 R(re)S -0.275 R(vised)S 3.415 R(te)S -0.165 R(xt)S
+72 712.589 Mt(will end up in a paragraph of its o)S -0.275 R(w)S
+(n. \(Y)S -1.21 R(ou can, of course, put in blank lines if you)S
+( wish.\))S
+72 693.178 Mt(If)S 3.547 R(w)S -0.11 R(ant)S 3.547 R(to)S 3.547 R(i)S
+(ndicate)S 3.547 R(that)S 3.547 R(just)S 3.547 R(a)S 3.547 R(f)S
+(e)S -0.275 R(w)S 3.547 R(w)S -0.11 R(ords)S 3.547 R(inside)S
+3.547 R(a)S 3.547 R(paragraph)S 3.547 R(are)S 3.547 R(re)S -0.275 R(v)S
+(ised,)S 3.547 R(you)S 3.547 R(can)S 3.547 R(call)S 3.547 R(th)S
+(e)S 3.547 R 6 Sf (new)S 3.547 R 0 Sf (macro)S
+72 681.178 Mt(with an ar)S -0.198 R(gument. The macro can be c)S
+(alled either as a directi)S -0.275 R(v)S -0.165 R(e or inline)S
+(:)S
+84 661.767 Mt 8 Sf (This is a paragraph that has)S
+84 649.767 Mt(.new "a few marked words")S
+84 637.767 Mt(within it. Here are &new\(some more\) marked wor)S
+(ds.)S
+72 618.356 Mt 0 Sf (The)S 3.29 R(ef)S -0.275 R(fect)S 3.29 R(o)S
+(f)S 3.29 R(this)S 3.29 R(is)S 3.29 R(to)S 3.29 R(generate)S 3.29 R(a)S
+3.29 R 8 Sf (<phrase>)S 3.29 R 0 Sf (XML)S 3.29 R(element)S 3.29 R(w)S
+(ith)S 3.29 R(the)S 3.29 R 8 Sf (revisionflag)S 3.29 R 0 Sf (a)S
+(ttrib)S -0.22 R(ute)S 3.29 R(set.)S
+72 606.356 Mt(The )S 6 Sf (.wen)S 0 Sf ( macro is not used in )S
+(this case.)S
+72 576.745 Mt 10 Sf (4.11 Inf)S -0.26 R(ormal tab)S -0.13 R(le)S
+(s)S
+72 557.981 Mt 0 Sf (The)S 4.517 R 6 Sf (.itable)S 4.517 R 0 Sf
+(macro)S 4.517 R(starts)S 4.517 R(an)S 4.517 R(informal)S 4.517 R(\()S
+(untitled\))S 4.517 R(table)S 4.517 R(with)S 4.517 R(some)S 4.517 R(b)S
+(asic)S 4.517 R(parameterization.)S 4.517 R(If)S 4.517 R(you)S
+4.517 R(are)S
+72 545.981 Mt(w)S -0.11 R(orking)S 3.37 R(on)S 3.37 R(a)S 3.37 R(l)S
+(ar)S -0.198 R(ge)S 3.37 R(document)S 3.37 R(that)S 3.37 R(has)S
+3.37 R(man)S -0.165 R(y)S 3.37 R(tables)S 3.37 R(with)S 3.37 R(t)S
+(he)S 3.37 R(same)S 3.37 R(parameters,)S 3.37 R(the)S 3.37 R(b)S
+(est)S 3.37 R(approach)S 3.37 R(is)S 3.37 R(to)S
+72 533.981 Mt(de)S 1 Sf (\216)S 0 Sf (ne your o)S -0.275 R(wn )S
+(table macros, possibly calling the standard one with speci)S
+1 Sf (\216)S 0 Sf (c ar)S -0.198 R(guments.)S
+72 514.57 Mt(The )S 6 Sf (.itable)S 0 Sf ( macro has four basi)S
+(c ar)S -0.198 R(guments:)S
+72 495.159 Mt (\(1\))show 96 495.159 Mt(The)S 3.99 R(frame)S 3.99 R(r)S
+(equirement)S 3.99 R(for)S 3.99 R(the)S 3.99 R(table,)S 3.99 R(w)S
+(hich)S 3.99 R(may)S 3.99 R(be)S 3.99 R(one)S 3.99 R(of)S 3.99 R(t)S
+(he)S 3.99 R(w)S -0.11 R(ords)S 3.99 R 1 Sf (\237)S 0 Sf (all)S
+1 Sf (\240)S 0 Sf (,)S 3.99 R 1 Sf (\237)S 0 Sf (bottom)S 1 Sf
+(\240)S 0 Sf (,)S 3.99 R 1 Sf (\237)S 0 Sf (none)S 1 Sf (\240)S
+96 483.159 Mt 0 Sf (\(the def)S -0.11 R(ault\), )S 1 Sf (\237)S
+0 Sf (sides)S 1 Sf (\240)S 0 Sf (, )S 1 Sf (\237)S 0 Sf (top)S
+1 Sf (\240)S 0 Sf (, or )S 1 Sf (\237)S 0 Sf (topbot)S 1 Sf (\240)S
+0 Sf (.)S
+72 463.748 Mt (\(2\))show 96 463.748 Mt(The)S 2.981 R 1 Sf (\237)S
+0 Sf (colsep)S 1 Sf (\240)S 2.981 R 0 Sf (v)S -0.275 R(alue)S
+2.981 R(for)S 2.981 R(the)S 2.981 R(table.)S 2.981 R(The)S 2.981 R(d)S
+(ef)S -0.11 R(ault)S 2.981 R(is)S 2.981 R 1 Sf (\237)S 0 Sf (0)S
+1 Sf (\240)S 0 Sf (,)S 2.981 R(meaning)S 2.981 R(no)S 2.981 R(v)S
+-0.165 R(ertical)S 2.981 R(separator)S 2.981 R(lines)S 2.981 R(b)S
+(etween)S
+96 451.748 Mt(columns. The v)S -0.275 R(alue )S 1 Sf (\237)S 0 Sf
+(1)S 1 Sf (\240)S 0 Sf ( requests v)S -0.165 R(ertical separat)S
+(or lines.)S
+72 432.764 Mt (\(3\))show 96 432.764 Mt(The)S 3.067 R 1 Sf (\237)S
+0 Sf (ro)S -0.275 R(wsep)S 1 Sf (\240)S 3.067 R 0 Sf (v)S -0.275 R(a)S
+(lue)S 3.067 R(for)S 3.067 R(the)S 3.067 R(table.)S 3.067 R(Th)S
+(e)S 3.067 R(def)S -0.11 R(ault)S 3.067 R(is)S 3.067 R 1 Sf (\237)S
+0 Sf (0)S 1 Sf (\240)S 0 Sf (,)S 3.067 R(meaning)S 3.067 R(no)S
+3.067 R(horizontal)S 3.067 R(lines)S 3.067 R(between)S 3.067 R(r)S
+(o)S -0.275 R(ws.)S
+96 420.764 Mt(The v)S -0.275 R(alue )S 1 Sf (\237)S 0 Sf (1)S
+1 Sf (\240)S 0 Sf ( requests horizontal separator lines.)S
+72 402.764 Mt (\(4\))show 96 402.764 Mt(The number of columns.)S
+72 384.764 Mt(These)S 3.146 R(ar)S -0.198 R(guments)S 3.146 R(m)S
+(ust)S 3.146 R(be)S 3.146 R(follo)S -0.275 R(wed)S 3.146 R(by)S
+3.146 R(tw)S -0.11 R(o)S 3.146 R(ar)S -0.198 R(guments)S 3.146 R(f)S
+(or)S 3.146 R(each)S 3.146 R(column.)S 3.146 R(The)S 3.146 R 1 Sf
+(\216)S 0 Sf (rst)S 3.146 R(speci)S 1 Sf (\216)S 0 Sf (es)S 3.146 R(t)S
+(he)S 3.146 R(column)S
+72 372.764 Mt(width,)S 3.262 R(and)S 3.262 R(the)S 3.262 R(sec)S
+(ond)S 3.262 R(its)S 3.262 R(aligmnent.)S 3.262 R(A)S 3.262 R(c)S
+(olumn)S 3.262 R(width)S 3.262 R(can)S 3.262 R(be)S 3.262 R(sp)S
+(eci)S 1 Sf (\216)S 0 Sf (ed)S 3.262 R(as)S 3.262 R(an)S 3.262 R(a)S
+(bsolute)S 3.262 R(dimension)S 3.262 R(such)S
+72 360.764 Mt(as)S 3.037 R(36pt)S 3.037 R(or)S 3.037 R(2in,)S
+3.037 R(or)S 3.037 R(as)S 3.037 R(a)S 3.037 R(proportional)S 3.037 R(m)S
+(easure,)S 3.037 R(which)S 3.037 R(has)S 3.037 R(the)S 3.037 R(f)S
+(orm)S 3.037 R(of)S 3.037 R(a)S 3.037 R(number)S 3.037 R(follo)S
+-0.275 R(wed)S 3.037 R(by)S 3.037 R(an)S 3.037 R(asterisk.)S
+72 348.764 Mt(The tw)S -0.11 R(o forms can be mix)S -0.165 R(e)S
+(d )S 1 Sf (\215)S 0 Sf ( see the DocBook speci)S 1 Sf (\216)S
+0 Sf (cation for details.)S
+72 330.764 Mt(Straightforw)S -0.11 R(ard)S 3.206 R(column)S 3.206 R(a)S
+(lignments)S 3.206 R(can)S 3.206 R(be)S 3.206 R(speci)S 1 Sf (\216)S
+0 Sf (ed)S 3.206 R(as)S 3.206 R 1 Sf (\237)S 0 Sf (center)S 1 Sf
+(\240)S 0 Sf (,)S 3.206 R 1 Sf (\237)S 0 Sf (left)S 1 Sf (\240)S
+0 Sf (,)S 3.206 R(or)S 3.206 R 1 Sf (\237)S 0 Sf (right)S 1 Sf
+(\240)S 0 Sf (.)S 3.206 R(DocBook)S 3.206 R(also)S 3.206 R(has)S
+72 318.764 Mt(some other possibilities, b)S -0.22 R(ut sadly t)S
+(he)S -0.165 R(y do not seem to include )S 1 Sf (\237)S 0 Sf (c)S
+(entre)S 1 Sf (\240)S 0 Sf (.)S
+72 300.764 Mt(Each)S 5.174 R(ro)S -0.275 R(w)S 5.174 R(of)S 5.174 R(t)S
+(he)S 5.174 R(table)S 5.174 R(is)S 5.174 R(speci)S 1 Sf (\216)S
+0 Sf (ed)S 5.174 R(using)S 5.174 R(a)S 5.174 R 6 Sf (.r)S -0.198 R(o)S
+-0.11 R(w)S 5.174 R 0 Sf (macro;)S 5.174 R(the)S 5.174 R(entri)S
+(es)S 5.174 R(in)S 5.174 R(the)S 5.174 R(ro)S -0.275 R(w)S 5.174 R(a)S
+(re)S 5.174 R(the)S 5.174 R(macros)S 1 Sf (\242)S 0 Sf -0.605 R(s)S
+72 288.764 Mt(ar)S -0.198 R(guments. The table is terminated b)S
+(y )S 6 Sf (.endtable)S 0 Sf (, which has no ar)S -0.198 R(gum)S
+(ents. F)S -0.165 R(or e)S -0.165 R(xample:)S
+84 270.764 Mt 8 Sf (.itable all 1 1 2 1in left 2in center)S
+84 258.764 Mt(.row "cell 11" "cell 12")S
+84 246.764 Mt(.row "cell 21" "cell 22")S
+84 234.764 Mt(.endtable)S
+72 216.764 Mt 0 Sf (This)S 3.403 R(speci)S 1 Sf (\216)S 0 Sf (e)S
+(s)S 3.403 R(a)S 3.403 R(framed)S 3.403 R(table,)S 3.403 R(wit)S
+(h)S 3.403 R(both)S 3.403 R(column)S 3.403 R(and)S 3.403 R(ro)S
+-0.275 R(w)S 3.403 R(separator)S 3.403 R(lines.)S 3.403 R(Ther)S
+(e)S 3.403 R(are)S 3.403 R(tw)S -0.11 R(o)S 3.403 R(columns:)S
+3.403 R(the)S
+72 204.764 Mt 1 Sf (\216)S 0 Sf (rst)S 3.373 R(is)S 3.373 R(on)S
+(e)S 3.373 R(inch)S 3.373 R(wide)S 3.373 R(and)S 3.373 R(left)S
+3.373 R(aligned,)S 3.373 R(and)S 3.373 R(the)S 3.373 R(second)S
+3.373 R(is)S 3.373 R(tw)S -0.11 R(o)S 3.373 R(inches)S 3.373 R(w)S
+(ide)S 3.373 R(and)S 3.373 R(centred.)S 3.373 R(There)S 3.373 R(a)S
+(re)S 3.373 R(tw)S -0.11 R(o)S
+72 192.764 Mt(ro)S -0.275 R(ws. The output looks lik)S -0.11 R(e)S
+( this:)S 0.5 Slw 72 176.764 Mt 216 0 RLt St
+77 164.764 Mt(cell 11)S
+201.183 164.764 Mt(cell 12)S 72 159.764 Mt 216 0 RLt St
+77 147.764 Mt(cell 21)S
+201.183 147.764 Mt(cell 22)S 72 177.014 Mt 0 -33.25 RLt 216 0 RLt
+0 33.25 RLt St 144 177.014 Mt 0 -33.25 RLt St
+72 120.764 Mt(The)S 3.406 R 6 Sf (.r)S -0.198 R(o)S -0.11 R(w)S
+3.406 R 0 Sf (macro)S 3.406 R(does)S 3.406 R(not)S 3.406 R(set)S
+3.406 R(the)S 3.406 R 8 Sf (revisionflag)S 3.406 R 0 Sf (attri)S
+(b)S -0.22 R(ute)S 3.406 R(in)S 3.406 R(the)S 3.406 R 8 Sf (<e)S
+(ntry>)S 3.406 R 0 Sf (elements)S 3.406 R(that)S 3.406 R(it)S
+3.406 R(gener-)S
+72 108.764 Mt(ates)S 4.409 R(because)S 4.409 R(this)S 4.409 R(a)S
+(ppears)S 4.409 R(to)S 4.409 R(be)S 4.409 R(ignored)S 4.409 R(b)S
+(y)S 4.409 R(all)S 4.409 R(current)S 4.409 R(XML)S 4.409 R(pro)S
+(cessors.)S 4.409 R(Ho)S -0.275 R(we)S -0.275 R(v)S -0.165 R(e)S
+(r)S -0.44 R(,)S 4.409 R(you)S 4.409 R(can)S 4.409 R(use)S 4.409 R(a)S
+(n)S
+72 96.764 Mt(inline)S 2.788 R(call)S 2.788 R(of)S 2.788 R(the)S
+2.788 R 6 Sf (new)S 2.788 R 0 Sf (macro)S 2.788 R(within)S 2.788 R(a)S
+(n)S 2.788 R(entry)S 2.788 R(to)S 2.788 R(generate)S 2.788 R(a)S
+2.788 R 8 Sf (<phrase>)S 2.788 R 0 Sf (element)S 2.788 R(with)S
+2.788 R 8 Sf (revisionflag)S
+72 84.764 Mt 0 Sf (set.)S
+72 72 Mt( )S
+291.499 60 Mt(13)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 14 18
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 767 Mt 10 Sf (4.12 Inde)S -0.195 R(x)S -0.13 R(es)S
+72 744 Mt 0 Sf (The)S 3.977 R 6 Sf (.index)S 3.977 R 0 Sf (mac)S
+(ro)S 3.977 R(generates)S 3.977 R 8 Sf (<indexterm>)S 3.977 R
+0 Sf (elements)S 3.977 R(\(inde)S -0.165 R(x)S 3.977 R(entries)S
+(\))S 3.977 R(in)S 3.977 R(the)S 3.977 R(output.)S 3.977 R(It)S
+3.977 R(tak)S -0.11 R(es)S 3.977 R(one)S 3.977 R(or)S
+72 732 Mt(tw)S -0.11 R(o)S 3.276 R(ar)S -0.198 R(guments.)S 3.276 R(T)S
+(he)S 3.276 R 1 Sf (\216)S 0 Sf (rst)S 3.276 R(is)S 3.276 R(th)S
+(e)S 3.276 R(te)S -0.165 R(xt)S 3.276 R(for)S 3.276 R(the)S 3.276 R(p)S
+(rimary)S 3.276 R(inde)S -0.165 R(x)S 3.276 R(term,)S 3.276 R(a)S
+(nd)S 3.276 R(the)S 3.276 R(second,)S 3.276 R(if)S 3.276 R(pre)S
+(sent,)S 3.276 R(speci)S 1 Sf (\216)S 0 Sf (es)S 3.276 R(a)S
+72 720 Mt(secondary)S 3.429 R(inde)S -0.165 R(x)S 3.429 R(term)S
+(.)S 3.429 R(This)S 3.429 R(macro)S 3.429 R(can)S 3.429 R(be)S
+3.429 R(called)S 3.429 R(either)S 3.429 R(from)S 3.429 R(a)S 3.429 R(d)S
+(irecti)S -0.275 R(v)S -0.165 R(e)S 3.429 R(line,)S 3.429 R(or)S
+3.429 R(inline.)S 3.429 R(Ho)S -0.275 R(we)S -0.275 R(v)S -0.165 R(e)S
+(r)S -0.44 R(,)S 3.429 R(it)S 3.429 R(is)S
+72 708 Mt(mostly called as a directi)S -0.275 R(v)S -0.165 R(e)S
+(, at the start of a rele)S -0.275 R(v)S -0.275 R(ant paragrap)S
+(h. F)S -0.165 R(or e)S -0.165 R(xample:)S
+84 685 Mt 8 Sf (.index goose "wild chase")S
+84 673 Mt(The chasing of wild geese...)S
+72 650 Mt 0 Sf (Y)S -1.21 R(ou)S 2.883 R(can)S 2.883 R(generat)S
+(e)S 2.883 R 1 Sf (\237)S 0 Sf (see)S 1 Sf (\240)S 2.883 R 0 Sf
+(and)S 2.883 R 1 Sf (\237)S 0 Sf (see)S 2.883 R(also)S 1 Sf (\240)S
+2.883 R 0 Sf (inde)S -0.165 R(x)S 2.883 R(entries)S 2.883 R(by)S
+2.883 R(using)S 2.883 R 6 Sf (.index-see)S 2.883 R 0 Sf (and)S
+2.883 R 6 Sf (.index-seealso)S 2.883 R 0 Sf (instead)S 2.883 R(o)S
+(f)S
+72 638 Mt 6 Sf (.index)S 0 Sf (.)S
+72 615 Mt(If)S 5.103 R(you)S 5.103 R(w)S -0.11 R(ant)S 5.103 R(t)S
+(o)S 5.103 R(generate)S 5.103 R(an)S 5.103 R(inde)S -0.165 R(x)S
+5.103 R(entry)S 5.103 R(for)S 5.103 R(a)S 5.103 R(range)S 5.103 R(o)S
+(f)S 5.103 R(pages,)S 5.103 R(you)S 5.103 R(can)S 5.103 R(use)S
+5.103 R(the)S 5.103 R 6 Sf (.index-fr)S -0.198 R(om)S 5.103 R
+0 Sf (and)S
+72 603 Mt 6 Sf (.index-to)S 2.963 R 0 Sf (macros.)S 2.963 R(Th)S
+(e)S 2.963 R 1 Sf (\216)S 0 Sf (rst)S 2.963 R(ar)S -0.198 R(gu)S
+(ment)S 2.963 R(of)S 2.963 R(each)S 2.963 R(of)S 2.963 R(them)S
+2.963 R(is)S 2.963 R(an)S 2.963 R(ID)S 2.963 R(that)S 2.963 R(t)S
+(ies)S 2.963 R(them)S 2.963 R(together)S -0.605 R(.)S 2.963 R(T)S
+(he)S 2.963 R(second)S 2.963 R(and)S
+72 591 Mt(third ar)S -0.198 R(guments of )S 6 Sf (.index-fr)S
+-0.198 R(om)S 0 Sf ( are the primary and secondary inde)S -0.165 R(x)S
+( items. F)S -0.165 R(or e)S -0.165 R(xample:)S
+84 568 Mt 8 Sf (.index-from "ID5" "indexes" "handling ranges")S
+84 556 Mt(... <lines of text> ...)S
+84 544 Mt(.index-to "ID5")S
+72 521 Mt 0 Sf (The)S 3.355 R 6 Sf (.mak)S -0.11 R(eindex)S 3.355 R
+0 Sf (macro)S 3.355 R(should)S 3.355 R(be)S 3.355 R(called)S 3.355 R(a)S
+(t)S 3.355 R(the)S 3.355 R(end)S 3.355 R(of)S 3.355 R(the)S 3.355 R(d)S
+(ocument,)S 3.355 R(at)S 3.355 R(the)S 3.355 R(point)S 3.355 R(w)S
+(here)S 3.355 R(you)S 3.355 R(w)S -0.11 R(ant)S 3.355 R(an)S
+72 509 Mt(inde)S -0.165 R(x)S 3.472 R(to)S 3.472 R(be)S 3.472 R(g)S
+(enerated.)S 3.472 R(It)S 3.472 R(can)S 3.472 R(ha)S -0.22 R(v)S
+-0.165 R(e)S 3.472 R(up)S 3.472 R(to)S 3.472 R(tw)S -0.11 R(o)S
+3.472 R(ar)S -0.198 R(guments.)S 3.472 R(The)S 3.472 R 1 Sf (\216)S
+0 Sf (rst)S 3.472 R(is)S 3.472 R(the)S 3.472 R(title)S 3.472 R(f)S
+(or)S 3.472 R(the)S 3.472 R(inde)S -0.165 R(x,)S 3.472 R(for)S
+3.472 R(which)S
+72 497 Mt(the)S 3.135 R(def)S -0.11 R(ault)S 3.135 R(is)S 3.135 R
+1 Sf (\237)S 0 Sf (Inde)S -0.165 R(x)S 1 Sf (\240)S 0 Sf (.)S
+3.135 R(The)S 3.135 R(second,)S 3.135 R(if)S 3.135 R(present,)S
+3.135 R(causes)S 3.135 R(a)S 3.135 R 8 Sf (role=)S 3.135 R 0 Sf
+(attrib)S -0.22 R(ute)S 3.135 R(to)S 3.135 R(be)S 3.135 R(adde)S
+(d)S 3.135 R(to)S 3.135 R(the)S 3.135 R 8 Sf (<index>)S
+72 485 Mt 0 Sf (element)S 3.663 R(that)S 3.663 R(is)S 3.663 R(g)S
+(enerated.)S 3.663 R(F)S -0.165 R(or)S 3.663 R(this)S 3.663 R(t)S
+(o)S 3.663 R(be)S 3.663 R(useful,)S 3.663 R(you)S 3.663 R(need)S
+3.663 R(to)S 3.663 R(generate)S 3.663 R 8 Sf (<indexterm>)S 3.663 R
+0 Sf (elements)S 3.663 R(that)S
+72 473 Mt(ha)S -0.22 R(v)S -0.165 R(e)S 4.344 R(similar)S 4.344 R
+8 Sf (role=)S 4.344 R 0 Sf (attrib)S -0.22 R(utes.)S 4.344 R(T)S
+(he)S 4.344 R(standard)S 4.344 R 6 Sf (index)S 4.344 R 0 Sf (m)S
+(acro)S 4.344 R(cannot)S 4.344 R(do)S 4.344 R(this.)S 4.344 R(I)S
+(f)S 4.344 R(you)S 4.344 R(w)S -0.11 R(ant)S 4.344 R(to)S 4.344 R(g)S
+(enerate)S
+72 461 Mt(multiple)S 3.305 R(inde)S -0.165 R(x)S -0.165 R(es)S
+3.305 R(using)S 3.305 R(this)S 3.305 R(mechanism,)S 3.305 R(it)S
+3.305 R(is)S 3.305 R(best)S 3.305 R(to)S 3.305 R(de)S 1 Sf (\216)S
+0 Sf (ne)S 3.305 R(your)S 3.305 R(o)S -0.275 R(wn)S 3.305 R(ma)S
+(cros)S 3.305 R(for)S 3.305 R(each)S 3.305 R(inde)S -0.165 R(x)S
+3.305 R(type.)S 3.305 R(F)S -0.165 R(or)S
+72 449 Mt(e)S -0.165 R(xample:)S
+84 426 Mt 8 Sf (.macro cindex)S
+84 414 Mt(&<indexterm role="concept">&)S
+84 402 Mt(&<primary>&$1&</primary>&)S
+84 390 Mt(.arg 2)S
+84 378 Mt(&<secondary>&$2&</secondary>&)S
+84 366 Mt(.endarg)S
+84 354 Mt(&</indexterm>&)S
+84 342 Mt(.endmacro)S
+72 319 Mt 0 Sf (This de)S 1 Sf (\216)S 0 Sf (nes a )S 6 Sf (.c)S
+(index)S 0 Sf ( macro for the )S 1 Sf (\237)S 0 Sf (concept)S
+1 Sf (\240)S 0 Sf ( inde)S -0.165 R(x. At the end of the docum)S
+(ent you might ha)S -0.22 R(v)S -0.165 R(e:)S
+84 296 Mt 8 Sf (.makeindex "Concept index" "concept")S
+84 284 Mt(.makeindex)S
+72 261 Mt 0 Sf (As)S 5.353 R(long)S 5.353 R(as)S 5.353 R(the)S
+5.353 R(processing)S 5.353 R(softw)S -0.11 R(are)S 5.353 R(can)S
+5.353 R(handle)S 5.353 R(multiple)S 5.353 R(inde)S -0.165 R(x)S
+-0.165 R(es,)S 5.353 R(this)S 5.353 R(causes)S 5.353 R(tw)S -0.11 R(o)S
+5.353 R(inde)S -0.165 R(x)S -0.165 R(es)S 5.353 R(to)S 5.353 R(b)S
+(e)S
+72 249 Mt(generated.)S 4.976 R(The)S 4.976 R 1 Sf (\216)S 0 Sf
+(rst)S 4.976 R(is)S 4.976 R(entitled)S 4.976 R 1 Sf (\237)S 0 Sf
+(Concept)S 4.976 R(inde)S -0.165 R(x)S 1 Sf (\240)S 0 Sf (,)S
+4.976 R(and)S 4.976 R(contains)S 4.976 R(only)S 4.976 R(those)S
+4.976 R(inde)S -0.165 R(x)S 4.976 R(entries)S 4.976 R(that)S 4.976 R(w)S
+(ere)S
+72 237 Mt(generated by the )S 6 Sf (.cindex)S 0 Sf ( macro. Th)S
+(e second contains all inde)S -0.165 R(x entries.)S
+84 214 Mt 8 Sf (This block is a test for a blank line)S
+84 190 Mt(which should have appeared there.)S
+84 167 Mt 0 Sf (This block is a test for a blank line)S
+84 143 Mt(which should ha)S -0.22 R(v)S -0.165 R(e appeared th)S
+(ere.)S
+72 72 Mt( )S
+291.499 60 Mt(14)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 18

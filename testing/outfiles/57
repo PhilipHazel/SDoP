@@ -1,0 +1,497 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.70
+%%CreationDate: Sat Jan 15 17:16:01 2011
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Courier
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Courier
+/af4 /af5 /Courier inf
+/vf 8 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 11 scalefont put
+vf 5 af5 11 scalefont put
+vf 6 af0 11 scalefont put
+vf 7 af1 11 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+32 797 Mt 4 Sf (MAINTENANCE README FOR PCRE)S
+32 786 Mt(===========================)S
+32 764 Mt(The files in the "maint" directory of the PCRE sourc)S
+(e contain data, scripts,)S
+32 753 Mt(and programs that are used for the maintenance of PC)S
+(RE, but which do not form)S
+32 742 Mt(part of the PCRE distribution tarballs. This documen)S
+(t describes these files and)S
+32 731 Mt(also contains some notes for maintainers. Its conten)S
+(ts are:)S
+32 709 Mt(  Files in the maint directory)S
+32 698 Mt(  Updating to a new Unicode release)S
+32 687 Mt(  Preparing for a PCRE release)S
+32 676 Mt(  Making a PCRE release)S
+32 665 Mt(  Long-term ideas \(wish list\))S
+32 632 Mt(Files in the maint directory)S
+32 621 Mt(============================)S
+32 599 Mt(---------------- This file is now OBSOLETE and no lo)S
+(nger used ----------------)S
+32 588 Mt(Builducptable    A Perl script that creates the cont)S
+(ents of the ucptable.h file)S
+32 577 Mt(                 from two Unicode data files, which )S
+(themselves are downloaded)S
+32 566 Mt(                 from the Unicode web site. Run this)S
+( script in the "maint")S
+32 555 Mt(                 directory.)S
+32 544 Mt(---------------- This file is now OBSOLETE and no lo)S
+(nger used ----------------)S
+32 522 Mt(GenerateUtt.py   A Python script to generate part of)S
+( the pcre_tables.c file)S
+32 511 Mt(                 that contains Unicode script names )S
+(in a long string with)S
+32 500 Mt(                 offsets, which is tedious to mainta)S
+(in by hand.)S
+32 478 Mt(ManyConfigTests  A shell script that runs "configure)S
+(, make, test" a number of)S
+32 467 Mt(                 times with different configuration )S
+(settings.)S
+32 445 Mt(MultiStage2.py   A Python script that generates the )S
+(file pcre_ucd.c from three)S
+32 434 Mt(                 Unicode data tables, which are them)S
+(selves downloaded from the)S
+32 423 Mt(                 Unicode web site. Run this script i)S
+(n the "maint" directory.)S
+32 412 Mt(                 The generated file contains the tab)S
+(les for a 2-stage lookup)S
+32 401 Mt(                 of Unicode properties.)S
+32 379 Mt(pcre_chartables.c.non-standard)S
+32 368 Mt(                 This is a set of character tables t)S
+(hat came from a Windows)S
+32 357 Mt(                 system. It has characters greater t)S
+(han 128 that are set as)S
+32 346 Mt(                 spaces, amongst other things. I kep)S
+(t it so that it can be)S
+32 335 Mt(                 used for testing from time to time.)S
+32 313 Mt(README           This file.)S
+32 291 Mt(Unicode.tables   The files in this directory, Derive)S
+(dGeneralCategory.txt,)S
+32 280 Mt(                 Scripts.txt and UnicodeData.txt, we)S
+(re downloaded from the)S
+32 269 Mt(                 Unicode web site. They contain info)S
+(rmation about Unicode)S
+32 258 Mt(                 characters and scripts.)S
+32 236 Mt(ucptest.c        A short C program for testing the U)S
+(nicode property macros)S
+32 225 Mt(                 that do lookups in the pcre_ucd.c d)S
+(ata, mainly useful after)S
+32 214 Mt(                 rebuilding the Unicode property tab)S
+(le. Compile and run this in)S
+32 203 Mt(                 the "maint" directory \(see comment)S
+(s at its head\).)S
+32 181 Mt(ucptestdata      A directory containing two files, t)S
+(estinput1 and testoutput1,)S
+32 170 Mt(                 to use in conjunction with the ucpt)S
+(est program.)S
+32 148 Mt(utf8.c           A short, freestanding C program for)S
+( converting a Unicode code)S
+32 137 Mt(                 point into a sequence of bytes in t)S
+(he UTF-8 encoding, and vice)S
+32 126 Mt(                 versa. If its argument is a hex num)S
+(ber such as 0x1234, it)S
+32 115 Mt(                 outputs a list of the equivalent UT)S
+(F-8 bytes. If its argument)S
+32 104 Mt(                 is sequence of concatenated UTF-8 b)S
+(ytes \(e.g. e188b4\) it)S
+32 93 Mt(                 treats them as a UTF-8 character and)S
+( outputs the equivalent)S
+32 82 Mt(                 code point in hex.)S
+32 40 Mt(Updating to a new Unicode release)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+32 797 Mt 4 Sf (=================================)S
+32 775 Mt(When there is a new release of Unicode, the files in)S
+( Unicode.tables must be)S
+32 764 Mt(refreshed from the web site. If the new version of U)S
+(nicode adds new character)S
+32 753 Mt(scripts, the source file ucp.h and both the MultiSta)S
+(ge2.py and the)S
+32 742 Mt(GenerateUtt.py scripts must be edited to add the new)S
+( names. Then MultiStage2.py)S
+32 731 Mt(can be run to generate a new version of pcre_ucd.c, )S
+(and GenerateUtt.py can be)S
+32 720 Mt(run to generate the tricky tables for inclusion in p)S
+(cre_tables.c.)S
+32 698 Mt(If MultiStage2.py gives the error "ValueError: list.)S
+(index\(x\): x not in list",)S
+32 687 Mt(the cause is usually a missing \(or misspelt\) name )S
+(in the list of scripts. I)S
+32 676 Mt(couldn't find a straightforward list of scripts on t)S
+(he Unicode site, but)S
+32 665 Mt(there's a useful Wikipedia page that list them, and )S
+(notes the Unicode version)S
+32 654 Mt(in which they were introduced:)S
+32 632 Mt(http://en.wikipedia.org/wiki/Unicode_scripts#Table_o)S
+(f_Unicode_scripts)S
+32 610 Mt(The ucptest program can be compiled and used to chec)S
+(k that the new tables in)S
+32 599 Mt(pcre_ucd.c work properly, using the data files in uc)S
+(ptestdata to check a number)S
+32 588 Mt(of test characters. The source file ucptest.c must b)S
+(e updated whenever new)S
+32 577 Mt(Unicode script names are added.)S
+32 555 Mt(Note also that both the pcresyntax.3 and pcrepattern)S
+(.3 man pages contain lists)S
+32 544 Mt(of Unicode script names.)S
+32 500.2 Mt(Preparing for a PCRE release)S
+32 489.2 Mt(============================)S
+32 467.2 Mt(This section contains a checklist of things that I)S
+( consult before building a)S
+32 456.2 Mt(distribution for a new release.)S
+32 434.2 Mt(. Ensure that the version number and version date )S
+(are correct in configure.ac.)S
+32 412.2 Mt(. If new build options have been added, ensure tha)S
+(t they are added to the CMake)S
+32 401.2 Mt(  files as well as to the autoconf files.)S
+32 379.2 Mt(. Run ./autogen.sh to ensure everything is up-to-d)S
+(ate.)S
+32 357.2 Mt(. Compile and test with many different config opti)S
+(ons, and combinations of)S
+32 346.2 Mt(  options. The maint/ManyConfigTests script now en)S
+(capsulates this testing.)S
+32 324.2 Mt(. Run perltest.pl on the test data for tests 1, 4,)S
+( 6, and 11. The output should)S
+32 313.2 Mt(  match the PCRE test output, apart from the versi)S
+(on identification at the)S
+32 302.2 Mt(  start of each test. The other tests are not Perl)S
+(-compatible \(they use various)S
+32 291.2 Mt(  PCRE-specific features or options\).)S
+32 269.2 Mt(. Test with valgrind by running "RunTest valgrind")S
+(. There is also "RunGrepTest)S
+32 258.2 Mt(  valgrind", though that takes quite a long time.)S
+32 236.2 Mt(. It is possible to test with the emulated memmove)S
+(\(\) function by undefining)S
+32 225.2 Mt(  HAVE_MEMMOVE and HAVE_BCOPY in config.h, though )S
+(I do not do this often. You)S
+32 214.2 Mt(  may see a number of "pcre_memmove defined but no)S
+(t used" warnings for the)S
+32 203.2 Mt(  modules in which there is no call to memmove\(\))S
+(. These can be ignored.)S
+32 181.2 Mt(. Documentation: check AUTHORS, COPYING, ChangeLog)S
+( \(check version and date\),)S
+32 170.2 Mt(  INSTALL, LICENCE, NEWS \(check version and date\))S
+(, NON-UNIX-USE, and README.)S
+32 159.2 Mt(  Many of these won't need changing, but over the )S
+(long term things do change.)S
+32 137.2 Mt(. I used to test new releases myself on a number o)S
+(f different operating)S
+32 126.2 Mt(  systems, using different compilers as well. For )S
+(example, on Solaris it is)S
+32 115.2 Mt(  helpful to test using Sun's cc compiler as a cha)S
+(nge from gcc. Adding)S
+32 104.2 Mt(  -xarch=v9 to the cc options does a 64-bit test, )S
+(but it also needs -S 64 for)S
+32 93.2 Mt(  pcretest to increase the stack size for test 2. S)S
+(ince I retired I can no)S
+32 82.2 Mt(  longer do this, but instead I rely on putting out)S
+( release candidates for)S
+32 71.2 Mt(  folks on the pcre-dev list to test.)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+32 797 Mt 4 Sf (Making a PCRE release)S
+32 786 Mt(=====================)S
+32 764 Mt(Run PrepareRelease and commit the files that it chan)S
+(ges \(by removing trailing)S
+32 753 Mt(spaces\). The first thing this script does is to run)S
+( CheckMan on the man pages;)S
+32 742 Mt(if it finds any markup errors, it reports them and t)S
+(hen aborts.)S
+32 720 Mt(Once PrepareRelease has run clean, run "make distche)S
+(ck" to create the tarballs)S
+32 709 Mt(and the zipball. Double-check with "svn status", the)S
+(n create an SVN tagged)S
+32 698 Mt(copy:)S
+32 676 Mt(  svn copy svn://vcs.exim.org/pcre/code/trunk \\)S
+32 665 Mt(           svn://vcs.exim.org/pcre/code/tags/pcre-8.)S
+(xx)S
+32 643 Mt(Don't forget to update Freshmeat when the new releas)S
+(e is out, and to tell)S
+32 632 Mt(webmaster@pcre.org and the mailing list. Also, updat)S
+(e the list of version)S
+32 621 Mt(numbers in Bugzilla \(edit products\).)S
+32 579 Mt(Future ideas \(wish list\))S
+32 568 Mt(========================)S
+32 546 Mt(This section records a list of ideas so that they do)S
+( not get forgotten. They)S
+32 535 Mt(vary enormously in their usefulness and potential fo)S
+(r implementation. Some are)S
+32 524 Mt(very sensible; some are rather wacky. Some have been)S
+( on this list for years;)S
+32 513 Mt(others are relatively new.)S
+32 491 Mt(. Optimization)S
+32 469 Mt(  There are always ideas for new optimizations so as)S
+( to speed up pattern)S
+32 458 Mt(  matching. Most of them try to save work by recogni)S
+(zing a non-match without)S
+32 447 Mt(  having to scan all the possibilities. These are so)S
+(me that I've recorded:)S
+32 425 Mt(  * /\(\(A{0,5}\){0,5}\){0,5}\(something complex\)/ )S
+(on a non-matching string is very)S
+32 414 Mt(    slow, though Perl is fast. Can we speed up someh)S
+(ow? Convert to {0,125}?)S
+32 403 Mt(    OTOH, this is pathological - the user could easi)S
+(ly fix it.)S
+32 381 Mt(  * Turn ={4} into ==== ? \(for speed\). I once did )S
+(an experiment, and it seems)S
+32 370 Mt(    to have little effect, and maybe makes things wo)S
+(rse.)S
+32 348 Mt(  * "Ends with literal string" - note that a single )S
+(character doesn't gain much)S
+32 337 Mt(    over the existing "required byte" \(reqbyte\) fe)S
+(ature that just remembers one)S
+32 326 Mt(    byte.)S
+32 304 Mt(  * These probably need to go in pcre_study\(\):)S
+32 282 Mt(    o Remember an initial string rather than just 1 )S
+(char?)S
+32 260 Mt(    o A required byte from alternatives - not just t)S
+(he last char, but an)S
+32 249 Mt(      earlier one if common to all alternatives.)S
+32 227 Mt(    o Friedl contains other ideas.)S
+32 205 Mt(  * pcre_study\(\) does not set initial byte flags f)S
+(or Unicode property types)S
+32 194 Mt(    such as \\p; I don't know how much benefit there)S
+( would be for, for example,)S
+32 183 Mt(    setting the bits for 0-9 and all bytes >= xC0 wh)S
+(en a pattern starts with)S
+32 172 Mt(    \\p{N}.)S
+32 150 Mt(  * There is scope for more "auto-possessifying" in )S
+(connection with \\p and \\P.)S
+32 128 Mt(. If Perl gets to a consistent state over the settin)S
+(gs of capturing sub-)S
+32 117 Mt(  patterns inside repeats, see if we can match it. O)S
+(ne example of the)S
+32 106 Mt(  difference is the matching of /\(main\(O\)?\)+/ ag)S
+(ainst mainOmain, where PCRE)S
+32 95 Mt(  leaves $2 set. In Perl, it's unset. Changing this i)S
+(n PCRE will be very hard)S
+32 84 Mt(  because I think it needs much more state to be reme)S
+(mbered.)S
+32 62 Mt(. Perl 6 will be a revolution. Is it a revolution too)S
+( far for PCRE?)S
+32 40 Mt(. Unicode)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+32 786 Mt 4 Sf (  * There has been a request for direct suppor)S
+(t of 16-bit characters and)S
+32 775 Mt(    UTF-16 \(Bugzilla #1049\). However, since Unicod)S
+(e is moving beyond purely)S
+32 764 Mt(    16-bit characters, is this worth it at all? One )S
+(possible way of handling)S
+32 753 Mt(    16-bit characters would be to "load" them in the)S
+( same way that UTF-8)S
+32 742 Mt(    characters are loaded. Another possibility is to)S
+( provide a set of)S
+32 731 Mt(    translation functions, and build an index during)S
+( translation so that the)S
+32 720 Mt(    returned offsets can automatically be translated)S
+( \(using the index\) after a)S
+32 709 Mt(    match.)S
+32 687 Mt(  * A different approach to Unicode might be to use )S
+(a typedef to do everything)S
+32 676 Mt(    in unsigned shorts instead of unsigned chars. Ac)S
+(tually, we'd have to have a)S
+32 665 Mt(    new typedef to distinguish data from bits of com)S
+(piled pattern that are in)S
+32 654 Mt(    bytes, I think. There would need to be conversio)S
+(n functions in and out. I)S
+32 643 Mt(    don't think this is particularly trivial - and a)S
+(nyway, Unicode now has)S
+32 632 Mt(    characters that need more than 16 bits, so is th)S
+(is at all sensible? I)S
+32 621 Mt(    suspect not.)S
+32 599 Mt(. Allow errorptr and erroroffset to be NULL. I don't)S
+( like this idea.)S
+32 577 Mt(. Line endings:)S
+32 555 Mt(  * Option to use NUL as a line terminator in subjec)S
+(t strings. This could now)S
+32 544 Mt(    be done relatively easily since the extension to)S
+( support LF, CR, and CRLF.)S
+32 533 Mt(    If it is done, a suitable option for pcregrep is)S
+( also required.)S
+32 511 Mt(. Option to provide the pattern with a length instea)S
+(d of with a NUL terminator.)S
+32 500 Mt(  This affects quite a few places in the code and is)S
+( not trivial.)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 4

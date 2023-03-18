@@ -1,0 +1,803 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.52
+%%CreationDate: Sun Dec 14 17:04:18 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Times-Bold
+%%+ font Courier
+%%+ font Helvetica
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 2 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+[/Title (Contents) /Page 1 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (1.  Introduction) /Page 3 /View [/XYZ null null 1] /Count -1 /OUT pdfmark
+[/Title (    1.1  The finish of the flourishing fish) /Page 3 /View [/XYZ null null 1] /OUT pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Times-Bold
+/af6 /af7 /Times-Bold inf
+%%IncludeResource: font Courier
+/af8 /af9 /Courier inf
+%%IncludeResource: font Helvetica
+/af10 /af11 /Helvetica inf
+/vf 16 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af6 11 scalefont put
+vf 7 af7 11 scalefont put
+vf 8 af4 13 scalefont put
+vf 9 af5 13 scalefont put
+vf 10 af8 11 scalefont put
+vf 11 af9 11 scalefont put
+vf 12 af10 11 scalefont put
+vf 13 af11 11 scalefont put
+vf 14 af4 11 scalefont put
+vf 15 af5 11 scalefont put
+%%EndSetup
+
+%%Page: i 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+231.488 764 Mt 4 Sf (T)S -1.28 R(ab)S -0.16 R(le of contents)S
+72 737 Mt 14 Sf (1.  Intr)S -0.22 R(oduction)S 3.15 R 0 Sf (..)S
+(.............................................................)S
+(.............................................................)S
+(......)S
+515.883 737 Mt 14 Sf (1)S
+72 725 Mt 12 Sf ( )S
+72 713 Mt(    1.1  The )S 13 Sf (\216)S 12 Sf (nish of the flo)S
+(ur)S 0.165 R(ishing )S 13 Sf (\216)S 12 Sf (sh)S 4.206 R 0 Sf
+(.............................................................)S
+(..............................)S
+515.883 713 Mt 12 Sf (1)S
+72 72 Mt 0 Sf ( )S
+295.47 60 Mt 2 Sf (i)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: ii 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 1 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+241.6 764 Mt 4 Sf (1. Intr)S -0.32 R(oduction)S
+72 737 Mt 6 Sf (The)S 3.292 R(quick)S 3.292 R(br)S -0.198 R(o)S
+-0.11 R(wn)S 3.292 R(f)S -0.275 R(ox)S 3.292 R(jumps)S 3.292 R(o)S
+-0.11 R(v)S -0.11 R(er)S 3.292 R(the)S 3.292 R(lazy)S 3.292 R(d)S
+(og)S -0.165 R(.)S 3.292 R 0 Sf (The)S 3.292 R(quick)S 3.292 R(b)S
+(ro)S -0.275 R(wn)S 3.292 R(fox)S 3.292 R(jumps)S 3.292 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.292 R(the)S 3.292 R(lazy)S 3.292 R(d)S
+(og.)S 3.292 R(The)S
+72 725 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(j)S
+(umps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S 3.512 R(br)S
+(o)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.512 R(the)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(T)S
+(he)S 3.512 R(quick)S
+72 713 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(d)S
+(og.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(The)S
+3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 701 Mt(fox)S 4.055 R(jumps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 4.055 R(the)S 4.055 R(lazy)S 4.055 R(dog.)S 4.055 R(The)S
+4.055 R(quick)S 4.055 R(bro)S -0.275 R(wn)S 4.055 R(fox)S 4.055 R(j)S
+(umps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(er)S 4.055 R(the)S 4.055 R(l)S
+(azy)S 4.055 R(dog.)S 4.055 R(The)S 4.055 R(quick)S 4.055 R(br)S
+(o)S -0.275 R(wn)S 4.055 R(fox)S
+72 689 Mt(jumps)S 3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(t)S
+(he)S 3.375 R(lazy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quic)S
+(k)S 3.375 R(bro)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(the)S 3.375 R(l)S
+(azy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quick)S 3.375 R(br)S
+(o)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+72 677 Mt(o)S -0.165 R(v)S -0.165 R(er)S 3.661 R(the)S 3.661 R(l)S
+(azy)S 3.661 R(dog.)S 3.661 R(Unkno)S -0.275 R(wn)S 3.661 R(sy)S
+(mbol)S 3.661 R(\(\244\))S 3.661 R(in)S 3.661 R(a)S 3.661 R(li)S
+(ne)S 3.661 R(that)S 3.661 R(is)S 3.661 R(to)S 3.661 R(be)S 3.661 R(j)S
+(usti)S 1 Sf (\216)S 0 Sf (ed.)S 3.661 R(The)S 3.661 R(quick)S
+3.661 R(bro)S -0.275 R(wn)S 3.661 R(fox)S 3.661 R(jumps)S
+72 665 Mt(o)S -0.165 R(v)S -0.165 R(er)S 4.918 R(the)S 4.918 R(l)S
+(azy)S 4.918 R(dog.)S 4.918 R(K)S -0.275 R(ern)S 4.918 R(test)S
+4.918 R(for)S 4.918 R(characters)S 4.918 R(in)S 4.918 R(both)S
+4.918 R(halv)S -0.165 R(es)S 4.918 R(of)S 4.918 R(the)S 4.918 R(v)S
+(irtual)S 4.918 R(font:)S 4.918 R(w)S 1 Sf -0.11 R(M)S 0 Sf -0.275 R(w)S
+4.918 R(should)S 4.918 R(be)S 4.918 R(w)S
+72 653 Mt(follo)S -0.275 R(wed by omacron.)S
+72 630.958 Mt(This)S 3.394 R(is)S 3.394 R(a)S 3.394 R(test)S 3.394 R(p)S
+(aragraph)S 3.394 R(where)S 3.394 R(kerning)S 3.394 R(should)S
+3.394 R(be)S 3.394 R(turned)S 3.394 R(off.)S 3.394 R(Yorkshire)S
+3.394 R(is)S 3.394 R(a)S 3.394 R(good)S 3.394 R(test.)S 3.394 R(T)S
+(ry)S 3.394 R(also)S 3.394 R(w)S 1 Sf (M)S 0 Sf (w.)S
+72 618.958 Mt(At the end of the paragraph, we'll turn kerning )S
+(on again so it should happen for the lines that follow.)S
+72 596.916 Mt(K)S -0.275 R(erning)S 2.866 R(should)S 2.866 R(b)S
+(e)S 2.866 R(back)S 2.866 R(on)S 2.866 R(ag)S -0.055 R(ain)S 2.866 R(n)S
+(o)S -0.275 R(w)S -0.715 R(.)S 2.866 R(This)S 2.866 R(paragrap)S
+(h)S 2.866 R(should)S 2.866 R(be)S 2.866 R(long)S 2.866 R(enou)S
+(gh)S 2.866 R(so)S 2.866 R(that)S 2.866 R(the)S 2.866 R(lines)S
+2.866 R(in)S 2.866 R(it)S 2.866 R(are)S
+72 584.916 Mt(justi)S 1 Sf (\216)S 0 Sf (ed.)S 3.861 R(W)S -0.88 R(e)S
+3.861 R(w)S -0.11 R(ant)S 3.861 R(to)S 3.861 R(be)S 3.861 R(su)S
+(re)S 3.861 R(that)S 3.861 R(the)S 3.861 R(spacing)S 3.861 R(i)S
+(s)S 3.861 R(w)S -0.11 R(ork)S -0.11 R(ed)S 3.861 R(out)S 3.861 R(c)S
+(orrectly)S -0.715 R(.)S 3.861 R(Y)S -1.21 R(orkshire)S 3.861 R(i)S
+(s)S 3.861 R(a)S 3.861 R(good)S 3.861 R(test.)S 3.861 R(T)S -0.385 R(r)S
+(y)S
+72 572.916 Mt(also)S 4.324 R(w)S 1 Sf -0.11 R(M)S 0 Sf -0.275 R(w)S
+-0.715 R(.)S 4.324 R(Ho)S -0.275 R(w)S 4.324 R(does)S 4.324 R(t)S
+(hat)S 4.324 R(look?)S 4.324 R(No)S -0.275 R(w)S 4.324 R(try)S
+4.324 R(turning)S 4.324 R(k)S -0.11 R(erning)S 4.324 R(of)S -0.275 R(f)S
+4.324 R(for)S 4.324 R(just)S 4.324 R(one)S 4.324 R(w)S -0.11 R(o)S
+(rd)S 4.324 R(in)S 4.324 R(the)S 4.324 R(middle)S 4.324 R(of)S
+4.324 R(a)S
+72 560.916 Mt(paragraph.)S 5.172 R(Yorkshire,)S 5.172 R(Y)S -1.21 R(o)S
+(rkshire.)S 5.172 R(Extend)S 5.172 R(this)S 5.172 R(paragraph)S
+5.172 R(so)S 5.172 R(that)S 5.172 R(the)S 5.172 R(line)S 5.172 R(i)S
+(n)S 5.172 R(which)S 5.172 R(we)S 5.172 R(did)S 5.172 R(that)S
+5.172 R(is)S
+72 548.916 Mt(justi)S 1 Sf (\216)S 0 Sf (ed.)S
+84 526.874 Mt(Y)S -1.21 R(orkshire. This is the )S 1 Sf (\216)S
+0 Sf (rst line.)S
+84 514.874 Mt(This is the second, )S 2 Sf (with emphasized)S 0 Sf
+( te)S -0.165 R(xt.)S
+84 492.832 Mt(This is the second )S 1 Sf (\216)S 0 Sf (rst lin)S
+(e.)S
+84 480.832 Mt(This is the second second, )S 2 Sf (with emphasi)S
+(zed)S 0 Sf ( te)S -0.165 R(xt.)S
+84 468.832 Mt(Here is a third line.)S
+84 456.832 Mt(The fourth line contains a Euro \()S 1 Sf (\201)S
+0 Sf (\) and an unkno)S -0.275 R(wn \(\244\) symbol.)S
+84 444.832 Mt(The )S 1 Sf (\216)S 0 Sf (fth line is going to b)S
+(e too long for the output so we'll mak)S -0.11 R(e it quite a)S
+( bit longer)S -0.44 R(, longer)S -0.44 R(, longer than the ot)S
+(hers.)S
+72 413.582 Mt 8 Sf (1.1 The )S 9 Sf (\216)S 8 Sf (nish of the )S
+(flourishing )S 9 Sf (\216)S 8 Sf (sh)S
+72 392.77 Mt 0 Sf (OK,)S 3.889 R(time)S 3.889 R(for)S 3.889 R(a)S
+3.889 R(lig)S -0.055 R(ature)S 3.889 R(test.)S 3.889 R(The)S 3.889 R
+1 Sf (\216)S 0 Sf (nish)S 3.889 R(of)S 3.889 R(the)S 3.889 R(f)S
+(lourishing)S 3.889 R 1 Sf (\216)S 0 Sf (sh.)S 3.889 R(But)S 3.889 R(d)S
+(on't)S 3.889 R(lig)S -0.055 R(aturize)S 3.889 R 1 Sf (\216)S
+0 Sf (x)S -0.165 R(ed)S 3.889 R(pitch.)S 3.889 R 10 Sf (The)S
+72 380.77 Mt(finish)S 6.93 R(of)S 6.93 R(the)S 6.93 R(flourish)S
+(ing)S 6.93 R(fish.)S 3.08 R 0 Sf (And)S 3.08 R(here's)S 3.08 R(m)S
+(ore)S 3.08 R(te)S -0.165 R(xt)S 3.08 R(to)S 3.08 R 1 Sf (\216)S
+0 Sf (ll)S 3.08 R(out)S 3.08 R(the)S 3.08 R(line)S 3.08 R(for)S
+3.08 R(yet)S 3.08 R(another)S
+72 368.77 Mt(check on the justi)S 1 Sf (\216)S 0 Sf (cation lo)S
+(gic.)S
+72 346.728 Mt(The)S 3.652 R(last)S 3.652 R(line)S 3.652 R(of)S
+3.652 R(a)S 3.652 R(paragraph)S 3.652 R(is)S 3.652 R(ne)S -0.275 R(v)S
+-0.165 R(er)S 3.652 R(right-justi)S 1 Sf (\216)S 0 Sf (ed)S 3.652 R(u)S
+(nless)S 3.652 R(is)S 3.652 R(is)S 3.652 R(v)S -0.165 R(ery)S
+3.652 R(nearly)S 3.652 R(full)S 3.652 R(already)S -0.715 R(.)S
+3.652 R(W)S -0.88 R(e)S 3.652 R(will)S 3.652 R(add)S
+72 334.728 Mt(characters)S 2.88 R(to)S 2.88 R(the)S 2.88 R(las)S
+(t)S 2.88 R(line)S 2.88 R(of)S 2.88 R(this)S 2.88 R(paragraph)S
+2.88 R(to)S 2.88 R(check)S 2.88 R(this)S 2.88 R(this)S 2.88 R(l)S
+(ogic)S 2.88 R(does)S 2.88 R(w)S -0.11 R(ork:)S 2.88 R(a.)S 2.88 R(a)S
+2.88 R(a)S 2.88 R(a)S 2.88 R(a)S 2.88 R(a)S 2.88 R(a)S 2.88 R(a)S
+2.88 R(a)S 2.88 R(a)S 2.88 R(a)S 2.88 R(a)S 2.88 R(aa)S
+72 312.686 Mt(No)S -0.275 R(w)S 6.053 R(we)S 6.053 R(w)S -0.11 R(a)S
+(nt)S 6.053 R(to)S 6.053 R(test)S 6.053 R(out)S 6.053 R(the)S
+6.053 R(use)S 6.053 R(of)S 6.053 R(hard)S 6.053 R(spaces.)S 6.053 R(T)S
+(his)S 6.053 R(ne)S -0.165 R(xt)S 6.053 R(sentence)S 6.053 R(u)S
+(ses)S 6.053 R(only)S 6.053 R(hard)S 6.053 R(spaces.)S
+72 300.686 Mt(The)S 8.937 R(only)S 8.937 R(possible)S 8.937 R(s)S
+(plits)S 8.937 R(are)S 8.937 R(at)S 8.937 R(full)S 8.937 R(sto)S
+(ps.)S 8.937 R(The)S 8.937 R(only)S 8.937 R(possible)S 8.937 R(s)S
+(plits)S 8.937 R(are)S 8.937 R(at)S 8.937 R(full)S 8.937 R(sto)S
+(ps.)S
+72 288.686 Mt(The)S 8.937 R(only)S 8.937 R(possible)S 8.937 R(s)S
+(plits)S 8.937 R(are)S 8.937 R(at)S 8.937 R(full)S 8.937 R(sto)S
+(ps.)S 8.937 R(The)S 8.937 R(only)S 8.937 R(possible)S 8.937 R(s)S
+(plits)S 8.937 R(are)S 8.937 R(at)S 8.937 R(full)S 8.937 R(sto)S
+(ps.)S
+72 276.686 Mt(The only possible splits are at full stops. The )S
+(only possible splits are at full stops.)S
+72 254.812 Mt(This)S 4.13 R(paragraph)S 4.13 R(is)S 4.13 R(goi)S
+(ng)S 4.13 R(to)S 4.13 R(test)S 4.13 R(the)S 4.13 R(use)S 4.13 R(o)S
+(f)S 4.13 R(hard)S 4.13 R(h)S -0.055 R(yphens)S 4.13 R(someho)S
+-0.275 R(w)S -0.715 R(.)S 4.13 R(The)S 4.13 R(quick)S 4.13 R(b)S
+(ro)S -0.275 R(wn)S 4.13 R(ele-phant)S 4.13 R(ele-)S
+72 242.812 Mt(phant)S 4.069 R(ele-phant)S 4.069 R(ele-phant)S
+4.069 R(ele-phant)S 4.069 R(ele-phant)S 4.069 R(ele-phant)S 4.069 R(e)S
+(le-phant)S 4.069 R(ele-phant)S 4.069 R(ele-phant)S 4.069 R(el)S
+(e-phant)S 4.069 R(ele-)S
+72 230.812 Mt(phant trumpets loudly)S -0.715 R(.)S
+72 212.812 Mt(This)S 3.251 R(paragraph)S 3.251 R(is)S 3.251 R(g)S
+(oing)S 3.251 R(to)S 3.251 R(test)S 3.251 R(the)S 3.251 R(use)S
+3.251 R(of)S 3.251 R(soft)S 3.251 R(h)S -0.055 R(yphens)S 3.251 R(s)S
+(omeho)S -0.275 R(w)S -0.715 R(.)S 3.251 R(The)S 3.251 R(quick)S
+3.251 R(bro)S -0.275 R(wn)S 3.251 R(elephant)S 3.251 R(elephan)S
+(t)S
+72 200.812 Mt(elephant)S 3.882 R(elephant)S 3.882 R(elephant)S
+3.882 R(elephant)S 3.882 R(elephant)S 3.882 R(elephant)S 3.882 R(e)S
+(lephant)S 3.882 R(elephant)S 3.882 R(elephant)S 3.882 R(eleph)S
+(ant)S 3.882 R(trumpets)S
+72 188.812 Mt(loudly)S -0.715 R(. All soft h)S -0.055 R(yphens)S
+( ignored there.)S
+72 170.812 Mt(This)S 4.024 R(paragraph)S 4.024 R(is)S 4.024 R(g)S
+(oing)S 4.024 R(to)S 4.024 R(test)S 4.024 R(the)S 4.024 R(use)S
+4.024 R(of)S 4.024 R(soft)S 4.024 R(h)S -0.055 R(yphens)S 4.024 R(s)S
+(omeho)S -0.275 R(w)S -0.715 R(.)S 4.024 R(The)S 4.024 R(yello)S
+-0.275 R(w)S 4.024 R(+++++)S 4.024 R(elephant)S 4.024 R(ele\255)S
+72 158.812 Mt(phant)S 5.287 R(elephant)S 5.287 R(elephant)S 5.287 R(e)S
+(lephant)S 5.287 R(elephant)S 5.287 R(elephant)S 5.287 R(eleph)S
+(ant)S 5.287 R(elephant)S 5.287 R(elephant)S 5.287 R(elephant)S
+5.287 R(elephant)S
+72 146.812 Mt(trumpets loudly)S -0.715 R(. A soft h)S -0.055 R(y)S
+(phen should ha)S -0.22 R(v)S -0.165 R(e been used there.)S
+72 128.812 Mt(No)S -0.275 R(w try all those paragraphs ag)S -0.055 R(a)S
+(in, with h)S -0.055 R(yphenation disabled.)S
+72 110.812 Mt(This)S 5.505 R(paragraph)S 5.505 R(is)S 5.505 R(g)S
+(oing)S 5.505 R(to)S 5.505 R(test)S 5.505 R(the)S 5.505 R(use)S
+5.505 R(of)S 5.505 R(hard)S 5.505 R(h)S -0.055 R(yphens)S 5.505 R(s)S
+(omeho)S -0.275 R(w)S -0.715 R(.)S 5.505 R(The)S 5.505 R(quick)S
+5.505 R(bro)S -0.275 R(wn)S 5.505 R(ele-phant)S
+72 98.812 Mt(ele-phant)S 4.521 R(ele-phant)S 4.521 R(ele-phant)S
+4.521 R(ele-phant)S 4.521 R(ele-phant)S 4.521 R(ele-phant)S 4.521 R(e)S
+(le-phant)S 4.521 R(ele-phant)S 4.521 R(ele-phant)S 4.521 R(el)S
+(e-phant)S
+72 86.812 Mt(ele-phant trumpets loudly)S -0.715 R(.)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This)S 3.251 R(paragraph)S 3.251 R(is)S 3.251 R(g)S
+(oing)S 3.251 R(to)S 3.251 R(test)S 3.251 R(the)S 3.251 R(use)S
+3.251 R(of)S 3.251 R(soft)S 3.251 R(h)S -0.055 R(yphens)S 3.251 R(s)S
+(omeho)S -0.275 R(w)S -0.715 R(.)S 3.251 R(The)S 3.251 R(quick)S
+3.251 R(bro)S -0.275 R(wn)S 3.251 R(elephant)S 3.251 R(elephan)S
+(t)S
+72 756 Mt(elephant)S 3.882 R(elephant)S 3.882 R(elephant)S 3.882 R(e)S
+(lephant)S 3.882 R(elephant)S 3.882 R(elephant)S 3.882 R(eleph)S
+(ant)S 3.882 R(elephant)S 3.882 R(elephant)S 3.882 R(elephant)S
+3.882 R(trumpets)S
+72 744 Mt(loudly)S -0.715 R(. All soft h)S -0.055 R(yphens ign)S
+(ored there.)S
+72 722.8 Mt(This)S 5.391 R(paragraph)S 5.391 R(is)S 5.391 R(go)S
+(ing)S 5.391 R(to)S 5.391 R(test)S 5.391 R(the)S 5.391 R(use)S
+5.391 R(of)S 5.391 R(soft)S 5.391 R(h)S -0.055 R(yphens)S 5.391 R(s)S
+(omeho)S -0.275 R(w)S -0.715 R(.)S 5.391 R(The)S 5.391 R(yello)S
+-0.275 R(w)S 5.391 R(+++++)S 5.391 R(elephant)S
+72 710.8 Mt(elephant)S 4.005 R(elephant)S 4.005 R(elephant)S 4.005 R(e)S
+(lephant)S 4.005 R(elephant)S 4.005 R(elephant)S 4.005 R(eleph)S
+(ant)S 4.005 R(elephant)S 4.005 R(elephant)S 4.005 R(elephant)S
+4.005 R(elephant)S
+72 698.8 Mt(trumpets loudly)S -0.715 R(. A soft h)S -0.055 R(y)S
+(phen should ha)S -0.22 R(v)S -0.165 R(e been used there.)S
+72 677.6 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 665.6 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(o)S
+(n)S 2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S
+-0.275 R(w)S 2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(t)S
+(he)S 2.801 R(bottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S
+2.801 R(page)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(T)S
+(his)S
+72 653.6 Mt(is a paragraphs that we will cop)S -0.11 R(y quite)S
+( a fe)S -0.275 R(w times.)S
+72 632.4 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 620.4 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(o)S
+(n)S 2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S
+-0.275 R(w)S 2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(t)S
+(he)S 2.801 R(bottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S
+2.801 R(page)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(T)S
+(his)S
+72 608.4 Mt(is a paragraphs that we will cop)S -0.11 R(y quite)S
+( a fe)S -0.275 R(w times.)S
+72 587.2 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 575.2 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(o)S
+(n)S 2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S
+-0.275 R(w)S 2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(t)S
+(he)S 2.801 R(bottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S
+2.801 R(page)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(T)S
+(his)S
+72 563.2 Mt(is a paragraphs that we will cop)S -0.11 R(y quite)S
+( a fe)S -0.275 R(w times.)S
+72 542 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 530 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 518 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 496.8 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 484.8 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(o)S
+(n)S 2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S
+-0.275 R(w)S 2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(t)S
+(he)S 2.801 R(bottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S
+2.801 R(page)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(T)S
+(his)S
+72 472.8 Mt(is a paragraphs that we will cop)S -0.11 R(y quite)S
+( a fe)S -0.275 R(w times.)S
+72 451.6 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 439.6 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(o)S
+(n)S 2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S
+-0.275 R(w)S 2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(t)S
+(he)S 2.801 R(bottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S
+2.801 R(page)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(T)S
+(his)S
+72 427.6 Mt(is a paragraphs that we will cop)S -0.11 R(y quite)S
+( a fe)S -0.275 R(w times.)S
+72 406.4 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 394.4 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(o)S
+(n)S 2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S
+-0.275 R(w)S 2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(t)S
+(he)S 2.801 R(bottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S
+2.801 R(page)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(T)S
+(his)S
+72 382.4 Mt(is a paragraphs that we will cop)S -0.11 R(y quite)S
+( a fe)S -0.275 R(w times.)S
+72 361.2 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 349.2 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(o)S
+(n)S 2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S
+-0.275 R(w)S 2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(t)S
+(he)S 2.801 R(bottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S
+2.801 R(page)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(T)S
+(his)S
+72 337.2 Mt(is a paragraphs that we will cop)S -0.11 R(y quite)S
+( a fe)S -0.275 R(w times.)S
+72 318 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 306 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 294 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 276 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 264 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 252 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 234 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 222 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 210 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 192 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 180 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 168 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 150 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 138 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 126 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 108 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 96 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 84 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a )S
+(fe)S -0.275 R(w times.)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 756 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 744 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 721 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 709 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 697 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 674 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 662 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 650 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 627 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 615 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 603 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 580 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 568 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 556 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 533 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 521 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 509 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 486 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 474 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 462 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 439 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 427 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 415 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 392 Mt(W)S -0.88 R(e)S 3.702 R(no)S -0.275 R(w)S 3.702 R(w)S
+-0.11 R(ant)S 3.702 R(to)S 3.702 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.702 R(a)S 3.702 R(number)S 3.702 R(of)S 3.702 R(paragraphs)S
+3.702 R(to)S 3.702 R 1 Sf (\216)S 0 Sf (ll)S 3.702 R(up)S 3.702 R(t)S
+(he)S 3.702 R(page)S 3.702 R(so)S 3.702 R(that)S 3.702 R(we)S
+3.702 R(can)S 3.702 R(check)S 3.702 R(out)S 3.702 R(where)S 3.702 R(i)S
+(t)S
+72 380 Mt(puts)S 2.801 R(the)S 2.801 R(paragraphs)S 2.801 R(on)S
+2.801 R(the)S 2.801 R(page,)S 2.801 R(and)S 2.801 R(ho)S -0.275 R(w)S
+2.801 R(the)S 2.801 R(alignment)S 2.801 R(of)S 2.801 R(the)S 2.801 R(b)S
+(ottom)S 2.801 R(line)S 2.801 R(of)S 2.801 R(the)S 2.801 R(pag)S
+(e)S 2.801 R(w)S -0.11 R(orks)S 2.801 R(out.)S 2.801 R(This)S
+72 368 Mt(is a paragraphs that we will cop)S -0.11 R(y quite a)S
+( fe)S -0.275 R(w times.)S
+72 345 Mt(URL with te)S -0.165 R(xt, continue on same line: )S(t)S
+(e)S -0.165 R(xt \(http://some.thing\))S( rhubarb)S
+72 322 Mt(URL with te)S -0.165 R(xt, continue on same line: )S(t)S
+(e)S -0.165 R(xt \(http://some.thing\))S(. No)S -0.275 R(w the)S
+( rhubarb)S
+72 299 Mt(URL with te)S -0.165 R(xt, continue on ne)S -0.165 R(x)S
+(t line: )S(te)S -0.165 R(xt \(http://some.thing\))S( rhubarb)S
+72 276 Mt(URL without te)S -0.165 R(xt continue on same line: )S(h)S
+(ttp://some.thing)S( rhubarb)S
+72 253 Mt(URL without te)S -0.165 R(xt continue on same line: )S(h)S
+(ttp://some.thing)S(. No)S -0.275 R(w the rhubarb)S
+72 230 Mt(URL without te)S -0.165 R(xt continue on ne)S -0.165 R(x)S
+(t line: )S(http://some.thing)S( rhubarb)S
+72 207 Mt(URL without te)S -0.165 R(xt continue on ne)S -0.165 R(x)S
+(t line: )S(http://some.thing)S( rhubarb)S
+72 184 Mt(URL with same te)S -0.165 R(xt: )S(http://x.y)S -0.715 R(.)S
+(z)S( te)S -0.165 R(xt on ne)S -0.165 R(xt line)S
+72 161 Mt(URL with same te)S -0.165 R(xt: )S(http://x.y)S -0.715 R(.)S
+(z)S( te)S -0.165 R(xt on same line)S
+72 72 Mt( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 5

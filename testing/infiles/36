@@ -1,0 +1,44 @@
+<!-- These parameters are those for making slides. The maximum size for an 
+image, if it is to more or less fill the screen, is 780x585. -->
+
+<?sdop background_rgb="0.8,0.8,1.0"
+       page_foot_line_width="840"
+       page_full_length="620"
+       page_line_width="810"
+       paper_size="900x660" 
+       font_main="26"
+       font_mainmono="24"
+       font_chapter="32" 
+       font_toc="18,1,serif" 
+       foot_centre_recto=""
+       foot_centre_verso=""
+       foot_right_recto="&arabicpage;"   
+       foot_right_verso="&arabicpage;"   
+       ilist_indent="24,24,0" 
+       margin_bottom="20"
+       margin_left_recto="45"
+       margin_left_verso="45"   
+       numbertitles="no" 
+       toc_sections="no" 
+?>
+
+<chapter><title>Title</title>
+
+<itemizedlist>
+<listitem><para>First line, quite a long line, let's make it overflow
+onto the next line. Needs another sentence for sure.</para></listitem>
+<listitem><para>Second line</para></listitem>
+<listitem><para><emphasis role="rgb=1,0,0">Red</emphasis> word</para></listitem>
+</itemizedlist>
+
+</chapter>
+
+<chapter><title>Second Title</title>
+
+<itemizedlist>
+<listitem><para>First line, quite a long line, let's make it overflow
+onto the next line.</para></listitem>
+<listitem><para>Second line</para></listitem>
+</itemizedlist>
+
+</chapter>

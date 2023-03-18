@@ -1,0 +1,149 @@
+<?sdop toc_sections="yes,no"?>
+<preface>
+<title>Preface</title>
+<para>
+This is a very short preface.
+</para>
+</preface>
+
+<chapter id="CHAPone">
+<title>First</title>
+<para>
+This is the start of chapter 1.
+<indexterm>
+<primary>fox</primary>
+</indexterm>
+<indexterm id="ID" class="startofrange">
+<primary>All of it</primary>
+</indexterm>
+<indexterm>
+<primary>goose</primary>
+<see>fox</see>
+</indexterm>
+<indexterm>
+<primary>Something rather long to fill column with lots of text</primary>
+</indexterm>
+</para>
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+<para>
+Put in some stuff to get down near the end of the page.
+</para>
+<literallayout>
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+</literallayout>
+<para>
+Now start a new section here.
+<indexterm>
+<primary>start</primary>
+</indexterm>
+</para>
+<section id="SECTone">
+<title>Section</title>
+<para>
+This is a section near the end of a page.
+</para>
+</section>
+</chapter>
+
+<chapter id="CHAPtwo">
+<title>Second</title>
+<para>
+This is chapter 2.
+<indexterm>
+<primary>second chapter</primary>
+</indexterm>
+<indexterm>
+<primary>Something rather long to fill column with lots of text</primary>
+</indexterm>
+</para>
+</chapter>
+
+<chapter id="CHAPthree">
+<title>Third</title>
+<para>
+This is chapter 3.
+<indexterm>
+<primary>Something rather long to fill column with lots of text</primary>
+</indexterm>
+</para>
+<section id="SECTtwo">
+<title>Section</title>
+<para>
+This is a section, let&#x2019;s reference chapter <xref linkend="CHAPone"/>. Followed by some
+additional text to fill out a paragraph.
+<indexterm>
+<primary>additional</primary>
+</indexterm>
+<indexterm>
+<primary>fox</primary>
+</indexterm>
+</para>
+<para>
+<emphasis role="rgb=1,0,0">Red reference <xref linkend="CHAPone"/> and </emphasis>
+black reference <xref linkend="CHAPtwo"/> and more text to ensure that the line gets 
+stretched.....
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+Refer to section <xref linkend="SECTone"/>, which is near the bottom of a page.
+</para>
+<para>
+<indexterm startref="ID" class="endofrange"/>
+</para>
+</section>
+</chapter>
+
+<index>
+<title>Index</title>
+</index>
+

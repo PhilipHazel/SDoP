@@ -1,0 +1,27 @@
+<para>
+The quick brown fox.
+<indexterm><primary>Aardvark</primary></indexterm>
+<indexterm><primary>Boar</primary></indexterm>
+<indexterm><primary>Coypu</primary></indexterm>
+</para>
+<index><title>First Index</title></index>
+
+<?sdop index_headings="no"?>
+
+<para>
+The quick brown fox.
+<indexterm role="two"><primary>Aardvark</primary></indexterm>
+<indexterm role="two"><primary>Boar</primary></indexterm>
+<indexterm role="two"><primary>Coypu</primary></indexterm>
+</para>
+<index role="two"><title>Second Index</title></index>
+
+<?sdop index_headings="yes"?>
+
+<para>
+The quick brown fox.
+<indexterm role="three"><primary>Aardvark</primary></indexterm>
+<indexterm role="three"><primary>Boar</primary></indexterm>
+<indexterm role="three"><primary>Coypu</primary></indexterm>
+</para>
+<index role="three"><title>Third Index</title></index>

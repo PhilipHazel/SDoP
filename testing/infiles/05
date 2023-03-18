@@ -1,0 +1,50 @@
+<chapter>
+<title>Introduction</title>
+<para>The quick brown fox.</para>
+</chapter>
+<chapter>
+<title>Some title</title>
+<para>Some text.</para>
+<section>
+<title>A section</title>
+<para>Some text.</para>
+<section>
+<title>A nested section</title>
+<para>Some text.</para>
+</section>
+<section>
+<title>Another nested section</title>
+<formalpara><title>formal para title</title>
+<para>Text of formal para.</para>
+</formalpara>
+</section>
+<?sdop numbertitles="yes,yes,no"/>
+<section>
+<title>An unnumbered nested section</title>
+<formalpara><title>formal para title</title>
+<para>Text of formal para</para>
+</formalpara>
+</section>
+</section>
+</chapter>
+<chapter>
+<title>Another chapter</title>
+<section>
+<title>A section in a new chapter</title>
+<para>Some text.</para>
+<para>
+The cat sat on the mat. The cat sat on the mat. The cat sat on the mat.
+The cat sat on the mat. The cat sat on the mat. The cat sat on the mat.
+The cat sat on the mat. The cat sat on the mat. The cat sat on the mat.
+The cat sat on the mat. The cat sat on the mat. The cat sat on the
+supercalifragilisticexpialidocious mat.
+</para>
+<para>
+This is a paragraph that starts on a newline.
+</para>
+<para>    This paragraph starts with lots of spaces that follow
+on       after       the         element, and there are also   
+        plenty of spaces       within the sentence.   </para>
+         
+</section>
+</chapter>

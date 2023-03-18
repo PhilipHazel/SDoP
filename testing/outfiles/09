@@ -1,0 +1,527 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 1.00
+%%CreationDate: Fri Mar 10 16:43:56 2023
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Courier
+%%+ font Times-Bold
+%%Requirements: numcopies(1)
+%%EndComments
+
+%% Header file for sdop PostScript output
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/Ccircumflex/ccircumflex/Cdotaccent/cdotaccent
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/Ebreve/ebreve/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/Gcircumflex/gcircumflex/Gbreve/gbreve
+/Gdotaccent/gdotaccent/Gcommaaccent/gcommaaccent
+/Hcircumflex/hcircumflex/Hbar/hbar
+/Itilde/itilde/Imacron/imacron
+/Ibreve/ibreve/Iogonek/iogonek
+/Idotaccent/dotlessi/IJ/ij
+/Jcircumflex/jcircumflex/Kcommaaccent/kcommaaccent
+/kgreenlandic/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/Ldot
+/ldot/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/napostrophe/Eng/eng
+/Omacron/omacron/Obreve/obreve
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/Scircumflex/scircumflex/Scedilla/scedilla
+/Scaron/scaron/Tcedilla/tcedilla
+/Tcaron/tcaron/Tbar/tbar
+/Utilde/utilde/Umacron/umacron
+/Ubreve/ubreve/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/Wcircumflex/wcircumflex/Ycircumflex/ycircumflex
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/longs
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark/infinity
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Courier
+/af6 /af7 /Courier inf
+%%IncludeResource: font Times-Bold
+/af8 /af9 /Times-Bold inf
+/vf 16 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 13 scalefont put
+vf 5 af5 13 scalefont put
+vf 6 af6 11 scalefont put
+vf 7 af7 11 scalefont put
+vf 8 af8 11 scalefont put
+vf 9 af9 11 scalefont put
+vf 10 af4 16 scalefont put
+vf 11 af5 16 scalefont put
+vf 12 af0 9.6 scalefont put
+vf 13 af1 9.6 scalefont put
+vf 14 af4 11.5 scalefont put
+vf 15 af5 11.5 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This is a paragraph that should end up with ch)S
+(ange bars.)S
+72 735 Mt 4 Sf (1 Exim documentation)S 0.8 Slw 532 780 Mt 0 -15 RLt St
+72 712 Mt 0 Sf (This edition of the Exim speci)S 1 Sf (\216)S
+0 Sf (cation applies to v)S -0.165 R(ersion xxx of Exim.)S
+84 689 Mt(This is a display)S
+84 677 Mt(with tw)S -0.11 R(o lines)S
+72 654 Mt(After )S(the display)S( we ha)S -0.22 R(v)S -0.165 R(e)S
+( some code)S
+84 631 Mt 6 Sf (This is code)S 532 666 Mt 0 -15 RLt St
+84 619 Mt(with two lines)S
+72 596 Mt 0 Sf (No)S -0.275 R(w)S 3.399 R(lets)S 3.399 R(see)S
+3.399 R(what)S 3.399 R(happens)S 3.399 R(with)S 3.399 R(some)S
+3.399 R(te)S -0.165 R(xt)S 3.399 R(in)S 3.399 R(a)S 3.399 R(pa)S
+(ragraph)S 3.399 R(and)S 3.399 R(a)S 3.399 R(simple)S 3.399 R(t)S
+(able,)S 3.399 R(all)S 3.399 R(of)S 3.399 R(which)S 3.399 R(sh)S
+(ould)S 3.399 R(be)S
+72 584 Mt(mark)S -0.11 R(ed with a change bar)S -0.605 R(.)S
+72 561 Mt(abc)S
+177 561 Mt(def)S
+72 549 Mt(ghi)S
+177 549 Mt(jkl)S
+72 526 Mt(Here is te)S -0.165 R(xt follo)S -0.275 R(wing the t)S
+(able.)S 532 608 Mt 0 -85 RLt St
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This should be at the start of a forced ne)S -0.275 R(w)S
+( page.)S
+72 745 Mt (\267) show 84 745 Mt(This is a paragraph in an iden)S
+(ti)S 1 Sf (\216)S 0 Sf (ed list.)S
+96 722 Mt(The )S 8 Sf (quick)S 0 Sf ( bro)S -0.275 R(wn)S
+96 710 Mt(fox jumps )S 2 Sf (o)S -0.11 R(ver)S
+96 698 Mt 0 Sf (the lazy)S -0.715 R(.)S
+84 675 Mt(Back from the display)S -0.715 R(.)S
+72 652 Mt (\267) show 84 652 Mt(This is a paragraph in an iden)S
+(ti)S 1 Sf (\216)S 0 Sf (ed list.)S
+96 629 Mt(The )S 8 Sf (quick)S 0 Sf ( bro)S -0.275 R(wn)S
+96 617 Mt(fox jumps )S 2 Sf (o)S -0.11 R(ver)S
+96 605 Mt 0 Sf (the lazy)S -0.715 R(.)S
+84 582 Mt(Back from the display)S -0.715 R(.)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+242 764 Mt 10 Sf (Concept inde)S -0.24 R(x)S
+72 738.4 Mt 12 Sf (documentation)S(  1)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+232.216 764 Mt 10 Sf (1. After the Inde)S -0.24 R(x)S
+72 737 Mt 0 Sf (W)S -0.88 R(ell,)S 3.713 R(after)S 3.713 R(the)S
+3.713 R(inde)S -0.165 R(x)S 3.713 R(we)S 3.713 R(can)S 3.713 R(i)S
+(n)S 3.713 R(f)S -0.11 R(act)S 3.713 R(ha)S -0.22 R(v)S -0.165 R(e)S
+3.713 R(more)S 3.713 R(chapters)S 3.713 R(and)S 3.713 R(one)S
+3.713 R(day)S 3.713 R(I)S 1 Sf (\242)S 0 Sf -0.11 R(ll)S 3.713 R(a)S
+(llo)S -0.275 R(w)S 3.713 R(<colophon>)S 3.713 R(as)S 3.713 R(w)S
+(ell,)S
+72 725 Mt(which is the more usual thing to ha)S -0.22 R(v)S -0.165 R(e)S
+( here. But for no)S -0.275 R(w we)S 1 Sf (\242)S 0 Sf -0.11 R(l)S
+(l just ha)S -0.22 R(v)S -0.165 R(e some te)S -0.165 R(xt.)S
+72 72 Mt( )S
+294.249 60 Mt(4)S
+441.27 60 Mt 2 Sf (After the Inde)S -0.22 R(x \(1\))S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 5 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+255.328 764 Mt 10 Sf (Final inde)S -0.24 R(x)S
+72 732.5 Mt 14 Sf (A)S
+72 720.9 Mt 12 Sf (after inde)S -0.144 R(x)S(  4)S
+72 689.4 Mt 14 Sf (I)S
+72 677.8 Mt 12 Sf (inde)S -0.144 R(x, after)S(  4)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(5)S
+472.301 60 Mt 2 Sf (F)S -0.495 R(inal inde)S -0.22 R(x)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 6 6
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+148.72 764 Mt 10 Sf (2. Ho)S -0.24 R(w Exim receives and deliv)S
+(er)S -0.24 R(s mail)S
+72 734.723 Mt 4 Sf (2.1 Overall philosoph)S -0.26 R(y)S
+72 716.376 Mt 0 Sf (Exim)S 3.774 R(is)S 3.774 R(designed)S 3.774 R(t)S
+(o)S 3.774 R(w)S -0.11 R(ork)S 3.774 R(ef)S 1 Sf (\216)S 0 Sf
+(ciently)S 3.774 R(on)S 3.774 R(systems)S 3.774 R(that)S 3.774 R(a)S
+(re)S 3.774 R(permanently)S 3.774 R(connected)S 3.774 R(to)S 3.774 R(t)S
+(he)S 3.774 R(Internet)S 3.774 R(and)S
+72 704.376 Mt(are)S 3.431 R(handling)S 3.431 R(a)S 3.431 R(gen)S
+(eral)S 3.431 R(mix)S 3.431 R(of)S 3.431 R(mail.)S 3.431 R(In)S
+3.431 R(such)S 3.431 R(circumstances,)S 3.431 R(most)S 3.431 R(m)S
+(essages)S 3.431 R(can)S 3.431 R(be)S 3.431 R(deli)S -0.275 R(v)S
+-0.165 R(ered)S 3.431 R(immedi-)S
+72 692.376 Mt(ately)S -0.715 R(.)S 3.045 R(Consequently)S -0.715 R(,)S
+3.045 R(Exim)S 3.045 R(does)S 3.045 R(not)S 3.045 R(maintain)S
+3.045 R(independent)S 3.045 R(queues)S 3.045 R(of)S 3.045 R(me)S
+(ssages)S 3.045 R(for)S 3.045 R(speci)S 1 Sf (\216)S 0 Sf (c)S
+3.045 R(domains)S 3.045 R(or)S
+72 680.376 Mt(hosts,)S 3.281 R(though)S 3.281 R(it)S 3.281 R(d)S
+(oes)S 3.281 R(try)S 3.281 R(to)S 3.281 R(send)S 3.281 R(se)S
+-0.275 R(v)S -0.165 R(eral)S 3.281 R(messages)S 3.281 R(in)S 3.281 R(a)S
+3.281 R(single)S 3.281 R(SMTP)S 3.281 R(connection)S 3.281 R(a)S
+(fter)S 3.281 R(a)S 3.281 R(host)S 3.281 R(has)S 3.281 R(been)S
+72 668.376 Mt(do)S -0.275 R(wn, and it also maintains per)S -0.22 R(-)S
+(host retry information.)S
+84 649.706 Mt 6 Sf (A   )S 0 Sf (        authenticator name \()S
+(and optional id\))S
+84 637.706 Mt 6 Sf (C   )S 0 Sf (        SMTP con)S 1 Sf (\216)S
+0 Sf (rmation on deli)S -0.275 R(v)S -0.165 R(ery)S
+84 625.706 Mt 6 Sf (CV  )S 0 Sf (        certi)S 1 Sf (\216)S
+0 Sf (cate v)S -0.165 R(eri)S 1 Sf (\216)S 0 Sf (cation status)S
+84 613.706 Mt 6 Sf (DN  )S 0 Sf (        distinguished name fr)S
+(om peer certi)S 1 Sf (\216)S 0 Sf (cate)S
+84 601.706 Mt 6 Sf (DT  )S 0 Sf (        on )S 6 Sf (=>)S 0 Sf
+( lines: time tak)S -0.11 R(en for a deli)S -0.275 R(v)S -0.165 R(e)S
+(ry)S
+84 589.706 Mt 6 Sf (F   )S 0 Sf (        sender address \(on d)S
+(eli)S -0.275 R(v)S -0.165 R(ery lines\))S
+84 577.706 Mt 6 Sf (H   )S 0 Sf (        host name and IP addr)S
+(ess)S
+84 565.706 Mt 6 Sf (I   )S 0 Sf (        local interf)S -0.11 R(a)S
+(ce used)S
+84 553.706 Mt 6 Sf (id  )S 0 Sf (        message id for incomi)S
+(ng message)S
+84 541.706 Mt 6 Sf (P   )S 0 Sf (        on )S 6 Sf (<=)S 0 Sf
+( lines: protocol used)S
+84 529.706 Mt 6 Sf (    )S 0 Sf (        on )S 6 Sf (=>)S 0 Sf
+( and )S 6 Sf (**)S 0 Sf ( lines: return path)S
+84 517.706 Mt 6 Sf (QT  )S 0 Sf (        on )S 6 Sf (=>)S 0 Sf
+( lines: time spent on queue so f)S -0.11 R(ar)S
+84 505.706 Mt 6 Sf (    )S 0 Sf (        on )S 1 Sf (\237)S 0 Sf
+(Completed)S 1 Sf (\240)S 0 Sf ( lines: time spent on queue)S
+84 493.706 Mt 6 Sf (R   )S 0 Sf (        on )S 6 Sf (<=)S 0 Sf
+( lines: reference for local bounce)S
+84 481.706 Mt 6 Sf (    )S 0 Sf (        on )S 6 Sf (=>)S 0 Sf
+(  )S 6 Sf (**)S 0 Sf ( and )S 6 Sf (==)S 0 Sf ( lines: router)S
+( name)S
+84 469.706 Mt 6 Sf (S   )S 0 Sf (        size of message)S
+84 457.706 Mt 6 Sf (ST  )S 0 Sf (        shado)S -0.275 R(w tr)S
+(ansport name)S
+84 445.706 Mt 6 Sf (T   )S 0 Sf (        on )S 6 Sf (<=)S 0 Sf
+( lines: message subject \(topic\))S
+84 433.706 Mt 6 Sf (    )S 0 Sf (        on )S 6 Sf (=>)S 0 Sf
+( )S 6 Sf (**)S 0 Sf ( and )S 6 Sf (==)S 0 Sf ( lines: transpo)S
+(rt name)S
+84 421.706 Mt 6 Sf (U   )S 0 Sf (        local user or RFC 141)S
+(3 identity)S
+84 409.706 Mt 6 Sf (X   )S 0 Sf (        TLS cipher suite)S
+72 391.036 Mt(The)S 3.479 R(string)S 3.479 R(starts)S 3.479 R(w)S
+(ith)S 3.479 R(the)S 3.479 R 1 Sf (\216)S 0 Sf (rst)S 3.479 R(c)S
+(haracter)S 3.479 R(after)S 3.479 R(the)S 3.479 R(colon,)S 3.479 R(w)S
+(hich)S 3.479 R(may)S 3.479 R(be)S 3.479 R(leading)S 3.479 R(w)S
+(hite)S 3.479 R(space.)S 3.479 R(A)S 3.479 R(list)S 3.479 R(of)S
+72 379.036 Mt(operators)S 3.21 R(is)S 3.21 R(gi)S -0.275 R(v)S
+-0.165 R(en)S 3.21 R(in)S 3.21 R(section)S 3.21 R(2.2)S 3.21 R(b)S
+(elo)S -0.275 R(w)S -0.715 R(.)S 3.21 R(The)S 3.21 R(operator)S
+3.21 R(notation)S 3.21 R(is)S 3.21 R(used)S 3.21 R(for)S 3.21 R(s)S
+(imple)S 3.21 R(e)S -0.165 R(xpansion)S 3.21 R(items)S 3.21 R(t)S
+(hat)S
+72 367.036 Mt(ha)S -0.22 R(v)S -0.165 R(e)S 2.948 R(just)S 2.948 R(o)S
+(ne)S 2.948 R(ar)S -0.198 R(gument,)S 2.948 R(because)S 2.948 R(i)S
+(t)S 2.948 R(reduces)S 2.948 R(the)S 2.948 R(number)S 2.948 R(o)S
+(f)S 2.948 R(braces)S 2.948 R(and)S 2.948 R(therefore)S 2.948 R(m)S
+(ak)S -0.11 R(es)S 2.948 R(the)S 2.948 R(string)S 2.948 R(easi)S
+(er)S
+72 355.036 Mt(to understand.)S
+72 336.366 Mt(The)S 3.479 R(string)S 3.479 R(starts)S 3.479 R(w)S
+(ith)S 3.479 R(the)S 3.479 R 1 Sf (\216)S 0 Sf (rst)S 3.479 R(c)S
+(haracter)S 3.479 R(after)S 3.479 R(the)S 3.479 R(colon,)S 3.479 R(w)S
+(hich)S 3.479 R(may)S 3.479 R(be)S 3.479 R(leading)S 3.479 R(w)S
+(hite)S 3.479 R(space.)S 3.479 R(A)S 3.479 R(list)S 3.479 R(of)S
+72 324.366 Mt(operators)S 3.21 R(is)S 3.21 R(gi)S -0.275 R(v)S
+-0.165 R(en)S 3.21 R(in)S 3.21 R(section)S 3.21 R(2.2)S 3.21 R(b)S
+(elo)S -0.275 R(w)S -0.715 R(.)S 3.21 R(The)S 3.21 R(operator)S
+3.21 R(notation)S 3.21 R(is)S 3.21 R(used)S 3.21 R(for)S 3.21 R(s)S
+(imple)S 3.21 R(e)S -0.165 R(xpansion)S 3.21 R(items)S 3.21 R(t)S
+(hat)S
+72 312.366 Mt(ha)S -0.22 R(v)S -0.165 R(e)S 2.948 R(just)S 2.948 R(o)S
+(ne)S 2.948 R(ar)S -0.198 R(gument,)S 2.948 R(because)S 2.948 R(i)S
+(t)S 2.948 R(reduces)S 2.948 R(the)S 2.948 R(number)S 2.948 R(o)S
+(f)S 2.948 R(braces)S 2.948 R(and)S 2.948 R(therefore)S 2.948 R(m)S
+(ak)S -0.11 R(es)S 2.948 R(the)S 2.948 R(string)S 2.948 R(easi)S
+(er)S
+72 300.366 Mt(to understand.)S
+72 271.089 Mt 4 Sf (2.2 Expansion operator)S -0.195 R(s)S
+72 252.742 Mt 0 Sf (F)S -0.165 R(or e)S -0.165 R(xpansion item)S
+(s that perform transformations on a single ar)S -0.198 R(gume)S
+(nt string,)S
+72 223.465 Mt 4 Sf (2.3 Output fr)S -0.26 R(om )S 5 Sf (\237)S
+4 Sf (make)S 5 Sf (\240)S
+72 205.118 Mt 0 Sf (Quoted )S 1 Sf (\237)S 0 Sf (w)S -0.11 R(o)S
+(rd)S 1 Sf (\240)S 0 Sf ( unquoted.)S
+72 186.694 Mt(This)S 2.768 R(is)S 2.768 R(a)S 2.768 R(paragrap)S
+(h)S 2.768 R(before)S 2.768 R(the)S 2.768 R(list.)S 2.768 R(Ma)S
+(k)S -0.11 R(e)S 2.768 R(it)S 2.768 R(long)S 2.768 R(enough)S
+2.768 R(to)S 2.768 R(split)S 2.768 R(onto)S 2.768 R(more)S 2.768 R(t)S
+(han)S 2.768 R(one)S 2.768 R(line)S 2.768 R(so)S 2.768 R(that)S
+2.768 R(we)S 2.768 R(can)S
+72 174.694 Mt(see e)S -0.165 R(xactly where the right hand edg)S
+(e of material on the page should be.)S
+72 156.694 Mt (\267) show 84 156.694 Mt(First)S
+84 138.694 Mt(Ne)S -0.275 R(w para in )S 1 Sf (\216)S 0 Sf (rs)S
+(t)S
+84 120.694 Mt  1 Sf (\230) show 96 120.694 Mt 0 Sf (This is a )S
+(nested identi)S 1 Sf (\216)S 0 Sf (ed list)S
+84 102.694 Mt  1 Sf (\230) show 96 102.694 Mt 0 Sf (Second ite)S
+(m)S
+72 84.694 Mt (\267) show 84 84.694 Mt(Last - back in original)S
+72 72 Mt( )S
+294.249 60 Mt(6)S
+389.713 60 Mt 2 Sf (Receiving and delivering mail)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 7 7
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This is a paragraph after the list.)S
+72 748.689 Mt (\(1\))show 96 748.689 Mt(First)S
+72 729.378 Mt (\(2\))show 96 729.378 Mt(Last)S
+96 710.067 Mt(Ne)S -0.275 R(w para in last)S
+96 690.756 Mt (\267) show 108 690.756 Mt(Nested)S
+108 671.445 Mt  1 Sf (\230) show 120 671.445 Mt 0 Sf (Nest 2)S
+120 652.134 Mt (o) show 132 652.134 Mt(Nest)S 2.823 R(3)S 2.823 R(w)S
+(ith)S 2.823 R(a)S 2.823 R(couple)S 2.823 R(of)S 2.823 R(items)S
+2.823 R(to)S 2.823 R(sho)S -0.275 R(w)S 2.823 R(ho)S -0.275 R(w)S
+2.823 R(it)S 2.823 R(looks.)S 2.823 R(Mak)S -0.11 R(e)S 2.823 R(t)S
+(his)S 2.823 R(one)S 2.823 R(long)S 2.823 R(enough)S 2.823 R(s)S
+(o)S 2.823 R(that)S 2.823 R(it)S
+132 640.134 Mt(will ha)S -0.22 R(v)S -0.165 R(e to be split on)S
+(to more than one line.)S
+120 620.823 Mt (o) show 132 620.823 Mt(Items to sho)S -0.275 R(w)S
+( ho)S -0.275 R(w it looks)S
+132 601.512 Mt (\267) show 144 601.512 Mt(Nest 4)S
+144 582.201 Mt (\(1\))show 168 582.201 Mt(Nest 5)S
+96 562.89 Mt(Should be back in outer list.)S
+72 543.579 Mt (\(3\))show 96 543.579 Mt(Another item.)S
+72 524.268 Mt(This is a paragraph after the list.)S
+84 504.957 Mt 6 Sf (This is a display at top level.)S
+72 485.646 Mt  0 Sf (o) show 84 485.646 Mt(F)S -0.165 R(orce a)S
+(n opencircle for this list.)S
+96 466.335 Mt 6 Sf (This is a display within a list.)S
+84 447.024 Mt 0 Sf (Back from the display)S -0.715 R(.)S
+84 427.713 Mt (\(1\))show 108 427.713 Mt(This is a nested list)S
+( with a display:)S
+120 408.402 Mt 6 Sf (Data for the nested display.)S
+108 390 Mt 0 Sf (Back from the display)S
+72 372 Mt (o) show 84 372 Mt(Another item in the outer list.)S
+72 354 Mt  1 Sf (\210) show 84 354 Mt 0 Sf (This is a daggered)S
+( itemized list.)S
+72 336 Mt  1 Sf (\210) show 84 336 Mt 0 Sf (Or)S -0.44 R(, it )S
+(should be.)S
+72 318 Mt (a.)show 96 318 Mt(One.)S
+72 300 Mt (b.)show 96 300 Mt(T)S -0.88 R(w)S -0.11 R(o.)S
+72 282 Mt ()show 96 282 Mt(One.)S
+72 264 Mt ()show 96 264 Mt(T)S -0.88 R(w)S -0.11 R(o.)S
+72 246 Mt ()S 1 Sf (\210)S 0 Sf (  A.)show 96 246 Mt(One.)S
+72 228 Mt ()S 1 Sf (\210)S 0 Sf (  B.)show 96 228 Mt(T)S -0.88 R(w)S
+-0.11 R(o.)S
+72 210 Mt ([I])show 96 210 Mt(One.)S
+72 192 Mt ([II])show 96 192 Mt(T)S -0.88 R(w)S -0.11 R(o.)S
+72 174 Mt(This is normal te)S -0.165 R(xt before the v)S -0.275 R(a)S
+(riable list.)S
+72 156 Mt 2 Sf (F)S -1.155 R(ont )S 3 Sf (\216)S 2 Sf (lename )S
+(e)S -0.22 R(xtensions)S
+72 138 Mt 8 Sf (TTF)S
+86 126 Mt 0 Sf (T)S -0.385 R(rueT)S -0.88 R(ype fonts.)S
+72 108 Mt 8 Sf (PF)S -0.99 R(A)S
+72 96 Mt(PFB)S
+86 84 Mt 0 Sf (PostScript fonts.)S
+72 72 Mt( )S
+294.249 60 Mt(7)S
+389.713 60 Mt 2 Sf (Receiving and delivering mail)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 8 8
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 8 Sf (T)S -1.012 R(est stuff)S
+86 756 Mt 0 Sf (This)S 2.925 R(is)S 2.925 R(a)S 2.925 R(paragr)S
+(aph)S 2.925 R(in)S 2.925 R(a)S 2.925 R(vitem)S 2.925 R(that)S
+2.925 R(is)S 2.925 R(going)S 2.925 R(to)S 2.925 R(be)S 2.925 R(l)S
+(ong)S 2.925 R(enough)S 2.925 R(to)S 2.925 R(cause)S 2.925 R(i)S
+(t)S 2.925 R(to)S 2.925 R(be)S 2.925 R(formatted)S 2.925 R(int)S
+(o)S 2.925 R(more)S
+86 744 Mt(than one line. Let)S 1 Sf (\242)S 0 Sf -0.605 R(s tr)S
+(y a display:)S
+98 721 Mt 6 Sf (This is a monospaced display)S
+86 698 Mt 0 Sf (And no)S -0.275 R(w we are back in the normal )S
+(te)S -0.165 R(xt of the vitem.)S
+86 675 Mt(This is a second paragraph within the vitem.)S
+72 652 Mt(This is normal te)S -0.165 R(xt after the v)S -0.275 R(a)S
+(riable list.)S
+72 629 Mt ([1])show 96 629 Mt(Check a b)S -0.22 R(ug-)S 1 Sf (\216)S
+0 Sf (x for nested lists.)S
+96 606 Mt ([a])show 120 606 Mt(inner one)S
+96 583 Mt ([b])show 120 583 Mt(inner tw)S -0.11 R(o)S
+72 560 Mt ([2])show 96 560 Mt(Should be numbered.)S
+72 537 Mt(Between Lists)S
+72 514 Mt (\267) show 84 514 Mt(one)S
+84 491 Mt  1 Sf (\230) show 96 491 Mt 0 Sf (inner one)S
+84 468 Mt  1 Sf (\230) show 96 468 Mt 0 Sf (inner tw)S -0.11 R(o)S
+72 445 Mt (\267) show 84 445 Mt(tw)S -0.11 R(o)S
+72 72 Mt( )S
+294.249 60 Mt(8)S
+389.713 60 Mt 2 Sf (Receiving and delivering mail)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 8

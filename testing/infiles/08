@@ -1,0 +1,103 @@
+<?sdop toc_sections="no"?>
+<chapter>
+<?sdop foot_left_recto="FIXED" 
+       foot_centre_recto="(&romanpage;)"
+       foot_right_recto="&chaptertitle;"?> 
+<?sdop head_length="24pt"
+       head_left_recto="&sectiontitle;"
+       head_left_verso="&sectiontitle;"?>       
+<title>Introduction</title>
+<section>
+<title>Yet another title</title>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+<para>
+Another numbered section on the same page. We want to fill this up so that it 
+pushes over onto a new page.
+</para>
+</section>
+</chapter>
+<chapter>
+<?sdop foot_left_recto="CHANGE" 
+       foot_centre_recto="[&arabicpage;]"
+       foot_right_recto="(&chapternumber;) &chaptertitle;"?> 
+<title>Another chapter</title>
+<section>
+<title>A section in a new chapter</title>
+<para>Some text.</para>
+</section>
+</chapter>

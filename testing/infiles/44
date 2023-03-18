@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD Simplified DocBook XML V4.1.2.5//EN" "http://www.oasis-open.org/docbook/xml/simple/4.1.2.5/sdocbook.dtd">
+
+<?sdop
+  foot_right_recto="&chaptertitle;/&sectiontitle;"
+  foot_right_verso="&chaptertitle;/&sectiontitle;"
+?>
+
+<article id="XXX" class="faq">
+<title>This is a demonstration article</title>
+<subtitle>With a subtitle</subtitle>
+<titleabbrev>Demo article</titleabbrev>
+
+<articleinfo>
+<title>This is a demonstration article</title>
+<subtitle>With a corpauthor</subtitle>
+<titleabbrev>Demo article</titleabbrev>
+<date>10 March 2008</date>
+<corpauthor>Some corporation inc.</corpauthor>
+<revhistory><revision>
+  <revnumber>0.00</revnumber>
+  <date>10 March 2008</date>
+  <authorinitials>PH</authorinitials>
+</revision></revhistory>
+<copyright><year>2008</year><holder>Philip Hazel</holder></copyright>
+<legalnotice>
+<para>This is the first legal notice.</para>
+</legalnotice>
+<legalnotice>
+<para>This is the second legal notice.</para>
+</legalnotice>
+</articleinfo>
+
+<para>
+This is the first paragraph of the article.
+</para>
+
+</article>

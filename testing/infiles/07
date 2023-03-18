@@ -1,0 +1,450 @@
+<?sdop warn_unsupported="no" toc_sections="no"?>
+<informaltable frame="all" colsep="0" rowsep="0">
+<tgroup cols="4">
+<colspec align="left" colwidth="8*"/>
+<colspec align="center" colwidth = "5*"/>
+<colspec align="center" colwidth = "5*"/>
+<colspec align="right" colwidth = "6*"/>
+<tbody>
+  <row>
+    <entry>
+    <option>keep_malformed</option>
+    </entry>
+    <entry>
+    Use: <emphasis>main</emphasis>
+    </entry>
+    <entry>
+    Type: <emphasis>boolean</emphasis>, rhubarb
+    </entry>
+    <entry>
+    Default: <emphasis>false</emphasis>
+    </entry>
+  </row>
+</tbody>
+</tgroup>
+</informaltable>
+<para>
+Here is the text that follows that table; typically we need to have enough for
+one or even several paragraphs. Etc etc etc etc etc etc etc etc etc. Here is
+another kind of table with no borders:
+</para>
+
+<informaltable frame="none" colsep="0" rowsep="0">
+<tgroup cols="3">
+<colspec colwidth="27pt" align="left"/>
+<colspec colwidth="27pt" align="center"/>
+<colspec colwidth="32pt" align="right"/>
+<tbody>
+  <row>
+    <entry>
+    aaa
+    </entry>
+    <entry>
+    bbb
+    </entry>
+    <entry>
+    cccc
+    </entry>
+  </row>
+</tbody>
+</tgroup>
+</informaltable>
+<para>
+Test for a dagger&#x2020;
+</para>
+
+<informaltable frame="none" colsep="0" rowsep="0">
+<tgroup cols="3">
+<colspec colwidth="27pt" align="left"/>
+<colspec colwidth="27pt" align="left"/>
+<colspec colwidth="32pt" align="left"/>
+<tbody>
+  <row>
+    <entry>
+    aaa
+    </entry>
+    <entry>
+    bbb
+    </entry>
+    <entry>
+    cccc
+    </entry>
+  </row>
+  <row>
+    <entry>
+    eee
+    </entry>
+    <entry>
+    fff
+    </entry>
+    <entry>
+    ggg
+    </entry>
+  </row>
+  <row>
+    <entry>
+    hhh
+    </entry>
+    <entry>
+    iii
+    </entry>
+    <entry>
+    jjj
+    </entry>
+  </row>
+</tbody>
+</tgroup>
+</informaltable>
+<informaltable frame="all" colsep="0" rowsep="0">
+<tgroup cols="4">
+<colspec align="left" colwidth="8*"/>
+<colspec align="center" colwidth = "5*"/>
+<colspec align="center" colwidth = "5*"/>
+<colspec align="right" colwidth = "6*"/>
+<tbody>
+  <row>
+    <entry>
+    <option>accept_8bitmime</option>
+    </entry>
+    <entry>
+    Use: <emphasis>main</emphasis>&#x2021;
+    </entry>
+    <entry>
+    Type: <emphasis>boolean</emphasis>&#x2020;
+    </entry>
+    <entry>
+    Default: <emphasis>false</emphasis>
+    </entry>
+  </row>
+</tbody>
+</tgroup>
+</informaltable>
+<informaltable frame="all" colsep="1" rowsep="1">
+<tgroup cols="4">
+<colspec align="left" colwidth="8*"/>
+<colspec align="center" colwidth = "5*"/>
+<colspec align="center" colwidth = "5*" colsep="0"/>
+<colspec align="right" colwidth = "6*"/>
+<tbody>
+<row><entry>011</entry><entry>012</entry><entry>013</entry><entry>014</entry></row>
+<row><entry>021</entry><entry>022</entry><entry>023</entry><entry>024</entry></row>
+<row><entry>031</entry><entry>032</entry><entry>033</entry><entry>034</entry></row>
+<row><entry>041</entry><entry>042</entry><entry>043</entry><entry>044</entry></row>
+<row><entry>051</entry><entry>052</entry><entry>053</entry><entry>054</entry></row>
+<row><entry>061</entry><entry>062</entry><entry>063</entry><entry>064</entry></row>
+<row><entry>071</entry><entry>072</entry><entry>073</entry><entry>074</entry></row>
+<row><entry>081</entry><entry>082</entry><entry>083</entry><entry>084</entry></row>
+<row><entry>091</entry><entry>092</entry><entry>093</entry><entry>094</entry></row>
+<row><entry>101</entry><entry>102</entry><entry>103</entry><entry>104</entry></row>
+<row><entry>111</entry><entry>112</entry><entry>113</entry><entry>114</entry></row>
+<row><entry>121</entry><entry>122</entry><entry>123</entry><entry>124</entry></row>
+<row><entry>131</entry><entry>132</entry><entry>133</entry><entry>134</entry></row>
+<row><entry>141</entry><entry>142</entry><entry>143</entry><entry>144</entry></row>
+<row><entry>151</entry><entry>152</entry><entry>153</entry><entry>154</entry></row>
+<row><entry>161</entry><entry>162</entry><entry>163</entry><entry>164</entry></row>
+<row><entry>171</entry><entry>172</entry><entry>173</entry><entry>174</entry></row>
+<row><entry>181</entry><entry>182</entry><entry>183</entry><entry>184</entry></row>
+<row><entry>191</entry><entry>192</entry><entry>193</entry><entry>194</entry></row>
+<row><entry>201</entry><entry>202</entry><entry>203</entry><entry>204</entry></row>
+<row><entry>211</entry><entry>212</entry><entry>213</entry><entry>214</entry></row>
+<row><entry>221</entry><entry>222</entry><entry>223</entry><entry>224</entry></row>
+<row><entry>231</entry><entry>232</entry><entry>233</entry><entry>234</entry></row>
+<row><entry>241</entry><entry>242</entry><entry>243</entry><entry>244</entry></row>
+<row><entry>251</entry><entry>252</entry><entry>253</entry><entry>254</entry></row>
+<row><entry>261</entry><entry>262</entry><entry>263</entry><entry>264</entry></row>
+<row><entry>271</entry><entry>272</entry><entry>273</entry><entry>274</entry></row>
+<row><entry>281</entry><entry>282</entry><entry>283</entry><entry>284</entry></row>
+<row><entry>291</entry><entry>292</entry><entry>293</entry><entry>294</entry></row>
+<row><entry>301</entry><entry>302</entry><entry>303</entry><entry>304</entry></row>
+<row><entry>311</entry><entry>312</entry><entry>313</entry><entry>314</entry></row>
+<row><entry>321</entry><entry>322</entry><entry>323</entry><entry>324</entry></row>
+<row><entry>331</entry><entry>332</entry><entry>333</entry><entry>334</entry></row>
+<row><entry>341</entry><entry>342</entry><entry>343</entry><entry>344</entry></row>
+<row><entry>351</entry><entry>352</entry><entry>353</entry><entry>354</entry></row>
+<row><entry>361</entry><entry>362</entry><entry>363</entry><entry>364</entry></row>
+<row><entry>371</entry><entry>372</entry><entry>373</entry><entry>374</entry></row>
+<row><entry>381</entry><entry>382</entry><entry>383</entry><entry>384</entry></row>
+<row><entry>391</entry><entry>392</entry><entry>393</entry><entry>394</entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+<informaltable frame="all" colsep="1" rowsep="1">
+<tgroup cols="4">
+<colspec align="left" colwidth="8*"/>
+<colspec align="center" colwidth = "5*"/>
+<colspec align="center" colwidth = "5*"/>
+<colspec align="right" colwidth = "6*"/>
+<thead>
+<row><entry><emphasis role="bold">Hh1</emphasis></entry>
+     <entry><emphasis role="bold">Hh2</emphasis></entry>
+     <entry><emphasis role="bold">Hh3</emphasis></entry>
+     <entry><emphasis role="bold">Hh4</emphasis></entry></row>
+</thead>
+<tfoot>
+<row><entry><emphasis role="bold">Ff1</emphasis></entry>
+     <entry><emphasis role="bold">Ff2</emphasis></entry>
+     <entry><emphasis role="bold">Ff3</emphasis></entry>
+     <entry><emphasis role="bold">Ff4</emphasis></entry></row>
+</tfoot>
+<tbody>
+<row><entry>011</entry><entry>012</entry><entry>013</entry><entry>014</entry></row>
+<row><entry>021</entry><entry>022</entry><entry>023</entry><entry>024</entry></row>
+<row><entry>031</entry><entry>032</entry><entry>033</entry><entry>034</entry></row>
+<row><entry>041</entry><entry>042</entry><entry>043</entry><entry>044</entry></row>
+<row><entry>051</entry><entry>052</entry><entry>053</entry><entry>054</entry></row>
+<row><entry>061</entry><entry>062</entry><entry>063</entry><entry>064</entry></row>
+<row><entry>071</entry><entry>072</entry><entry>073</entry><entry>074</entry></row>
+<row><entry>081</entry><entry>082</entry><entry>083</entry><entry>084</entry></row>
+<row><entry>091</entry><entry>092</entry><entry>093</entry><entry>094</entry></row>
+<row><entry>101</entry><entry>102</entry><entry>103</entry><entry>104</entry></row>
+<row><entry>111</entry><entry>112</entry><entry>113</entry><entry>114</entry></row>
+<row><entry>121</entry><entry>122</entry><entry>123</entry><entry>124</entry></row>
+<row><entry>131</entry><entry>132</entry><entry>133</entry><entry>134</entry></row>
+<row><entry>141</entry><entry>142</entry><entry>143</entry><entry>144</entry></row>
+<row><entry>151</entry><entry>152</entry><entry>153</entry><entry>154</entry></row>
+<row><entry>161</entry><entry>162</entry><entry>163</entry><entry>164</entry></row>
+<row><entry>171</entry><entry>172</entry><entry>173</entry><entry>174</entry></row>
+<row><entry>181</entry><entry>182</entry><entry>183</entry><entry>184</entry></row>
+<row><entry>191</entry><entry>192</entry><entry>193</entry><entry>194</entry></row>
+<row><entry>201</entry><entry>202</entry><entry>203</entry><entry>204</entry></row>
+<row><entry>211</entry><entry>212</entry><entry>213</entry><entry>214</entry></row>
+<row><entry>221</entry><entry>222</entry><entry>223</entry><entry>224</entry></row>
+<row><entry>231</entry><entry>232</entry><entry>233</entry><entry>234</entry></row>
+<row><entry>241</entry><entry>242</entry><entry>243</entry><entry>244</entry></row>
+<row><entry>251</entry><entry>252</entry><entry>253</entry><entry>254</entry></row>
+<row><entry>261</entry><entry>262</entry><entry>263</entry><entry>264</entry></row>
+<row><entry>271</entry><entry>272</entry><entry>273</entry><entry>274</entry></row>
+<row><entry>281</entry><entry>282</entry><entry>283</entry><entry>284</entry></row>
+<row><entry>291</entry><entry>292</entry><entry>293</entry><entry>294</entry></row>
+<row><entry>301</entry><entry>302</entry><entry>303</entry><entry>304</entry></row>
+<row><entry>311</entry><entry>312</entry><entry>313</entry><entry>314</entry></row>
+<row><entry>321</entry><entry>322</entry><entry>323</entry><entry>324</entry></row>
+<row><entry>331</entry><entry>332</entry><entry>333</entry><entry>334</entry></row>
+<row><entry>341</entry><entry>342</entry><entry>343</entry><entry>344</entry></row>
+<row><entry>351</entry><entry>352</entry><entry>353</entry><entry>354</entry></row>
+<row><entry>361</entry><entry>362</entry><entry>363</entry><entry>364</entry></row>
+<row><entry>371</entry><entry>372</entry><entry>373</entry><entry>374</entry></row>
+<row><entry>381</entry><entry>382</entry><entry>383</entry><entry>384</entry></row>
+<row><entry>391</entry><entry>392</entry><entry>393</entry><entry>394</entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+<informaltable frame="all" colsep="1" rowsep="0">
+<tgroup cols="4">
+<colspec align="left" colwidth="8*"/>
+<colspec align="center" colwidth = "5*"/>
+<colspec align="center" colwidth = "5*"/>
+<colspec align="right" colwidth = "6*"/>
+<thead>
+<row><entry><emphasis role="bold">Hh1</emphasis></entry>
+     <entry><emphasis role="bold">Hh2</emphasis></entry>
+     <entry><emphasis role="bold">Hh3</emphasis></entry>
+     <entry><emphasis role="bold">Hh4</emphasis></entry></row>
+</thead>
+<tfoot>
+<row><entry><emphasis role="bold">Ff1</emphasis></entry>
+     <entry><emphasis role="bold">Ff2</emphasis></entry>
+     <entry><emphasis role="bold">Ff3</emphasis></entry>
+     <entry><emphasis role="bold">Ff4</emphasis></entry></row>
+</tfoot>
+<tbody>
+<row><entry>011</entry><entry>012</entry><entry>013</entry><entry>014</entry></row>
+<row><entry>021</entry><entry>022</entry><entry>023</entry><entry>024</entry></row>
+<row><entry>031</entry><entry>032</entry><entry>033</entry><entry>034</entry></row>
+<row><entry>041</entry><entry>042</entry><entry>043</entry><entry>044</entry></row>
+<row><entry>051</entry><entry>052</entry><entry>053</entry><entry>054</entry></row>
+<row><entry>061</entry><entry>062</entry><entry>063</entry><entry>064</entry></row>
+<row><entry>071</entry><entry>072</entry><entry>073</entry><entry>074</entry></row>
+<row><entry>081</entry><entry>082</entry><entry>083</entry><entry>084</entry></row>
+<row><entry>091</entry><entry>092</entry><entry>093</entry><entry>094</entry></row>
+<row><entry>101</entry><entry>102</entry><entry>103</entry><entry>104</entry></row>
+<row><entry>111</entry><entry>112</entry><entry>113</entry><entry>114</entry></row>
+<row><entry>121</entry><entry>122</entry><entry>123</entry><entry>124</entry></row>
+<row><entry>131</entry><entry>132</entry><entry>133</entry><entry>134</entry></row>
+<row><entry>141</entry><entry>142</entry><entry>143</entry><entry>144</entry></row>
+<row><entry>151</entry><entry>152</entry><entry>153</entry><entry>154</entry></row>
+<row><entry>161</entry><entry>162</entry><entry>163</entry><entry>164</entry></row>
+<row><entry>171</entry><entry>172</entry><entry>173</entry><entry>174</entry></row>
+<row><entry>181</entry><entry>182</entry><entry>183</entry><entry>184</entry></row>
+<row><entry>191</entry><entry>192</entry><entry>193</entry><entry>194</entry></row>
+<row><entry>201</entry><entry>202</entry><entry>203</entry><entry>204</entry></row>
+<row><entry>211</entry><entry>212</entry><entry>213</entry><entry>214</entry></row>
+<row><entry>221</entry><entry>222</entry><entry>223</entry><entry>224</entry></row>
+<row><entry>231</entry><entry>232</entry><entry>233</entry><entry>234</entry></row>
+<row><entry>241</entry><entry>242</entry><entry>243</entry><entry>244</entry></row>
+<row><entry>251</entry><entry>252</entry><entry>253</entry><entry>254</entry></row>
+<row><entry>261</entry><entry>262</entry><entry>263</entry><entry>264</entry></row>
+<row><entry>271</entry><entry>272</entry><entry>273</entry><entry>274</entry></row>
+<row><entry>281</entry><entry>282</entry><entry>283</entry><entry>284</entry></row>
+<row><entry>291</entry><entry>292</entry><entry>293</entry><entry>294</entry></row>
+<row><entry>301</entry><entry>302</entry><entry>303</entry><entry>304</entry></row>
+<row><entry>311</entry><entry>312</entry><entry>313</entry><entry>314</entry></row>
+<row><entry>321</entry><entry>322</entry><entry>323</entry><entry>324</entry></row>
+<row><entry>331</entry><entry>332</entry><entry>333</entry><entry>334</entry></row>
+<row><entry>341</entry><entry>342</entry><entry>343</entry><entry>344</entry></row>
+<row><entry>351</entry><entry>352</entry><entry>353</entry><entry>354</entry></row>
+<row><entry>361</entry><entry>362</entry><entry>363</entry><entry>364</entry></row>
+<row><entry>371</entry><entry>372</entry><entry>373</entry><entry>374</entry></row>
+<row><entry>381</entry><entry>382</entry><entry>383</entry><entry>384</entry></row>
+<row><entry>391</entry><entry>392</entry><entry>393</entry><entry>394</entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<informaltable frame="all">
+<tgroup cols="4" colsep="0" rowsep="0">
+<colspec colwidth="8*" align="left"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="right"/>
+<tbody>
+<row>
+<entry><option>client_ignore_invalid_base64</option></entry>
+<entry>Use: <emphasis>plaintext</emphasis></entry>
+<entry>Type: <emphasis>boolean</emphasis></entry>
+<entry>Default: <emphasis>false</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<?sdop table_warn_overflow="overprint" ?>
+
+<informaltable frame="all">
+<tgroup cols="4" colsep="0" rowsep="0">
+<colspec colwidth="8*" align="left"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="right"/>
+<tbody>
+<row>
+<entry><option>client_ignore_invalid_base64</option></entry>
+<entry>Use: <emphasis>plaintext</emphasis></entry>
+<entry>Type: <emphasis>boolean</emphasis></entry>
+<entry>Default: <emphasis>false</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<informaltable frame="all">
+<tgroup cols="4" colsep="1" rowsep="0">
+<colspec colwidth="8*" align="left"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="right"/>
+<tbody>
+<row>
+<entry><option>client_ignore_invalid_base64</option></entry>
+<entry>Use: <emphasis>plaintext</emphasis></entry>
+<entry>Type: <emphasis>boolean</emphasis></entry>
+<entry>Default: <emphasis>false</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<?sdop table_warn_overflow="never" ?>
+
+<informaltable frame="all">
+<tgroup cols="4" colsep="0" rowsep="0">
+<colspec colwidth="8*" align="left"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="right"/>
+<tbody>
+<row>
+<entry><option>client_ignore_invalid_base64</option></entry>
+<entry>Use: <emphasis>plaintext</emphasis></entry>
+<entry>Type: <emphasis>boolean</emphasis></entry>
+<entry>Default: <emphasis>false</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<informaltable frame="all">
+<tgroup cols="4" colsep="1" rowsep="0">
+<colspec colwidth="8*" align="left"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="right"/>
+<tbody>
+<row>
+<entry><option>client_ignore_invalid_base64</option></entry>
+<entry>Use: <emphasis>plaintext</emphasis></entry>
+<entry>Type: <emphasis>boolean</emphasis></entry>
+<entry>Default: <emphasis>false</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<?sdop table_warn_overflow="always" ?>
+
+<informaltable frame="all">
+<tgroup cols="4" colsep="0" rowsep="0">
+<colspec colwidth="8*" align="left"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="right"/>
+<tbody>
+<row>
+<entry><option>client_ignore_invalid_base64</option></entry>
+<entry>Use: <emphasis>plaintext</emphasis></entry>
+<entry>Type: <emphasis>boolean</emphasis></entry>
+<entry>Default: <emphasis>false</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<informaltable frame="all">
+<tgroup cols="4" colsep="1" rowsep="0">
+<colspec colwidth="8*" align="left"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="center"/>
+<colspec colwidth="6*" align="right"/>
+<tbody>
+<row>
+<entry><option>client_ignore_invalid_base64</option></entry>
+<entry>Use: <emphasis>plaintext</emphasis></entry>
+<entry>Type: <emphasis>boolean</emphasis></entry>
+<entry>Default: <emphasis>false</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>

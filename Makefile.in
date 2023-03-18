@@ -1,0 +1,88 @@
+
+# Makefile.in for sdop. The building work is done by a separate Makefile in
+# the src directory, which gets passed settings from here.
+
+mkinstalldirs = $(SHELL) mkinstalldirs
+
+# These variables get set up by the configure script.
+
+CC = @CC@
+CFLAGS = @CFLAGS@
+LDFLAGS = @LDFLAGS@
+LIBS = @LIBS@
+
+INSTALL = @INSTALL@
+INSTALL_DATA = @INSTALL_DATA@
+
+prefix  = @prefix@
+BINDIR  = @prefix@/bin
+DATADIR = @prefix@/share/sdop
+MANDIR  = @prefix@/man
+
+# BINDIR is the directory in which the commands are installed.
+# DATADIR is the directory in which the hyphen list and font metrics are installed.
+# MANDIR is the directory in which the man pages are installed.
+
+SUPPORT_JPEG = @SUPPORT_JPEG@
+SUPPORT_PNG  = @SUPPORT_PNG@
+
+# The compile commands can be very long. To make the output look better,
+# they are not normally echoed in full. To get full echoing, the caller
+# must set FULLECHO='' on the command line and call make with -e. We default
+# FULLECHO to '@' to suppress the full echo. Then define an abbreviation.
+
+FULLECHO = @
+FE       = $(FULLECHO)
+
+# Do the building in the src directory
+
+build:; @cd src; $(MAKE) all \
+                BINDIR=$(BINDIR) \
+                DATADIR=$(DATADIR) \
+                MANDIR=$(MANDIR) \
+                SUPPORT_JPEG=$(SUPPORT_JPEG) \
+                SUPPORT_PNG=$(SUPPORT_PNG) \
+                CC="$(CC)" \
+                CFLAGS="$(CFLAGS)" \
+                LDFLAGS="$(LDFLAGS)" \
+                LIBS="$(LIBS)" \
+                FE="$(FE)"
+
+clean:; cd src; $(MAKE) clean
+
+distclean:;     rm Makefile config.cache config.log config.status; \
+                cd src; $(MAKE) clean
+
+test:           build
+		cd testing; ./runtest
+
+check:          test
+
+install:        build
+		$(mkinstalldirs) $(DESTDIR)$(BINDIR)
+		$(mkinstalldirs) $(DESTDIR)$(DATADIR)
+		$(mkinstalldirs) $(DESTDIR)$(DATADIR)/fontmetrics
+		$(mkinstalldirs) $(DESTDIR)$(MANDIR)
+		$(mkinstalldirs) $(DESTDIR)$(MANDIR)/man1
+		$(INSTALL) src/sdop $(DESTDIR)$(BINDIR)/sdop
+		$(INSTALL_DATA) share/HyphenData $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/PSheader $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/arttemplate $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/foottable* $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/foottable-p* $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/foottable-t* $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/headtable* $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/headtable-p* $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/headtable-t* $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/indexcollate $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/titletemplate $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/toctemplate $(DESTDIR)$(DATADIR)
+		$(INSTALL_DATA) share/fontmetrics/* $(DESTDIR)$(DATADIR)/fontmetrics
+		$(INSTALL_DATA) doc/sdop.1 $(DESTDIR)$(MANDIR)/man1
+
+uninstall:
+		rm $(BINDIR)/sdop
+		rm -rf $(DATADIR)/*
+		rm $(MANDIR)/man1/sdop.1
+
+# End

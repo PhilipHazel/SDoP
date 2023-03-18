@@ -1,0 +1,45 @@
+<?sdop
+  blockquote_indent="120,140,20"
+  para_indent="0,16,0" 
+  term_indent="10,10,0" 
+  toc_sections="no"
+  vlist_indent="40,40,40" 
+?>
+
+<para>
+Support for the cdb (Constant DataBase) lookup method is provided by code
+contributed by Nigel Metheringham of (at the time he contributed it) Planet
+Online Ltd. The implementation is completely contained within the code of Exim.
+It does not link against an external cdb library. The code contains the
+following statements:
+</para>
+<blockquote>
+<para>
+Copyright &copy; 1998 Nigel Metheringham, Planet Online Ltd
+</para>
+<para>
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+</para>
+<para>
+This code implements Dan Bernstein&#x2019;s Constant DataBase (cdb) spec. Information,
+the spec and sample code for cdb can be obtained from
+<emphasis role="bold"><ulink url="http://www.pobox.com/~djb/cdb.html">http://www.pobox.com/~djb/cdb.html</ulink></emphasis>. This implementation borrows some
+code from Dan Bernstein&#x2019;s implementation (which has no license restrictions
+applied to it).
+</para>
+</blockquote>
+
+<variablelist><title>Testing, testing</title>
+<varlistentry><term><emphasis>Term</emphasis></term>
+<listitem><para>A paragraph that describes the term above, saying something 
+about it, usually running over a number of lines.</para></listitem>
+</varlistentry>
+<varlistentry><term><emphasis>Term</emphasis></term>
+<listitem><para>A paragraph that describes the term above, saying something 
+about it, usually running over a number of lines.</para></listitem>
+</varlistentry>
+</variablelist>
+

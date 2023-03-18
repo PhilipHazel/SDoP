@@ -1,0 +1,111 @@
+.TH SDOP 1
+.SH NAME
+SDoP - a Simple DocBook Processor
+.SH SYNOPSIS
+.B sdop [options] [source file]
+.
+.SH DESCRIPTION
+.rs
+.sp
+\fBsdop\fP reads DocBook XML input, processes it into page images, and writes
+the result as PostScript. This can be turned into PDF using an application such
+as \fBps2pdf\fP. SDoP is "simple" because (a) it does not check that the input
+conforms to the DTD, and (b) it supports only a simple subset of DocBook
+features. If no source file is given, the standard input is read.
+.
+.SH OPTIONS
+.rs
+.TP 10
+\fB-d\fP
+Produce debugging output. Adding \fB+all\fP generates voluminous output; some 
+other words can be used to generate subsets of this.
+.TP
+\fB-help\fP or \fB--help\fP
+List the available options.
+.TP
+\fB-o\fP \fI<output file>\fP
+Specify an output file. To specify the standard output, use "-". The default is
+to replace the input file's extension with ".ps", or to write to the standard
+output if the input is the standard input.
+.TP
+\fB-p\fP \fI<pagelist>\fP
+Output only the given pages, counting from the start of the body of the
+document, that is, after the front matter and preface(s), if any. Page numbers
+in the list are comma-separated, and ranges can be given using a hyphen.
+.TP
+\fB-pf\fP \fI<pagelist>\fP
+Output only the given pages from the front matter, counting from the very first
+page of the document. Page numbers in the list are comma-separated, and ranges
+can be given using a hyphen.
+.TP
+\fB-q\fP
+Suppress warnings for unsupported DocBook features (which are ignored). This 
+overrides any setting in the input file.
+.TP
+\fB-qc\fP
+Suppress warnings for unsupported characters. This overrides any setting in the
+input file.
+.TP
+\fB-S\fP \fI<colon-separated directory list>\fP
+The given directories are searched in order for SDoP's shared data files,
+before searching the installed directory (usually \fI/usr/local/share/sdop\fP).
+This overrides any setting in an SDOP_SHARE environment variable.
+.TP
+\fB-w\fP
+Do not suppress warnings for unsupported DocBook features (which are ignored).
+This overrides any setting in the input file.
+.TP
+\fB-wc\fP
+Do not suppress warnings for unsupported characters. This overrides any setting
+in the input file.
+.TP
+\fB-v\fP or \fB--version\fP
+Show SDoP's version and list any optional facilities that this implementation 
+supports.
+.P
+A page list for \fB-p\fP (but not for \fB-pf\fP) may include ``odd'' or 
+``even'', to further restrict which pages are output. If you want only odd or 
+even pages from the frontmatter, you can use, for example, \fB-p odd\fP with an 
+appropriate \fB-pf\fP setting.
+.
+.
+.SH "ENVIRONMENT"
+.rs
+.sp
+The environment variable SDOP_SHARE may be set to a colon-separated list of 
+directories. These are searched in order for SDoP's shared data files, before 
+searching the installed directory (usually \fI/usr/local/share/sdop\fP). The 
+\fB-S\fP option can be used to override SDOP_SHARE.
+.
+.
+.SH "FURTHER INFORMATION"
+.rs
+.sp
+The SDoP manual gives a full description of the program and the features that 
+it provides.
+.
+.
+.SH "DIAGNOSTICS AND RETURN CODES"
+.rs
+.sp
+Error messages are written to the standard error stream. The return code is 0 
+for success, and 1 if there have been any diagnostics more serious than a 
+warning.
+.
+.
+.SH AUTHOR
+.rs
+.sp
+.nf
+Philip Hazel
+Cambridge, England.
+.fi
+.
+.
+.SH REVISION
+.rs
+.sp
+.nf
+Last updated: 23 November 2013
+Copyright (c) 2013 Philip Hazel
+.fi

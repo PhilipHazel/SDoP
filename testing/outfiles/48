@@ -1,0 +1,573 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.70
+%%CreationDate: Tue Jan 25 17:02:47 2011
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Courier
+%%+ font Times-Bold
+%%+ font Helvetica
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 2 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+[/Title (Contents) /Page 1 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (1.  Syntax summary) /Page 3 /View [/XYZ null null 1] /Count -2 /OUT pdfmark
+[/Title (    1.1  Preprocessing directives) /Page 3 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    1.2  Heading directives) /Page 3 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Index) /Page 7 /View [/XYZ null null 1] /OUT pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Courier
+/af6 /af7 /Courier inf
+%%IncludeResource: font Times-Bold
+/af8 /af9 /Times-Bold inf
+%%IncludeResource: font Helvetica
+/af10 /af11 /Helvetica inf
+/vf 22 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af4 13 scalefont put
+vf 7 af5 13 scalefont put
+vf 8 af6 11 scalefont put
+vf 9 af7 11 scalefont put
+vf 10 af8 11 scalefont put
+vf 11 af9 11 scalefont put
+vf 12 af0 9.6 scalefont put
+vf 13 af1 9.6 scalefont put
+vf 14 af4 11.5 scalefont put
+vf 15 af5 11.5 scalefont put
+vf 16 af8 9.6 scalefont put
+vf 17 af9 9.6 scalefont put
+vf 18 af10 11 scalefont put
+vf 19 af11 11 scalefont put
+vf 20 af4 11 scalefont put
+vf 21 af5 11 scalefont put
+%%EndSetup
+
+%%Page: i 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+262.336 764 Mt 4 Sf (Contents)S
+72 737 Mt 20 Sf (1.  Syntax summar)S 0.11 R(y)S 3.7 R 0 Sf (..)S
+(.............................................................)S
+(..........................................................)S
+515.883 737 Mt 20 Sf (1)S
+72 725 Mt 18 Sf ( )S
+72 713 Mt(    1.1  Preprocessing directiv)S -0.275 R(es)S 3.458 R
+0 Sf (........................................................)S
+(...............................................)S
+515.883 713 Mt 18 Sf (1)S
+72 701 Mt(    1.2  Heading directiv)S -0.275 R(es)S 2.545 R 0 Sf
+(.............................................................)S
+(.....................................................)S
+515.883 701 Mt 18 Sf (1)S
+72 689 Mt( )S
+72 677 Mt 20 Sf (Inde)S -0.165 R(x)S 4.316 R 0 Sf (...........)S
+(.............................................................)S
+(.............................................................)S
+(...............)S
+515.883 677 Mt 20 Sf (5)S
+72 72 Mt 0 Sf ( )S
+295.47 60 Mt 2 Sf (i)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: ii 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 1 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+224 764 Mt 4 Sf (1. Syntax summar)S 0.16 R(y)S
+72 733.572 Mt 6 Sf (1.1 Prepr)S -0.26 R(ocessing directives)S
+72 713.787 Mt 0 Sf (These may occur at an)S -0.165 R(y point i)S
+(n an input )S 1 Sf (\216)S 0 Sf (le; each one must occup)S -0.11 R(y)S
+( a line on its o)S -0.275 R(wn.)S
+84 692.854 Mt 8 Sf (*comment)S 0 Sf ( <)S 2 Sf (r)S -0.407 R(e)S
+(st of line)S 0 Sf (>)S
+84 680.854 Mt 8 Sf (*define)S 0 Sf ( )S 2 Sf (name)S 0 Sf ( )S
+2 Sf (r)S -0.407 R(est of line)S
+84 668.854 Mt 8 Sf (*else)S
+84 656.854 Mt(*fi)S
+84 644.854 Mt(*if)S 0 Sf ( )S 2 Sf (condition)S
+84 632.854 Mt 8 Sf (*if not)S 0 Sf ( )S 2 Sf (condition)S
+84 620.854 Mt 8 Sf (*include)S 0 Sf ( ")S 3 Sf (\216)S 2 Sf (l)S
+(e name)S 0 Sf (")S
+72 590.426 Mt 6 Sf (1.2 Heading directives)S
+72 571.785 Mt 0 Sf (Those)S 2.856 R(mark)S -0.11 R(ed)S 2.856 R(w)S
+(ith)S 2.856 R(an)S 2.856 R(asterisk)S 2.856 R(may)S 2.856 R(a)S
+(ppear)S 2.856 R(only)S 2.856 R(at)S 2.856 R(the)S 2.856 R(hea)S
+(d)S 2.856 R(of)S 2.856 R(a)S 2.856 R(PMW)S 2.856 R(input)S 2.856 R
+1 Sf (\216)S 0 Sf (le,)S 2.856 R(not)S 2.856 R(at)S 2.856 R(th)S
+(e)S 2.856 R(start)S 2.856 R(of)S 2.856 R(the)S
+72 559.785 Mt(second)S 3.915 R(or)S 3.915 R(subsequent)S 3.915 R(m)S
+(o)S -0.165 R(v)S -0.165 R(ements.)S 3.915 R(Those)S 3.915 R(m)S
+(ark)S -0.11 R(ed)S 3.915 R(with)S 3.915 R(a)S 3.915 R(dagger)S
+3.915 R(af)S -0.275 R(fect)S 3.915 R(only)S 3.915 R(the)S 3.915 R(m)S
+(o)S -0.165 R(v)S -0.165 R(ement)S 3.915 R(in)S 3.915 R(which)S
+72 547.785 Mt(the)S -0.165 R(y appear)S -0.605 R(.)S
+84 529.785 Mt 8 Sf ( Accadjusts)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+( <)S 2 Sf (n)S 0 Sf (> ... <)S 2 Sf (up to 8 number)S -0.11 R(s)S
+0 Sf (>)S
+84 517.785 Mt 8 Sf ( Accspacing)S 0 Sf ( )S 2 Sf (n1)S 0 Sf ( )S
+2 Sf (n2)S 0 Sf ( )S 2 Sf (n3)S 0 Sf ( )S 2 Sf (n4)S 0 Sf ( )S
+2 Sf (n5)S
+84 505.785 Mt 8 Sf ( Bar)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 493.785 Mt 8 Sf ( Barcount)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 481.785 Mt 8 Sf ( Barlinesize)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 469.785 Mt 8 Sf ( Barlinespace)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 457.785 Mt 8 Sf ( Barlinestyle)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 445.785 Mt 8 Sf ( Barnumberlevel)S 0 Sf ( )S 2 Sf (sign)S 0 Sf
+(<<n>>)S
+84 433.785 Mt 8 Sf ( Barnumbers)S 0 Sf ( )S 2 Sf (enclosur)S -0.407 R(e)S
+0 Sf ( )S 2 Sf (interval)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf ( )S
+2 Sf (font)S
+84 421.785 Mt 8 Sf ( Beamendrests)S
+84 409.785 Mt( Beamflaglength)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 397.785 Mt 8 Sf ( Beamthickness)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 385.785 Mt 8 Sf ( Bottommargin)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 373.785 Mt 8 Sf ( Brace)S 0 Sf ( )S 2 Sf (n-m)S 0 Sf ( ...)S
+84 361.785 Mt 8 Sf ( Bracestyle)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 349.785 Mt 8 Sf ( Bracket)S 0 Sf ( )S 2 Sf (n-m)S 0 Sf ( ..)S
+(.)S
+84 337.785 Mt 8 Sf ( Breakbarlines)S 0 Sf ( )S 2 Sf (n1)S 0 Sf
+( )S 2 Sf (n2)S 0 Sf ( ...)S
+84 325.785 Mt 8 Sf ( Breakbarlinesx)S 0 Sf ( )S 2 Sf (n1)S 0 Sf
+( )S 2 Sf (n2)S 0 Sf ( ...)S
+84 313.785 Mt 8 Sf ( Breveledgerextra)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 301.785 Mt 8 Sf ( Breverests)S
+84 289.785 Mt( Caesurastyle)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 277.785 Mt 8 Sf ( Check)S
+84 265.785 Mt( Checkdoublebars)S
+84 253.785 Mt( Clefsize)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 241.785 Mt 8 Sf ( Clefstyle)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 229.785 Mt 8 Sf ( Clefwidths)S 0 Sf ( )S 2 Sf (n1)S 0 Sf ( )S
+(... )S 2 Sf (n5)S
+84 217.785 Mt 8 Sf ( Copyzero)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>/)S
+2 Sf (m)S 0 Sf ( ...)S
+84 205.785 Mt 8 Sf ( Cuegracesize)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 193.785 Mt 8 Sf ( Cuesize)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 181.785 Mt 8 Sf ( Dotspacefactor)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 169.785 Mt 8 Sf ( Doublenotes)S
+84 157.785 Mt( Draw)S 0 Sf ( )S 2 Sf (dr)S -0.165 R(awing de)S
+3 Sf (\216)S 2 Sf (nition)S 0 Sf ( )S 8 Sf (enddraw)S
+84 145.785 Mt( Endlinesluradjust)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 133.785 Mt 8 Sf ( Endlineslurstyle)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 121.785 Mt 8 Sf ( Endlinetieadjust)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 109.785 Mt 8 Sf ( Endlinetiestyle)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 97.785 Mt 8 Sf ( Extenderlevel)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 85.785 Mt 8 Sf ( Fbsize)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 768 Mt 8 Sf ( Footing)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf ( ")S
+2 Sf (string)S 0 Sf (" )S 2 Sf (space)S
+84 756 Mt 8 Sf ( Footing)S 0 Sf ( dra)S -0.165 R(w )S 2 Sf (na)S
+(me)S 0 Sf ( )S 2 Sf (space)S
+84 744 Mt 8 Sf ( Footnotesep)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 732 Mt 8 Sf ( Footnotesize)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 720 Mt 8 Sf ( Gracesize)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 708 Mt 8 Sf ( Gracespacing)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> )S
+2 Sf (m)S
+84 696 Mt 8 Sf ( Gracestyle)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 684 Mt 8 Sf ( Hairpinlinewidth)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 672 Mt 8 Sf ( Hairpinwidth)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 660 Mt 8 Sf ( Halvenotes)S
+84 648 Mt( Heading)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf ( ")S 2 Sf
+(string)S 0 Sf (" )S 2 Sf (space)S
+84 636 Mt 8 Sf ( Heading)S 0 Sf ( dra)S -0.165 R(w )S 2 Sf (na)S
+(me)S 0 Sf ( )S 2 Sf (space)S
+84 624 Mt 8 Sf ( Hyphenstring)S 0 Sf ( ")S 2 Sf (string)S 0 Sf
+(")S
+84 612 Mt 8 Sf ( Hyphenthreshold)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 600 Mt 8 Sf ( Join)S 0 Sf ( )S 2 Sf (n-m)S 0 Sf ( ...)S
+84 588 Mt 8 Sf ( Joindotted)S 0 Sf ( )S 2 Sf (n-m)S 0 Sf ( ...)S
+84 576 Mt 8 Sf ( Justify)S 0 Sf ( )S 2 Sf (edg)S -0.11 R(es)S
+84 564 Mt 9 Sf (\210)S 8 Sf (Key)S 0 Sf ( )S 2 Sf (k)S -0.11 R(e)S
+-0.33 R(y signatur)S -0.407 R(e)S
+84 552 Mt 8 Sf ( Keydoublebar)S
+84 540 Mt( Keysinglebar)S
+84 528 Mt( Keywarn)S
+84 516 Mt(*Landscape)S
+84 504 Mt( Lastfooting)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf ( ")S
+2 Sf (string)S 0 Sf (" )S 2 Sf (space)S
+84 492 Mt 8 Sf ( Lastfooting)S 0 Sf ( dra)S -0.165 R(w )S 2 Sf
+(name)S 0 Sf ( )S 2 Sf (space)S
+84 480 Mt 8 Sf (.newline)S
+84 468 Mt 9 Sf (\210)S 8 Sf (Layout)S 0 Sf ( )S 2 Sf (n1)S 0 Sf
+( )S 2 Sf (n2)S 0 Sf ( ...)S
+84 456 Mt 8 Sf ( Leftmargin)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 444 Mt 8 Sf ( Linelength)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 432 Mt 8 Sf ( Longrestfont)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf
+( )S 2 Sf (font)S
+84 420 Mt 8 Sf (*Magnification)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 408 Mt 8 Sf ( Maxbeamslope)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 396 Mt 8 Sf (*Maxvertjustify)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 384 Mt 8 Sf ( Midichannel)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> ")S
+2 Sf (name or number)S 0 Sf (" )S 2 Sf (staves)S
+84 372 Mt 8 Sf ( Midistart)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> <)S
+2 Sf (n)S 0 Sf (> <)S 2 Sf (n)S 0 Sf (> ...)S
+84 360 Mt 8 Sf ( Miditempo)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> )S 2 Sf
+(n/m)S 0 Sf ( ...)S
+84 348 Mt 8 Sf ( Miditranspose)S 0 Sf ( )S 2 Sf (n/m)S 0 Sf ( )S
+(...)S
+84 336 Mt 8 Sf ( Midivolume)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> )S
+2 Sf (n/m)S 0 Sf ( ...)S
+84 324 Mt 8 Sf ( Midkeyspacing)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 312 Mt 8 Sf ( Midtimespacing)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 300 Mt 8 Sf (*Musicfont)S 0 Sf ( ")S 2 Sf (font name)S 0 Sf
+(")S
+84 288 Mt 8 Sf ( Nobeamendrests)S
+84 276 Mt( Nocheck)S
+84 264 Mt( Nocheckdoublebars)S
+84 252 Mt(*Nokerning)S
+84 240 Mt( Nokeywarn)S
+84 228 Mt( Nosluroverwarnings)S
+84 216 Mt( Nospreadunderlay)S
+84 204 Mt( Notespacing)S 0 Sf ( *)S 2 Sf (factor)S
+84 192 Mt 8 Sf ( Notespacing)S 0 Sf ( )S 2 Sf (n1)S 0 Sf ( ...)S
+( )S 2 Sf (n8)S
+84 180 Mt 9 Sf (\210)S 8 Sf (Notime)S
+84 168 Mt( Notimebase)S
+84 156 Mt( Notimewarn)S
+84 144 Mt( Nounderlayextenders)S
+84 132 Mt( Overlaydepth)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 120 Mt 8 Sf ( Overlaysize)S 0 Sf ( )S 2 Sf (fontsize)S
+84 108 Mt 8 Sf (*Page)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> )S 2 Sf (m)S
+84 96 Mt 8 Sf ( Pagefooting)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf
+( ")S 2 Sf (string)S 0 Sf (" )S 2 Sf (space)S
+84 84 Mt 8 Sf ( Pagefooting)S 0 Sf ( dra)S -0.165 R(w )S 2 Sf
+(name)S 0 Sf ( )S 2 Sf (space)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+84 768 Mt 8 Sf ( Pageheading)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf
+( ")S 2 Sf (string)S 0 Sf (" )S 2 Sf (space)S
+84 756 Mt 8 Sf ( Pageheading)S 0 Sf ( dra)S -0.165 R(w )S 2 Sf
+(name)S 0 Sf ( )S 2 Sf (space)S
+84 744 Mt 8 Sf (*Pagelength)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 732 Mt 8 Sf ( Playtempo)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> )S 2 Sf
+(n/m)S 0 Sf ( ...)S
+84 720 Mt 8 Sf ( Playtranspose)S 0 Sf ( )S 2 Sf (n/m)S 0 Sf ( )S
+(...)S
+84 708 Mt 8 Sf ( Playvolume)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> )S
+2 Sf (n/m)S 0 Sf ( ...)S
+84 696 Mt 8 Sf ( Pmwversion)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 684 Mt 8 Sf ( Printtime)S 0 Sf ( )S 2 Sf (time)S 0 Sf ( ")S
+2 Sf (string 1)S 0 Sf (" ")S 2 Sf (string 2)S 0 Sf (")S
+84 672 Mt 8 Sf ( Psfooting)S 0 Sf ( ")S 2 Sf (P)S -0.88 R(ostS)S
+(cript string)S 0 Sf (")S
+84 660 Mt 8 Sf ( Psheading)S 0 Sf ( ")S 2 Sf (P)S -0.88 R(ostS)S
+(cript string)S 0 Sf (")S
+84 648 Mt 8 Sf ( Pslastfooting)S 0 Sf ( ")S 2 Sf (P)S -0.88 R(o)S
+(stScript string)S 0 Sf (")S
+84 636 Mt 8 Sf ( Pspagefooting)S 0 Sf ( ")S 2 Sf (P)S -0.88 R(o)S
+(stScript string)S 0 Sf (")S
+84 624 Mt 8 Sf ( Pspageheading)S 0 Sf ( ")S 2 Sf (P)S -0.88 R(o)S
+(stScript string)S 0 Sf (")S
+84 612 Mt 8 Sf (*Pssetup)S 0 Sf ( ")S 2 Sf (P)S -0.88 R(ostScr)S
+(ipt string)S 0 Sf (")S
+84 600 Mt 8 Sf ( Rehearsalmarks)S 0 Sf ( )S 2 Sf (style)S 0 Sf
+( )S 2 Sf (fontsize)S 0 Sf ( )S 2 Sf (fontname)S
+84 588 Mt 8 Sf ( Repeatbarfont)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf
+( )S 2 Sf (font)S
+84 576 Mt 8 Sf ( Repeatstyle)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 564 Mt 8 Sf ( Selectstaves)S 0 Sf ( )S 2 Sf (n-m)S 0 Sf ( .)S
+(..)S
+84 552 Mt 8 Sf (*Sheetdepth)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 540 Mt 8 Sf (*Sheetsize)S 0 Sf ( A4 )S 2 Sf (or)S 0 Sf ( A3)S
+84 528 Mt 8 Sf (*Sheetwidth)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 516 Mt 8 Sf ( Shortenstems)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 504 Mt 8 Sf ( Sluroverwarnings)S
+84 492 Mt( Smallcapsize)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 480 Mt 9 Sf (\210)S 8 Sf ($$Startbracketbar)S 0 Sf ( <)S 2 Sf
+(n)S 0 Sf (>)S
+84 468 Mt 8 Sf ( Startlinespacing)S 0 Sf ( )S 2 Sf (c)S 0 Sf ( )S
+2 Sf (k)S 0 Sf ( )S 2 Sf (t)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 456 Mt 9 Sf (\210)S 8 Sf ($$Startnotime)S
+84 444 Mt( Stavesize\(s\))S 0 Sf ( )S 2 Sf (n/m)S 0 Sf ( ...)S
+84 432 Mt 8 Sf ( Stavespacing)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> )S
+2 Sf (n/b)S 0 Sf ( ...)S
+84 420 Mt 8 Sf ( Stavespacing)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> )S
+2 Sf (n/a/b)S 0 Sf ( ...)S
+84 408 Mt 8 Sf ( Stemlengths)S 0 Sf ( )S 2 Sf (n1)S 0 Sf ( ...)S
+( )S 2 Sf (n6)S
+84 396 Mt 8 Sf ( Stemswap)S 0 Sf ( )S 2 Sf (dir)S -0.407 R(ect)S
+(ion)S
+84 384 Mt 8 Sf ( Stemswaplevel)S 0 Sf ( )S 2 Sf (n/m)S 0 Sf ( )S
+(...)S
+84 372 Mt 9 Sf (\210)S 8 Sf (Suspend)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(> ...)S
+84 360 Mt 8 Sf ( Systemgap)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 348 Mt 8 Sf (*Textfont)S 0 Sf ( )S 2 Sf (fontwor)S -0.407 R(d)S
+0 Sf ( ")S 2 Sf (font name)S 0 Sf (")S
+84 336 Mt 8 Sf ( Textsize\(s\))S 0 Sf ( <)S 2 Sf (n)S 0 Sf (> )S
+(...)S
+84 324 Mt 8 Sf ( Thinbracket)S 0 Sf ( )S 2 Sf (n-m)S 0 Sf ( ..)S
+(.)S
+84 312 Mt 9 Sf (\210)S 8 Sf (Time)S 0 Sf ( )S 2 Sf (time signa)S
+(tur)S -0.407 R(e)S
+84 300 Mt 8 Sf ( Timebase)S
+84 288 Mt( Timefont)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf ( )S 2 Sf
+(name)S
+84 276 Mt 8 Sf ( Timewarn)S
+84 264 Mt( Topmargin)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 252 Mt 9 Sf (\210)S 8 Sf (Transpose)S 0 Sf ( <)S 2 Sf (n)S
+0 Sf (>)S
+84 240 Mt 8 Sf ( Transposedacc)S 0 Sf ( force)S
+84 228 Mt 8 Sf ( Transposedacc)S 0 Sf ( noforce)S
+84 216 Mt 8 Sf ( Transposedkey)S 0 Sf ( )S 2 Sf (k)S -0.11 R(e)S
+-0.33 R(y 1)S 0 Sf ( use )S 2 Sf (k)S -0.11 R(e)S -0.33 R(y 2)S
+84 204 Mt 8 Sf ( Trillstring)S 0 Sf ( ")S 2 Sf (string)S 0 Sf
+(")S
+84 192 Mt 8 Sf ( Tripletfont)S 0 Sf ( )S 2 Sf (fontsize)S 0 Sf
+( )S 2 Sf (name)S
+84 180 Mt 8 Sf ( Tripletlinewidth)S 0 Sf ( <)S 2 Sf (n)S 0 Sf
+(>)S
+84 168 Mt 8 Sf ( Underlaydepth)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 156 Mt 8 Sf ( Underlayextenders)S
+84 144 Mt( Underlaysize)S 0 Sf ( )S 2 Sf (fontsize)S
+84 132 Mt 8 Sf ( Underlaystyle)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+84 120 Mt 9 Sf (\210)S 8 Sf (Unfinished)S
+84 108 Mt( Vertaccsize)S 0 Sf ( <)S 2 Sf (n)S 0 Sf (>)S
+72 72 Mt( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 6
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (Although)S 3.69 R(Aspic)S 3.69 R(has)S 3.69 R(s)S
+(upport)S 3.69 R(for)S 3.69 R(including)S 3.69 R(te)S -0.165 R(x)S
+(t)S 3.69 R(in)S 3.69 R(dra)S -0.165 R(wings,)S 3.69 R(it)S 3.69 R(d)S
+(oes)S 3.69 R(no)S 3.69 R(te)S -0.165 R(xt)S 3.69 R(processing)S
+3.69 R(of)S 3.69 R(its)S 3.69 R(o)S -0.275 R(wn,)S 3.69 R(in)S
+72 756 Mt(the sense that it contains no code for )S 1 Sf (\216)S
+0 Sf (nding the size of te)S -0.165 R(xt strings.)S
+72 72 Mt( )S
+294.249 60 Mt(4)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 5 7
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+276.224 764 Mt 4 Sf (Inde)S -0.24 R(x)S
+72 732.5 Mt 14 Sf (A)S
+72 720.9 Mt 12 Sf (abc)S(  4)S
+[/Rect [89.124 717.9 95.924 730.5] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 709.3 Mt 16 Sf (abc)S 12 Sf (  4)S
+[/Rect [90.199 706.3 96.999 718.9] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 697.7 Mt([abc])S(  4)S
+[/Rect [95.516 694.7 102.316 707.3] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 686.1 Mt 13 Sf (\237)S 12 Sf (abc in quotes)S 13 Sf (\240)S
+12 Sf (  4)S
+[/Rect [134.98 683.1 141.78 695.7] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 654.6 Mt 14 Sf (D)S
+72 643 Mt 12 Sf (def)S(  4)S
+[/Rect [88.058 640 94.858 652.6] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 611.5 Mt 14 Sf (S)S
+72 599.9 Mt 12 Sf (summary of syntax)S(  1)S
+[/Rect [149.388 596.9 156.188 609.5] /Page 3 /View [/XYZ 0 820 null] /LNK pdfmark
+72 588.3 Mt(syntax summary)S(  1)S
+[/Rect [138.992 585.3 145.792 597.9] /Page 3 /View [/XYZ 0 820 null] /LNK pdfmark
+72 556.8 Mt 14 Sf (X)S
+72 545.2 Mt 12 Sf (xyz)S(  4)S
+[/Rect [89.662 542.2 96.462 554.8] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(5)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 7

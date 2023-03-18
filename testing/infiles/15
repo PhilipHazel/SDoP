@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<?sdop
+  foot_right_recto="&chaptertitle; (&chapternumber;)"
+  foot_right_verso="&chaptertitle; (&chapternumber;)"
+  toc_chapter_blanks="yes,yes"
+?>
+<book><title>This is a titled book</title>
+
+<preface>
+<?sdop toc_sections="yes,yes"?>
+<title>Preface</title>
+<para>
+This is the preface. This is random text. The quick brown fox jumps over the 
+lazy dog.
+</para>
+<section><title>A section in a preface</title>
+<indexterm><primary>Ignored index item</primary></indexterm>
+<para>
+This is a section in a preface. It should be unnumbered.
+</para>
+</section>
+
+<?sdop format="newpage"?>
+<section><title>Another section in a preface</title>
+<para>
+This is a another section in a preface. It should be unnumbered.
+</para>
+</section>
+</preface>
+
+<preface>
+<title>Forward</title>
+<para>
+This is a second <quote>preface</quote>. This is random text. The quick brown
+fox jumps over the lazy dog.
+</para>
+<section><title>A section in a preface</title>
+<indexterm><primary>Ignored index item</primary></indexterm>
+<para>
+This is a section in a preface. It should be unnumbered.
+</para>
+</section>
+
+<section><title>Another section in a preface</title>
+<para>
+This is a another section in a preface. It should be unnumbered.
+</para>
+</section>
+</preface>
+
+<chapter>
+<title>Introduction</title>
+<section><title>Should hyphenate</title>
+<para>
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+</para>
+</section>
+
+<?sdop hyphenate="no" ?>
+<section><title>Should not hyphenate</title>
+<indexterm><primary>An index term</primary></indexterm>
+<para>
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+This is a chapter. Test of manually-hyphenated text.
+</para>
+</section>
+
+</chapter>
+
+<?sdop
+  format="newpage"
+  foot_right_recto="&chaptertitle;"
+  foot_right_verso="&chaptertitle;"
+?>
+
+<index>
+<title>Index</title>
+</index>
+
+</book>

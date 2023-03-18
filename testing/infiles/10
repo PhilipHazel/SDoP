@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<?sdop
+  foot_right_recto="&chaptertitle; (&chapternumber;)"
+  foot_right_verso="&chaptertitle; (&chapternumber;)"
+  toc_chapter_blanks="yes,yes"
+?>
+<book>
+<bookinfo>
+<title>Specification of the Exim Mail Transfer Agent</title>
+<titleabbrev>The Exim MTA</titleabbrev>
+<date>08 January 2007</date>
+<author><firstname>Philip</firstname><surname>Hazel</surname></author>
+<authorinitials>PH</authorinitials>
+<affiliation><orgname>University of Cambridge Computing Service</orgname></affiliation>
+<address>New Museums Site, Pembroke Street, Cambridge CB2 3QH, England</address>
+<revhistory><revision>
+  <revnumber>4.66</revnumber>
+  <date>08 January 2007</date>
+  <authorinitials>PH</authorinitials>
+</revision></revhistory>
+<copyright><year>2007</year><holder>University of Cambridge</holder></copyright>
+</bookinfo>
+<chapter>
+<title>Introduction</title>
+
+<indexterm role="concept">
+  <primary>$1, $2, etc.</primary>
+  <see><emphasis>numerical variables</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>address</primary>
+  <secondary>rewriting</secondary>
+  <see><emphasis>rewriting</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>Bounce Address Tag Validation</primary>
+  <see><emphasis>BATV</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>Client SMTP Authorization</primary>
+  <see><emphasis>CSA</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>CR character</primary>
+  <see><emphasis>carriage return</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>CRL</primary>
+  <see><emphasis>certificate revocation list</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>delivery</primary>
+  <secondary>failure report</secondary>
+  <see><emphasis>bounce message</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>dialup</primary>
+  <see><emphasis>intermittently connected hosts</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>exiscan</primary>
+  <see><emphasis>content scanning</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>failover</primary>
+  <see><emphasis>fallback</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>fallover</primary>
+  <see><emphasis>fallback</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>filter</primary>
+  <secondary>Sieve</secondary>
+  <see><emphasis>Sieve filter</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>ident</primary>
+  <see><emphasis>RFC 1413</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>LF character</primary>
+  <see><emphasis>linefeed</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>maximum</primary>
+  <see><emphasis>limit</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>monitor</primary>
+  <see><emphasis>Exim monitor</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>no_<emphasis>xxx</emphasis></primary>
+  <see>entry for xxx</see>
+</indexterm>
+<indexterm role="concept">
+  <primary>NUL</primary>
+  <see><emphasis>binary zero</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>passwd file</primary>
+  <see><emphasis>/etc/passwd</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>process id</primary>
+  <see><emphasis>pid</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>RBL</primary>
+  <see><emphasis>DNS list</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>redirection</primary>
+  <see><emphasis>address redirection</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>return path</primary>
+  <seealso><emphasis>envelope sender</emphasis></seealso>
+</indexterm>
+<indexterm role="concept">
+  <primary>scanning</primary>
+  <see><emphasis>content scanning</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>SSL</primary>
+  <see><emphasis>TLS</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>string</primary>
+  <secondary>expansion</secondary>
+  <see><emphasis>expansion</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>top bit</primary>
+  <see><emphasis>8-bit characters</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>variables</primary>
+  <see><emphasis>expansion, variables</emphasis></see>
+</indexterm>
+<indexterm role="concept">
+  <primary>zero, binary</primary>
+  <see><emphasis>binary zero</emphasis></see>
+</indexterm>
+
+<para>
+Exim is a mail transfer agent (MTA) for hosts that are running Unix or
+Unix-like operating systems. It was designed on the assumption that it would be
+run on hosts that are permanently connected to the Internet. However, it can be
+used on intermittently connected hosts with suitable configuration adjustments.
+</para>
+<section>
+<title>Exim documentation</title>
+<para revisionflag="changed">
+<indexterm role="concept">
+<primary>documentation</primary>
+</indexterm>
+This edition of the Exim specification applies to version 4.66 of Exim.
+Substantive changes from the 4.63 edition are marked in some
+renditions of the document; this paragraph is so marked if the rendition is
+capable of showing a change indicator.
+</para>
+<para>
+<indexterm role="concept">
+<primary>Debian</primary>
+<secondary>information sources</secondary>
+</indexterm>
+If you are using a Debian distribution of Exim, you will find information about
+Debian-specific features in the file
+</para>
+<literallayout>
+<filename>/usr/share/doc/exim4-base/README.Debian</filename>
+</literallayout>
+<para>
+The command <command>man update-exim.conf</command> is another source of Debian-specific
+information.
+</para>
+</section>
+</chapter>
+
+<chapter>
+<title>Incorporated code</title>
+<para>
+<indexterm role="concept">
+<primary>incorporated code</primary>
+</indexterm>
+<indexterm role="concept">
+<primary>regular expressions</primary>
+<secondary>library</secondary>
+</indexterm>
+<indexterm role="concept">
+<primary>PCRE</primary>
+</indexterm>
+A number of pieces of external code are included in the Exim distribution.
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Regular expressions are supported in the main Exim program and in the Exim
+monitor using the freely-distributable PCRE library, copyright &copy;
+University of Cambridge. The source is distributed in the directory
+<filename>src/pcre</filename>. However, this is a cut-down version of PCRE. If you want to use
+the PCRE library in other programs, you should obtain and install the full
+version from <emphasis role="bold"><ulink url="ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre">ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre</ulink></emphasis>.
+</para>
+</listitem>
+<listitem>
+<para>
+<indexterm role="concept">
+<primary>cdb</primary>
+<secondary>acknowledgement</secondary>
+</indexterm>
+Support for the cdb (Constant DataBase) lookup method is provided by code
+contributed by Nigel Metheringham of (at the time he contributed it) Planet
+Online Ltd. The implementation is completely contained within the code of Exim.
+It does not link against an external cdb library. The code contains the
+following statements:
+</para>
+<blockquote>
+<para>
+Copyright &copy; 1998 Nigel Metheringham, Planet Online Ltd
+</para>
+<para>
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
+</para>
+<para>
+This code implements Dan Bernstein&#x2019;s Constant DataBase (cdb) spec. Information,
+the spec and sample code for cdb can be obtained from
+<emphasis role="bold"><ulink url="http://www.pobox.com/~djb/cdb.html">http://www.pobox.com/~djb/cdb.html</ulink></emphasis>. This implementation borrows some
+code from Dan Bernstein&#x2019;s implementation (which has no license restrictions
+applied to it).
+</para>
+</blockquote>
+</listitem>
+<listitem>
+<para>
+<indexterm role="concept">
+<primary>SPA authentication</primary>
+</indexterm>
+<indexterm role="concept">
+<primary>Samba project</primary>
+</indexterm>
+<indexterm role="concept">
+<primary>Microsoft Secure Password Authentication</primary>
+</indexterm>
+Client support for Microsoft&#x2019;s <emphasis>Secure Password Authentication</emphasis> is provided
+by code contributed by Marc Prud&#x2019;hommeaux. Server support was contributed by
+Tom Kistner. This includes code taken from the Samba project, which is released
+under the Gnu GPL.
+</para>
+</listitem>
+<listitem>
+<para>
+<indexterm role="concept">
+<primary>Cyrus</primary>
+</indexterm>
+<indexterm role="concept">
+<primary><emphasis>pwcheck</emphasis> daemon</primary>
+</indexterm>
+<indexterm role="concept">
+<primary><emphasis>pwauthd</emphasis> daemon</primary>
+</indexterm>
+Support for calling the Cyrus <emphasis>pwcheck</emphasis> and <emphasis>saslauthd</emphasis> daemons is provided
+by code taken from the Cyrus-SASL library and adapted by Alexander S.
+Sabourenkov. The permission notice appears below, in accordance with the
+conditions expressed therein.
+</para>
+<blockquote>
+<para>
+Copyright &copy; 2001 Carnegie Mellon University.  All rights reserved.
+</para>
+<para>
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+</para>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+</para>
+</listitem>
+<listitem>
+<para>
+Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the
+distribution.
+</para>
+</listitem>
+<listitem>
+<para>
+The name <quote>Carnegie Mellon University</quote> must not be used to
+endorse or promote products derived from this software without
+prior written permission. For permission or any other legal
+details, please contact
+</para>
+<literallayout>
+              Office of Technology Transfer
+              Carnegie Mellon University
+              5000 Forbes Avenue
+              Pittsburgh, PA  15213-3890
+              (412) 268-4387, fax: (412) 268-7395
+              tech-transfer@andrew.cmu.edu
+</literallayout>
+</listitem>
+<listitem>
+<para>
+Redistributions of any form whatsoever must retain the following
+acknowledgment:
+</para>
+<para>
+<quote>This product includes software developed by Computing Services
+at Carnegie Mellon University (<emphasis role="bold"><ulink url="http://www.cmu.edu/computing/">http://www.cmu.edu/computing/</ulink></emphasis>.</quote>
+</para>
+<para>
+CARNEGIE MELLON UNIVERSITY DISCLAIMS ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS, IN NO EVENT SHALL CARNEGIE MELLON UNIVERSITY BE LIABLE
+FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+</para>
+</listitem>
+</orderedlist>
+</blockquote>
+</listitem>
+<listitem>
+<para>
+<indexterm role="concept">
+<primary>Exim monitor</primary>
+<secondary>acknowledgement</secondary>
+</indexterm>
+<indexterm role="concept">
+<primary>X-windows</primary>
+</indexterm>
+<indexterm role="concept">
+<primary>Athena</primary>
+</indexterm>
+The Exim Monitor program, which is an X-Window application, includes
+modified versions of the Athena StripChart and TextPop widgets.
+This code is copyright by DEC and MIT, and their permission notice appears
+below, in accordance with the conditions expressed therein.
+</para>
+<blockquote>
+<para>
+Copyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts,
+and the Massachusetts Institute of Technology, Cambridge, Massachusetts.
+</para>
+<para>
+All Rights Reserved
+</para>
+<para>
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation, and that the names of Digital or MIT not be
+used in advertising or publicity pertaining to distribution of the
+software without specific, written prior permission.
+</para>
+<para>
+DIGITAL DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING
+ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL
+DIGITAL BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR
+ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+SOFTWARE.
+</para>
+</blockquote>
+</listitem>
+<listitem>
+<para>
+Many people have contributed code fragments, some large, some small, that were
+not covered by any specific licence requirements. It is assumed that the
+contributors are happy to see their code incoporated into Exim under the GPL.
+</para>
+</listitem>
+</itemizedlist>
+</chapter>
+
+<chapter>
+<title>Building and installing Exim</title>
+<para>
+<indexterm role="concept" id="IIDbuex" class="startofrange">
+<primary>building Exim</primary>
+</indexterm>
+</para>
+<section>
+<title>Unpacking</title>
+<para>
+Exim is distributed as a gzipped or bzipped tar file which, when upacked,
+creates a directory with the name of the current release (for example,
+<filename>exim-4.66</filename>) into which the following files are placed:
+</para>
+<informaltable frame="none">
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colwidth="140pt" align="left"/>
+<colspec colwidth="254pt" align="left"/>
+<tbody>
+<row>
+<entry><filename>ACKNOWLEDGMENTS</filename></entry>
+<entry>contains some acknowledgments</entry>
+</row>
+<row>
+<entry><filename>CHANGES</filename></entry>
+<entry>contains a reference to where changes are documented</entry>
+</row>
+<row>
+<entry><filename>LICENCE</filename></entry>
+<entry>the GNU General Public Licence</entry>
+</row>
+<row>
+<entry><filename>Makefile</filename></entry>
+<entry>top-level make file</entry>
+</row>
+<row>
+<entry><filename>NOTICE</filename></entry>
+<entry>conditions for the use of Exim</entry>
+</row>
+<row>
+<entry><filename>README</filename></entry>
+<entry>list of files, directories and simple build instructions</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<para>
+Other files whose names begin with <filename>README</filename> may also be present. The
+following subdirectories are created:
+</para>
+<informaltable frame="none">
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colwidth="140pt" align="left"/>
+<colspec colwidth="254pt" align="left"/>
+<tbody>
+<row>
+<entry><filename>Local</filename></entry>
+<entry>an empty directory for local configuration files</entry>
+</row>
+<row>
+<entry><filename>OS</filename></entry>
+<entry>OS-specific files</entry>
+</row>
+<row>
+<entry><filename>doc</filename></entry>
+<entry>documentation files</entry>
+</row>
+<row>
+<entry><filename>exim_monitor</filename></entry>
+<entry>source files for the Exim monitor</entry>
+</row>
+<row>
+<entry><filename>scripts</filename></entry>
+<entry>scripts used in the build process</entry>
+</row>
+<row>
+<entry><filename>src</filename></entry>
+<entry>remaining source files</entry>
+</row>
+<row>
+<entry><filename>util</filename></entry>
+<entry>independent utilities</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<para>
+The main utility programs are contained in the <filename>src</filename> directory, and are built
+with the Exim binary. The <filename>util</filename> directory contains a few optional scripts
+that may be useful to some sites.
+</para>
+</section>
+</chapter>
+
+<chapter id="CHAPmainconfig">
+<title>Main configuration</title>
+<para>
+<indexterm role="concept" id="IIDconfima" class="startofrange">
+<primary>configuration file</primary>
+<secondary>main section</secondary>
+</indexterm>
+<indexterm role="concept" id="IIDmaiconf" class="startofrange">
+<primary>main configuration</primary>
+</indexterm>
+The first part of the run time configuration file contains three types of item:
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Macro definitions: These lines start with an upper case letter.
+</para>
+</listitem>
+<listitem>
+<para>
+Named list definitions: These lines start with one of the words <quote>domainlist</quote>,
+<quote>hostlist</quote>, <quote>addresslist</quote>, or <quote>localpartlist</quote>.
+</para>
+</listitem>
+<listitem>
+<para>
+Main configuration settings: Each setting occupies one line of the file
+(with possible continuations). If any setting is preceded by the word
+<quote>hide</quote>, the <option>-bP</option> command line option displays its value to admin users
+only.
+settings.
+</para>
+</listitem>
+</itemizedlist>
+<para>
+This chapter specifies all the main configuration options, along with their
+types and default values. For ease of finding a particular option, they appear
+in alphabetical order in section <xref linkend="SECTalomo"/> below. However, because there
+are now so many options, they are first listed briefly in functional groups, as
+an aid to finding the name of the option you are looking for. Some options are
+listed in more than one group.
+</para>
+<section>
+<title>Miscellaneous</title>
+<informaltable frame="none">
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colwidth="196pt" align="left"/>
+<colspec colwidth="254pt" align="left"/>
+<tbody>
+<row>
+<entry><option>bi_command</option></entry>
+<entry>to run for <option>-bi</option> command line option</entry>
+</row>
+<row>
+<entry><option>disable_ipv6</option></entry>
+<entry>do no IPv6 processing</entry>
+</row>
+<row>
+<entry><option>keep_malformed</option></entry>
+<entry>for broken files &ndash; should not happen</entry>
+</row>
+<row>
+<entry><option>localhost_number</option></entry>
+<entry>for unique message ids in clusters</entry>
+</row>
+<row>
+<entry><option>message_body_visible</option></entry>
+<entry>how much to show in <varname>$message_&#x200B;body</varname></entry>
+</row>
+<row>
+<entry><option>mua_wrapper</option></entry>
+<entry>run in <quote>MUA wrapper</quote> mode</entry>
+</row>
+<row>
+<entry><option>print_topbitchars</option></entry>
+<entry>top-bit characters are printing</entry>
+</row>
+<row>
+<entry><option>timezone</option></entry>
+<entry>force time zone</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section>
+<title>Exim parameters</title>
+<informaltable frame="none">
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colwidth="196pt" align="left"/>
+<colspec colwidth="254pt" align="left"/>
+<tbody>
+<row>
+<entry><option>exim_group</option></entry>
+<entry>override compiled-in value</entry>
+</row>
+<row>
+<entry><option>exim_path</option></entry>
+<entry>override compiled-in value</entry>
+</row>
+<row>
+<entry><option>exim_user</option></entry>
+<entry>override compiled-in value</entry>
+</row>
+<row>
+<entry><option>primary_hostname</option></entry>
+<entry>default from <function>uname()</function></entry>
+</row>
+<row>
+<entry><option>split_spool_directory</option></entry>
+<entry>use multiple directories</entry>
+</row>
+<row>
+<entry><option>spool_directory</option></entry>
+<entry>override compiled-in value</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section>
+<title>Privilege controls</title>
+<informaltable frame="none">
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colwidth="196pt" align="left"/>
+<colspec colwidth="254pt" align="left"/>
+<tbody>
+<row>
+<entry><option>admin_groups</option></entry>
+<entry>groups that are Exim admin users</entry>
+</row>
+<row>
+<entry><option>deliver_drop_privilege</option></entry>
+<entry>drop root for delivery processes</entry>
+</row>
+<row>
+<entry><option>local_from_check</option></entry>
+<entry>insert <emphasis>Sender:</emphasis> if necessary</entry>
+</row>
+<row>
+<entry><option>local_from_prefix</option></entry>
+<entry>for testing <emphasis>From:</emphasis> for local sender</entry>
+</row>
+<row>
+<entry><option>local_from_suffix</option></entry>
+<entry>for testing <emphasis>From:</emphasis> for local sender</entry>
+</row>
+<row>
+<entry><option>local_sender_retain</option></entry>
+<entry>keep <emphasis>Sender:</emphasis> from untrusted user</entry>
+</row>
+<row>
+<entry><option>never_users</option></entry>
+<entry>do not run deliveries as these</entry>
+</row>
+<row>
+<entry><option>prod_requires_admin</option></entry>
+<entry>forced delivery requires admin user</entry>
+</row>
+<row>
+<entry><option>queue_list_requires_admin</option></entry>
+<entry>queue listing requires admin user</entry>
+</row>
+<row>
+<entry><option>trusted_groups</option></entry>
+<entry>groups that are trusted</entry>
+</row>
+<row>
+<entry><option>trusted_users</option></entry>
+<entry>users that are trusted</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</section>
+<section id="SECTalomo">
+<title>Alphabetical list of main options</title>
+<para>
+Those options that undergo string expansion before use are marked with
+&dagger;.
+</para>
+<para>
+<indexterm role="option">
+<primary><option>accept_&#x200B;8bitmime</option></primary>
+</indexterm>
+</para>
+<informaltable frame="all">
+<tgroup cols="4" colsep="0" rowsep="0">
+<colspec colwidth="8*" align="left"/>
+<colspec colwidth="5*" align="center"/>
+<colspec colwidth="5*" align="center"/>
+<colspec colwidth="6*" align="right"/>
+<tbody>
+<row>
+<entry><option>accept_8bitmime</option></entry>
+<entry>Use: <emphasis>main</emphasis></entry>
+<entry>Type: <emphasis>boolean</emphasis></entry>
+<entry>Default: <emphasis>false</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<para>
+<indexterm role="concept">
+<primary>8BITMIME</primary>
+</indexterm>
+<indexterm role="concept">
+<primary>8-bit characters</primary>
+</indexterm>
+This option causes Exim to send 8BITMIME in its response to an SMTP
+EHLO command, and to accept the BODY= parameter on MAIL commands.
+However, though Exim is 8-bit clean, it is not a protocol converter, and it
+takes no steps to do anything special with messages received by this route.
+Consequently, this option is turned off by default.
+</para>
+<informaltable frame="all">
+<tgroup cols="4" colsep="0" rowsep="0">
+<colspec colwidth="8*" align="left"/>
+<colspec colwidth="5*" align="center"/>
+<colspec colwidth="5*" align="center"/>
+<colspec colwidth="6*" align="right"/>
+<tbody>
+<row>
+<entry><option>extract_addresses_remove_ &nbsp;arguments</option></entry>
+<entry>Use: <emphasis>main</emphasis></entry>
+<entry>Type: <emphasis>boolean</emphasis></entry>
+<entry>Default: <emphasis>true</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+<para>
+<indexterm role="concept">
+<primary><option>-t</option> option</primary>
+</indexterm>
+<indexterm role="concept">
+<primary>command line</primary>
+<secondary>addresses with <option>-t</option></secondary>
+</indexterm>
+<indexterm role="concept">
+<primary>Sendmail compatibility</primary>
+<secondary><option>-t</option> option</secondary>
+</indexterm>
+According to some Sendmail documentation (Sun, IRIX, HP-UX), if any addresses
+are present on the command line when the <option>-t</option> option is used to build an
+envelope from a message&#x2019;s <emphasis>To:</emphasis>, <emphasis>Cc:</emphasis> and <emphasis>Bcc:</emphasis> headers, the command
+line addresses are removed from the recipients list. This is also how Smail
+behaves. However, other Sendmail documentation (the O&#x2019;Reilly book) states that
+command line addresses are added to those obtained from the header lines. When
+<option>extract_&#x200B;addresses_&#x200B;remove_&#x200B;arguments</option> is true (the default), Exim subtracts
+argument headers. If it is set false, Exim adds rather than removes argument
+addresses.
+</para>
+<para>
+<indexterm role="option">
+<primary><option>finduser_&#x200B;retries</option></primary>
+</indexterm>
+</para>
+</section>
+</chapter>
+
+<index role="option">
+<?sdop
+  foot_right_recto="&chaptertitle;"
+  foot_right_verso="&chaptertitle;"
+?>
+<title>Option index</title>
+</index>
+
+<?sdop
+  index_headings_pdf_toc="yes"
+?>   
+
+<index role="concept">
+<title>Concept index</title>
+</index>
+
+</book>

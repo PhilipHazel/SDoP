@@ -1,0 +1,9 @@
+<chapter>
+<title>&toc_title;</title>
+<?sdop table_warn_overflow="overprint"?>
+<informaltable frame="none" toc="yes">
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colwidth="10*" align="left"/>
+<colspec colwidth="1*" align="right"/>
+<tbody>
+<!-- This is deliberately incomplete -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+
+<book>
+
+<chapter>
+<title>Introduction</title>
+<para>
+This is a chapter.
+This is a chapter.
+This is a chapter.
+This is a chapter.
+This is a chapter.
+<indexterm><primary>Indexed</primary></indexterm>
+This is a chapter.
+This is a chapter.
+This is a chapter.
+This is a chapter.
+This is a chapter.
+This is a chapter.
+</para>
+
+<para>
+References: first [<xref linkend="App1"/>]
+second [<xref linkend="App2"/>]
+third [<xref linkend="Sect"/>].
+</para>
+</chapter>
+
+<appendix id="App1">
+<title>First appendix</title>
+<para>
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+<indexterm><primary>Indexed</primary></indexterm>
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+</para>
+<section><title>A section in an appendix.</title>
+<para>
+This is a section in an appendix.
+</para>
+</section>
+</appendix>
+
+<appendix id="App2">
+<title>Second appendix</title>
+<para>
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+<indexterm><primary>Indexed</primary></indexterm>
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+This is an appendix.
+</para>
+<section id="Sect"><title>A section in an appendix.</title>
+<para>
+This is a section in an appendix.
+</para>
+</section>
+</appendix>
+
+<colophon><title>Colophon</title>
+<para>
+This is text in a colophon.
+</para>
+</colophon>
+
+<colophon><title>Second Colophon</title>
+<para>
+This is text in a colophon.
+</para>
+</colophon>
+
+</book>

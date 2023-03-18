@@ -1,0 +1,65 @@
+<para>
+Testing "break permitted here": 
+abc&#x82;def abc&#x82;def abc&#x82;def abc&#x82;def abc&#x82;def abc&#x82;def
+abc&#x82;def abc&#x82;def abc&#x82;def abc&#x82;def abc&#x82;def abc&#x82;def
+</para>
+<para>
+electrification electrification electrification electrification electrification
+electrification electrification electrification electrification
+electrification electrification electrification 
+but but
+electrification electrification electrification electrification electrification
+electrification electrification electrification electrification
+</para>
+<para>
+Next para has no "no break here".
+</para>
+<para>
+Testing "no break here":
+electrification electrification electrification electrification electrification
+elec&#x083;trification electrification electrification electrification
+electrification electrification electrification 
+but but
+electrification electrification electrification electrification electrification
+electrification electrification electrification electrification
+</para>
+<para>
+This one has an NBH, but not at a breaking place.
+</para>
+<para>
+Testing "no break here":
+electrification electrification electrification electrification electrification
+elec&#x083;trification electrification electrification electrification
+electrification electrification electrification 
+but but
+electrification electrification electrification electrification electrification
+electrification elec&#x83;trification electrification electrification
+</para>
+<para>
+This one has another NBH, at the breaking place.
+</para>
+<para>
+Testing "no break here":
+electrification electrification electrification electrification electrification
+elec&#x083;trification electrification electrification electrification
+electrification electrification electrification 
+but but
+electrification electrification electrification electrification electrification
+electrification elec&#x83;tri&#x83;fication electrification electrification
+</para>
+<para>
+This one has just one NBH, at the previous breaking place.
+</para>
+<para>
+Testing "no break here":
+electrification electrification electrification electrification electrification
+elec&#x083;trification electrification electrification electrification
+electrification electrification electrification 
+but but
+electrification electrification electrification electrification electrification
+electrification electri&#x83;fication electrification electrification
+</para>
+<para>
+Test kerning over BPH and NBH: normal Yorkshire unkerned Y&#x200b;orkshire BPH
+Y&#x82;orkshire NBH Y&#x83;orkshire NBSP Y&#x200b;orkshire
+</para>

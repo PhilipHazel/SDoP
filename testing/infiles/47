@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<?sdop toc_sections="no"
+       table_indent="12"
+?>
+
+<book>
+<chapter><title>Chapter title</title>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<informaltable frame="all">
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<table frame="all">
+<title>A title for the table</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<?sdop table_title_justify="centre"?>
+<table frame="all">
+<title>A title for the table</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<?sdop table_title_justify="centre"
+       table_indent="36"?>
+<table frame="all">
+<title>A title for the table</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="138" align="left"/>
+<colspec colwidth="138" align="left"/>
+<colspec colwidth="138" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<?sdop table_indent="0"?>
+
+<informaltable frame="none">
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<?sdop table_indent="12"?>
+
+<informaltable frame="none">
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<literallayout>
+The quick brown fox.
+</literallayout>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+<footnote>
+<para>
+This is a paragraph in a footnote.
+</para>
+<informaltable frame="all">
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="142" align="left"/>
+<colspec colwidth="142" align="left"/>
+<colspec colwidth="142" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+</para>
+
+</footnote>
+Another sentence.
+</para>
+
+<informaltable frame="all">
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="142" align="char" char="&cross;"/>
+<colspec colwidth="142" align="char"/>
+<colspec colwidth="142" align="char" char = "&#x2666;" charoff="20"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>1.2</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>11.23</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A&cross;B</entry>
+<entry>999.</entry>
+<entry>C&diams;D</entry>
+</row>
+<row>
+<entry>ABC&cross;D</entry>
+<entry>8.456</entry>
+<entry>CDE&diams;XYZ</entry>
+</row>
+<row>
+<entry>A&cross;</entry>
+<entry align="left">42.42L</entry>
+<entry align="centre">CDE&diams;C</entry>
+</row>
+<row>
+<entry>&cross;B</entry>
+<entry align="right">111.222R</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry char=",">34,456</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+
+<informaltable frame="all">
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="142" align="char" char = " "/>
+<colspec colwidth="142" align="char" charoff="5"/>
+<colspec colwidth="142" align="centre" char="&diams;xzy"/>
+<tbody>
+<row>
+<entry>the fox</entry>
+<entry>123456789.2</entry>
+<entry>123456789.2</entry>
+</row>
+<row>
+<entry>rhubarb custard</entry>
+<entry>1.23456789</entry>
+<entry>1.23456789</entry>
+</row>
+<row>
+<entry>grand central</entry>
+<entry>1.23456789</entry>
+<entry>1.23456789</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<informaltable frame="all">
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="142" align="char" char = " "/>
+<colspec colwidth="142" align="char" charoff="90"/>
+<colspec colwidth="142" align="centre" char="abc"/>
+<tbody>
+<row>
+<entry>the fox</entry>
+<entry>123456789.2</entry>
+<entry>123456789.2</entry>
+</row>
+<row>
+<entry>rhubarb custard</entry>
+<entry>1.23456789</entry>
+<entry>1.23456789</entry>
+</row>
+<row>
+<entry>1.5</entry>
+<entry>4.6</entry>
+<entry>99.9</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<?sdop extra_leading="12"?>
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<?sdop extra_leading="-2"?>
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<?sdop extra_leading="0"?>
+<informaltable frame="all">
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<?sdop extra_leading="3"?>
+<informaltable frame="all">
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<colspec colwidth="146" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+<row>
+<entry>A</entry>
+<entry>B</entry>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<?sdop extra_leading="0"?>
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+<?sdop extra_leading="12"?>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<?sdop extra_leading="0"?>
+
+
+
+</chapter>
+</book>

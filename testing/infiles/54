@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<?sdop toc_sections="no"?>
+
+<book>
+
+<chapter>
+<title>Introduction</title>
+<para>
+This is some leading text.
+<mediaobject>
+
+<imageobject>
+<imagedata fileref="png.png" format="png" scale="50"/>
+</imageobject>
+
+<textobject>
+<para>
+This is substitute text for the object.
+</para>
+</textobject>
+
+<textobject>
+<para>
+This text should never be seen.
+</para>
+</textobject>
+
+</mediaobject>
+</para>
+
+
+<para>
+This is a paragraph of normal text. 
+</para>
+
+</chapter>
+</book>

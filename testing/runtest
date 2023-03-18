@@ -1,0 +1,265 @@
+#!/usr/bin/perl -w
+
+# Controlling script for sdop tests
+
+$sdop = "../src/sdop -S ../share";
+$cf = (-f "/usr/local/bin/cf")? "cf" : "diff -u";
+
+$supported = `$sdop -v`;
+$jpeg = ($supported =~ /JPEG support: yes/)? 1:0;
+$png = ($supported =~ /PNG support: yes/)? 1:0;
+
+if (defined $ARGV[0] && $ARGV[0] =~ /^-?-?valgrind$/)
+  {
+  shift @ARGV;
+  $sdop = "valgrind -q $sdop";
+  }   
+
+$force_update = 0;
+$starttest = undef;
+$endtest = undef;
+$started = 0;
+
+$cmd_options = "";
+
+sub I_am_interactive {
+    return -t STDIN && -t STDOUT;
+}
+
+while (defined $ARGV[0] && $ARGV[0] =~ /^-/)
+  {
+  my($arg) = shift @ARGV;
+  $cmd_options .= "$arg ";
+  } 
+
+if (defined $ARGV[0])
+  {
+  $starttest = $endtest = $ARGV[0];
+  $endtest = $ARGV[1] if defined $ARGV[1];
+  $endtest = undef if $endtest eq "+"; 
+  }   
+  
+opendir(DIR, "./infiles") || die "Failed to opendir ./infiles: $!\n";
+@files = sort(readdir(DIR));
+closedir(DIR);
+
+while (scalar @files > 0)
+  {
+  my($copy) = 0;
+  my($file) = shift @files;
+  my($options) = $cmd_options; 
+
+  # The names of the test files consist only of digits. Any others (apart from
+  # . and .. of course) are option files or auxiliary files.
+    
+  next if $file !~ /^\d+$/;
+  
+  next if !$started && defined $starttest && $file != $starttest;
+  $started = 1; 
+  
+  if (-e "infiles/$file.jpeg" && !$jpeg)
+    {
+    printf("Test $file skipped: no JPEG support\n");
+    next; 
+    }  
+ 
+  if (-e "infiles/$file.png" && !$png)
+    {
+    printf("Test $file skipped: no PNG support\n");
+    next; 
+    }  
+  
+  $options .= `cat infiles/$file.opt` if -e "infiles/$file.opt";
+  chomp $options; 
+  
+  my ($rc) = system("$sdop $options -o test.ps infiles/$file " .
+                    "2> test.err");
+
+  if (($rc >> 8) != 0)
+    {
+    if (! -e "outfiles/$file.$rc")
+      { 
+      printf("Test $file RC = 0x%x\n", $rc);
+      system("less -XF test.err"); 
+      exit 1;
+      } 
+    }
+    
+  # Compare stderr output, apart from the program version line
+    
+  if (! -z "test.err") 
+    {
+    if (! -e "outfiles/$file.err")
+      {
+      printf("There is stderr output, but outfiles/$file.err does not exist.\n");
+      system("less -XF test.err"); 
+      exit 1;
+      }    
+
+    open(IN, "test.err") || die "Failed to open test.err\n";
+    open(OUT, ">test-munged.err") || die "Failed to open test-munged.err";
+    
+    while (<IN>)
+      {
+      print OUT unless /^sdop version/;
+      }    
+    close IN;
+    close OUT;    
+
+    $rc = system("$cf outfiles/$file.err test-munged.err >test.cf");
+    
+    if ($rc != 0)
+      {
+      # printf("text cf RC=$rc\n");
+      I_am_interactive or die "test failed\n";
+      system("less -XF test.cf");
+    
+      for (;;)
+        {
+        print "Continue, Update & retry, Quit? [Q] ";
+    
+        if ($force_update)
+          {
+          $_ = "u";
+          print "... update forced\n";
+          }
+        else
+          {
+          open(T, "/dev/tty") || die "Failed to open /dev/tty: $!\n";
+          $_ = <T>;
+          close(T);
+          }
+    
+        exit 1 if /^q?$/i;
+        goto CHECK_MAIN if /^c$/i; 
+        
+        if (/^u$/)
+          {
+          exit 1 if system("cp test-munged.err outfiles/$file.err") != 0;
+          unshift @files, $file; 
+          print (("#" x 79) . "\n");
+          last;
+          }
+        }
+
+      redo;   # Repeats the test
+      } 
+    }  
+    
+  # If stderr is empty, check that it should be
+  
+  else
+    {
+    if (-e "outfiles/$file.err")
+      {
+      printf("There is no stderr output, but outfiles/$file.err exists.\n");
+      system("less -XF outfiles/$file.err"); 
+      exit 1;
+      }    
+    }   
+
+  # Munge the main output before comparing. For some tests that have early
+  # errors, there is no output. 
+
+  CHECK_MAIN:
+  
+  if (! -e "outfiles/$file.gz" && ! -e "outfiles/$file" && ! -e "test.ps")
+    {
+    printf ("Test $file OK\n");
+    system("/bin/rm -rf test.* test-*"); 
+    last if defined $endtest && $file == $endtest;
+    }
+    
+  else
+    {  
+    open(IN, "test.ps") || die "Failed to open test.ps\n";
+    open(OUT, ">test-munged.out") || die "Failed to open test-munged.out";
+    
+    while (<IN>)
+      {
+      if ($copy) { print OUT; } elsif (/^%%EndProlog/)
+        {
+        print OUT;
+        $copy = 1;
+        }
+      }
+    close IN;
+    close OUT;
+    
+    # Munge the stored main output too - this way the stored output is a
+    # real PostScript file that can be viewed. 
+    
+    system ("gunzip outfiles/$file.gz") if (-e "outfiles/$file.gz");
+    
+    open(IN, "outfiles/$file") || die "Failed to open outfiles/$file\n";
+    open(OUT, ">test-munged.$file") || die "Failed to open test-munged.$file";
+    
+    $copy = 0;
+    while (<IN>)
+      {
+      if ($copy) { print OUT; } elsif (/^%%EndProlog/)
+        {
+        print OUT;
+        $copy = 1;
+        }
+      }
+    close IN;
+    close OUT;
+    
+    # Now compare
+    
+    $rc = system("$cf test-munged.$file test-munged.out >test.cf");
+    if ($rc != 0)
+      {
+      # printf("cf RC=$rc\n");
+      printf("Test $file FAILED\n"); 
+      I_am_interactive or die "test failed\n";
+      system("less -XF test.cf");
+    
+      for (;;)
+        {
+        print "View, Continue, Update & retry, Quit? [Q] ";
+    
+        if ($force_update)
+          {
+          $_ = "u";
+          print "... update forced\n";
+          }
+        else
+          {
+          open(T, "/dev/tty") || die "Failed to open /dev/tty: $!\n";
+          $_ = <T>;
+          close(T);
+          }
+    
+        exit 1 if /^\s*q?$/i;
+        last if /^\s*c$/i; 
+        
+        if (/^\s*v$/)
+          {
+          system ("gv test.ps"); 
+          # Stay in loop to reprompt 
+          }  
+        
+        elsif (/^\s*u$/)
+          {
+          exit 1 if system("cp test.ps outfiles/$file") != 0;
+          unshift @files, $file; 
+          print (("#" x 79) . "\n");
+          last;
+          }
+        }
+      }
+    else
+      {
+      printf ("Test $file OK\n");
+      system("/bin/rm -rf test.* test-*"); 
+#      system("gzip outfiles/$file"); 
+      last if defined $endtest && $file == $endtest;
+      }
+    }   
+  }
+  
+die "No selected test found\n" if !$started; 
+
+# End

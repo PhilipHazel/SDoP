@@ -1,0 +1,426 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.70
+%%CreationDate: Tue Jan 25 17:02:52 2011
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Helvetica
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 4 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+[/Title (Contents) /Page 1 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Preface) /Page 3 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (1.  First) /Page 5 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (2.  Second) /Page 6 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (3.  Third) /Page 7 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Index) /Page 8 /View [/XYZ null null 1] /OUT pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Helvetica
+/af6 /af7 /Helvetica inf
+/vf 18 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af4 13 scalefont put
+vf 7 af5 13 scalefont put
+vf 8 af0 9.6 scalefont put
+vf 9 af1 9.6 scalefont put
+vf 10 af4 11.5 scalefont put
+vf 11 af5 11.5 scalefont put
+vf 12 af2 9.6 scalefont put
+vf 13 af3 9.6 scalefont put
+vf 14 af6 11 scalefont put
+vf 15 af7 11 scalefont put
+vf 16 af4 11 scalefont put
+vf 17 af5 11 scalefont put
+%%EndSetup
+
+%%Page: i 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+262.336 764 Mt 4 Sf (Contents)S
+72 737 Mt 16 Sf (Preface)S 3.832 R 0 Sf (.....................)S
+(.............................................................)S
+(.............................................................)S
+512.825 737 Mt 16 Sf (iii)S
+72 725 Mt 14 Sf ( )S
+72 713 Mt 16 Sf (1.  Fir)S -0.165 R(st)S 2.171 R 0 Sf (.......)S
+(.............................................................)S
+(.............................................................)S
+(................)S
+515.883 713 Mt 16 Sf (1)S
+72 701 Mt 14 Sf ( )S
+72 689 Mt 16 Sf (2.  Second)S 2.611 R 0 Sf (..................)S
+(.............................................................)S
+(............................................................)S
+515.883 689 Mt 16 Sf (2)S
+72 677 Mt 14 Sf ( )S
+72 665 Mt 16 Sf (3.  Thir)S -0.22 R(d)S 4.063 R 0 Sf (........)S
+(.............................................................)S
+(.............................................................)S
+(.............)S
+515.883 665 Mt 16 Sf (3)S
+72 653 Mt 14 Sf ( )S
+72 641 Mt 16 Sf (Inde)S -0.165 R(x)S 4.316 R 0 Sf (...........)S
+(.............................................................)S
+(.............................................................)S
+(...............)S
+515.883 641 Mt 16 Sf (4)S
+72 72 Mt 0 Sf ( )S
+295.47 60 Mt 2 Sf (i)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: ii 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: iii 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+268.096 764 Mt 4 Sf (Preface)S
+72 737 Mt 0 Sf (This is a v)S -0.165 R(ery short pref)S -0.11 R(a)S
+(ce.)S
+72 72 Mt( )S
+292.412 60 Mt 2 Sf (iii)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: iv 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 1 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+270.888 764 Mt 4 Sf (1. Fir)S -0.24 R(st)S
+72 737 Mt 0 Sf (This is the start of chapter 1.)S
+72 714.72 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S
+3.919 R(fox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.919 R(the)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S
+3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(j)S
+(umps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 702.72 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S
+3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(t)S
+(he)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quic)S
+(k)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S
+3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S
+72 690.72 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S
+3.323 R(o)S -0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(l)S
+(azy)S 3.323 R(dog.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(br)S
+(o)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(T)S
+(he)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 678.72 Mt(fox)S 4.055 R(jumps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 4.055 R(the)S 4.055 R(lazy)S 4.055 R(dog.)S 4.055 R(The)S
+4.055 R(quick)S 4.055 R(bro)S -0.275 R(wn)S 4.055 R(fox)S 4.055 R(j)S
+(umps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(er)S 4.055 R(the)S 4.055 R(l)S
+(azy)S 4.055 R(dog.)S 4.055 R(The)S 4.055 R(quick)S 4.055 R(br)S
+(o)S -0.275 R(wn)S 4.055 R(fox)S
+72 666.72 Mt(jumps)S 3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(t)S
+(he)S 3.375 R(lazy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quic)S
+(k)S 3.375 R(bro)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(the)S 3.375 R(l)S
+(azy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quick)S 3.375 R(br)S
+(o)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+72 654.72 Mt(o)S -0.165 R(v)S -0.165 R(er the lazy dog.)S
+72 632.44 Mt(Put in some stuf)S -0.275 R(f to get do)S -0.275 R(w)S
+(n near the end of the page.)S
+84 610.16 Mt(a)S
+84 598.16 Mt(b)S
+84 586.16 Mt(c)S
+84 574.16 Mt(d)S
+84 562.16 Mt(e)S
+84 550.16 Mt(f)S
+84 538.16 Mt(g)S
+84 526.16 Mt(h)S
+84 514.16 Mt(i)S
+84 502.16 Mt(j)S
+84 490.16 Mt(k)S
+84 478.16 Mt(l)S
+84 466.16 Mt(m)S
+84 454.16 Mt(n)S
+84 442.16 Mt(o)S
+84 430.16 Mt(p)S
+84 418.16 Mt(q)S
+84 406.16 Mt(r)S
+84 394.16 Mt(s)S
+84 382.16 Mt(t)S
+84 370.16 Mt(u)S
+84 358.16 Mt(v)S
+84 346.16 Mt(w)S
+84 334.16 Mt(x)S
+84 322.16 Mt(y)S
+84 310.16 Mt(z)S
+84 298.16 Mt(a)S
+84 286.16 Mt(b)S
+84 274.16 Mt(c)S
+84 262.16 Mt(d)S
+84 250.16 Mt(e)S
+84 238.16 Mt(f)S
+84 226.16 Mt(g)S
+84 214.16 Mt(h)S
+84 202.16 Mt(i)S
+84 190.16 Mt(j)S
+84 178.16 Mt(k)S
+84 166.16 Mt(l)S
+84 154.16 Mt(m)S
+72 131.88 Mt(No)S -0.275 R(w start a ne)S -0.275 R(w section h)S
+(ere.)S
+72 102.88 Mt 6 Sf (1.1 Section)S
+72 84.88 Mt 0 Sf (This is a section near the end of a page.)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 6
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+259.208 764 Mt 4 Sf (2. Second)S
+72 737 Mt 0 Sf (This is chapter 2.)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 7
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+268.264 764 Mt 4 Sf (3. Thir)S -0.32 R(d)S
+72 737 Mt 0 Sf (This is chapter 3.)S
+72 704 Mt 6 Sf (3.1 Section)S
+72 681 Mt 0 Sf (This is a section, let)S 1 Sf (\242)S 0 Sf -0.605 R(s)S
+( reference chapter )S
+[/Rect [247.561 678 255.061 692] /Page 5 /View [/XYZ 0 780 null] /LNK pdfmark
+(1)S(. F)S -0.165 R(ollo)S -0.275 R(wed by some additional te)S
+-0.165 R(xt to )S 1 Sf (\216)S 0 Sf (ll out a paragraph.)S
+72 658 Mt 1 0 0 setrgbcolor(Red)S 4.29 R(reference)S 4.29 R
+[/Rect [138.21 655 145.71 669] /Page 5 /View [/XYZ 0 780 null] /LNK pdfmark
+(1)S 4.29 R(and)S 4.29 R 0 0 0 setrgbcolor(black)S 4.29 R(refe)S
+(rence)S 4.29 R
+[/Rect [241.489 655 248.989 669] /Page 6 /View [/XYZ 0 780 null] /LNK pdfmark
+(2)S 4.29 R(and)S 4.29 R(more)S 4.29 R(te)S -0.165 R(xt)S 4.29 R(t)S
+(o)S 4.29 R(ensure)S 4.29 R(that)S 4.29 R(the)S 4.29 R(line)S
+4.29 R(gets)S 4.29 R(stretched.....)S 4.29 R(The)S
+72 646 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(j)S
+(umps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S 3.512 R(br)S
+(o)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.512 R(the)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(T)S
+(he)S 3.512 R(quick)S
+72 634 Mt(bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S -0.165 R(e)S
+(r the lazy dog. Refer to section )S
+[/Rect [302.275 631 318.025 645] /Page 5 /View [/XYZ 0 188 null] /LNK pdfmark
+(1.1)S(, which is near the bottom of a page.)S
+72 72 Mt( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 8
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+276.224 764 Mt 4 Sf (Inde)S -0.24 R(x)S
+72 732.5 Mt 10 Sf (A)S
+72 720.9 Mt 8 Sf (additional)S(  3)S
+[/Rect [114.196 717.9 120.996 730.5] /Page 7 /View [/XYZ 0 820 null] /LNK pdfmark
+72 709.3 Mt(All of it)S(  1)S 9 Sf (\215)S 8 Sf (3)S
+[/Rect [115.799 706.3 122.599 718.9] /Page 7 /View [/XYZ 0 820 null] /LNK pdfmark
+[/Rect [106.199 706.3 112.999 718.9] /Page 5 /View [/XYZ 0 820 null] /LNK pdfmark
+72 677.8 Mt 10 Sf (F)S
+72 666.2 Mt 8 Sf (fox)S(  1, 3)S
+[/Rect [98.196 663.2 104.996 675.8] /Page 7 /View [/XYZ 0 820 null] /LNK pdfmark
+[/Rect [88.596 663.2 95.396 675.8] /Page 5 /View [/XYZ 0 820 null] /LNK pdfmark
+72 634.7 Mt 10 Sf (G)S
+72 623.1 Mt 8 Sf (goose)S(  )S 12 Sf (see)S 8 Sf ( )S(fox)S
+72 591.6 Mt 10 Sf (S)S
+72 580 Mt 8 Sf (second chapter)S(  2)S
+[/Rect [133.108 577 139.908 589.6] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 568.4 Mt(Something rather long to )S 9 Sf (\216)S 8 Sf (ll )S
+(column with lots of te)S -0.144 R(xt)S(  1,)S
+[/Rect [279.108 565.4 285.908 578] /Page 5 /View [/XYZ 0 820 null] /LNK pdfmark
+84 557.8 Mt(2, 3)S
+[/Rect [92.6 554.8 99.4 567.4] /Page 7 /View [/XYZ 0 820 null] /LNK pdfmark
+[/Rect [83 554.8 89.8 567.4] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 546.2 Mt(start)S(  1)S
+[/Rect [92.328 543.2 99.128 555.8] /Page 5 /View [/XYZ 0 820 null] /LNK pdfmark
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(4)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 8

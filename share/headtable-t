@@ -1,0 +1,14 @@
+<informaltable frame="none">
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colwidth="3*" align="left"/>
+<colspec colwidth="1*" align="center"/>
+<colspec colwidth="3*" align="right"/>
+<tbody>
+<row>
+<entry><emphasis>&headleft;</emphasis></entry>
+<entry>&headcentre;</entry>
+<entry><emphasis>&headright;</emphasis></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>

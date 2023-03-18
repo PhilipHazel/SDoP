@@ -1,0 +1,239 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.07
+%%CreationDate: Sat Mar 15 16:13:30 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica
+%%+ font Courier
+%%+ font Helvetica-Bold
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 2 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+[/Title (Contents) /Page 1 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (1.  Chapter title) /Page 3 /View [/XYZ null null 1] /OUT pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica
+/af4 /af5 /Helvetica inf
+%%IncludeResource: font Courier
+/af6 /af7 /Courier inf
+%%IncludeResource: font Helvetica-Bold
+/af8 /af9 /Helvetica-Bold inf
+/vf 14 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af2 30 scalefont put
+vf 5 af3 30 scalefont put
+vf 6 af4 14 scalefont put
+vf 7 af5 14 scalefont put
+vf 8 af6 9 scalefont put
+vf 9 af7 9 scalefont put
+vf 10 af4 11 scalefont put
+vf 11 af5 11 scalefont put
+vf 12 af8 11 scalefont put
+vf 13 af9 11 scalefont put
+%%EndSetup
+
+%%Page: i 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+243.66 748 Mt 4 Sf (Contents)S
+72 721 Mt 12 Sf (1.  Chapter title)S 2.919 R 0 Sf (...........)S
+(.............................................................)S
+(..........................................................)S
+515.883 721 Mt 12 Sf (1)S
+72 72 Mt 0 Sf ( )S
+295.47 60 Mt 2 Sf (i)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: ii 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 1 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+205.74 748 Mt 4 Sf (1. Chapter title)S
+72 715 Mt 6 Sf (The)S 6.45 R(quic)S -0.28 R(k)S 6.45 R(bro)S -0.21 R(w)S
+(n)S 6.45 R(f)S -0.42 R(o)S -0.42 R(x.)S 6.45 R(The)S 6.45 R(q)S
+(uic)S -0.28 R(k)S 6.45 R(bro)S -0.21 R(wn)S 6.45 R(f)S -0.42 R(o)S
+-0.42 R(x.)S 6.45 R(The)S 6.45 R(quic)S -0.28 R(k)S 6.45 R(bro)S
+-0.21 R(wn)S 6.45 R(f)S -0.42 R(o)S -0.42 R(x.)S 6.45 R(The)S
+72 697 Mt(quic)S -0.28 R(k)S 5.76 R(bro)S -0.21 R(wn)S 5.76 R(f)S
+-0.42 R(o)S -0.42 R(x.)S 5.76 R(The)S 5.76 R(quic)S -0.28 R(k)S
+5.76 R(bro)S -0.21 R(wn)S 5.76 R(f)S -0.42 R(o)S -0.42 R(x.)S
+5.76 R(The)S 5.76 R(quic)S -0.28 R(k)S 5.76 R(bro)S -0.21 R(wn)S
+5.76 R(f)S -0.42 R(o)S -0.42 R(x.)S 5.76 R(The)S 5.76 R(quic)S
+-0.28 R(k)S
+72 679 Mt(bro)S -0.21 R(wn)S 5.301 R(f)S -0.42 R(o)S -0.42 R(x)S
+(.)S 5.301 R(The)S 5.301 R(quic)S -0.28 R(k)S 5.301 R(bro)S -0.21 R(w)S
+(n)S 5.301 R(f)S -0.42 R(o)S -0.42 R(x.)S 5.301 R(The)S 5.301 R(q)S
+(uic)S -0.28 R(k)S 5.301 R(bro)S -0.21 R(wn)S 5.301 R(f)S -0.42 R(o)S
+-0.42 R(x.)S 5.301 R(The)S 5.301 R(quic)S -0.28 R(k)S 5.301 R(b)S
+(ro)S -0.21 R(wn)S
+72 661 Mt(f)S -0.42 R(o)S -0.42 R(x. The quic)S -0.28 R(k bro)S
+-0.21 R(wn f)S -0.42 R(o)S -0.42 R(x.)S
+84 637 Mt 8 Sf (This is literal)S
+84 624 Mt(This is literal)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 3

@@ -1,0 +1,138 @@
+<?sdop font_subsection="10,2,serif,bolditalic"
+?>
+
+<section>
+<title>Test negative widths</title>
+<para>
+This is a test for a font some of whose characters have negative widths, that 
+is, they move the printing position backwards. The PMW-Music font has some such 
+characters, for moving around when composing non-simple graphics. Here is an 
+example that uses it:
+</para>
+<literallayout>
+&nbsp;
+<emphasis role="PMW-Music/10">FFyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy#x~&#x27;~</emphasis><emphasis role="bold">3</emphasis><emphasis role="PMW-Music/10">yyyyyyww</emphasis><emphasis role="bold">4  </emphasis><emphasis role="PMW-Music/10">B{@{xIx~8}}~8}}wwww|=5}}=5}~xxIw{@{B</emphasis>
+&nbsp;
+</literallayout>
+<para>
+There was a bug in SDoP that gave a spurious `unknown character' error for that 
+example.
+</para>
+<sect1>
+<title>Subsection title</title>
+<para>
+This is a subsection, to test changing the title font.
+</para>
+</sect1>
+<para>
+Tests of some table overflow messages.
+</para>
+
+<?sdop
+  table_warn_overflow="overprint"
+?>
+<informaltable frame="all">
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colwidth="48" align="left"/>
+<colspec colwidth="48" align="left"/>
+<colspec colwidth="48" align="left"/>
+<tbody>
+<row>
+<entry>A</entry>
+</row>
+<row>
+<entry>B</entry>
+</row>
+<row>
+<entry>C</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<informaltable frame="all">
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colwidth="48" align="left"/>
+<colspec colwidth="48" align="left"/>
+<colspec colwidth="48" align="left"/>
+<tbody>
+<row>
+<entry>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</entry>
+</row>
+<row>
+<entry>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</entry>
+<entry></entry>
+<entry></entry>
+</row>
+<row>
+<entry>aaaaaaaaaaaaaaaaaaaaaa</entry>
+<entry></entry>
+<entry>xyz</entry>
+</row>
+<row>
+<entry>aaaaaaaaaaaaaaaaaaaaaa</entry>
+</row>
+<row>
+<entry>aaaaaaaaaaaaaaaaaa</entry>
+</row>
+<row>
+<entry>xyz</entry>
+<entry>aaaaaaaaaaaaaaaa</entry>
+</row>
+<row>
+<entry>aaaaaaaaaaaaaaa</entry>
+<entry></entry>
+<entry>xyz</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<informaltable frame="all">
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colwidth="48" align="right"/>
+<colspec colwidth="48" align="right"/>
+<colspec colwidth="48" align="right"/>
+<tbody>
+<row>
+<entry></entry>
+<entry></entry>
+<entry>aaaaaaaaaaaaaaaa</entry>
+</row>
+<row>
+<entry></entry>
+<entry>aaaaaaaaaaaaaaaa</entry>
+</row>
+<row>
+<entry>aaaaaaaaaaaaaaa</entry>
+<entry></entry>
+<entry>xyz</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<informaltable frame="none">
+<tgroup cols="7" colsep="0" rowsep="0">
+<colspec colwidth="10pt" align="left"/>
+<colspec colwidth="1*" align="left"/>
+<colspec colwidth="1*" align="centre"/>
+<colspec colwidth="3*" align="left"/>
+<colspec colwidth="1*" align="left"/>
+<colspec colwidth="1*" align="centre"/>
+<colspec colwidth="3*" align="left"/>
+<tbody>
+<row>
+<entry>xxxxxxxxxxxx</entry>
+<entry><literal>U+0108</literal></entry>
+<entry>&#x0108;</entry>
+<entry>C with circumflex</entry>
+<entry><literal>U+013F</literal></entry>
+<entry>&#x013F;</entry>
+<entry>L with middle dot</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+</section>

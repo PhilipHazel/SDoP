@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<?sdop toc_sections="no"?>
+
+<book>
+
+<chapter>
+<title>Introduction</title>
+<para>
+This is a paragraph with a <emphasis>footnote.<footnote>
+<para>
+This is the <emphasis>footnote</emphasis> itself. 
+It is a separate paragraph within the original paragraph.
+Give it some length. Give it some length. The quick brown fox jumps over the 
+lazy dog.
+</para>
+</footnote>
+Continue</emphasis> with the original paragraph. Give it also some length. 
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<para>
+This is another paragraph that follows the one in which there was a footnote.
+</para>
+
+</chapter>
+
+
+<chapter><title>Another chapter</title>
+<para>
+This is a paragraph without a footnote.
+</para>
+
+<para>
+This paragraph is going to have several<footnote>
+<para>
+The first footnote. Give this some length so we can see what that looks like. 
+The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the 
+lazy dog.
+</para>
+<para>
+Sometimes a footnote can have more than one paragraph, so let's check that. 
+Better also check <emphasis>italic</emphasis> and 
+<emphasis role="bold">bold</emphasis> text and also <literal>literal</literal> 
+text.
+</para>
+</footnote>
+footnotes<footnote>
+<para>
+The second footnote. A short one.
+</para>
+</footnote>
+in it<footnote>
+<para>
+The third footnote.
+</para>
+</footnote>
+in order to see how that works out.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of<footnote> 
+<para>
+This should force the paragraph over onto a new page, or at least split it.
+</para>
+</footnote>
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK,<footnote><para>Footnote 1.</para></footnote>
+now<footnote><para>Footnote 2.</para></footnote>
+we<footnote><para>Footnote 3.</para></footnote>
+want<footnote><para>Footnote 4.</para></footnote>
+to<footnote><para>Footnote 5.</para></footnote>
+fill<footnote><para>Footnote 6.</para></footnote>
+up<footnote><para>Footnote 7.</para></footnote>
+the<footnote><para>Footnote 8.</para></footnote>
+rest<footnote><para>Footnote 9.</para></footnote>
+of<footnote><para>Footnote 10.</para></footnote>
+the<footnote><para>Footnote 11.</para></footnote>
+page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<literallayout>
+Test a footnote<footnote><para>Like this.</para></footnote> on a literal layout line.
+</literallayout>
+
+<?sdop format="newpage"?>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of
+<footnote> 
+<para>
+This footnote had &lt;footnote&gt; at the start of a line.
+</para>
+</footnote>
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.<footnote>
+<para>
+Now check literallayout.
+</para>
+<literallayout>
+Literal layout, not monospaced.
+Second line.
+</literallayout>
+
+<literallayout class="monospaced">
+Literal layout, monospaced.
+Second line.
+</literallayout>
+
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+First
+</para>
+</listitem>
+<listitem>
+<para>
+Last
+</para>
+<para>
+New para in last
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nested
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 2
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 3 with a couple of items to show how it looks. Make this one long enough 
+so that it will have to be split onto more than one line.
+</para>
+</listitem>
+<listitem>
+<para>
+Items to show how it looks
+</para>
+<itemizedlist>
+<listitem>
+<para>
+Nest 4
+</para>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+Nest 5
+</para>
+</listitem>
+</orderedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+</listitem>
+</itemizedlist>
+<para>
+Should be back in outer list.
+</para>
+</listitem>
+<listitem>
+<para>
+Another item.
+</para>
+</listitem>
+</orderedlist>
+
+</footnote>
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the 
+placing of the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.<footnote>
+<para>
+This is a paragraph that precedes a table in a footnote.
+</para>
+<table frame = "none">
+<tgroup cols="5">
+<colspec colwidth="60pt"/>
+<colspec colwidth="80pt" align="justify"/>
+<colspec colwidth="60pt" align="right"/>
+<colspec colwidth="60pt" align="center"/>
+<colspec colwidth="60pt" align="left"/>
+<tbody>
+<row>
+<entry>inline</entry>
+<entry><para>this is a paragraph of several lines</para></entry>
+<entry>right</entry>
+<entry>centre</entry>
+</row>
+<row>
+<entry>first entry, second line</entry>
+<entry>
+<para>
+next data
+</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</footnote>
+</para>
+
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+<para>
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+OK, now we want to fill up the rest of the page to ensure that the placing of 
+the footnotes doesn't mess with the normal text.
+</para>
+
+<para>
+The quick brown
+<footnote>
+<para>
+This is a footnote.
+</para>
+</footnote>
+fox jumps over the lazy dog.
+</para>
+
+<para>
+The quick <emphasis>brown</emphasis>
+<footnote>
+<para>
+This is a footnote.
+</para>
+</footnote>
+fox jumps over the lazy dog.
+</para>
+
+
+<para>
+The quick <emphasis role="bold"><literal>brown</literal></emphasis>  
+
+<footnote>
+<para>
+This is a footnote.
+</para>
+</footnote>
+
+fox jumps over the lazy dog.
+</para>
+
+
+</chapter>
+
+
+</book>

@@ -1,0 +1,303 @@
+<?sdop warn_unsupported_characters="no"?>
+<literallayout>
+<literal>AElig   00c6   </literal>&AElig;   
+<literal>Aacute  00c1   </literal>&Aacute;  
+<literal>Abreve  0102   </literal>&Abreve;  
+<literal>Acirc   00c2   </literal>&Acirc;   
+<literal>Agrave  00c0   </literal>&Agrave;  
+<literal>Amacr   0100   </literal>&Amacr;   
+<literal>Aogon   0104   </literal>&Aogon;   
+<literal>Aring   00c5   </literal>&Aring;   
+<literal>Atilde  00c3   </literal>&Atilde;  
+<literal>Auml    00c4   </literal>&Auml;    
+<literal>Cacute  0106   </literal>&Cacute;  
+<literal>Ccaron  010c   </literal>&Ccaron;  
+<literal>Ccedil  00c7   </literal>&Ccedil;  
+<literal>Ccirc   0108   </literal>&Ccirc;   
+<literal>Cdot    010a   </literal>&Cdot;    
+<literal>Dcaron  010e   </literal>&Dcaron;  
+<literal>Dstrok  0110   </literal>&Dstrok;  
+<literal>ENG     014a   </literal>&ENG;     
+<literal>ETH     00d0   </literal>&ETH;     
+<literal>Eacute  00c9   </literal>&Eacute;  
+<literal>Ecaron  011a   </literal>&Ecaron;  
+<literal>Ecirc   00ca   </literal>&Ecirc;   
+<literal>Edot    0116   </literal>&Edot;    
+<literal>Egrave  00c8   </literal>&Egrave;  
+<literal>Emacr   0112   </literal>&Emacr;   
+<literal>Eogon   0118   </literal>&Eogon;   
+<literal>Euml    00cb   </literal>&Euml;    
+<literal>Euro    20ac   </literal>&Euro;    
+<literal>Gbreve  011e   </literal>&Gbreve;  
+<literal>Gcedil  0122   </literal>&Gcedil;  
+<literal>Gcirc   011c   </literal>&Gcirc;   
+<literal>Gdot    0120   </literal>&Gdot;    
+<literal>Hcirc   0124   </literal>&Hcirc;   
+<literal>Hstrok  0126   </literal>&Hstrok;  
+<literal>IJlig   0132   </literal>&IJlig;   
+<literal>Iacute  00cd   </literal>&Iacute;  
+<literal>Icirc   00ce   </literal>&Icirc;   
+<literal>Idot    0130   </literal>&Idot;    
+<literal>Igrave  00cc   </literal>&Igrave;  
+<literal>Imacr   012a   </literal>&Imacr;   
+<literal>Iogon   012e   </literal>&Iogon;   
+<literal>Itilde  0128   </literal>&Itilde;  
+<literal>Iuml    00cf   </literal>&Iuml;    
+<literal>Jcirc   0134   </literal>&Jcirc;   
+<literal>Kcedil  0136   </literal>&Kcedil;  
+<literal>Lacute  0139   </literal>&Lacute;  
+<literal>Lcaron  013d   </literal>&Lcaron;  
+<literal>Lcedil  013b   </literal>&Lcedil;  
+<literal>Lmidot  013f   </literal>&Lmidot;  
+<literal>Lstrok  0141   </literal>&Lstrok;  
+<literal>Nacute  0143   </literal>&Nacute;  
+<literal>Ncaron  0147   </literal>&Ncaron;  
+<literal>Ncedil  0145   </literal>&Ncedil;  
+<literal>Ntilde  00d1   </literal>&Ntilde;  
+<literal>OElig   0152   </literal>&OElig;   
+<literal>Oacute  00d3   </literal>&Oacute;  
+<literal>Ocirc   00d4   </literal>&Ocirc;   
+<literal>Odblac  0150   </literal>&Odblac;  
+<literal>Ograve  00d2   </literal>&Ograve;  
+<literal>Omacr   014c   </literal>&Omacr;   
+<literal>Oslash  00d8   </literal>&Oslash;  
+<literal>Otilde  00d5   </literal>&Otilde;  
+<literal>Ouml    00d6   </literal>&Ouml;    
+<literal>Racute  0154   </literal>&Racute;  
+<literal>Rcaron  0158   </literal>&Rcaron;  
+<literal>Rcedil  0156   </literal>&Rcedil;  
+<literal>Sacute  015a   </literal>&Sacute;  
+<literal>Scaron  0160   </literal>&Scaron;  
+<literal>Scedil  015e   </literal>&Scedil;  
+<literal>Scirc   015c   </literal>&Scirc;   
+<literal>THORN   00de   </literal>&THORN;   
+<literal>Tcaron  0164   </literal>&Tcaron;  
+<literal>Tcedil  0162   </literal>&Tcedil;  
+<literal>Tstrok  0166   </literal>&Tstrok;  
+<literal>Uacute  00da   </literal>&Uacute;  
+<literal>Ubreve  016c   </literal>&Ubreve;  
+<literal>Ucirc   00db   </literal>&Ucirc;   
+<literal>Udblac  0170   </literal>&Udblac;  
+<literal>Ugrave  00d9   </literal>&Ugrave;  
+<literal>Umacr   016a   </literal>&Umacr;   
+<literal>Uogon   0172   </literal>&Uogon;   
+<literal>Uring   016e   </literal>&Uring;   
+<literal>Utilde  0168   </literal>&Utilde;  
+<literal>Uuml    00dc   </literal>&Uuml;    
+<literal>Wcirc   0174   </literal>&Wcirc;   
+<literal>Yacute  00dd   </literal>&Yacute;  
+<literal>Ycirc   0176   </literal>&Ycirc;   
+<literal>Yuml    0178   </literal>&Yuml;    
+<literal>Zacute  0179   </literal>&Zacute;  
+<literal>Zcaron  017d   </literal>&Zcaron;  
+<literal>Zdot    017b   </literal>&Zdot;    
+<literal>aacute  00e1   </literal>&aacute;  
+<literal>abreve  0103   </literal>&abreve;  
+<literal>acirc   00e2   </literal>&acirc;   
+<literal>aelig   00e6   </literal>&aelig;   
+<literal>agrave  00e0   </literal>&agrave;  
+<literal>amacr   0101   </literal>&amacr;   
+<literal>aogon   0105   </literal>&aogon;   
+<literal>aring   00e5   </literal>&aring;   
+<literal>atilde  00e3   </literal>&atilde;  
+<literal>auml    00e4   </literal>&auml;    
+<!-- <literal>blank   2423   </literal>&blank; -->  
+<!-- <literal>blk12   2592   </literal>&blk12; -->   
+<!-- <literal>blk14   2591   </literal>&blk14; -->   
+<!-- <literal>blk34   2593   </literal>&blk34; -->   
+<!-- <literal>block   2588   </literal>&block; -->   
+<literal>brvbar  00a6   </literal>&brvbar;  
+<!-- <literal>bull    2022   </literal>&bull; -->   
+<literal>cacute  0107   </literal>&cacute;  
+<!-- <literal>caret   2041   </literal>&caret; -->   
+<literal>ccaron  010d   </literal>&ccaron;  
+<literal>ccedil  00e7   </literal>&ccedil;  
+<literal>ccirc   0109   </literal>&ccirc;   
+<literal>cdot    0a0b   </literal>&cdot;
+<literal>cent    00a2   </literal>&cent;    
+<literal>check   2713   </literal>&check;   
+<!-- <literal>cir     25cb   </literal>&cir; -->   
+<literal>clubs   2663   </literal>&clubs;   
+<literal>copy    00a9   </literal>&copy;    
+<!-- <literal>copysr  2117   </literal>&copysr; -->  
+<literal>cross   2717   </literal>&cross;   
+<literal>curren  00a4   </literal>&curren;  
+<literal>darr    2193   </literal>&darr;    
+<!-- <literal>dash    2010   </literal>&dash; -->  
+<literal>dcaron  010f   </literal>&dcaron;  
+<literal>deg     00b0   </literal>&deg;     
+<literal>diams   2666   </literal>&diams;   
+<literal>divide  00f7   </literal>&divide;  
+<!-- <literal>dlcrop  230d   </literal>&dlcrop; -->  
+<!-- <literal>drcrop  230c   </literal>&drcrop; -->  
+<literal>dstrok  0111   </literal>&dstrok;  
+<!-- <literal>dtri    25bf   </literal>&dtri; -->  
+<!-- <literal>dtrif   25be   </literal>&dtrif; -->  
+<literal>eacute  00e9   </literal>&eacute;  
+<literal>ecaron  011b   </literal>&ecaron;  
+<literal>ecirc   00ea   </literal>&ecirc;   
+<literal>edot    0117   </literal>&edot;    
+<literal>egrave  00e8   </literal>&egrave;  
+<literal>emacr   0113   </literal>&emacr;   
+<literal>eng     014b   </literal>&eng;     
+<literal>eogon   0119   </literal>&eogon;   
+<literal>eth     00f0   </literal>&eth;     
+<literal>euml    00eb   </literal>&euml;    
+<!-- <literal>female  2640   </literal>&female; -->  
+<!-- <literal>ffilig  fb03   </literal>&ffilig; -->  
+<!-- <literal>fflig   fb00   </literal>&fflig; -->  
+<!-- <literal>ffllig  fb04   </literal>&ffllig; -->  
+<literal>filig   fb01   </literal>&filig;   
+<!-- <literal>flat    266d   </literal>&flat; -->  
+<literal>fllig   fb02   </literal>&fllig;   
+<literal>frac12  00bd   </literal>&frac12;  
+<!-- <literal>frac13  2153   </literal>&frac13; -->  
+<literal>frac14  00bc   </literal>&frac14;  
+<!-- <literal>frac15  2155   </literal>&frac15; -->  
+<!-- <literal>frac16  2159   </literal>&frac16; -->  
+<!-- <literal>frac18  215b   </literal>&frac18; -->  
+<!-- <literal>frac23  2154   </literal>&frac23; -->  
+<!-- <literal>frac25  2156   </literal>&frac25; -->  
+<literal>frac34  00be   </literal>&frac34;  
+<!-- <literal>frac35  2157   </literal>&frac35; -->  
+<!-- <literal>frac38  215c   </literal>&frac38; -->  
+<!-- <literal>frac45  2158   </literal>&frac45; -->  
+<!-- <literal>frac56  215a   </literal>&frac56; -->  
+<!-- <literal>frac58  215d   </literal>&frac58; -->  
+<!-- <literal>frac78  215e   </literal>&frac78; -->  
+<!-- <literal>gacute  01f5   </literal>&gacute; -->  
+<literal>gbreve  011f   </literal>&gbreve;  
+<literal>gcirc   011d   </literal>&gcirc;   
+<literal>gdot    0121   </literal>&gdot;    
+<literal>half    00bd   </literal>&half;    
+<literal>hcirc   0125   </literal>&hcirc;   
+<literal>hearts  2665   </literal>&hearts;
+<literal>hellip  2026   </literal>&hellip;  
+<!-- <literal>horbar  2015   </literal>&horbar; -->  
+<literal>hstrok  0127   </literal>&hstrok;  
+<!-- <literal>hybull  2043   </literal>&hybull; -->  
+<literal>iacute  00ed   </literal>&iacute;  
+<literal>icirc   00ee   </literal>&icirc;   
+<literal>iexcl   00a1   </literal>&iexcl;   
+<literal>igrave  00ec   </literal>&igrave;  
+<literal>ijlig   0133   </literal>&ijlig;   
+<literal>imacr   012b   </literal>&imacr;   
+<!-- <literal>incare  2105   </literal>&incare; -->  
+<literal>inodot  0131   </literal>&inodot;  
+<literal>iogon   012f   </literal>&iogon;   
+<literal>iquest  00bf   </literal>&iquest;  
+<literal>itilde  0129   </literal>&itilde;  
+<literal>iuml    00ef   </literal>&iuml;    
+<literal>jcirc   0135   </literal>&jcirc;   
+<literal>kcedil  0137   </literal>&kcedil;  
+<literal>kgreen  0138   </literal>&kgreen;  
+<literal>lacute  013a   </literal>&lacute;  
+<literal>laquo   00ab   </literal>&laquo;   
+<literal>larr    2190   </literal>&larr;    
+<literal>lcaron  013e   </literal>&lcaron;  
+<literal>lcedil  013c   </literal>&lcedil;  
+<literal>ldquo   201c   </literal>&ldquo;   
+<literal>ldquor  201e   </literal>&ldquor;  
+<!-- <literal>lhblk   2584   </literal>&lhblk; -->  
+<literal>lmidot  0140   </literal>&lmidot;  
+<literal>loz     25ca   </literal>&loz;     
+<literal>lsquo   2018   </literal>&lsquo;   
+<literal>lsquor  201a   </literal>&lsquor;  
+<literal>lstrok  0142   </literal>&lstrok;  
+<!-- <literal>ltri    25c3   </literal>&ltri; -->  
+<!-- <literal>ltrif   25c2   </literal>&ltrif; -->  
+<!-- <literal>male    2642   </literal>&male; -->
+<literal>malt    2720   </literal>&malt;    
+<!-- <literal>marker  25ae   </literal>&marker; --> 
+<literal>mdash   2014   </literal>&mdash;   
+<literal>micro   00b5   </literal>&micro;   
+<literal>middot  00b7   </literal>&middot;  
+<literal>mldr    2026   </literal>&mldr;    
+<literal>nacute  0144   </literal>&nacute;  
+<literal>napos   0149   </literal>&napos;   
+<!-- <literal>natur   266e   </literal>&natur; --> 
+<literal>ncaron  0148   </literal>&ncaron;  
+<literal>ncedil  0146   </literal>&ncedil;  
+<literal>ndash   2013   </literal>&ndash;   
+<!-- <literal>nldr    2025   </literal>&nldr; --> 
+<literal>not     00ac   </literal>&not;     
+<literal>ntilde  00f1   </literal>&ntilde;  
+<literal>oacute  00f3   </literal>&oacute;  
+<literal>ocirc   00f4   </literal>&ocirc;   
+<literal>odblac  0151   </literal>&odblac;  
+<literal>oelig   0153   </literal>&oelig;   
+<literal>ograve  00f2   </literal>&ograve;  
+<!-- <literal>ohm     2126   </literal>&ohm; --> 
+<literal>omacr   014d   </literal>&omacr;   
+<literal>ordf    00aa   </literal>&ordf;    
+<literal>ordm    00ba   </literal>&ordm;    
+<literal>oslash  00f8   </literal>&oslash;  
+<literal>otilde  00f5   </literal>&otilde;  
+<literal>ouml    00f6   </literal>&ouml;    
+<literal>para    00b6   </literal>&para;    
+<literal>phone   260e   </literal>&phone;   
+<literal>plusmn  00b1   </literal>&plusmn;  
+<literal>pound   00a3   </literal>&pound;   
+<literal>racute  0155   </literal>&racute;  
+<literal>raquo   00bb   </literal>&raquo;   
+<literal>rarr    2192   </literal>&rarr;    
+<literal>rcaron  0159   </literal>&rcaron;  
+<literal>rcedil  0157   </literal>&rcedil;  
+<literal>rdquo   201d   </literal>&rdquo;   
+<literal>rdquor  201d   </literal>&rdquor;  
+<!-- <literal>rect    25ad   </literal>&rect; --> 
+<literal>reg     00ae   </literal>&reg;     
+<literal>rsquo   2019   </literal>&rsquo;   
+<literal>rsquor  2019   </literal>&rsquor;  
+<!-- <literal>rtri    25b9   </literal>&rtri; --> 
+<!-- <literal>rtrif   25b8   </literal>&rtrif; --> 
+<!-- <literal>rx      211e   </literal>&rx; --> 
+<literal>sacute  015b   </literal>&sacute;  
+<literal>scaron  0161   </literal>&scaron;  
+<literal>scedil  015f   </literal>&scedil;  
+<literal>scirc   015d   </literal>&scirc;   
+<literal>sect    00a7   </literal>&sect;    
+<literal>sext    2736   </literal>&sext;    
+<!-- <literal>sharp   266f   </literal>&sharp; --> 
+<literal>shy     00ad   </literal>&shy;     
+<literal>spades  2660   </literal>&spades;  
+<!-- <literal>squ     25a1   </literal>&squ; --> 
+<!-- <literal>squf    25aa   </literal>&squf; --> 
+<literal>sup1    00b9   </literal>&sup1;    
+<literal>sup2    00b2   </literal>&sup2;    
+<literal>sup3    00b3   </literal>&sup3;    
+<literal>szlig   00df   </literal>&szlig;   
+<!-- <literal>target  2316   </literal>&target; --> 
+<literal>tcaron  0165   </literal>&tcaron;  
+<literal>tcedil  0163   </literal>&tcedil;  
+<!-- <literal>telrec  2315   </literal>&telrec; --> 
+<literal>thorn   00fe   </literal>&thorn;   
+<literal>times   00d7   </literal>&times;   
+<literal>trade   2122   </literal>&trade;   
+<literal>tstrok  0167   </literal>&tstrok;  
+<literal>uacute  00fa   </literal>&uacute;  
+<literal>uarr    2191   </literal>&uarr;    
+<literal>ubreve  016d   </literal>&ubreve;  
+<literal>ucirc   00fb   </literal>&ucirc;   
+<literal>udblac  0171   </literal>&udblac;  
+<literal>ugrave  00f9   </literal>&ugrave;  
+<!-- <literal>uhblk   2580   </literal>&uhblk; --> 
+<!-- <literal>ulcrop  230f   </literal>&ulcrop; --> 
+<literal>umacr   016b   </literal>&umacr;   
+<literal>uogon   0173   </literal>&uogon;   
+<!-- <literal>urcrop  230e   </literal>&urcrop; --> 
+<literal>uring   016f   </literal>&uring;   
+<literal>utilde  0169   </literal>&utilde;  
+<!-- <literal>utri    25b5   </literal>&utri; --> 
+<!-- <literal>utrif   25b4   </literal>&utrif; --> 
+<literal>uuml    00fc   </literal>&uuml;    
+<!-- <literal>vellip  22ee   </literal>&vellip; --> 
+<literal>wcirc   0175   </literal>&wcirc;   
+<literal>yacute  00fd   </literal>&yacute;  
+<literal>ycirc   0177   </literal>&ycirc;   
+<literal>yen     00a5   </literal>&yen;     
+<literal>yuml    00ff   </literal>&yuml;    
+<literal>zacute  017a   </literal>&zacute;  
+<literal>zcaron  017e   </literal>&zcaron;  
+<literal>zdot    017c   </literal>&zdot;    
+</literallayout>

@@ -1,0 +1,49 @@
+<literallayout>
+<literal>  re&gt; </literal><emphasis role="bold"><literal>/^([@]+)@.+\.(ac|edu)\.(?!kr)[a-z]{2}$/</literal></emphasis>
+<literal>data&gt; </literal><emphasis role="bold"><literal>x@y.ac.uk</literal></emphasis>
+<literal> 0: x@y.ac.uk</literal>
+<literal> 1: x</literal>
+<literal> 2: ac</literal>
+<literal>data&gt; </literal><emphasis role="bold"><literal>x@y.ac.kr</literal></emphasis>
+<literal>No match</literal>
+<literal>data&gt; </literal><emphasis role="bold"><literal>x@y.edu.com</literal></emphasis>
+<literal>No match</literal>
+<literal>data&gt; </literal><emphasis role="bold"><literal>x@y.edu.co</literal></emphasis>
+<literal> 0: x@y.edu.co</literal>
+<literal> 1: x</literal>
+<literal> 2: edu</literal>
+</literallayout>
+
+
+<informaltable frame="none">
+<tgroup cols="2" colsep="0" rowsep="0">
+<colspec colwidth="100pt" align="left"/>
+<colspec colwidth="254pt" align="left"/>
+<tbody>
+<row>
+<entry>&nbsp;&nbsp;&nbsp;&nbsp;<literal>\\</literal></entry>
+<entry>single backslash</entry>
+</row>
+<row>
+<entry>&nbsp;&nbsp;&nbsp;&nbsp;<literal>\n</literal></entry>
+<entry>newline</entry>
+</row>
+<row>
+<entry>&nbsp;&nbsp;&nbsp;&nbsp;<literal>\r</literal></entry>
+<entry>carriage return</entry>
+</row>
+<row>
+<entry>&nbsp;&nbsp;&nbsp;&nbsp;<literal>\t</literal></entry>
+<entry>tab</entry>
+</row>
+<row>
+<entry>&nbsp;&nbsp;&nbsp;&nbsp;<literal>\</literal>&lt;<emphasis>octal digits</emphasis>&gt;</entry>
+<entry>up to 3 octal digits specify one character</entry>
+</row>
+<row>
+<entry>&nbsp;&nbsp;&nbsp;&nbsp;<literal>\x</literal>&lt;<emphasis>hex digits</emphasis>&gt;</entry>
+<entry>up to 2 hexadecimal digits specify one character</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>

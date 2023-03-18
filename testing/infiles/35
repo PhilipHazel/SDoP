@@ -1,0 +1,27 @@
+<?sdop font_main="14,4,sanserif"
+       font_mainmono="9"
+       font_chapter="30,2,serif,italic"
+?>
+
+<chapter><title>Chapter title</title>
+
+<para>
+The quick brown fox.
+The quick brown fox.
+The quick brown fox.
+The quick brown fox.
+The quick brown fox.
+The quick brown fox.
+The quick brown fox.
+The quick brown fox.
+The quick brown fox.
+The quick brown fox.
+The quick brown fox.
+</para>
+
+<literallayout class="monospaced">
+This is literal
+This is literal
+</literallayout>
+
+</chapter>

@@ -1,0 +1,19 @@
+** Error: missing ';' after named entity '&abc'
+   Detected in element starting in line 68 of infiles/04
+
+** Error: unknown named entity "abc"
+   Detected in element starting in line 68 of infiles/04
+
+** Error: unknown named entity "a_b:c.d-e"
+   Detected in element starting in line 68 of infiles/04
+
+** Warning: line overflow (58.508pt)
+   Detected in element starting in line 25 of infiles/04
+
+** Warning: line overflow (58.508pt)
+   Detected in element starting in line 44 of infiles/04
+
+** Warning: line overflow (58.508pt)
+   Detected in element starting in line 63 of infiles/04
+
+** Warning: generated output may be flawed.

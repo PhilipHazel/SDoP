@@ -1,0 +1,877 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.52
+%%CreationDate: Sun Dec 14 17:08:40 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Times-Bold
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Times-Bold
+/af4 /af5 /Times-Bold inf
+/vf 6 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 11 scalefont put
+vf 5 af5 11 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+0.5 Slw 72 780 Mt 450 0 RLt St
+77 768 Mt 4 Sf (k)S -0.11 R(eep_malf)S -0.275 R(ormed)S
+246.418 768 Mt 0 Sf (Use: )S 2 Sf (main)S
+329.762 768 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S 0 Sf
+(,)S
+345.52 756 Mt(rhubarb)S
+457.534 768 Mt(Def)S -0.11 R(ault: )S 2 Sf (false)S 72 780.25 Mt
+0 -28.25 RLt 450 0 RLt 0 28.25 RLt St
+72 729 Mt 0 Sf (Here)S 4.389 R(is)S 4.389 R(the)S 4.389 R(te)S
+-0.165 R(xt)S 4.389 R(that)S 4.389 R(follo)S -0.275 R(ws)S 4.389 R(t)S
+(hat)S 4.389 R(table;)S 4.389 R(typically)S 4.389 R(we)S 4.389 R(n)S
+(eed)S 4.389 R(to)S 4.389 R(ha)S -0.22 R(v)S -0.165 R(e)S 4.389 R(e)S
+(nough)S 4.389 R(for)S 4.389 R(one)S 4.389 R(or)S 4.389 R(e)S
+-0.275 R(v)S -0.165 R(en)S 4.389 R(se)S -0.275 R(v)S -0.165 R(e)S
+(ral)S
+72 717 Mt(paragraphs. Etc etc etc etc etc etc etc etc etc. Her)S
+(e is another kind of table with no borders:)S
+72 694.968 Mt(aaa)S
+104.25 694.968 Mt(bbb)S
+138.464 694.968 Mt(cccc)S
+72 674.168 Mt(T)S -0.77 R(est for a dagger)S 1 Sf (\210)S
+72 652.136 Mt 0 Sf (aaa)S
+104 652.136 Mt(bbb)S
+131 652.136 Mt(cccc)S
+72 640.136 Mt(eee)S
+104 640.136 Mt(f)S -0.275 R(f)S -0.275 R(f)S
+131 640.136 Mt(ggg)S
+72 628.136 Mt(hhh)S
+104 628.136 Mt(iii)S
+131 628.136 Mt(jjj)S 72 609.896 Mt 450 0 RLt St
+77 597.896 Mt 4 Sf (accept_8bitmime)S
+243.668 597.896 Mt 0 Sf (Use: )S 2 Sf (main)S 1 Sf (\211)S
+328.387 597.896 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S 1 Sf
+(\210)S
+457.534 597.896 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (false)S
+72 610.146 Mt 0 -16.25 RLt 450 0 RLt 0 16.25 RLt St 72 577 Mt
+450 0 RLt St
+77 565 Mt 0 Sf (011)S
+260.625 565 Mt(012)S
+354.375 565 Mt(013)S
+500.5 565 Mt(014)S 72 560 Mt 450 0 RLt St
+77 548 Mt(021)S
+260.625 548 Mt(022)S
+354.375 548 Mt(023)S
+500.5 548 Mt(024)S 72 543 Mt 450 0 RLt St
+77 531 Mt(031)S
+260.625 531 Mt(032)S
+354.375 531 Mt(033)S
+500.5 531 Mt(034)S 72 526 Mt 450 0 RLt St
+77 514 Mt(041)S
+260.625 514 Mt(042)S
+354.375 514 Mt(043)S
+500.5 514 Mt(044)S 72 509 Mt 450 0 RLt St
+77 497 Mt(051)S
+260.625 497 Mt(052)S
+354.375 497 Mt(053)S
+500.5 497 Mt(054)S 72 492 Mt 450 0 RLt St
+77 480 Mt(061)S
+260.625 480 Mt(062)S
+354.375 480 Mt(063)S
+500.5 480 Mt(064)S 72 475 Mt 450 0 RLt St
+77 463 Mt(071)S
+260.625 463 Mt(072)S
+354.375 463 Mt(073)S
+500.5 463 Mt(074)S 72 458 Mt 450 0 RLt St
+77 446 Mt(081)S
+260.625 446 Mt(082)S
+354.375 446 Mt(083)S
+500.5 446 Mt(084)S 72 441 Mt 450 0 RLt St
+77 429 Mt(091)S
+260.625 429 Mt(092)S
+354.375 429 Mt(093)S
+500.5 429 Mt(094)S 72 424 Mt 450 0 RLt St
+77 412 Mt(101)S
+260.625 412 Mt(102)S
+354.375 412 Mt(103)S
+500.5 412 Mt(104)S 72 407 Mt 450 0 RLt St
+77 395 Mt(111)S
+260.625 395 Mt(112)S
+354.375 395 Mt(113)S
+500.5 395 Mt(114)S 72 390 Mt 450 0 RLt St
+77 378 Mt(121)S
+260.625 378 Mt(122)S
+354.375 378 Mt(123)S
+500.5 378 Mt(124)S 72 373 Mt 450 0 RLt St
+77 361 Mt(131)S
+260.625 361 Mt(132)S
+354.375 361 Mt(133)S
+500.5 361 Mt(134)S 72 356 Mt 450 0 RLt St
+77 344 Mt(141)S
+260.625 344 Mt(142)S
+354.375 344 Mt(143)S
+500.5 344 Mt(144)S 72 339 Mt 450 0 RLt St
+77 327 Mt(151)S
+260.625 327 Mt(152)S
+354.375 327 Mt(153)S
+500.5 327 Mt(154)S 72 322 Mt 450 0 RLt St
+77 310 Mt(161)S
+260.625 310 Mt(162)S
+354.375 310 Mt(163)S
+500.5 310 Mt(164)S 72 305 Mt 450 0 RLt St
+77 293 Mt(171)S
+260.625 293 Mt(172)S
+354.375 293 Mt(173)S
+500.5 293 Mt(174)S 72 288 Mt 450 0 RLt St
+77 276 Mt(181)S
+260.625 276 Mt(182)S
+354.375 276 Mt(183)S
+500.5 276 Mt(184)S 72 271 Mt 450 0 RLt St
+77 259 Mt(191)S
+260.625 259 Mt(192)S
+354.375 259 Mt(193)S
+500.5 259 Mt(194)S 72 254 Mt 450 0 RLt St
+77 242 Mt(201)S
+260.625 242 Mt(202)S
+354.375 242 Mt(203)S
+500.5 242 Mt(204)S 72 237 Mt 450 0 RLt St
+77 225 Mt(211)S
+260.625 225 Mt(212)S
+354.375 225 Mt(213)S
+500.5 225 Mt(214)S 72 220 Mt 450 0 RLt St
+77 208 Mt(221)S
+260.625 208 Mt(222)S
+354.375 208 Mt(223)S
+500.5 208 Mt(224)S 72 203 Mt 450 0 RLt St
+77 191 Mt(231)S
+260.625 191 Mt(232)S
+354.375 191 Mt(233)S
+500.5 191 Mt(234)S 72 186 Mt 450 0 RLt St
+77 174 Mt(241)S
+260.625 174 Mt(242)S
+354.375 174 Mt(243)S
+500.5 174 Mt(244)S 72 169 Mt 450 0 RLt St
+77 157 Mt(251)S
+260.625 157 Mt(252)S
+354.375 157 Mt(253)S
+500.5 157 Mt(254)S 72 152 Mt 450 0 RLt St
+77 140 Mt(261)S
+260.625 140 Mt(262)S
+354.375 140 Mt(263)S
+500.5 140 Mt(264)S 72 135 Mt 450 0 RLt St
+77 123 Mt(271)S
+260.625 123 Mt(272)S
+354.375 123 Mt(273)S
+500.5 123 Mt(274)S 72 118 Mt 450 0 RLt St
+77 106 Mt(281)S
+260.625 106 Mt(282)S
+354.375 106 Mt(283)S
+500.5 106 Mt(284)S 72 101 Mt 450 0 RLt St
+77 89 Mt(291)S
+260.625 89 Mt(292)S
+354.375 89 Mt(293)S
+500.5 89 Mt(294)S 72 84 Mt 450 0 RLt St 72 577.25 Mt 0 -492.25 RLt St
+522 577.25 Mt 0 -492.25 RLt St 222 577.25 Mt 0 -492.25 RLt St
+315.75 577.25 Mt 0 -492.25 RLt St
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+0.5 Slw 72 780 Mt 450 0 RLt St
+77 768 Mt 0 Sf (301)S
+260.625 768 Mt(302)S
+354.375 768 Mt(303)S
+500.5 768 Mt(304)S 72 763 Mt 450 0 RLt St
+77 751 Mt(311)S
+260.625 751 Mt(312)S
+354.375 751 Mt(313)S
+500.5 751 Mt(314)S 72 746 Mt 450 0 RLt St
+77 734 Mt(321)S
+260.625 734 Mt(322)S
+354.375 734 Mt(323)S
+500.5 734 Mt(324)S 72 729 Mt 450 0 RLt St
+77 717 Mt(331)S
+260.625 717 Mt(332)S
+354.375 717 Mt(333)S
+500.5 717 Mt(334)S 72 712 Mt 450 0 RLt St
+77 700 Mt(341)S
+260.625 700 Mt(342)S
+354.375 700 Mt(343)S
+500.5 700 Mt(344)S 72 695 Mt 450 0 RLt St
+77 683 Mt(351)S
+260.625 683 Mt(352)S
+354.375 683 Mt(353)S
+500.5 683 Mt(354)S 72 678 Mt 450 0 RLt St
+77 666 Mt(361)S
+260.625 666 Mt(362)S
+354.375 666 Mt(363)S
+500.5 666 Mt(364)S 72 661 Mt 450 0 RLt St
+77 649 Mt(371)S
+260.625 649 Mt(372)S
+354.375 649 Mt(373)S
+500.5 649 Mt(374)S 72 644 Mt 450 0 RLt St
+77 632 Mt(381)S
+260.625 632 Mt(382)S
+354.375 632 Mt(383)S
+500.5 632 Mt(384)S 72 627 Mt 450 0 RLt St
+77 615 Mt(391)S
+260.625 615 Mt(392)S
+354.375 615 Mt(393)S
+500.5 615 Mt(394)S 72 780.25 Mt 0 -169.25 RLt 450 0 RLt 0 169.25 RLt St
+222 780.25 Mt 0 -169.25 RLt St 315.75 780.25 Mt 0 -169.25 RLt St
+72 594 Mt 450 0 RLt St
+77 582 Mt 4 Sf (Hh1)S
+258.788 582 Mt(Hh2)S
+352.538 582 Mt(Hh3)S
+496.826 582 Mt(Hh4)S 72 577 Mt 450 0 RLt St
+77 565 Mt 0 Sf (011)S
+260.625 565 Mt(012)S
+354.375 565 Mt(013)S
+500.5 565 Mt(014)S 72 560 Mt 450 0 RLt St
+77 548 Mt(021)S
+260.625 548 Mt(022)S
+354.375 548 Mt(023)S
+500.5 548 Mt(024)S 72 543 Mt 450 0 RLt St
+77 531 Mt(031)S
+260.625 531 Mt(032)S
+354.375 531 Mt(033)S
+500.5 531 Mt(034)S 72 526 Mt 450 0 RLt St
+77 514 Mt(041)S
+260.625 514 Mt(042)S
+354.375 514 Mt(043)S
+500.5 514 Mt(044)S 72 509 Mt 450 0 RLt St
+77 497 Mt(051)S
+260.625 497 Mt(052)S
+354.375 497 Mt(053)S
+500.5 497 Mt(054)S 72 492 Mt 450 0 RLt St
+77 480 Mt(061)S
+260.625 480 Mt(062)S
+354.375 480 Mt(063)S
+500.5 480 Mt(064)S 72 475 Mt 450 0 RLt St
+77 463 Mt(071)S
+260.625 463 Mt(072)S
+354.375 463 Mt(073)S
+500.5 463 Mt(074)S 72 458 Mt 450 0 RLt St
+77 446 Mt(081)S
+260.625 446 Mt(082)S
+354.375 446 Mt(083)S
+500.5 446 Mt(084)S 72 441 Mt 450 0 RLt St
+77 429 Mt(091)S
+260.625 429 Mt(092)S
+354.375 429 Mt(093)S
+500.5 429 Mt(094)S 72 424 Mt 450 0 RLt St
+77 412 Mt(101)S
+260.625 412 Mt(102)S
+354.375 412 Mt(103)S
+500.5 412 Mt(104)S 72 407 Mt 450 0 RLt St
+77 395 Mt(111)S
+260.625 395 Mt(112)S
+354.375 395 Mt(113)S
+500.5 395 Mt(114)S 72 390 Mt 450 0 RLt St
+77 378 Mt(121)S
+260.625 378 Mt(122)S
+354.375 378 Mt(123)S
+500.5 378 Mt(124)S 72 373 Mt 450 0 RLt St
+77 361 Mt(131)S
+260.625 361 Mt(132)S
+354.375 361 Mt(133)S
+500.5 361 Mt(134)S 72 356 Mt 450 0 RLt St
+77 344 Mt(141)S
+260.625 344 Mt(142)S
+354.375 344 Mt(143)S
+500.5 344 Mt(144)S 72 339 Mt 450 0 RLt St
+77 327 Mt(151)S
+260.625 327 Mt(152)S
+354.375 327 Mt(153)S
+500.5 327 Mt(154)S 72 322 Mt 450 0 RLt St
+77 310 Mt(161)S
+260.625 310 Mt(162)S
+354.375 310 Mt(163)S
+500.5 310 Mt(164)S 72 305 Mt 450 0 RLt St
+77 293 Mt(171)S
+260.625 293 Mt(172)S
+354.375 293 Mt(173)S
+500.5 293 Mt(174)S 72 288 Mt 450 0 RLt St
+77 276 Mt(181)S
+260.625 276 Mt(182)S
+354.375 276 Mt(183)S
+500.5 276 Mt(184)S 72 271 Mt 450 0 RLt St
+77 259 Mt(191)S
+260.625 259 Mt(192)S
+354.375 259 Mt(193)S
+500.5 259 Mt(194)S 72 254 Mt 450 0 RLt St
+77 242 Mt(201)S
+260.625 242 Mt(202)S
+354.375 242 Mt(203)S
+500.5 242 Mt(204)S 72 237 Mt 450 0 RLt St
+77 225 Mt(211)S
+260.625 225 Mt(212)S
+354.375 225 Mt(213)S
+500.5 225 Mt(214)S 72 220 Mt 450 0 RLt St
+77 208 Mt(221)S
+260.625 208 Mt(222)S
+354.375 208 Mt(223)S
+500.5 208 Mt(224)S 72 203 Mt 450 0 RLt St
+77 191 Mt(231)S
+260.625 191 Mt(232)S
+354.375 191 Mt(233)S
+500.5 191 Mt(234)S 72 186 Mt 450 0 RLt St
+77 174 Mt(241)S
+260.625 174 Mt(242)S
+354.375 174 Mt(243)S
+500.5 174 Mt(244)S 72 169 Mt 450 0 RLt St
+77 157 Mt(251)S
+260.625 157 Mt(252)S
+354.375 157 Mt(253)S
+500.5 157 Mt(254)S 72 152 Mt 450 0 RLt St
+77 140 Mt(261)S
+260.625 140 Mt(262)S
+354.375 140 Mt(263)S
+500.5 140 Mt(264)S 72 135 Mt 450 0 RLt St
+77 123 Mt(271)S
+260.625 123 Mt(272)S
+354.375 123 Mt(273)S
+500.5 123 Mt(274)S 72 118 Mt 450 0 RLt St
+77 106 Mt(281)S
+260.625 106 Mt(282)S
+354.375 106 Mt(283)S
+500.5 106 Mt(284)S 72 101 Mt 450 0 RLt St
+77 89 Mt(291)S
+260.625 89 Mt(292)S
+354.375 89 Mt(293)S
+500.5 89 Mt(294)S 72 84 Mt 450 0 RLt St 72 594.25 Mt 0 -509.25 RLt St
+522 594.25 Mt 0 -509.25 RLt St 222 594.25 Mt 0 -509.25 RLt St
+315.75 594.25 Mt 0 -509.25 RLt St 409.5 594.25 Mt 0 -509.25 RLt St
+72 72 Mt( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+0.5 Slw 72 780 Mt 450 0 RLt St
+77 768 Mt 0 Sf (301)S
+260.625 768 Mt(302)S
+354.375 768 Mt(303)S
+500.5 768 Mt(304)S 72 763 Mt 450 0 RLt St
+77 751 Mt(311)S
+260.625 751 Mt(312)S
+354.375 751 Mt(313)S
+500.5 751 Mt(314)S 72 746 Mt 450 0 RLt St
+77 734 Mt(321)S
+260.625 734 Mt(322)S
+354.375 734 Mt(323)S
+500.5 734 Mt(324)S 72 729 Mt 450 0 RLt St
+77 717 Mt(331)S
+260.625 717 Mt(332)S
+354.375 717 Mt(333)S
+500.5 717 Mt(334)S 72 712 Mt 450 0 RLt St
+77 700 Mt(341)S
+260.625 700 Mt(342)S
+354.375 700 Mt(343)S
+500.5 700 Mt(344)S 72 695 Mt 450 0 RLt St
+77 683 Mt(351)S
+260.625 683 Mt(352)S
+354.375 683 Mt(353)S
+500.5 683 Mt(354)S 72 678 Mt 450 0 RLt St
+77 666 Mt(361)S
+260.625 666 Mt(362)S
+354.375 666 Mt(363)S
+500.5 666 Mt(364)S 72 661 Mt 450 0 RLt St
+77 649 Mt(371)S
+260.625 649 Mt(372)S
+354.375 649 Mt(373)S
+500.5 649 Mt(374)S 72 644 Mt 450 0 RLt St
+77 632 Mt(381)S
+260.625 632 Mt(382)S
+354.375 632 Mt(383)S
+500.5 632 Mt(384)S 72 627 Mt 450 0 RLt St
+77 615 Mt(391)S
+260.625 615 Mt(392)S
+354.375 615 Mt(393)S
+500.5 615 Mt(394)S 72 610 Mt 450 0 RLt St
+77 598 Mt 4 Sf (Ff1)S
+260.933 598 Mt(Ff2)S
+354.683 598 Mt(Ff3)S
+501.116 598 Mt(Ff4)S 72 780.25 Mt 0 -186.25 RLt 450 0 RLt 0 186.25 RLt St
+222 780.25 Mt 0 -186.25 RLt St 315.75 780.25 Mt 0 -186.25 RLt St
+409.5 780.25 Mt 0 -186.25 RLt St
+72 571 Mt 0 Sf (The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(w)S
+(n)S 3.919 R(fox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.919 R(the)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S
+3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(j)S
+(umps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 559 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(j)S
+(umps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S 3.512 R(br)S
+(o)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.512 R(the)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(T)S
+(he)S 3.512 R(quick)S
+72 547 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(d)S
+(og.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(The)S
+3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 535 Mt(fox)S 4.055 R(jumps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 4.055 R(the)S 4.055 R(lazy)S 4.055 R(dog.)S 4.055 R(The)S
+4.055 R(quick)S 4.055 R(bro)S -0.275 R(wn)S 4.055 R(fox)S 4.055 R(j)S
+(umps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(er)S 4.055 R(the)S 4.055 R(l)S
+(azy)S 4.055 R(dog.)S 4.055 R(The)S 4.055 R(quick)S 4.055 R(br)S
+(o)S -0.275 R(wn)S 4.055 R(fox)S
+72 523 Mt(jumps)S 3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(t)S
+(he)S 3.375 R(lazy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quic)S
+(k)S 3.375 R(bro)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(the)S 3.375 R(l)S
+(azy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quick)S 3.375 R(br)S
+(o)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+72 511 Mt(o)S -0.165 R(v)S -0.165 R(er)S 2.894 R(the)S 2.894 R(l)S
+(azy)S 2.894 R(dog.)S 2.894 R(The)S 2.894 R(quick)S 2.894 R(br)S
+(o)S -0.275 R(wn)S 2.894 R(fox)S 2.894 R(jumps)S 2.894 R(o)S -0.165 R(v)S
+-0.165 R(er)S 2.894 R(the)S 2.894 R(lazy)S 2.894 R(dog.)S 2.894 R(T)S
+(he)S 2.894 R(quick)S 2.894 R(bro)S -0.275 R(wn)S 2.894 R(fox)S
+2.894 R(jumps)S 2.894 R(o)S -0.165 R(v)S -0.165 R(er)S 2.894 R(t)S
+(he)S
+72 499 Mt(lazy)S 3.851 R(dog.)S 3.851 R(The)S 3.851 R(quick)S
+3.851 R(bro)S -0.275 R(wn)S 3.851 R(fox)S 3.851 R(jumps)S 3.851 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.851 R(the)S 3.851 R(lazy)S 3.851 R(d)S
+(og.)S 3.851 R(The)S 3.851 R(quick)S 3.851 R(bro)S -0.275 R(wn)S
+3.851 R(fox)S 3.851 R(jumps)S 3.851 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.851 R(the)S 3.851 R(lazy)S
+72 487 Mt(dog.)S 3.8 R(The)S 3.8 R(quick)S 3.8 R(bro)S -0.275 R(w)S
+(n)S 3.8 R(fox)S 3.8 R(jumps)S 3.8 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.8 R(the)S 3.8 R(lazy)S 3.8 R(dog.)S 3.8 R(The)S 3.8 R(q)S
+(uick)S 3.8 R(bro)S -0.275 R(wn)S 3.8 R(fox)S 3.8 R(jumps)S 3.8 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.8 R(the)S 3.8 R(lazy)S 3.8 R(dog.)S
+72 475 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(f)S
+(ox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(t)S
+(he)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S 3.919 R(quic)S
+(k)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(jumps)S
+3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 463 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(j)S
+(umps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S 3.512 R(br)S
+(o)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.512 R(the)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(T)S
+(he)S 3.512 R(quick)S
+72 451 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(d)S
+(og.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(The)S
+3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 439 Mt(fox)S 4.055 R(jumps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 4.055 R(the)S 4.055 R(lazy)S 4.055 R(dog.)S 4.055 R(The)S
+4.055 R(quick)S 4.055 R(bro)S -0.275 R(wn)S 4.055 R(fox)S 4.055 R(j)S
+(umps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(er)S 4.055 R(the)S 4.055 R(l)S
+(azy)S 4.055 R(dog.)S 4.055 R(The)S 4.055 R(quick)S 4.055 R(br)S
+(o)S -0.275 R(wn)S 4.055 R(fox)S
+72 427 Mt(jumps)S 3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(t)S
+(he)S 3.375 R(lazy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quic)S
+(k)S 3.375 R(bro)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(the)S 3.375 R(l)S
+(azy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quick)S 3.375 R(br)S
+(o)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+72 415 Mt(o)S -0.165 R(v)S -0.165 R(er)S 2.894 R(the)S 2.894 R(l)S
+(azy)S 2.894 R(dog.)S 2.894 R(The)S 2.894 R(quick)S 2.894 R(br)S
+(o)S -0.275 R(wn)S 2.894 R(fox)S 2.894 R(jumps)S 2.894 R(o)S -0.165 R(v)S
+-0.165 R(er)S 2.894 R(the)S 2.894 R(lazy)S 2.894 R(dog.)S 2.894 R(T)S
+(he)S 2.894 R(quick)S 2.894 R(bro)S -0.275 R(wn)S 2.894 R(fox)S
+2.894 R(jumps)S 2.894 R(o)S -0.165 R(v)S -0.165 R(er)S 2.894 R(t)S
+(he)S
+72 403 Mt(lazy dog. The quick bro)S -0.275 R(wn fox jumps o)S
+-0.165 R(v)S -0.165 R(er the lazy dog.)S 72 386.5 Mt 450 0 RLt St
+77 374.5 Mt 4 Sf (Hh1)S
+258.788 374.5 Mt(Hh2)S
+352.538 374.5 Mt(Hh3)S
+496.826 374.5 Mt(Hh4)S
+77 362.5 Mt 0 Sf (011)S
+260.625 362.5 Mt(012)S
+354.375 362.5 Mt(013)S
+500.5 362.5 Mt(014)S
+77 350.5 Mt(021)S
+260.625 350.5 Mt(022)S
+354.375 350.5 Mt(023)S
+500.5 350.5 Mt(024)S
+77 338.5 Mt(031)S
+260.625 338.5 Mt(032)S
+354.375 338.5 Mt(033)S
+500.5 338.5 Mt(034)S
+77 326.5 Mt(041)S
+260.625 326.5 Mt(042)S
+354.375 326.5 Mt(043)S
+500.5 326.5 Mt(044)S
+77 314.5 Mt(051)S
+260.625 314.5 Mt(052)S
+354.375 314.5 Mt(053)S
+500.5 314.5 Mt(054)S
+77 302.5 Mt(061)S
+260.625 302.5 Mt(062)S
+354.375 302.5 Mt(063)S
+500.5 302.5 Mt(064)S
+77 290.5 Mt(071)S
+260.625 290.5 Mt(072)S
+354.375 290.5 Mt(073)S
+500.5 290.5 Mt(074)S
+77 278.5 Mt(081)S
+260.625 278.5 Mt(082)S
+354.375 278.5 Mt(083)S
+500.5 278.5 Mt(084)S
+77 266.5 Mt(091)S
+260.625 266.5 Mt(092)S
+354.375 266.5 Mt(093)S
+500.5 266.5 Mt(094)S
+77 254.5 Mt(101)S
+260.625 254.5 Mt(102)S
+354.375 254.5 Mt(103)S
+500.5 254.5 Mt(104)S
+77 242.5 Mt(111)S
+260.625 242.5 Mt(112)S
+354.375 242.5 Mt(113)S
+500.5 242.5 Mt(114)S
+77 230.5 Mt(121)S
+260.625 230.5 Mt(122)S
+354.375 230.5 Mt(123)S
+500.5 230.5 Mt(124)S
+77 218.5 Mt(131)S
+260.625 218.5 Mt(132)S
+354.375 218.5 Mt(133)S
+500.5 218.5 Mt(134)S
+77 206.5 Mt(141)S
+260.625 206.5 Mt(142)S
+354.375 206.5 Mt(143)S
+500.5 206.5 Mt(144)S
+77 194.5 Mt(151)S
+260.625 194.5 Mt(152)S
+354.375 194.5 Mt(153)S
+500.5 194.5 Mt(154)S
+77 182.5 Mt(161)S
+260.625 182.5 Mt(162)S
+354.375 182.5 Mt(163)S
+500.5 182.5 Mt(164)S
+77 170.5 Mt(171)S
+260.625 170.5 Mt(172)S
+354.375 170.5 Mt(173)S
+500.5 170.5 Mt(174)S
+77 158.5 Mt(181)S
+260.625 158.5 Mt(182)S
+354.375 158.5 Mt(183)S
+500.5 158.5 Mt(184)S
+77 146.5 Mt(191)S
+260.625 146.5 Mt(192)S
+354.375 146.5 Mt(193)S
+500.5 146.5 Mt(194)S
+77 134.5 Mt(201)S
+260.625 134.5 Mt(202)S
+354.375 134.5 Mt(203)S
+500.5 134.5 Mt(204)S
+77 122.5 Mt(211)S
+260.625 122.5 Mt(212)S
+354.375 122.5 Mt(213)S
+500.5 122.5 Mt(214)S
+77 110.5 Mt(221)S
+260.625 110.5 Mt(222)S
+354.375 110.5 Mt(223)S
+500.5 110.5 Mt(224)S
+77 98.5 Mt(231)S
+260.625 98.5 Mt(232)S
+354.375 98.5 Mt(233)S
+500.5 98.5 Mt(234)S
+77 86.5 Mt(241)S
+260.625 86.5 Mt(242)S
+354.375 86.5 Mt(243)S
+500.5 86.5 Mt(244)S 72 386.75 Mt 0 -304.25 RLt St 522 386.75 Mt
+0 -304.25 RLt St 222 386.75 Mt 0 -304.25 RLt St 315.75 386.75 Mt
+0 -304.25 RLt St 409.5 386.75 Mt 0 -304.25 RLt St
+72 72 Mt( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+77 768 Mt 0 Sf (251)S
+260.625 768 Mt(252)S
+354.375 768 Mt(253)S
+500.5 768 Mt(254)S
+77 756 Mt(261)S
+260.625 756 Mt(262)S
+354.375 756 Mt(263)S
+500.5 756 Mt(264)S
+77 744 Mt(271)S
+260.625 744 Mt(272)S
+354.375 744 Mt(273)S
+500.5 744 Mt(274)S
+77 732 Mt(281)S
+260.625 732 Mt(282)S
+354.375 732 Mt(283)S
+500.5 732 Mt(284)S
+77 720 Mt(291)S
+260.625 720 Mt(292)S
+354.375 720 Mt(293)S
+500.5 720 Mt(294)S
+77 708 Mt(301)S
+260.625 708 Mt(302)S
+354.375 708 Mt(303)S
+500.5 708 Mt(304)S
+77 696 Mt(311)S
+260.625 696 Mt(312)S
+354.375 696 Mt(313)S
+500.5 696 Mt(314)S
+77 684 Mt(321)S
+260.625 684 Mt(322)S
+354.375 684 Mt(323)S
+500.5 684 Mt(324)S
+77 672 Mt(331)S
+260.625 672 Mt(332)S
+354.375 672 Mt(333)S
+500.5 672 Mt(334)S
+77 660 Mt(341)S
+260.625 660 Mt(342)S
+354.375 660 Mt(343)S
+500.5 660 Mt(344)S
+77 648 Mt(351)S
+260.625 648 Mt(352)S
+354.375 648 Mt(353)S
+500.5 648 Mt(354)S
+77 636 Mt(361)S
+260.625 636 Mt(362)S
+354.375 636 Mt(363)S
+500.5 636 Mt(364)S
+77 624 Mt(371)S
+260.625 624 Mt(372)S
+354.375 624 Mt(373)S
+500.5 624 Mt(374)S
+77 612 Mt(381)S
+260.625 612 Mt(382)S
+354.375 612 Mt(383)S
+500.5 612 Mt(384)S
+77 600 Mt(391)S
+260.625 600 Mt(392)S
+354.375 600 Mt(393)S
+500.5 600 Mt(394)S
+77 588 Mt 4 Sf (Ff1)S
+260.933 588 Mt(Ff2)S
+354.683 588 Mt(Ff3)S
+501.116 588 Mt(Ff4)S 0.5 Slw 72 780.25 Mt 0 -196.25 RLt 450 0 RLt
+0 196.25 RLt St 222 780.25 Mt 0 -196.25 RLt St 315.75 780.25 Mt
+0 -196.25 RLt St 409.5 780.25 Mt 0 -196.25 RLt St 72 564 Mt 449.999 0 RLt St
+77 552 Mt(client_ignor)S -0.198 R(e_in)S -0.44 R(v)S -0.11 R(a)S
+(lid_base64)S
+231.787 552 Mt 0 Sf (Use: )S 2 Sf (plainte)S -0.22 R(xt)S
+334.742 552 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S
+457.533 552 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (false)S 72 564.25 Mt
+0 -16.25 RLt 449.999 0 RLt 0 16.25 RLt St 72 528 Mt 449.999 0 RLt St
+77 516 Mt 4 Sf (client_ignor)S -0.198 R(e_in)S -0.44 R(v)S -0.11 R(a)S
+(lid_base64)S
+231.787 516 Mt 0 Sf (Use: )S 2 Sf (plainte)S -0.22 R(xt)S
+334.742 516 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S
+457.533 516 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (false)S 72 528.25 Mt
+0 -16.25 RLt 449.999 0 RLt 0 16.25 RLt St 72 492 Mt 449.999 0 RLt St
+77 480 Mt 4 Sf (client_ignor)S -0.198 R(e_in)S -0.44 R(v)S -0.11 R(a)S
+(lid_base64)S
+231.787 480 Mt 0 Sf (Use: )S 2 Sf (plainte)S -0.22 R(xt)S
+334.742 480 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S
+457.533 480 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (false)S 72 492.25 Mt
+0 -16.25 RLt 449.999 0 RLt 0 16.25 RLt St 210.461 492.25 Mt 0 -16.25 RLt St
+314.307 492.25 Mt 0 -16.25 RLt St 418.153 492.25 Mt 0 -16.25 RLt St
+72 456 Mt 449.999 0 RLt St
+77 444 Mt 4 Sf (client_ignor)S -0.198 R(e_in)S -0.44 R(v)S -0.11 R(a)S
+(lid_base64)S
+231.787 444 Mt 0 Sf (Use: )S 2 Sf (plainte)S -0.22 R(xt)S
+334.742 444 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S
+457.533 444 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (false)S 72 456.25 Mt
+0 -16.25 RLt 449.999 0 RLt 0 16.25 RLt St 72 420 Mt 449.999 0 RLt St
+77 408 Mt 4 Sf (client_ignor)S -0.198 R(e_in)S -0.44 R(v)S -0.11 R(a)S
+(lid_base64)S
+231.787 408 Mt 0 Sf (Use: )S 2 Sf (plainte)S -0.22 R(xt)S
+334.742 408 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S
+457.533 408 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (false)S 72 420.25 Mt
+0 -16.25 RLt 449.999 0 RLt 0 16.25 RLt St 210.461 420.25 Mt 0 -16.25 RLt St
+314.307 420.25 Mt 0 -16.25 RLt St 418.153 420.25 Mt 0 -16.25 RLt St
+72 384 Mt 449.999 0 RLt St
+77 372 Mt 4 Sf (client_ignor)S -0.198 R(e_in)S -0.44 R(v)S -0.11 R(a)S
+(lid_base64)S
+231.787 372 Mt 0 Sf (Use: )S 2 Sf (plainte)S -0.22 R(xt)S
+334.742 372 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S
+457.533 372 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (false)S 72 384.25 Mt
+0 -16.25 RLt 449.999 0 RLt 0 16.25 RLt St 72 348 Mt 449.999 0 RLt St
+77 336 Mt 4 Sf (client_ignor)S -0.198 R(e_in)S -0.44 R(v)S -0.11 R(a)S
+(lid_base64)S
+231.787 336 Mt 0 Sf (Use: )S 2 Sf (plainte)S -0.22 R(xt)S
+334.742 336 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S
+457.533 336 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (false)S 72 348.25 Mt
+0 -16.25 RLt 449.999 0 RLt 0 16.25 RLt St 210.461 348.25 Mt 0 -16.25 RLt St
+314.307 348.25 Mt 0 -16.25 RLt St 418.153 348.25 Mt 0 -16.25 RLt St
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(4)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 4

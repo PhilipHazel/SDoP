@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<book>
+<?sdop background_rgb="0.8,0.8,1.0"
+       page_foot_line_width="840"
+       page_full_length="620"
+       page_line_width="810"
+       paper_size="900x660" 
+       font_main="26"
+       font_mainmono="24"
+       font_chapter="32" 
+       font_toc="18,1,serif" 
+       foot_centre_recto=""
+       foot_centre_verso=""
+       foot_right_recto="&arabicpage;"   
+       foot_right_verso="&arabicpage;"   
+       ilist_indent="24,24,0" 
+       margin_bottom="20"
+       margin_left_recto="45"
+       margin_left_verso="45"   
+       numbertitles="no" 
+       toc_sections="no" 
+?>
+<chapter>
+<title>First slide</title>
+<itemizedlist>
+<listitem>
+<para>
+First bulleted point.
+</para>
+</listitem>
+<listitem>
+<para>
+Next bulleted point.
+</para>
+</listitem>
+</itemizedlist>
+</chapter>
+
+<chapter>
+<figure>
+<mediaobject><imageobject>
+<imagedata fileref="jpeg2.jpg" >
+</imagedata></imageobject></mediaobject>
+</figure>
+</chapter>
+
+<chapter>
+<title>Another slide</title>
+<itemizedlist>
+<listitem>
+<para>
+First bulleted point.
+</para>
+</listitem>
+<listitem>
+<para>
+Next bulleted point.
+</para>
+</listitem>
+</itemizedlist>
+</chapter>
+
+</book>

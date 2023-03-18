@@ -1,0 +1,300 @@
+<para>
+This is a paragraph that precedes the table.
+</para>
+<table frame = "none">
+<tgroup cols="5">
+<colspec colwidth="60pt"/>
+<colspec colwidth="80pt" align="justify"/>
+<colspec colwidth="60pt" align="right"/>
+<colspec colwidth="60pt" align="center"/>
+<colspec colwidth="60pt" align="left"/>
+<tbody>
+<row>
+<entry>inline</entry>
+<entry><para>this is a paragraph of several lines</para></entry>
+<entry>right</entry>
+<entry>centre</entry>
+</row>
+<row>
+<entry>first entry, second line</entry>
+<entry>
+<para>
+next data
+</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+This is a paragraph that comes immediately after the table. It should be 
+formatted in the normal way. We need to add text so that it can be justified 
+and thereby indicate the line width.
+</para>
+
+<table frame = "none">
+<tgroup cols="3">
+<colspec colwidth="1*" colsep="0"/>
+<colspec colwidth="2*" colsep="0"/>
+<colspec colwidth="3*" colsep="0"/>
+<tbody>
+<row>
+<entry>a b c d e f g h i j k l m n o p</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Space.
+</para>
+
+<table>
+<tgroup cols="3">
+<colspec colwidth="1*+20"/>
+<colspec colwidth="2*"/>
+<colspec colwidth="3*"/>
+<tbody>
+<row>
+<entry>a b c d e f g h i j k l m n o p</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Space.
+</para>
+
+<table frame="none">
+<tgroup cols="3">
+<colspec colwidth="1*+20" colsep="0"/>
+<colspec colwidth="2*" colsep="0"/>
+<colspec colwidth="3*-0.5in" colsep="0"/>
+<tbody>
+<row>
+<entry>a b c d e f g h i j k l m n o p</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+More space.
+</para>
+
+<table frame="topbot">
+<tgroup cols="3">
+<colspec colwidth="1*+20"/>
+<colspec colwidth="2*"/>
+<colspec colwidth="3*-0.5in"/>
+<tbody>
+<row>
+<entry>A B C D E F G H I J K L M N O P</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+
+<para>
+More space.
+</para>
+
+<table frame="all">
+<tgroup cols="3" rowsep="0">
+<colspec colwidth="1*+20" colsep="1"/>
+<colspec colwidth="2*" colsep="1"/>
+<colspec colwidth="3*-0.5in"/>
+<tbody>
+<row>
+<entry>A B C D E F G H I J K L M N O P</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9
+</entry>
+</row>
+<row>
+<entry>the quick brown fox</entry>
+<entry>pack my box</entry>
+</row>
+<row>
+<entry>12345</entry>
+<entry>99-99-99</entry>
+<entry>numbers, numbers</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+More space.
+</para>
+
+<table frame="sides">
+<tgroup cols="3">
+<colspec colwidth="1*+20"/>
+<colspec colwidth="2*"/>
+<colspec colwidth="3*-0.5in"/>
+<tbody>
+<row>
+<entry>A B C D E F G H I J K L M N O P</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9
+</entry>
+</row>
+<row>
+<entry>the quick brown fox</entry>
+<entry>pack my box</entry>
+</row>
+<row>
+<entry>12345</entry>
+<entry>99-99-99</entry>
+<entry>numbers, numbers</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+More space.
+</para>
+
+<table frame="top">
+<tgroup cols="3">
+<colspec colwidth="1*+20" colsep="0"/>
+<colspec colwidth="2*" colsep="0"/>
+<colspec colwidth="3*-0.5in" colsep="0"/>
+<tbody>
+<row>
+<entry>A B C D E F G H I J K L M N O P</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9
+</entry>
+</row>
+<row>
+<entry>the quick brown fox</entry>
+<entry>pack my box</entry>
+</row>
+<row>
+<entry>12345</entry>
+<entry>99-99-99</entry>
+<entry>numbers, numbers</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+More space.
+</para>
+
+<table frame="bottom">
+<tgroup cols="3">
+<colspec colwidth="1*+20" colsep="1"/>
+<colspec colwidth="2*" colsep="1"/>
+<colspec colwidth="3*-0.5in"/>
+<tbody>
+<row>
+<entry>A B C D E F G H I J K L M N O P</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z</entry>
+<entry>a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9
+</entry>
+</row>
+<row rowsep="0">
+<entry>the quick brown fox</entry>
+<entry>pack my box</entry>
+</row>
+<row>
+<entry>12345</entry>
+<entry>99-99-99</entry>
+<entry>numbers, numbers</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+More space.
+</para>
+
+<table>
+<tgroup cols="3" colsep="0">
+<colspec colwidth="1*+20"/>
+<colspec colwidth="2*" colsep="1"/>
+<colspec colwidth="3*-0.5in" align="justify"/>
+<tbody>
+<row>
+<entry>one word</entry>
+<entry>two word</entry>
+<entry>three word</entry>
+</row>
+<row>
+<entry>the quick brown fox</entry>
+<entry>pack my box</entry>
+</row>
+<row>
+<entry>12345</entry>
+<entry>99-99-99</entry>
+<entry>numbers, numbers</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+
+<table>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<thead>
+<row><entry>head one</entry><entry>head two</entry><entry>head three</entry></row>
+</thead>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+
+<emphasis role="rgb=1,0,0">
+
+<table>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<thead>
+<row><entry>head one</entry><entry>head two</entry><entry>head three</entry></row>
+</thead>
+<tfoot>
+<row><entry>foot one</entry><entry>foot two</entry><entry>foot three</entry></row>
+</tfoot>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+</emphasis>
+
+
+<para>
+Text after all the tables.
+</para>

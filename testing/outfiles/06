@@ -1,0 +1,338 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.52
+%%CreationDate: Sun Dec 14 17:08:24 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+/vf 4 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This is a paragraph that precedes the table.)S
+72 745.031 Mt(inline)S
+137 745.031 Mt(this)S 6.43 R(is)S 6.43 R(a)S 6.43 R(para-)S
+137 733.031 Mt(graph)S 8.732 R(of)S 8.732 R(se)S -0.275 R(v-)S
+137 721.031 Mt(eral lines)S
+246.221 745.031 Mt(right)S
+288.563 745.031 Mt(centre)S 0.5 Slw 72 716.031 Mt 320 0 RLt St
+72 704.031 Mt 1 Sf (\216)S 0 Sf (rst entry)S -0.715 R(,)S
+72 692.031 Mt(second line)S
+137 704.031 Mt(ne)S -0.165 R(xt data)S 132 757.281 Mt 0 -69.25 RLt St
+212 757.281 Mt 0 -69.25 RLt St 272 757.281 Mt 0 -69.25 RLt St
+332 757.281 Mt 0 -69.25 RLt St
+72 669.422 Mt(This)S 3.193 R(is)S 3.193 R(a)S 3.193 R(paragrap)S
+(h)S 3.193 R(that)S 3.193 R(comes)S 3.193 R(immediately)S 3.193 R(a)S
+(fter)S 3.193 R(the)S 3.193 R(table.)S 3.193 R(It)S 3.193 R(sh)S
+(ould)S 3.193 R(be)S 3.193 R(formatted)S 3.193 R(in)S 3.193 R(t)S
+(he)S 3.193 R(normal)S 3.193 R(w)S -0.11 R(ay)S -0.715 R(.)S
+72 657.422 Mt(W)S -0.88 R(e need to add te)S -0.165 R(xt so th)S
+(at it can be justi)S 1 Sf (\216)S 0 Sf (ed and thereby indica)S
+(te the line width.)S
+72 634.453 Mt(a b c d e f g h i)S
+72 622.453 Mt(j k l m n o p)S
+152 634.453 Mt(a b c d e f g h i j k l m n o p q r)S
+152 622.453 Mt(s t u v w x y z)S
+302 634.453 Mt(a b c d e f g h i j k l m n o p q r s t u v w x)S
+( y z 1 2)S
+302 622.453 Mt(3 4 5 6 7 8 9)S
+72 599.844 Mt(Space.)S 72 580.157 Mt 449.999 0 RLt St
+77 568.157 Mt(a b c d e f g h i j k)S
+77 556.157 Mt(l m n o p)S
+168.666 568.157 Mt(a b c d e f g h i j k l m n o p q)S
+168.666 556.157 Mt(r s t u v w x y z)S
+311.999 568.157 Mt(a b c d e f g h i j k l m n o p q r s t u v)S
+( w x y z)S
+311.999 556.157 Mt(1 2 3 4 5 6 7 8 9)S 72 580.407 Mt 0 -28.25 RLt
+449.999 0 RLt 0 28.25 RLt St 163.666 580.407 Mt 0 -28.25 RLt St
+306.999 580.407 Mt 0 -28.25 RLt St
+72 529.157 Mt(Space.)S
+72 506.188 Mt(a b c d e f g h i j k l)S
+72 494.188 Mt(m n o p)S
+174.666 506.188 Mt(a b c d e f g h i j k l m n o p q r s)S
+174.666 494.188 Mt(t u v w x y z)S
+329.999 506.188 Mt(a b c d e f g h i j k l m n o p q r s t u v)S
+( w x)S
+329.999 494.188 Mt(y z 1 2 3 4 5 6 7 8 9)S
+72 471.579 Mt(More space.)S 72 451.892 Mt 449.999 0 RLt St
+72 439.892 Mt(A B C D E F G H I J)S
+72 427.892 Mt(K L M N O P)S
+174.666 439.892 Mt(a b c d e f g h i j k l m n o p q r s)S
+174.666 427.892 Mt(t u v w x y z)S
+329.999 439.892 Mt(a b c d e f g h i j k l m n o p q r s t u v)S
+( w x)S
+329.999 427.892 Mt(y z 1 2 3 4 5 6 7 8 9)S 72 423.892 Mt 449.999 0 RLt St
+169.666 452.142 Mt 0 -28.25 RLt St 324.999 452.142 Mt 0 -28.25 RLt St
+72 400.892 Mt(More space.)S 72 381.205 Mt 449.999 0 RLt St
+77 369.205 Mt(A B C D E F G H I)S
+77 357.205 Mt(J K L M N O P)S
+174.666 369.205 Mt(a b c d e f g h i j k l m n o p q r s)S
+174.666 357.205 Mt(t u v w x y z)S
+329.999 369.205 Mt(a b c d e f g h i j k l m n o p q r s t u v)S
+( w x)S
+329.999 357.205 Mt(y z 1 2 3 4 5 6 7 8 9)S
+77 345.205 Mt(the quick bro)S -0.275 R(wn)S
+77 333.205 Mt(fox)S
+174.666 345.205 Mt(pack my box)S
+77 321.205 Mt(12345)S
+174.666 321.205 Mt(99-99-99)S
+329.999 321.205 Mt(numbers, numbers)S 72 381.455 Mt 0 -64.25 RLt
+449.999 0 RLt 0 64.25 RLt St 169.666 381.455 Mt 0 -64.25 RLt St
+324.999 381.455 Mt 0 -64.25 RLt St
+72 294.205 Mt(More space.)S
+77 271.236 Mt(A B C D E F G H I)S
+77 259.236 Mt(J K L M N O P)S
+174.666 271.236 Mt(a b c d e f g h i j k l m n o p q r s)S
+174.666 259.236 Mt(t u v w x y z)S
+329.999 271.236 Mt(a b c d e f g h i j k l m n o p q r s t u v)S
+( w x)S
+329.999 259.236 Mt(y z 1 2 3 4 5 6 7 8 9)S 72 254.236 Mt 449.999 0 RLt St
+77 242.236 Mt(the quick bro)S -0.275 R(wn)S
+77 230.236 Mt(fox)S
+174.666 242.236 Mt(pack my box)S 72 225.236 Mt 449.999 0 RLt St
+77 213.236 Mt(12345)S
+174.666 213.236 Mt(99-99-99)S
+329.999 213.236 Mt(numbers, numbers)S 72 283.486 Mt 0 -74.25 RLt St
+521.999 283.486 Mt 0 -74.25 RLt St 169.666 283.486 Mt 0 -74.25 RLt St
+324.999 283.486 Mt 0 -74.25 RLt St
+72 194.827 Mt(More space.)S 72 178.827 Mt 449.999 0 RLt St
+72 166.827 Mt(A B C D E F G H I J)S
+72 154.827 Mt(K L M N O P)S
+174.666 166.827 Mt(a b c d e f g h i j k l m n o p q r s)S
+174.666 154.827 Mt(t u v w x y z)S
+329.999 166.827 Mt(a b c d e f g h i j k l m n o p q r s t u v)S
+( w x)S
+329.999 154.827 Mt(y z 1 2 3 4 5 6 7 8 9)S 72 149.827 Mt 449.999 0 RLt St
+72 137.827 Mt(the quick bro)S -0.275 R(wn fox)S
+174.666 137.827 Mt(pack my box)S 72 132.827 Mt 449.999 0 RLt St
+72 120.827 Mt(12345)S
+174.666 120.827 Mt(99-99-99)S
+329.999 120.827 Mt(numbers, numbers)S
+72 97.827 Mt(More space.)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (A B C D E F G H I J)S
+72 756 Mt(K L M N O P)S
+174.666 768 Mt(a b c d e f g h i j k l m n o p q r s)S
+174.666 756 Mt(t u v w x y z)S
+329.999 768 Mt(a b c d e f g h i j k l m n o p q r s t u v w x)S
+329.999 756 Mt(y z 1 2 3 4 5 6 7 8 9)S 0.5 Slw 72 751 Mt 449.999 0 RLt St
+72 739 Mt(the quick bro)S -0.275 R(wn fox)S
+174.666 739 Mt(pack my box)S
+72 727 Mt(12345)S
+174.666 727 Mt(99-99-99)S
+329.999 727 Mt(numbers, numbers)S 72 723 Mt 449.999 0 RLt St 169.666 780.25 Mt
+0 -57.25 RLt St 324.999 780.25 Mt 0 -57.25 RLt St
+72 700 Mt(More space.)S 72 680 Mt 449.999 0 RLt St
+77 668 Mt(one w)S -0.11 R(ord)S
+174.666 668 Mt(tw)S -0.11 R(o w)S -0.11 R(ord)S
+329.999 668 Mt(three w)S -0.11 R(ord)S 72 663 Mt 449.999 0 RLt St
+77 651 Mt(the quick bro)S -0.275 R(wn)S
+77 639 Mt(fox)S
+174.666 651 Mt(pack my box)S 72 634 Mt 449.999 0 RLt St
+77 622 Mt(12345)S
+174.666 622 Mt(99-99-99)S
+329.999 622 Mt(numbers, numbers)S 72 680.25 Mt 0 -62.25 RLt 449.999 0 RLt
+0 62.25 RLt St 324.999 680.25 Mt 0 -62.25 RLt St 72 598 Mt 300 0 RLt St
+77 586 Mt(head one)S
+177 586 Mt(head tw)S -0.11 R(o)S
+277 586 Mt(head three)S 72 581 Mt 300 0 RLt St
+77 569 Mt(one)S
+177 569 Mt(tw)S -0.11 R(o)S
+277 569 Mt(three)S 72 564 Mt 300 0 RLt St
+77 552 Mt(one)S
+177 552 Mt(tw)S -0.11 R(o)S
+277 552 Mt(three)S 72 547 Mt 300 0 RLt St
+77 535 Mt(one)S
+177 535 Mt(tw)S -0.11 R(o)S
+277 535 Mt(three)S 72 598.25 Mt 0 -67.25 RLt 300 0 RLt 0 67.25 RLt St
+172 598.25 Mt 0 -67.25 RLt St 272 598.25 Mt 0 -67.25 RLt St 72 511 Mt
+300 0 RLt St
+77 499 Mt 1 0 0 setrgbcolor(head one)S
+177 499 Mt(head tw)S -0.11 R(o)S
+277 499 Mt(head three)S 0 0 0 setrgbcolor 72 494 Mt 300 0 RLt St
+77 482 Mt 1 0 0 setrgbcolor(one)S
+177 482 Mt(tw)S -0.11 R(o)S
+277 482 Mt(three)S 0 0 0 setrgbcolor 72 477 Mt 300 0 RLt St
+77 465 Mt 1 0 0 setrgbcolor(one)S
+177 465 Mt(tw)S -0.11 R(o)S
+277 465 Mt(three)S 0 0 0 setrgbcolor 72 460 Mt 300 0 RLt St
+77 448 Mt 1 0 0 setrgbcolor(one)S
+177 448 Mt(tw)S -0.11 R(o)S
+277 448 Mt(three)S 0 0 0 setrgbcolor 72 443 Mt 300 0 RLt St
+77 431 Mt 1 0 0 setrgbcolor(foot one)S
+177 431 Mt(foot tw)S -0.11 R(o)S
+277 431 Mt(foot three)S 0 0 0 setrgbcolor 72 511.25 Mt 0 -84.25 RLt
+300 0 RLt 0 84.25 RLt St 172 511.25 Mt 0 -84.25 RLt St 272 511.25 Mt
+0 -84.25 RLt St
+72 404 Mt(T)S -0.77 R(e)S -0.165 R(xt after all the tables.)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 2

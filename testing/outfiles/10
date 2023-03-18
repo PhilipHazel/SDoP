@@ -1,0 +1,1137 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.72
+%%CreationDate: Fri Nov 15 17:44:27 2013
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Times-Bold
+%%+ font Helvetica
+%%Requirements: numcopies(1)
+%%EndComments
+
+%% Header file for sdop PostScript output
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 4 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+[/Title (Title page) /Page 1 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Contents) /Page 3 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (1.  Introduction) /Page 5 /View [/XYZ null null 1] /Count -1 /OUT pdfmark
+[/Title (    1.1  Exim documentation) /Page 5 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (2.  Incorporated code) /Page 6 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (3.  Building and installing Exim) /Page 8 /View [/XYZ null null 1] /Count -1 /OUT pdfmark
+[/Title (    3.1  Unpacking) /Page 8 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (4.  Main configuration) /Page 9 /View [/XYZ null null 1] /Count -4 /OUT pdfmark
+[/Title (    4.1  Miscellaneous) /Page 9 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.2  Exim parameters) /Page 9 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.3  Privilege controls) /Page 9 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (    4.4  Alphabetical list of main options) /Page 9 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Option index) /Page 11 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Concept index) /Page 12 /View [/XYZ null null 1] /Count -19 /OUT pdfmark
+[/Title (Symbols) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Digits) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (A) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (B) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (C) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (D) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (E) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (F) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (I) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (L) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (M) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (N) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (P) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (R) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (S) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (T) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (V) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (X) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Z) /Page 12 /View [/XYZ null null 1] /OUT pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Times-Bold
+/af6 /af7 /Times-Bold inf
+%%IncludeResource: font Helvetica
+/af8 /af9 /Helvetica inf
+/vf 28 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af4 13 scalefont put
+vf 7 af5 13 scalefont put
+vf 8 af6 11 scalefont put
+vf 9 af7 11 scalefont put
+vf 10 af0 9.6 scalefont put
+vf 11 af1 9.6 scalefont put
+vf 12 af4 11.5 scalefont put
+vf 13 af5 11.5 scalefont put
+vf 14 af6 9.6 scalefont put
+vf 15 af7 9.6 scalefont put
+vf 16 af2 9.6 scalefont put
+vf 17 af3 9.6 scalefont put
+vf 18 af4 24 scalefont put
+vf 19 af5 24 scalefont put
+vf 20 af4 16 scalefont put
+vf 21 af5 16 scalefont put
+vf 22 af4 13 scalefont put
+vf 23 af5 13 scalefont put
+vf 24 af8 11 scalefont put
+vf 25 af9 11 scalefont put
+vf 26 af4 11 scalefont put
+vf 27 af5 11 scalefont put
+%%EndSetup
+
+%%Page: i 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 754 Mt 18 Sf ( )S
+72 728 Mt( )S
+72 702 Mt( )S
+72 676 Mt( )S
+127.62 650 Mt(Speci)S 19 Sf (\216)S 18 Sf (cation of the Exim )S
+(Mail)S
+212.616 624 Mt(T)S -1.92 R(ransf)S -0.24 R(er Ag)S 0.24 R(ent)S
+72 598 Mt( )S
+252.016 580.75 Mt 20 Sf (Philip Haz)S 0.16 R(el)S
+72 563.5 Mt( )S
+160.799 549.5 Mt 22 Sf (Univer)S -0.195 R(sity of Cambridg)S 0.13 R(e)S
+( Computing Ser)S 0.13 R(vice)S
+72 535.5 Mt( )S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: ii 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768.5 Mt 12 Sf (Speci)S 13 Sf (\216)S 12 Sf (cation of the )S
+(Exim Mail T)S -0.92 R(ransf)S -0.115 R(er Ag)S 0.115 R(ent)S
+72 745.5 Mt 0 Sf (Author: Philip Hazel)S
+72 733.5 Mt( )S
+72 721.5 Mt(Uni)S -0.275 R(v)S -0.165 R(ersity of Cambridge Co)S
+(mputing Service)S
+72 709.5 Mt(Ne)S -0.275 R(w Museums Site, Pembrok)S -0.11 R(e )S
+(Street, Cambridge CB2 3QH, England)S
+72 697.5 Mt( )S
+72 674.5 Mt(Cop)S -0.11 R(yright \251 2007 Uni)S -0.275 R(v)S
+-0.165 R(ersity of Cambridge)S
+72 651.5 Mt(Re)S -0.275 R(vision 4.66     08 January 2007)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: iii 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+262.336 764 Mt 4 Sf (Contents)S
+72 737 Mt 26 Sf (1.  Intr)S -0.22 R(oduction)S 3.15 R 0 Sf (..)S
+(.............................................................)S
+(.............................................................)S
+(......)S
+515.883 737 Mt 26 Sf (1)S
+72 725 Mt 24 Sf ( )S
+72 713 Mt(    1.1  Exim documentation)S 4.096 R 0 Sf (........)S
+(.............................................................)S
+(.........................................)S
+515.883 713 Mt 24 Sf (1)S
+72 701 Mt( )S
+72 689 Mt 26 Sf (2.  Incorporated code)S 4.129 R 0 Sf (.......)S
+(.............................................................)S
+(..................................................)S
+515.883 689 Mt 26 Sf (2)S
+72 677 Mt 24 Sf ( )S
+72 665 Mt 26 Sf (3.  Building and installing Exim)S 2.281 R 0 Sf
+(.............................................................)S
+(.......................................)S
+515.883 665 Mt 26 Sf (4)S
+72 653 Mt 24 Sf ( )S
+72 641 Mt(    3.1  Unpac)S -0.22 R(king)S 2.501 R 0 Sf (......)S
+(.............................................................)S
+(.............................................................)S
+515.883 641 Mt 24 Sf (4)S
+72 629 Mt( )S
+72 617 Mt 26 Sf (4.  Main con)S 27 Sf (\216)S 26 Sf (guration)S
+4.448 R 0 Sf (................................................)S
+(.............................................................)S
+(........)S
+515.883 617 Mt 26 Sf (5)S
+72 605 Mt 24 Sf ( )S
+72 593 Mt(    4.1  Miscellaneous)S 3.81 R 0 Sf (..............)S
+(.............................................................)S
+(..............................................)S
+515.883 593 Mt 24 Sf (5)S
+72 581 Mt(    4.2  Exim par)S -0.11 R(ameters)S 4.228 R 0 Sf ()S
+(.............................................................)S
+(.......................................................)S
+515.883 581 Mt 24 Sf (5)S
+72 569 Mt(    4.3  Pr)S 0.165 R(ivilege controls)S 3.337 R 0 Sf
+(.............................................................)S
+(.......................................................)S
+515.883 569 Mt 24 Sf (5)S
+72 557 Mt(    4.4  Alphabetical list of main options)S 4.679 R
+0 Sf (........................................................)S
+(..................................)S
+515.883 557 Mt 24 Sf (5)S
+72 545 Mt( )S
+72 533 Mt 26 Sf (Option inde)S -0.165 R(x)S 4.316 R 0 Sf (....)S
+(.............................................................)S
+(.............................................................)S
+(........)S
+515.883 533 Mt 26 Sf (7)S
+72 521 Mt 24 Sf ( )S
+72 509 Mt 26 Sf (Concept inde)S -0.165 R(x)S 4.008 R 0 Sf (...)S
+(.............................................................)S
+(.............................................................)S
+(......)S
+515.883 509 Mt 26 Sf (8)S
+72 72 Mt 0 Sf ( )S
+292.412 60 Mt 2 Sf (iii)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: iv 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 1 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+241.6 764 Mt 4 Sf (1. Intr)S -0.32 R(oduction)S
+72 737 Mt 0 Sf (Exim)S 2.797 R(is)S 2.797 R(a)S 2.797 R(mail)S
+2.797 R(transfer)S 2.797 R(agent)S 2.797 R(\(MT)S -1.023 R(A\))S
+2.797 R(for)S 2.797 R(hosts)S 2.797 R(that)S 2.797 R(are)S 2.797 R(r)S
+(unning)S 2.797 R(Unix)S 2.797 R(or)S 2.797 R(Unix-lik)S -0.11 R(e)S
+2.797 R(operating)S 2.797 R(systems.)S 2.797 R(It)S
+72 725 Mt(w)S -0.11 R(as)S 3.479 R(designed)S 3.479 R(on)S 3.479 R(t)S
+(he)S 3.479 R(assumption)S 3.479 R(that)S 3.479 R(it)S 3.479 R(w)S
+-0.11 R(ould)S 3.479 R(be)S 3.479 R(run)S 3.479 R(on)S 3.479 R(h)S
+(osts)S 3.479 R(that)S 3.479 R(are)S 3.479 R(permanently)S 3.479 R(c)S
+(onnected)S 3.479 R(to)S 3.479 R(the)S
+72 713 Mt(Internet.)S 5.721 R(Ho)S -0.275 R(we)S -0.275 R(v)S
+-0.165 R(er)S -0.44 R(,)S 5.721 R(it)S 5.721 R(can)S 5.721 R(b)S
+(e)S 5.721 R(used)S 5.721 R(on)S 5.721 R(intermittently)S 5.721 R(c)S
+(onnected)S 5.721 R(hosts)S 5.721 R(with)S 5.721 R(suitable)S
+5.721 R(con)S 1 Sf (\216)S 0 Sf (guration)S
+72 701 Mt(adjustments.)S
+72 668 Mt 6 Sf (1.1 Exim documentation)S
+72 645 Mt 0 Sf (This)S 3.316 R(edition)S 3.316 R(of)S 3.316 R(t)S
+(he)S 3.316 R(Exim)S 3.316 R(speci)S 1 Sf (\216)S 0 Sf (cation)S
+3.316 R(applies)S 3.316 R(to)S 3.316 R(v)S -0.165 R(ersion)S 3.316 R(4)S
+(.66)S 3.316 R(of)S 3.316 R(Exim.)S 3.316 R(Substanti)S -0.275 R(v)S
+-0.165 R(e)S 3.316 R(changes)S 3.316 R(from)S 3.316 R(the)S
+72 633 Mt(4.63)S 4.939 R(edition)S 4.939 R(are)S 4.939 R(mark)S
+-0.11 R(ed)S 4.939 R(in)S 4.939 R(some)S 4.939 R(renditions)S
+4.939 R(of)S 4.939 R(the)S 4.939 R(document;)S 4.939 R(this)S
+4.939 R(paragraph)S 4.939 R(is)S 4.939 R(so)S 4.939 R(mark)S -0.11 R(e)S
+(d)S 4.939 R(if)S 4.939 R(the)S
+72 621 Mt(rendition is capable of sho)S -0.275 R(wing a change)S
+( indicator)S -0.605 R(.)S
+72 598 Mt(If)S 4.988 R(you)S 4.988 R(are)S 4.988 R(using)S 4.988 R(a)S
+4.988 R(Debian)S 4.988 R(distrib)S -0.22 R(ution)S 4.988 R(of)S
+4.988 R(Exim,)S 4.988 R(you)S 4.988 R(will)S 4.988 R 1 Sf (\216)S
+0 Sf (nd)S 4.988 R(information)S 4.988 R(about)S 4.988 R(Debia)S
+(n-speci)S 1 Sf (\216)S 0 Sf (c)S 0.8 Slw 532 657 Mt 0 -39 RLt St
+72 586 Mt(features in the )S 1 Sf (\216)S 0 Sf (le)S
+84 563 Mt 2 Sf (/usr/shar)S -0.407 R(e/doc/e)S -0.22 R(xim4-ba)S
+(se/README.Debian)S
+72 540 Mt 0 Sf (The command )S 2 Sf (man update-e)S -0.22 R(xi)S
+(m.conf)S 0 Sf ( is another source of Debian-speci)S 1 Sf (\216)S
+0 Sf (c information.)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+451.918 60 Mt 2 Sf (Intr)S -0.495 R(oduction \(1\))S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 6
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+218.312 764 Mt 4 Sf (2. Incorporated code)S
+72 737 Mt 0 Sf (A number of pieces of e)S -0.165 R(xternal cod)S
+(e are included in the Exim distrib)S -0.22 R(ution.)S
+72 718.395 Mt (\267) show 84 718.395 Mt(Re)S -0.165 R(gular)S
+3.761 R(e)S -0.165 R(xpressions)S 3.761 R(are)S 3.761 R(suppor)S
+(ted)S 3.761 R(in)S 3.761 R(the)S 3.761 R(main)S 3.761 R(Exim)S
+3.761 R(program)S 3.761 R(and)S 3.761 R(in)S 3.761 R(the)S 3.761 R(E)S
+(xim)S 3.761 R(monitor)S 3.761 R(using)S 3.761 R(the)S
+84 706.395 Mt(freely-distrib)S -0.22 R(utable)S 3.439 R(PCRE)S
+3.439 R(library)S -0.715 R(,)S 3.439 R(cop)S -0.11 R(yright)S
+3.439 R(\251)S 3.439 R(Uni)S -0.275 R(v)S -0.165 R(ersity)S 3.439 R(o)S
+(f)S 3.439 R(Cambridge.)S 3.439 R(The)S 3.439 R(source)S 3.439 R(i)S
+(s)S 3.439 R(distrib)S -0.22 R(uted)S
+84 694.395 Mt(in)S 4.329 R(the)S 4.329 R(directory)S 4.329 R 2 Sf
+(sr)S -0.407 R(c/pcr)S -0.407 R(e)S 0 Sf (.)S 4.329 R(Ho)S -0.275 R(w)S
+(e)S -0.275 R(v)S -0.165 R(er)S -0.44 R(,)S 4.329 R(this)S 4.329 R(i)S
+(s)S 4.329 R(a)S 4.329 R(cut-do)S -0.275 R(wn)S 4.329 R(v)S -0.165 R(e)S
+(rsion)S 4.329 R(of)S 4.329 R(PCRE.)S 4.329 R(If)S 4.329 R(you)S
+4.329 R(w)S -0.11 R(ant)S 4.329 R(to)S 4.329 R(use)S 4.329 R(t)S
+(he)S
+84 682.395 Mt(PCRE)S 8.251 R(library)S 8.251 R(in)S 8.251 R(ot)S
+(her)S 8.251 R(programs,)S 8.251 R(you)S 8.251 R(should)S 8.251 R(o)S
+(btain)S 8.251 R(and)S 8.251 R(install)S 8.251 R(the)S 8.251 R(f)S
+(ull)S 8.251 R(v)S -0.165 R(ersion)S 8.251 R(from)S
+84 670.395 Mt 8 Sf (ftp://ftp.csx.cam.ac.uk/pub/softwar)S -0.198 R(e)S
+(/pr)S -0.198 R(ogramming/pcr)S -0.198 R(e)S 0 Sf (.)S
+72 651.79 Mt (\267) show 84 651.79 Mt(Support)S 3.249 R(for)S
+3.249 R(the)S 3.249 R(cdb)S 3.249 R(\(Constant)S 3.249 R(DataB)S
+(ase\))S 3.249 R(lookup)S 3.249 R(method)S 3.249 R(is)S 3.249 R(p)S
+(ro)S -0.165 R(vided)S 3.249 R(by)S 3.249 R(code)S 3.249 R(con)S
+(trib)S -0.22 R(uted)S 3.249 R(by)S 3.249 R(Nigel)S
+84 639.79 Mt(Metheringham)S 4.131 R(of)S 4.131 R(\(at)S 4.131 R(t)S
+(he)S 4.131 R(time)S 4.131 R(he)S 4.131 R(contrib)S -0.22 R(ut)S
+(ed)S 4.131 R(it\))S 4.131 R(Planet)S 4.131 R(Online)S 4.131 R(L)S
+(td.)S 4.131 R(The)S 4.131 R(implementation)S 4.131 R(is)S 4.131 R(c)S
+(om-)S
+84 627.79 Mt(pletely)S 2.781 R(contained)S 2.781 R(within)S 2.781 R(t)S
+(he)S 2.781 R(code)S 2.781 R(of)S 2.781 R(Exim.)S 2.781 R(It)S
+2.781 R(does)S 2.781 R(not)S 2.781 R(link)S 2.781 R(ag)S -0.055 R(a)S
+(inst)S 2.781 R(an)S 2.781 R(e)S -0.165 R(xternal)S 2.781 R(cd)S
+(b)S 2.781 R(library)S -0.715 R(.)S 2.781 R(The)S 2.781 R(code)S
+84 615.79 Mt(contains the follo)S -0.275 R(wing statements:)S
+108 597.185 Mt(Cop)S -0.11 R(yright \251 1998 Nigel Metheringh)S
+(am, Planet Online Ltd)S
+108 578.58 Mt(This)S 2.803 R(program)S 2.803 R(is)S 2.803 R(fr)S
+(ee)S 2.803 R(softw)S -0.11 R(are;)S 2.803 R(you)S 2.803 R(can)S
+2.803 R(redistrib)S -0.22 R(ute)S 2.803 R(it)S 2.803 R(and/or)S
+2.803 R(modify)S 2.803 R(it)S 2.803 R(under)S 2.803 R(the)S 2.803 R(t)S
+(erms)S 2.803 R(of)S
+108 566.58 Mt(the)S 3.5 R(GNU)S 3.5 R(General)S 3.5 R(Public)S
+3.5 R(License)S 3.5 R(as)S 3.5 R(published)S 3.5 R(by)S 3.5 R(t)S
+(he)S 3.5 R(Free)S 3.5 R(Softw)S -0.11 R(are)S 3.5 R(F)S -0.165 R(o)S
+(undation;)S 3.5 R(either)S
+108 554.58 Mt(v)S -0.165 R(ersion 2 of the License, or \(at yo)S
+(ur option\) an)S -0.165 R(y later v)S -0.165 R(ersion.)S
+108 535.975 Mt(This)S 3.499 R(code)S 3.499 R(implements)S 3.499 R(D)S
+(an)S 3.499 R(Bernstein)S 1 Sf (\242)S 0 Sf -0.605 R(s)S 3.499 R(C)S
+(onstant)S 3.499 R(DataBase)S 3.499 R(\(cdb\))S 3.499 R(spec.)S
+3.499 R(Information,)S 3.499 R(the)S
+108 523.975 Mt(spec)S 21 R(and)S 21 R(sample)S 21 R(code)S 21 R(f)S
+(or)S 21 R(cdb)S 21 R(can)S 21 R(be)S 21 R(obtained)S 21 R(fro)S
+(m)S
+108 511.975 Mt 8 Sf (http://www)S -0.77 R(.pobox.com/~djb/cdb)S
+-0.44 R(.html)S 0 Sf (.)S 3.693 R(This)S 3.693 R(implementatio)S
+(n)S 3.693 R(borro)S -0.275 R(ws)S 3.693 R(some)S 3.693 R(code)S
+3.693 R(from)S
+108 499.975 Mt(Dan Bernstein)S 1 Sf (\242)S 0 Sf -0.605 R(s im)S
+(plementation \(which has no license restrictions applied to i)S
+(t\).)S
+72 481.37 Mt (\267) show 84 481.37 Mt(Client)S 3.286 R(support)S
+3.286 R(for)S 3.286 R(Microsoft)S 1 Sf (\242)S 0 Sf -0.605 R(s)S
+3.286 R 2 Sf (Secur)S -0.407 R(e)S 3.286 R(P)S -0.88 R(asswor)S
+-0.407 R(d)S 3.286 R(A)S -0.22 R(uthentication)S 3.286 R 0 Sf
+(is)S 3.286 R(pro)S -0.165 R(vided)S 3.286 R(by)S 3.286 R(code)S
+3.286 R(contrib)S -0.22 R(uted)S 3.286 R(by)S
+84 469.37 Mt(Marc)S 3.679 R(Prud)S 1 Sf (\242)S 0 Sf (hommeaux)S
+(.)S 3.679 R(Serv)S -0.165 R(er)S 3.679 R(support)S 3.679 R(w)S
+-0.11 R(as)S 3.679 R(contrib)S -0.22 R(uted)S 3.679 R(by)S 3.679 R(T)S
+-0.88 R(om)S 3.679 R(Kistner)S -0.605 R(.)S 3.679 R(This)S 3.679 R(i)S
+(ncludes)S 3.679 R(code)S 3.679 R(tak)S -0.11 R(en)S
+84 457.37 Mt(from the Samba project, which is released under t)S
+(he Gnu GPL.)S
+72 438.765 Mt (\267) show 84 438.765 Mt(Support)S 3.295 R(for)S
+3.295 R(calling)S 3.295 R(the)S 3.295 R(Cyrus)S 3.295 R 2 Sf (p)S
+(wc)S -0.165 R(hec)S -0.22 R(k)S 3.295 R 0 Sf (and)S 3.295 R 2 Sf
+(saslauthd)S 3.295 R 0 Sf (daemons)S 3.295 R(is)S 3.295 R(pro)S
+-0.165 R(vided)S 3.295 R(by)S 3.295 R(code)S 3.295 R(tak)S -0.11 R(e)S
+(n)S 3.295 R(from)S 3.295 R(the)S
+84 426.765 Mt(Cyrus-SASL)S 4.596 R(library)S 4.596 R(and)S 4.596 R(a)S
+(dapted)S 4.596 R(by)S 4.596 R(Ale)S -0.165 R(xander)S 4.596 R(S)S
+(.)S 4.596 R(Sabourenk)S -0.11 R(o)S -0.165 R(v)S -0.715 R(.)S
+4.596 R(The)S 4.596 R(permission)S 4.596 R(notice)S 4.596 R(ap)S
+(pears)S
+84 414.765 Mt(belo)S -0.275 R(w)S -0.715 R(, in accordance wit)S
+(h the conditions e)S -0.165 R(xpressed therein.)S
+108 396.16 Mt(Cop)S -0.11 R(yright \251 2001 Carne)S -0.165 R(g)S
+(ie Mellon Uni)S -0.275 R(v)S -0.165 R(ersity)S -0.715 R(. All)S
+( rights reserv)S -0.165 R(ed.)S
+108 378 Mt(Redistrib)S -0.22 R(ution)S 4.409 R(and)S 4.409 R(u)S
+(se)S 4.409 R(in)S 4.409 R(source)S 4.409 R(and)S 4.409 R(bina)S
+(ry)S 4.409 R(forms,)S 4.409 R(with)S 4.409 R(or)S 4.409 R(wit)S
+(hout)S 4.409 R(modi)S 1 Sf (\216)S 0 Sf (cation,)S 4.409 R(ar)S
+(e)S
+108 366 Mt(permitted pro)S -0.165 R(vided that the follo)S -0.275 R(w)S
+(ing conditions are met:)S
+108 348 Mt (\(1\))show 132 348 Mt(Redistrib)S -0.22 R(utions)S
+3.693 R(of)S 3.693 R(source)S 3.693 R(code)S 3.693 R(must)S 3.693 R(r)S
+(etain)S 3.693 R(the)S 3.693 R(abo)S -0.165 R(v)S -0.165 R(e)S
+3.693 R(cop)S -0.11 R(yright)S 3.693 R(notice,)S 3.693 R(this)S
+3.693 R(list)S 3.693 R(of)S
+132 336 Mt(conditions and the follo)S -0.275 R(wing disclaimer)S
+-0.605 R(.)S
+108 318 Mt (\(2\))show 132 318 Mt(Redistrib)S -0.22 R(utions)S
+3.195 R(in)S 3.195 R(binary)S 3.195 R(form)S 3.195 R(must)S 3.195 R(r)S
+(eproduce)S 3.195 R(the)S 3.195 R(abo)S -0.165 R(v)S -0.165 R(e)S
+3.195 R(cop)S -0.11 R(yright)S 3.195 R(notice,)S 3.195 R(this)S
+3.195 R(list)S
+132 306 Mt(of)S 5.525 R(conditions)S 5.525 R(and)S 5.525 R(the)S
+5.525 R(follo)S -0.275 R(wing)S 5.525 R(disclaimer)S 5.525 R(i)S
+(n)S 5.525 R(the)S 5.525 R(documentation)S 5.525 R(and/or)S 5.525 R(o)S
+(ther)S
+132 294 Mt(materials pro)S -0.165 R(vided with the distrib)S -0.22 R(u)S
+(tion.)S
+108 276 Mt (\(3\))show 132 276 Mt(The)S 3.615 R(name)S 3.615 R
+1 Sf (\237)S 0 Sf (Carne)S -0.165 R(gie)S 3.615 R(Mellon)S 3.615 R(U)S
+(ni)S -0.275 R(v)S -0.165 R(ersity)S 1 Sf (\240)S 3.615 R 0 Sf
+(must)S 3.615 R(not)S 3.615 R(be)S 3.615 R(used)S 3.615 R(to)S
+3.615 R(endorse)S 3.615 R(or)S 3.615 R(promote)S
+132 264 Mt(products)S 5.05 R(deri)S -0.275 R(v)S -0.165 R(ed)S
+5.05 R(from)S 5.05 R(this)S 5.05 R(softw)S -0.11 R(are)S 5.05 R(w)S
+(ithout)S 5.05 R(prior)S 5.05 R(written)S 5.05 R(permission.)S
+5.05 R(F)S -0.165 R(or)S 5.05 R(per-)S
+132 252 Mt(mission or an)S -0.165 R(y other le)S -0.165 R(g)S
+-0.055 R(al details, please contact)S
+144 234 Mt(Of)S 1 Sf (\216)S 0 Sf (ce of T)S -0.77 R(echnology)S
+( T)S -0.385 R(ransfer)S
+144 222 Mt(Carne)S -0.165 R(gie Mellon Uni)S -0.275 R(v)S -0.165 R(e)S
+(rsity)S
+144 210 Mt(5000 F)S -0.165 R(orbes A)S -0.814 R(v)S -0.165 R(e)S
+(nue)S
+144 198 Mt(Pittsb)S -0.22 R(ur)S -0.198 R(gh, P)S -1.012 R(A  )S
+(15213-3890)S
+144 186 Mt(\(412\) 268-4387, f)S -0.11 R(ax: \(412\) 268-7395)S
+144 174 Mt(tech-transfer@andre)S -0.275 R(w)S -0.715 R(.cmu.ed)S
+(u)S
+108 156 Mt (\(4\))show 132 156 Mt(Redistrib)S -0.22 R(utions)S
+12.585 R(of)S 12.585 R(an)S -0.165 R(y)S 12.585 R(form)S 12.585 R(w)S
+(hatsoe)S -0.275 R(v)S -0.165 R(er)S 12.585 R(must)S 12.585 R(r)S
+(etain)S 12.585 R(the)S 12.585 R(follo)S -0.275 R(wing)S
+132 144 Mt(ackno)S -0.275 R(wledgment:)S
+132 126 Mt 1 Sf (\237)S 0 Sf (This)S 4.832 R(product)S 4.832 R(i)S
+(ncludes)S 4.832 R(softw)S -0.11 R(are)S 4.832 R(de)S -0.275 R(v)S
+-0.165 R(eloped)S 4.832 R(by)S 4.832 R(Computing)S 4.832 R(Ser)S
+(vices)S 4.832 R(at)S 4.832 R(Carne)S -0.165 R(gie)S
+132 114 Mt(Mellon Uni)S -0.275 R(v)S -0.165 R(ersity \()S 8 Sf
+(http://www)S -0.77 R(.cmu.edu/computing/)S 0 Sf (.)S 1 Sf -0.77 R(\240)S
+132 96 Mt 0 Sf (CARNEGIE)S 3.07 R(MELLON)S 3.07 R(UNIVERSITY)S
+3.07 R(DISCLAIMS)S 3.07 R(ALL)S 3.07 R(W)S -1.32 R(ARRANTIES)S
+3.07 R(WITH)S
+132 84 Mt(REGARD)S 3.327 R(T)S -0.198 R(O)S 3.327 R(THIS)S 3.327 R(S)S
+(OFTW)S -1.32 R(ARE,)S 3.327 R(INCLUDING)S 3.327 R(ALL)S 3.327 R(I)S
+(MPLIED)S 3.327 R(W)S -1.32 R(ARRANTIES)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+425.023 60 Mt 2 Sf (Incorpor)S -0.165 R(ated code \(2\))S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 7
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+132 768 Mt 0 Sf (OF)S 2.837 R(MERCHANT)S -1.023 R(ABILITY)S 2.837 R(A)S
+(ND)S 2.837 R(FITNESS,)S 2.837 R(IN)S 2.837 R(NO)S 2.837 R(EVE)S
+(NT)S 2.837 R(SHALL)S 2.837 R(CARNEGIE)S
+132 756 Mt(MELLON)S 5.228 R(UNIVERSITY)S 5.228 R(BE)S 5.228 R(L)S
+(IABLE)S 5.228 R(FOR)S 5.228 R(ANY)S 5.228 R(SPECIAL,)S 5.228 R(I)S
+(NDIRECT)S 5.228 R(OR)S
+132 744 Mt(CONSEQ)S -0.11 R(UENTIAL)S 10.759 R(D)S -0.44 R(AMA)S
+-0.44 R(GES)S 10.759 R(OR)S 10.759 R(ANY)S 10.759 R(D)S -0.44 R(A)S
+(MA)S -0.44 R(GES)S 10.759 R(WHA)S -1.221 R(TSOEVER)S
+132 732 Mt(RESUL)S -1.012 R(TING)S 3.997 R(FR)S -0.44 R(OM)S 3.997 R(L)S
+(OSS)S 3.997 R(OF)S 3.997 R(USE,)S 3.997 R(D)S -0.44 R(A)S -1.221 R(T)S
+-1.023 R(A)S 3.997 R(OR)S 3.997 R(PR)S -0.44 R(OFITS,)S 3.997 R(W)S
+(HETHER)S 3.997 R(IN)S 3.997 R(AN)S
+132 720 Mt(A)S -0.44 R(CTION)S 4.503 R(OF)S 4.503 R(CONTRA)S -0.44 R(C)S
+(T)S -0.814 R(,)S 4.503 R(NEGLIGENCE)S 4.503 R(OR)S 4.503 R(O)S
+-0.44 R(THER)S 4.503 R(T)S -0.198 R(OR)S -0.66 R(TIOUS)S 4.503 R(A)S
+-0.44 R(CTION,)S
+132 708 Mt(ARISING)S 11.134 R(OUT)S 11.134 R(OF)S 11.134 R(OR)S
+11.134 R(IN)S 11.134 R(CONNECTION)S 11.134 R(WITH)S 11.134 R(T)S
+(HE)S 11.134 R(USE)S 11.134 R(OR)S
+132 696 Mt(PERFORMANCE OF THIS SOFTW)S -1.32 R(ARE.)S
+72 673 Mt (\267) show 84 673 Mt(The)S 3.16 R(Exim)S 3.16 R(Mon)S
+(itor)S 3.16 R(program,)S 3.16 R(which)S 3.16 R(is)S 3.16 R(an)S
+3.16 R(X-W)S -0.44 R(indo)S -0.275 R(w)S 3.16 R(application,)S
+3.16 R(includes)S 3.16 R(modi)S 1 Sf (\216)S 0 Sf (ed)S 3.16 R(v)S
+-0.165 R(ersions)S 3.16 R(of)S 3.16 R(the)S
+84 661 Mt(Athena)S 5.317 R(StripChart)S 5.317 R(and)S 5.317 R(T)S
+-0.77 R(e)S -0.165 R(xtPop)S 5.317 R(widgets.)S 5.317 R(This)S
+5.317 R(code)S 5.317 R(is)S 5.317 R(cop)S -0.11 R(yright)S 5.317 R(b)S
+(y)S 5.317 R(DEC)S 5.317 R(and)S 5.317 R(MIT)S -0.814 R(,)S 5.317 R(a)S
+(nd)S 5.317 R(their)S
+84 649 Mt(permission notice appears belo)S -0.275 R(w)S -0.715 R(,)S
+( in accordance with the conditions e)S -0.165 R(xpressed ther)S
+(ein.)S
+108 626 Mt(Cop)S -0.11 R(yright)S 3.15 R(1987,)S 3.15 R(1988)S
+3.15 R(by)S 3.15 R(Digital)S 3.15 R(Equipment)S 3.15 R(Corpora)S
+(tion,)S 3.15 R(Maynard,)S 3.15 R(Massachusetts,)S 3.15 R(and)S
+108 614 Mt(the Massachusetts Institute of T)S -0.77 R(echnolog)S
+(y)S -0.715 R(, Cambridge, Massachusetts.)S
+108 591 Mt(All Rights Reserv)S -0.165 R(ed)S
+108 568 Mt(Permission)S 3.553 R(to)S 3.553 R(use,)S 3.553 R(co)S
+(p)S -0.11 R(y)S -0.715 R(,)S 3.553 R(modify)S -0.715 R(,)S 3.553 R(a)S
+(nd)S 3.553 R(distrib)S -0.22 R(ute)S 3.553 R(this)S 3.553 R(s)S
+(oftw)S -0.11 R(are)S 3.553 R(and)S 3.553 R(its)S 3.553 R(docu)S
+(mentation)S 3.553 R(for)S
+108 556 Mt(an)S -0.165 R(y)S 3.058 R(purpose)S 3.058 R(and)S 3.058 R(w)S
+(ithout)S 3.058 R(fee)S 3.058 R(is)S 3.058 R(hereby)S 3.058 R(g)S
+(ranted,)S 3.058 R(pro)S -0.165 R(vided)S 3.058 R(that)S 3.058 R(t)S
+(he)S 3.058 R(abo)S -0.165 R(v)S -0.165 R(e)S 3.058 R(cop)S -0.11 R(y)S
+(right)S 3.058 R(notice)S
+108 544 Mt(appear)S 2.813 R(in)S 2.813 R(all)S 2.813 R(copies)S
+2.813 R(and)S 2.813 R(that)S 2.813 R(both)S 2.813 R(that)S 2.813 R(c)S
+(op)S -0.11 R(yright)S 2.813 R(notice)S 2.813 R(and)S 2.813 R(t)S
+(his)S 2.813 R(permission)S 2.813 R(notice)S 2.813 R(appear)S
+108 532 Mt(in)S 5.007 R(supporting)S 5.007 R(documentation,)S
+5.007 R(and)S 5.007 R(that)S 5.007 R(the)S 5.007 R(names)S 5.007 R(o)S
+(f)S 5.007 R(Digital)S 5.007 R(or)S 5.007 R(MIT)S 5.007 R(not)S
+5.007 R(be)S 5.007 R(used)S 5.007 R(in)S
+108 520 Mt(adv)S -0.165 R(ertising)S 3.418 R(or)S 3.418 R(publ)S
+(icity)S 3.418 R(pertaining)S 3.418 R(to)S 3.418 R(distrib)S -0.22 R(u)S
+(tion)S 3.418 R(of)S 3.418 R(the)S 3.418 R(softw)S -0.11 R(are)S
+3.418 R(without)S 3.418 R(speci)S 1 Sf (\216)S 0 Sf (c,)S 3.418 R(w)S
+(rit-)S
+108 508 Mt(ten prior permission.)S
+108 485 Mt(DIGIT)S -1.023 R(AL)S 11.734 R(DISCLAIMS)S 11.734 R(A)S
+(LL)S 11.734 R(W)S -1.32 R(ARRANTIES)S 11.734 R(WITH)S 11.734 R(R)S
+(EGARD)S 11.734 R(T)S -0.198 R(O)S 11.734 R(THIS)S
+108 473 Mt(SOFTW)S -1.32 R(ARE,)S 23.473 R(INCLUDING)S 23.473 R(A)S
+(LL)S 23.473 R(IMPLIED)S 23.473 R(W)S -1.32 R(ARRANTIES)S 23.473 R(O)S
+(F)S
+108 461 Mt(MERCHANT)S -1.023 R(ABILITY)S 7.341 R(AND)S 7.341 R(F)S
+(ITNESS,)S 7.341 R(IN)S 7.341 R(NO)S 7.341 R(EVENT)S 7.341 R(S)S
+(HALL)S 7.341 R(DIGIT)S -1.023 R(AL)S 7.341 R(BE)S
+108 449 Mt(LIABLE)S 3.922 R(FOR)S 3.922 R(ANY)S 3.922 R(SPECIA)S
+(L,)S 3.922 R(INDIRECT)S 3.922 R(OR)S 3.922 R(CONSEQ)S -0.11 R(U)S
+(ENTIAL)S 3.922 R(D)S -0.44 R(AMA)S -0.44 R(GES)S 3.922 R(OR)S
+108 437 Mt(ANY)S 4.408 R(D)S -0.44 R(AMA)S -0.44 R(GES)S 4.408 R(W)S
+(HA)S -1.221 R(TSOEVER)S 4.408 R(RESUL)S -1.012 R(TING)S 4.408 R(F)S
+(R)S -0.44 R(OM)S 4.408 R(LOSS)S 4.408 R(OF)S 4.408 R(USE,)S 4.408 R(D)S
+-0.44 R(A)S -1.221 R(T)S -1.023 R(A)S 4.408 R(OR)S
+108 425 Mt(PR)S -0.44 R(OFITS,)S 2.814 R(WHETHER)S 2.814 R(IN)S
+2.814 R(AN)S 2.814 R(A)S -0.44 R(CTION)S 2.814 R(OF)S 2.814 R(C)S
+(ONTRA)S -0.44 R(CT)S -0.814 R(,)S 2.814 R(NEGLIGENCE)S 2.814 R(O)S
+(R)S 2.814 R(O)S -0.44 R(THER)S
+108 413 Mt(T)S -0.198 R(OR)S -0.66 R(TIOUS)S 4.21 R(A)S -0.44 R(C)S
+(TION,)S 4.21 R(ARISING)S 4.21 R(OUT)S 4.21 R(OF)S 4.21 R(OR)S
+4.21 R(IN)S 4.21 R(CONNECTION)S 4.21 R(WITH)S 4.21 R(THE)S 4.21 R(U)S
+(SE)S
+108 401 Mt(OR PERFORMANCE OF THIS SOFTW)S -1.32 R(ARE.)S
+72 378 Mt (\267) show 84 378 Mt(Man)S -0.165 R(y)S 3.601 R(peo)S
+(ple)S 3.601 R(ha)S -0.22 R(v)S -0.165 R(e)S 3.601 R(contrib)S
+-0.22 R(uted)S 3.601 R(code)S 3.601 R(fragments,)S 3.601 R(som)S
+(e)S 3.601 R(lar)S -0.198 R(ge,)S 3.601 R(some)S 3.601 R(small)S
+(,)S 3.601 R(that)S 3.601 R(were)S 3.601 R(not)S 3.601 R(co)S
+-0.165 R(v)S -0.165 R(ered)S 3.601 R(by)S
+84 366 Mt(an)S -0.165 R(y)S 3.918 R(speci)S 1 Sf (\216)S 0 Sf
+(c)S 3.918 R(licence)S 3.918 R(requirements.)S 3.918 R(It)S 3.918 R(i)S
+(s)S 3.918 R(assumed)S 3.918 R(that)S 3.918 R(the)S 3.918 R(co)S
+(ntrib)S -0.22 R(utors)S 3.918 R(are)S 3.918 R(happ)S -0.11 R(y)S
+3.918 R(to)S 3.918 R(see)S 3.918 R(their)S 3.918 R(code)S
+84 354 Mt(incoporated into Exim under the GPL.)S
+72 72 Mt( )S
+294.249 60 Mt(3)S
+425.023 60 Mt 2 Sf (Incorpor)S -0.165 R(ated code \(2\))S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 8
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+180.968 764 Mt 4 Sf (3. Building and installing Exim)S
+72 731 Mt 6 Sf (3.1 Unpac)S -0.26 R(king)S
+72 708 Mt 0 Sf (Exim)S 3.093 R(is)S 3.093 R(distrib)S -0.22 R(u)S
+(ted)S 3.093 R(as)S 3.093 R(a)S 3.093 R(gzipped)S 3.093 R(or)S
+3.093 R(bzipped)S 3.093 R(tar)S 3.093 R 1 Sf (\216)S 0 Sf (le)S
+3.093 R(which,)S 3.093 R(when)S 3.093 R(upack)S -0.11 R(ed,)S
+3.093 R(creates)S 3.093 R(a)S 3.093 R(directory)S 3.093 R(with)S
+3.093 R(the)S
+72 696 Mt(name of the current release \(for e)S -0.165 R(xampl)S
+(e, )S 2 Sf (e)S -0.22 R(xim-4.66)S 0 Sf (\) into which the fo)S
+(llo)S -0.275 R(wing )S 1 Sf (\216)S 0 Sf (les are placed:)S
+72 673 Mt 2 Sf (A)S -0.33 R(CKNO)S -0.55 R(WLEDGMENTS)S
+217 673 Mt 0 Sf (contains some ackno)S -0.275 R(wledgments)S
+72 661 Mt 2 Sf (CHANGES)S
+217 661 Mt 0 Sf (contains a reference to where changes are doc)S
+(umented)S
+72 649 Mt 2 Sf (LICENCE)S
+217 649 Mt 0 Sf (the GNU General Public Licence)S
+72 637 Mt 2 Sf (Mak)S -0.11 R(e)S 3 Sf (\216)S 2 Sf (le)S
+217 637 Mt 0 Sf (top-le)S -0.275 R(v)S -0.165 R(el mak)S -0.11 R(e)S
+( )S 1 Sf (\216)S 0 Sf (le)S
+72 625 Mt 2 Sf (NO)S -0.44 R(TICE)S
+217 625 Mt 0 Sf (conditions for the use of Exim)S
+72 613 Mt 2 Sf (README)S
+217 613 Mt 0 Sf (list of )S 1 Sf (\216)S 0 Sf (les, directorie)S
+(s and simple b)S -0.22 R(uild instructions)S
+72 590 Mt(Other)S 3.304 R 1 Sf (\216)S 0 Sf (les)S 3.304 R(who)S
+(se)S 3.304 R(names)S 3.304 R(be)S -0.165 R(gin)S 3.304 R(with)S
+3.304 R 2 Sf (README)S 3.304 R 0 Sf (may)S 3.304 R(also)S 3.304 R(b)S
+(e)S 3.304 R(present.)S 3.304 R(The)S 3.304 R(follo)S -0.275 R(w)S
+(ing)S 3.304 R(subdirectories)S 3.304 R(are)S
+72 578 Mt(created:)S
+72 555 Mt 2 Sf (Local)S
+217 555 Mt 0 Sf (an empty directory for local con)S 1 Sf (\216)S
+0 Sf (guration )S 1 Sf (\216)S 0 Sf (les)S
+72 543 Mt 2 Sf (OS)S
+217 543 Mt 0 Sf (OS-speci)S 1 Sf (\216)S 0 Sf (c )S 1 Sf (\216)S
+0 Sf (les)S
+72 531 Mt 2 Sf (doc)S
+217 531 Mt 0 Sf (documentation )S 1 Sf (\216)S 0 Sf (les)S
+72 519 Mt 2 Sf (e)S -0.22 R(xim_monitor)S
+217 519 Mt 0 Sf (source )S 1 Sf (\216)S 0 Sf (les for the Exim)S
+( monitor)S
+72 507 Mt 2 Sf (scripts)S
+217 507 Mt 0 Sf (scripts used in the b)S -0.22 R(uild process)S
+72 495 Mt 2 Sf (sr)S -0.407 R(c)S
+217 495 Mt 0 Sf (remaining source )S 1 Sf (\216)S 0 Sf (les)S
+72 483 Mt 2 Sf (util)S
+217 483 Mt 0 Sf (independent utilities)S
+72 460 Mt(The)S 3.336 R(main)S 3.336 R(utility)S 3.336 R(progr)S
+(ams)S 3.336 R(are)S 3.336 R(contained)S 3.336 R(in)S 3.336 R(t)S
+(he)S 3.336 R 2 Sf (sr)S -0.407 R(c)S 3.336 R 0 Sf (directory)S
+-0.715 R(,)S 3.336 R(and)S 3.336 R(are)S 3.336 R(b)S -0.22 R(u)S
+(ilt)S 3.336 R(with)S 3.336 R(the)S 3.336 R(Exim)S 3.336 R(bin)S
+(ary)S -0.715 R(.)S 3.336 R(The)S
+72 448 Mt 2 Sf (util)S 0 Sf ( directory contains a fe)S -0.275 R(w)S
+( optional scripts that may be useful to some sites.)S
+72 72 Mt( )S
+294.249 60 Mt(4)S
+379.604 60 Mt 2 Sf (Building and installing Exim \(3\))S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 5 9
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+216.544 764 Mt 4 Sf (4. Main con)S 5 Sf (\216)S 4 Sf (guration)S
+72 737 Mt 0 Sf (The )S 1 Sf (\216)S 0 Sf (rst part of the run )S
+(time con)S 1 Sf (\216)S 0 Sf (guration )S 1 Sf (\216)S 0 Sf (l)S
+(e contains three types of item:)S
+72 714.194 Mt (\267) show 84 714.194 Mt(Macro de)S 1 Sf (\216)S
+0 Sf (nitions: These lines start with an upper case letter)S -0.605 R(.)S
+72 691.388 Mt (\267) show 84 691.388 Mt(Named)S 7.431 R(list)S
+7.431 R(de)S 1 Sf (\216)S 0 Sf (nitions:)S 7.431 R(These)S 7.431 R(l)S
+(ines)S 7.431 R(start)S 7.431 R(with)S 7.431 R(one)S 7.431 R(o)S
+(f)S 7.431 R(the)S 7.431 R(w)S -0.11 R(ords)S 7.431 R 1 Sf (\237)S
+0 Sf (domainlist)S 1 Sf (\240)S 0 Sf (,)S 7.431 R 1 Sf (\237)S
+0 Sf (hostlist)S 1 Sf (\240)S 0 Sf (,)S
+84 679.388 Mt 1 Sf (\237)S 0 Sf (addresslist)S 1 Sf (\240)S 0 Sf
+(, or )S 1 Sf (\237)S 0 Sf (localpartlist)S 1 Sf (\240)S 0 Sf
+(.)S
+72 656.582 Mt (\267) show 84 656.582 Mt(Main)S 4.972 R(con)S 1 Sf
+(\216)S 0 Sf (guration)S 4.972 R(settings:)S 4.972 R(Each)S 4.972 R(s)S
+(etting)S 4.972 R(occupies)S 4.972 R(one)S 4.972 R(line)S 4.972 R(o)S
+(f)S 4.972 R(the)S 4.972 R 1 Sf (\216)S 0 Sf (le)S 4.972 R(\(w)S
+(ith)S 4.972 R(possible)S 4.972 R(continu-)S
+84 644.582 Mt(ations\).)S 3.943 R(If)S 3.943 R(an)S -0.165 R(y)S
+3.943 R(setting)S 3.943 R(is)S 3.943 R(preceded)S 3.943 R(by)S
+3.943 R(the)S 3.943 R(w)S -0.11 R(ord)S 3.943 R 1 Sf (\237)S 0 Sf
+(hide)S 1 Sf (\240)S 0 Sf (,)S 3.943 R(the)S 3.943 R 8 Sf (-bP)S
+3.943 R 0 Sf (command)S 3.943 R(line)S 3.943 R(option)S 3.943 R(d)S
+(isplays)S 3.943 R(its)S
+84 632.582 Mt(v)S -0.275 R(alue to admin users only)S -0.715 R(.)S
+( settings.)S
+72 609.776 Mt(This)S 3.975 R(chapter)S 3.975 R(speci)S 1 Sf (\216)S
+0 Sf (es)S 3.975 R(all)S 3.975 R(the)S 3.975 R(main)S 3.975 R(c)S
+(on)S 1 Sf (\216)S 0 Sf (guration)S 3.975 R(options,)S 3.975 R(a)S
+(long)S 3.975 R(with)S 3.975 R(their)S 3.975 R(types)S 3.975 R(a)S
+(nd)S 3.975 R(def)S -0.11 R(ault)S 3.975 R(v)S -0.275 R(alues.)S
+72 597.776 Mt(F)S -0.165 R(or)S 5.505 R(ease)S 5.505 R(of)S 5.505 R
+1 Sf (\216)S 0 Sf (nding)S 5.505 R(a)S 5.505 R(particular)S 5.505 R(o)S
+(ption,)S 5.505 R(the)S -0.165 R(y)S 5.505 R(appear)S 5.505 R(i)S
+(n)S 5.505 R(alphabetical)S 5.505 R(order)S 5.505 R(in)S 5.505 R(s)S
+(ection)S 5.505 R
+[/Rect [473.692 594.776 489.442 608.776] /Page 9 /View [/XYZ 0 -19 null] /LNK pdfmark
+(4.4)S 5.505 R(belo)S -0.275 R(w)S -0.715 R(.)S
+72 585.776 Mt(Ho)S -0.275 R(we)S -0.275 R(v)S -0.165 R(er)S -0.44 R(,)S
+3.28 R(because)S 3.28 R(there)S 3.28 R(are)S 3.28 R(no)S -0.275 R(w)S
+3.28 R(so)S 3.28 R(man)S -0.165 R(y)S 3.28 R(options,)S 3.28 R(t)S
+(he)S -0.165 R(y)S 3.28 R(are)S 3.28 R 1 Sf (\216)S 0 Sf (rst)S
+3.28 R(listed)S 3.28 R(briefly)S 3.28 R(in)S 3.28 R(functional)S
+3.28 R(groups,)S 3.28 R(as)S
+72 573.776 Mt(an)S 2.961 R(aid)S 2.961 R(to)S 2.961 R 1 Sf (\216)S
+0 Sf (nding)S 2.961 R(the)S 2.961 R(name)S 2.961 R(of)S 2.961 R(t)S
+(he)S 2.961 R(option)S 2.961 R(you)S 2.961 R(are)S 2.961 R(loo)S
+(king)S 2.961 R(for)S -0.605 R(.)S 2.961 R(Some)S 2.961 R(opti)S
+(ons)S 2.961 R(are)S 2.961 R(listed)S 2.961 R(in)S 2.961 R(mor)S
+(e)S 2.961 R(than)S 2.961 R(one)S
+72 561.776 Mt(group.)S
+72 529.562 Mt 6 Sf (4.1 Miscellaneous)S
+72 507.545 Mt 8 Sf (bi_command)S
+273 507.545 Mt 0 Sf (to run for )S 8 Sf (-bi)S 0 Sf ( command )S
+(line option)S
+72 495.545 Mt 8 Sf (disable_ipv6)S
+273 495.545 Mt 0 Sf (do no IPv6 processing)S
+72 483.545 Mt 8 Sf (k)S -0.11 R(eep_malf)S -0.275 R(ormed)S
+273 483.545 Mt 0 Sf (for brok)S -0.11 R(en )S 1 Sf (\216)S 0 Sf
+(les )S 1 Sf (\215)S 0 Sf ( should not happen)S
+72 471.545 Mt 8 Sf (localhost_number)S
+273 471.545 Mt 0 Sf (for unique message ids in clusters)S
+72 459.545 Mt 8 Sf (message_body_visible)S
+273 459.545 Mt 0 Sf (ho)S -0.275 R(w much to sho)S -0.275 R(w )S
+(in )S 2 Sf ($messa)S -0.11 R(g)S -0.11 R(e_body)S
+72 447.545 Mt 8 Sf (mua_wrapper)S
+273 447.545 Mt 0 Sf (run in )S 1 Sf (\237)S 0 Sf (MU)S -0.44 R(A)S
+( wrapper)S 1 Sf (\240)S 0 Sf ( mode)S
+72 435.545 Mt 8 Sf (print_topbitchars)S
+273 435.545 Mt 0 Sf (top-bit characters are printing)S
+72 423.545 Mt 8 Sf (timezone)S
+273 423.545 Mt 0 Sf (force time zone)S
+72 391.331 Mt 6 Sf (4.2 Exim parameter)S -0.195 R(s)S
+72 369.314 Mt 8 Sf (exim_gr)S -0.198 R(oup)S
+273 369.314 Mt 0 Sf (o)S -0.165 R(v)S -0.165 R(erride compiled)S
+(-in v)S -0.275 R(alue)S
+72 357.314 Mt 8 Sf (exim_path)S
+273 357.314 Mt 0 Sf (o)S -0.165 R(v)S -0.165 R(erride compiled)S
+(-in v)S -0.275 R(alue)S
+72 345.314 Mt 8 Sf (exim_user)S
+273 345.314 Mt 0 Sf (o)S -0.165 R(v)S -0.165 R(erride compiled)S
+(-in v)S -0.275 R(alue)S
+72 333.314 Mt 8 Sf (primary_hostname)S
+273 333.314 Mt 0 Sf (def)S -0.11 R(ault from )S 2 Sf (uname\(\))S
+72 321.314 Mt 8 Sf (split_spool_dir)S -0.198 R(ectory)S
+273 321.314 Mt 0 Sf (use multiple directories)S
+72 309.314 Mt 8 Sf (spool_dir)S -0.198 R(ectory)S
+273 309.314 Mt 0 Sf (o)S -0.165 R(v)S -0.165 R(erride compiled)S
+(-in v)S -0.275 R(alue)S
+72 277.1 Mt 6 Sf (4.3 Privileg)S 0.13 R(e contr)S -0.26 R(ols)S
+72 255.083 Mt 8 Sf (admin_gr)S -0.198 R(oups)S
+273 255.083 Mt 0 Sf (groups that are Exim admin users)S
+72 243.083 Mt 8 Sf (deli)S -0.11 R(v)S -0.11 R(er_dr)S -0.198 R(o)S
+(p_pri)S -0.11 R(vilege)S
+273 243.083 Mt 0 Sf (drop root for deli)S -0.275 R(v)S -0.165 R(e)S
+(ry processes)S
+72 231.083 Mt 8 Sf (local_fr)S -0.198 R(om_check)S
+273 231.083 Mt 0 Sf (insert )S 2 Sf (Sender:)S 0 Sf ( if neces)S
+(sary)S
+72 219.083 Mt 8 Sf (local_fr)S -0.198 R(om_pr)S -0.198 R(e)S 9 Sf
+(\216)S 8 Sf (x)S
+273 219.083 Mt 0 Sf (for testing )S 2 Sf (F)S -0.605 R(r)S -0.495 R(o)S
+(m:)S 0 Sf ( for local sender)S
+72 207.083 Mt 8 Sf (local_fr)S -0.198 R(om_suf)S 9 Sf (\216)S
+8 Sf (x)S
+273 207.083 Mt 0 Sf (for testing )S 2 Sf (F)S -0.605 R(r)S -0.495 R(o)S
+(m:)S 0 Sf ( for local sender)S
+72 195.083 Mt 8 Sf (local_sender_r)S -0.198 R(etain)S
+273 195.083 Mt 0 Sf (k)S -0.11 R(eep )S 2 Sf (Sender:)S 0 Sf ( )S
+(from untrusted user)S
+72 183.083 Mt 8 Sf (ne)S -0.165 R(v)S -0.11 R(er_users)S
+273 183.083 Mt 0 Sf (do not run deli)S -0.275 R(v)S -0.165 R(e)S
+(ries as these)S
+72 171.083 Mt 8 Sf (pr)S -0.198 R(od_r)S -0.198 R(equir)S -0.198 R(e)S
+(s_admin)S
+273 171.083 Mt 0 Sf (forced deli)S -0.275 R(v)S -0.165 R(ery r)S
+(equires admin user)S
+72 159.083 Mt 8 Sf (queue_list_r)S -0.198 R(equir)S -0.198 R(e)S
+(s_admin)S
+273 159.083 Mt 0 Sf (queue listing requires admin user)S
+72 147.083 Mt 8 Sf (trusted_gr)S -0.198 R(oups)S
+273 147.083 Mt 0 Sf (groups that are trusted)S
+72 135.083 Mt 8 Sf (trusted_users)S
+273 135.083 Mt 0 Sf (users that are trusted)S
+72 106.017 Mt 6 Sf (4.4 Alphabetical list of main options)S
+72 88.017 Mt 0 Sf (Those options that under)S -0.198 R(go stri)S
+(ng e)S -0.165 R(xpansion before use are mark)S -0.11 R(ed wit)S
+(h )S 1 Sf (\210)S 0 Sf (.)S
+72 72 Mt( )S
+294.249 60 Mt(5)S
+421.338 60 Mt 2 Sf (Main con)S 3 Sf (\216)S 2 Sf (gur)S -0.165 R(a)S
+(tion \(4\))S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 6 10
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+0.5 Slw 72 780 Mt 450 0 RLt St
+77 768 Mt 8 Sf (accept_8bitmime)S
+246.418 768 Mt 0 Sf (Use: )S 2 Sf (main)S
+331.137 768 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S
+457.534 768 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (false)S 72 780.25 Mt
+0 -16.25 RLt 450 0 RLt 0 16.25 RLt St
+72 741 Mt 0 Sf (This)S 3.929 R(option)S 3.929 R(causes)S 3.929 R(E)S
+(xim)S 3.929 R(to)S 3.929 R(send)S 3.929 R(8BITMIME)S 3.929 R(i)S
+(n)S 3.929 R(its)S 3.929 R(response)S 3.929 R(to)S 3.929 R(an)S
+3.929 R(SMTP)S 3.929 R(EHLO)S 3.929 R(command,)S 3.929 R(and)S
+3.929 R(to)S
+72 729 Mt(accept)S 3.464 R(the)S 3.464 R(BOD)S -0.605 R(Y=)S 3.464 R(p)S
+(arameter)S 3.464 R(on)S 3.464 R(MAIL)S 3.464 R(commands.)S 3.464 R(H)S
+(o)S -0.275 R(we)S -0.275 R(v)S -0.165 R(er)S -0.44 R(,)S 3.464 R(t)S
+(hough)S 3.464 R(Exim)S 3.464 R(is)S 3.464 R(8-bit)S 3.464 R(c)S
+(lean,)S 3.464 R(it)S 3.464 R(is)S 3.464 R(not)S 3.464 R(a)S
+72 717 Mt(protocol)S 3.374 R(con)S -0.44 R(v)S -0.165 R(erter)S
+-0.44 R(,)S 3.374 R(and)S 3.374 R(it)S 3.374 R(tak)S -0.11 R(e)S
+(s)S 3.374 R(no)S 3.374 R(steps)S 3.374 R(to)S 3.374 R(do)S 3.374 R(a)S
+(n)S -0.165 R(ything)S 3.374 R(special)S 3.374 R(with)S 3.374 R(m)S
+(essages)S 3.374 R(recei)S -0.275 R(v)S -0.165 R(ed)S 3.374 R(b)S
+(y)S 3.374 R(this)S 3.374 R(route.)S
+72 705 Mt(Consequently)S -0.715 R(, this option is turned of)S
+-0.275 R(f by def)S -0.11 R(ault.)S 72 685 Mt 450 0 RLt St
+77 673 Mt 8 Sf (extract_addr)S -0.198 R(esses_r)S -0.198 R(emo)S
+-0.11 R(v)S -0.11 R(e_)S
+77 661 Mt( ar)S -0.11 R(guments)S
+246.418 673 Mt 0 Sf (Use: )S 2 Sf (main)S
+331.137 673 Mt 0 Sf (T)S -0.88 R(ype: )S 2 Sf (boolean)S
+460.592 673 Mt 0 Sf (Def)S -0.11 R(ault: )S 2 Sf (true)S 72 685.25 Mt
+0 -28.25 RLt 450 0 RLt 0 28.25 RLt St
+72 634 Mt 0 Sf (According)S 2.979 R(to)S 2.979 R(some)S 2.979 R(S)S
+(endmail)S 2.979 R(documentation)S 2.979 R(\(Sun,)S 2.979 R(IR)S
+(IX,)S 2.979 R(HP-UX\),)S 2.979 R(if)S 2.979 R(an)S -0.165 R(y)S
+2.979 R(addresses)S 2.979 R(are)S 2.979 R(present)S 2.979 R(on)S
+2.979 R(the)S
+72 622 Mt(command)S 3.869 R(line)S 3.869 R(when)S 3.869 R(the)S
+3.869 R 8 Sf (-t)S 3.869 R 0 Sf (option)S 3.869 R(is)S 3.869 R(u)S
+(sed)S 3.869 R(to)S 3.869 R(b)S -0.22 R(uild)S 3.869 R(an)S 3.869 R(e)S
+(n)S -0.44 R(v)S -0.165 R(elope)S 3.869 R(from)S 3.869 R(a)S 3.869 R(m)S
+(essage)S 1 Sf (\242)S 0 Sf -0.605 R(s)S 3.869 R 2 Sf (T)S -1.012 R(o)S
+(:)S 0 Sf (,)S 3.869 R 2 Sf (Cc:)S 3.869 R 0 Sf (and)S 3.869 R
+2 Sf (Bcc:)S
+72 610 Mt 0 Sf (headers,)S 4.255 R(the)S 4.255 R(command)S 4.255 R(l)S
+(ine)S 4.255 R(addresses)S 4.255 R(are)S 4.255 R(remo)S -0.165 R(v)S
+-0.165 R(ed)S 4.255 R(from)S 4.255 R(the)S 4.255 R(recipients)S
+4.255 R(list.)S 4.255 R(This)S 4.255 R(is)S 4.255 R(also)S 4.255 R(h)S
+(o)S -0.275 R(w)S 4.255 R(Smail)S
+72 598 Mt(beha)S -0.22 R(v)S -0.165 R(es.)S 5.332 R(Ho)S -0.275 R(w)S
+(e)S -0.275 R(v)S -0.165 R(er)S -0.44 R(,)S 5.332 R(other)S 5.332 R(S)S
+(endmail)S 5.332 R(documentation)S 5.332 R(\(the)S 5.332 R(O)S
+1 Sf (\242)S 0 Sf (Reilly)S 5.332 R(book\))S 5.332 R(states)S
+5.332 R(that)S 5.332 R(command)S 5.332 R(line)S
+72 586 Mt(addresses)S 5.059 R(are)S 5.059 R(added)S 5.059 R(to)S
+5.059 R(those)S 5.059 R(obtained)S 5.059 R(from)S 5.059 R(the)S
+5.059 R(header)S 5.059 R(lines.)S 5.059 R(When)S 5.059 R 8 Sf
+(extract_addr)S -0.198 R(esses_r)S -0.198 R(emo)S -0.11 R(v)S
+-0.11 R(e_)S
+72 574 Mt(ar)S -0.11 R(guments)S 3.432 R 0 Sf (is)S 3.432 R(tr)S
+(ue)S 3.432 R(\(the)S 3.432 R(def)S -0.11 R(ault\),)S 3.432 R(E)S
+(xim)S 3.432 R(subtracts)S 3.432 R(ar)S -0.198 R(gument)S 3.432 R(h)S
+(eaders.)S 3.432 R(If)S 3.432 R(it)S 3.432 R(is)S 3.432 R(set)S
+3.432 R(f)S -0.11 R(alse,)S 3.432 R(Exim)S 3.432 R(adds)S 3.432 R(r)S
+(ather)S
+72 562 Mt(than remo)S -0.165 R(v)S -0.165 R(es ar)S -0.198 R(g)S
+(ument addresses.)S
+72 72 Mt( )S
+294.249 60 Mt(6)S
+421.338 60 Mt 2 Sf (Main con)S 3 Sf (\216)S 2 Sf (gur)S -0.165 R(a)S
+(tion \(4\))S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 7 11
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+248.224 764 Mt 4 Sf (Option inde)S -0.24 R(x)S
+72 732.5 Mt 12 Sf (A)S
+72 720.9 Mt 14 Sf (accept_8bitmime)S 10 Sf (  6)S
+[/Rect [145.642 717.9 152.442 730.5] /Page 10 /View [/XYZ 0 820 null] /LNK pdfmark
+72 689.4 Mt 12 Sf (F)S
+72 677.8 Mt 15 Sf (\216)S 14 Sf (nduser_r)S -0.172 R(etries)S
+10 Sf (  6)S
+[/Rect [141.207 674.8 148.007 687.4] /Page 10 /View [/XYZ 0 820 null] /LNK pdfmark
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(7)S
+465.085 60 Mt 2 Sf (Option inde)S -0.22 R(x)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 8 12
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+242 764 Mt 4 Sf (Concept inde)S -0.24 R(x)S
+72 734.687 Mt 12 Sf (Symbols)S
+72 723.634 Mt 10 Sf ($1, $2, etc.)S(  )S 16 Sf (see)S 10 Sf ( )S
+16 Sf (numerical variables)S
+72 712.581 Mt 14 Sf (-t)S 10 Sf ( option)S(  6)S
+[/Rect [109.128 709.581 115.928 722.181] /Page 10 /View [/XYZ 0 820 null] /LNK pdfmark
+72 683.268 Mt 12 Sf (Digits)S
+72 672.215 Mt 10 Sf (8-bit characters)S(  6)S
+[/Rect [135.236 669.215 142.036 681.815] /Page 10 /View [/XYZ 0 820 null] /LNK pdfmark
+72 661.162 Mt(8BITMIME)S(  6)S
+[/Rect [122.193 658.162 128.993 670.762] /Page 10 /View [/XYZ 0 820 null] /LNK pdfmark
+72 631.849 Mt 12 Sf (A)S
+72 620.796 Mt 10 Sf (address)S
+72 609.743 Mt(    )S(re)S -0.24 R(writing)S(  )S 16 Sf (see)S
+10 Sf ( )S 16 Sf (r)S -0.355 R(e)S -0.144 R(writing)S
+72 598.69 Mt 10 Sf (Athena)S(  3)S
+[/Rect [103.523 595.69 110.323 608.29] /Page 7 /View [/XYZ 0 820 null] /LNK pdfmark
+72 569.377 Mt 12 Sf (B)S
+72 558.324 Mt 10 Sf (Bounce Address T)S -0.768 R(ag V)S -1.065 R(a)S
+(lidation)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (B)S -0.24 R(A)S
+-0.355 R(TV)S
+72 547.271 Mt 10 Sf (b)S -0.192 R(uilding Exim)S(  4)S
+[/Rect [130.813 544.271 137.613 556.871] /Page 8 /View [/XYZ 0 820 null] /LNK pdfmark
+72 517.958 Mt 12 Sf (C)S
+72 506.905 Mt 10 Sf (cdb)S
+72 495.852 Mt(    )S(ackno)S -0.24 R(wledgement)S(  2)S
+[/Rect [155.005 492.852 161.805 505.452] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 484.799 Mt(Client SMTP Authorization)S(  )S 16 Sf (see)S 10 Sf
+( )S 16 Sf (CSA)S
+72 473.746 Mt 10 Sf (command line)S
+72 462.693 Mt(    )S(addresses with )S 14 Sf (-t)S 10 Sf (  6)S
+[/Rect [150.443 459.693 157.243 472.293] /Page 10 /View [/XYZ 0 820 null] /LNK pdfmark
+72 451.64 Mt(con)S 11 Sf (\216)S 10 Sf (guration )S 11 Sf (\216)S
+10 Sf (le)S
+72 440.587 Mt(    )S(main section)S(  5)S
+[/Rect [134.192 437.587 140.992 450.187] /Page 9 /View [/XYZ 0 820 null] /LNK pdfmark
+72 429.534 Mt(CR character)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf
+(carria)S -0.096 R(g)S -0.096 R(e r)S -0.355 R(eturn)S
+72 418.481 Mt 10 Sf (CRL)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf
+(certi)S 17 Sf (\216)S 16 Sf (cate r)S -0.355 R(e)S -0.144 R(v)S
+(ocation list)S
+72 407.428 Mt 10 Sf (Cyrus)S(  2)S
+[/Rect [98.733 404.428 105.533 417.028] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 378.115 Mt 12 Sf (D)S
+72 367.062 Mt 10 Sf (Debian)S
+72 356.009 Mt(    )S(information sources)S(  1)S
+[/Rect [161.914 353.009 168.714 365.609] /Page 5 /View [/XYZ 0 820 null] /LNK pdfmark
+72 344.956 Mt(deli)S -0.24 R(v)S -0.144 R(ery)S
+72 333.903 Mt(    )S(f)S -0.096 R(ailure report)S(  )S 16 Sf (s)S
+(ee)S 10 Sf ( )S 16 Sf (bounce messa)S -0.096 R(g)S -0.096 R(e)S
+72 322.85 Mt 10 Sf (dialup)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf
+(intermittently connected hosts)S
+72 311.797 Mt 10 Sf (documentation)S(  1)S
+[/Rect [132.858 308.797 139.658 321.397] /Page 5 /View [/XYZ 0 820 null] /LNK pdfmark
+72 282.484 Mt 12 Sf (E)S
+72 271.431 Mt 10 Sf (Exim monitor)S
+72 260.378 Mt(    )S(ackno)S -0.24 R(wledgement)S(  3)S
+[/Rect [155.005 257.378 161.805 269.978] /Page 7 /View [/XYZ 0 820 null] /LNK pdfmark
+72 249.325 Mt(e)S -0.144 R(xiscan)S(  )S 16 Sf (see)S 10 Sf ( )S
+16 Sf (content scanning)S
+72 220.012 Mt 12 Sf (F)S
+72 208.959 Mt 10 Sf (f)S -0.096 R(ailo)S -0.144 R(v)S -0.144 R(e)S
+(r)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (fallbac)S -0.192 R(k)S
+72 197.906 Mt 10 Sf (f)S -0.096 R(allo)S -0.144 R(v)S -0.144 R(e)S
+(r)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (fallbac)S -0.192 R(k)S
+72 186.853 Mt 11 Sf (\216)S 10 Sf (lter)S
+72 175.8 Mt(    )S(Sie)S -0.24 R(v)S -0.144 R(e)S(  )S 16 Sf (s)S
+(ee)S 10 Sf ( )S 16 Sf (Sie)S -0.144 R(ve )S 17 Sf (\216)S 16 Sf
+(lter)S
+72 146.487 Mt 12 Sf (I)S
+72 135.434 Mt 10 Sf (ident)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf
+(RFC 1413)S
+72 124.381 Mt 10 Sf (incorporated code)S(  2)S
+[/Rect [144.838 121.381 151.638 133.981] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+72 95.068 Mt 12 Sf (L)S
+72 84.015 Mt 10 Sf (LF character)S(  )S 16 Sf (see)S 10 Sf ( )S
+16 Sf (linefeed)S
+307 717.5 Mt 12 Sf (M)S
+307 705.9 Mt 10 Sf (main con)S 11 Sf (\216)S 10 Sf (guration)S( )S
+( 5)S
+[/Rect [384.118 702.9 390.918 715.5] /Page 9 /View [/XYZ 0 820 null] /LNK pdfmark
+307 694.3 Mt(maximum)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (lim)S
+(it)S
+307 682.7 Mt 10 Sf (Microsoft Secure P)S -0.144 R(assw)S -0.096 R(o)S
+(rd Authentication)S(  2)S
+[/Rect [475.588 679.7 482.388 692.3] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+307 671.1 Mt(monitor)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (Exi)S
+(m monitor)S
+307 639.6 Mt 12 Sf (N)S
+307 628 Mt 10 Sf (no_)S 16 Sf (xxx)S 10 Sf (  )S 16 Sf (see)S
+10 Sf ( )S(entry for xxx)S
+307 616.4 Mt(NUL)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (binary )S
+(zer)S -0.432 R(o)S
+307 584.9 Mt 12 Sf (P)S
+307 573.3 Mt 10 Sf (passwd )S 11 Sf (\216)S 10 Sf (le)S(  )S 16 Sf
+(see)S 10 Sf ( )S 16 Sf (/etc/passwd)S
+307 561.7 Mt 10 Sf (PCRE)S(  2)S
+[/Rect [334.808 558.7 341.608 571.3] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+307 550.1 Mt(process id)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (p)S
+(id)S
+307 538.5 Mt(pwauthd)S 10 Sf ( daemon)S(  2)S
+[/Rect [376.663 535.5 383.463 548.1] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+307 526.9 Mt 16 Sf (pwc)S -0.144 R(hec)S -0.192 R(k)S 10 Sf ( )S
+(daemon)S(  2)S
+[/Rect [376.307 523.9 383.107 536.5] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+307 495.4 Mt 12 Sf (R)S
+307 483.8 Mt 10 Sf (RBL)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (D)S
+(NS list)S
+307 472.2 Mt 10 Sf (redirection)S(  )S 16 Sf (see)S 10 Sf ( )S
+16 Sf (addr)S -0.355 R(ess r)S -0.355 R(edir)S -0.355 R(ection)S
+307 460.6 Mt 10 Sf (re)S -0.144 R(gular e)S -0.144 R(xpression)S
+(s)S
+307 449 Mt(    )S(library)S(  2)S
+[/Rect [345.99 446 352.79 458.6] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+307 437.4 Mt(return path)S(  )S 16 Sf (see also)S 10 Sf ( )S 16 Sf
+(en)S -0.384 R(velope sender)S
+307 405.9 Mt 12 Sf (S)S
+307 394.3 Mt 10 Sf (Samba project)S(  2)S
+[/Rect [365.985 391.3 372.785 403.9] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+307 382.7 Mt(scanning)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (co)S
+(ntent scanning)S
+307 371.1 Mt 10 Sf (Sendmail compatibility)S
+307 359.5 Mt(    )S 14 Sf (-t)S 10 Sf ( option)S(  6)S
+[/Rect [353.728 356.5 360.528 369.1] /Page 10 /View [/XYZ 0 820 null] /LNK pdfmark
+307 347.9 Mt(SP)S -0.883 R(A authentication)S(  2)S
+[/Rect [384.31 344.9 391.11 357.5] /Page 6 /View [/XYZ 0 820 null] /LNK pdfmark
+307 336.3 Mt(SSL)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf (TLS)S
+307 324.7 Mt 10 Sf (string)S
+307 313.1 Mt(    )S(e)S -0.144 R(xpansion)S(  )S 16 Sf (see)S
+10 Sf ( )S 16 Sf (e)S -0.192 R(xpansion)S
+307 281.6 Mt 12 Sf (T)S
+307 270 Mt 10 Sf (top bit)S(  )S 16 Sf (see)S 10 Sf ( )S 16 Sf
+(8-bit c)S -0.144 R(har)S -0.144 R(acter)S -0.096 R(s)S
+307 238.5 Mt 12 Sf (V)S
+307 226.9 Mt 10 Sf (v)S -0.24 R(ariables)S(  )S 16 Sf (see)S 10 Sf
+( )S 16 Sf (e)S -0.192 R(xpansion, variables)S
+307 195.4 Mt 12 Sf (X)S
+307 183.8 Mt 10 Sf (X-windo)S -0.24 R(ws)S(  3)S
+[/Rect [355.351 180.8 362.151 193.4] /Page 7 /View [/XYZ 0 820 null] /LNK pdfmark
+307 152.3 Mt 12 Sf (Z)S
+307 140.7 Mt 10 Sf (zero, binary)S(  )S 16 Sf (see)S 10 Sf ( )S
+16 Sf (binary zer)S -0.432 R(o)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(8)S
+458.98 60 Mt 2 Sf (Concept inde)S -0.22 R(x)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 12

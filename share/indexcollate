@@ -1,0 +1,138 @@
+# This file contains the collating sequence for sorting entries when sdop is
+# processing an index. The file lists characters in the order that is desired.
+# Characters are separated by white space. A # sign signifies that the rest
+# of the input line is comment which is ignored.
+
+# If a whitespace-delimited item starts with =, the character is always given
+# the same sort value as its predecessor. If it starts with + it is given the
+# same sort value as its predecessor when sorting case-independently, but not
+# when sorting is case-dependent.
+
+# After removing a leading = or +, if an item consists of just one UTF-8
+# character, it is interpreted as that character. Otherwise, it must be a
+# hexadecimal number.
+
+# Characters that are not listed in this file sort after those that are, 
+# ordered by their code points.
+
+   20   =09   =a0          # space, tab, non-break space
+    _                      # underscore
+     
+    "   =201c =201d        # double quotes
+    '   =2018 =2019        # single quotes
+    ,     ;     :     .    # punctuation
+    !    a1                # exclam, exclamdown 
+    ?    bf                # question, question down
+   b7                      # centred dot  
+     
+   a7                      # paragraph  
+   b6                      # pilcrow 
+   23                      # sharp (hash, octothorp)
+    \                      # backslash
+     
+    ~                      # tilde
+    ^                      # circumflex
+   a8                      # dieresis 
+   af                      # overbar 
+   `                       # grave 
+   b4                      # acute 
+   b8                      # cedilla 
+    
+    $    a2    a3    a4    # dollar, cent, pound, currency
+   a5  20ac                # yen, euro 
+   b0                      # degrees 
+    
+    %     @                # percent, at
+   a9                      # copyright
+   ae                      # registered 
+   aa                      # ordfeminine  
+   ba                      # ordmasculine 
+   
+   ac                      # logical not
+    &     |    a6          # ampersand, bar, split bar
+   2b     -     *     /    # plus, minus, times, slash
+   b1                      # plus or minus 
+   d7                      # multiply
+   f7                      # divide 
+   3d     <     >          # equals, lt, gt
+   b5                      # mu 
+    
+   ab    bb                # guillemet
+    (     )                # brackets
+    [     ]                # brackets
+    {     }                # brackets
+    
+    0     1     2     3
+    4     5     6     7
+    8     9  
+    
+   b9    b2    b3          # superscript 1, 2, 3
+   bc    bd    be          # 1/4, 1/2, 3/4 
+    
+
+    A   =c0   =c1   =c2    # plain, grave, acute, hat
+  =c3   =c4   =c5          # tilde, dieresis, ring
+   +a   =e0   =e1   =e2    # plain, grave, acute, hat
+  =e3   =e4   =e5          # tilde, dieresis, ring  
+  
+   c6   +e6                # AE and ae
+     
+    B    +b
+     
+    C   =c7                # plain, cedilla 
+   +c   =e7                # plain, cdeilla
+     
+    D    +d
+   d0   +f0                # Eth
+ 
+    E   =c8   =c9   =ca    # plain, acute, grave, hat
+  =cb                      # dieresis
+   +e   =e8   =e9   =ea    # plain, acute, grave, hat
+  =eb                      # dieresis
+    
+    F    +f
+    G    +g
+    H    +h
+     
+    I   =cc   =cd   =ce    # plain, acute, grave, hat
+  =cf                      # dieresis  
+   +i   =ed   =ed   =ee    # plain, acute, grave, hat
+  =ef                      # dieresis  
+     
+    J    +j
+    K    +k
+    L    +l
+    M    +m
+     
+    N   =d1                # plain, tilde
+   +n   =f1                # plain, tilde
+     
+    O   =d2   =d3   =d4    # plain, grave, acute, hat
+  =d5   =d6   =d8          # tilde, dieresis, slash   
+   +o   =f2   =f3   =f4    # plain, grave, acute, hat
+  =f5   =f6   =f8          # tilde, dieresis, slash  
+     
+    P    +p
+    Q    +q
+    R    +r
+    S    +s
+  =df                      # Esset   
+    T    +t
+    
+  =de   +fe                # thorn
+     
+    U   =d9   =da   =db    # plain, acute, grave, hat
+  =dc                      # dieresis
+   +u   =f9   =fa   =fb    # plain, acute, grave, hat
+  =fc                      # dieresis
+     
+    V    +v
+    W    +w
+    X    +x
+     
+    Y   =dd                # plain, acute
+   +y   =fd   =ff          # plain, acute, dieresis
+     
+    Z    +z                         
+   
+# End  

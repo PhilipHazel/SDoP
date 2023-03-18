@@ -1,0 +1,492 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.52
+%%CreationDate: Sun Dec 14 17:10:47 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Times-Bold
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Times-Bold
+/af6 /af7 /Times-Bold inf
+/vf 12 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af4 12 scalefont put
+vf 7 af5 12 scalefont put
+vf 8 af6 11 scalefont put
+vf 9 af7 11 scalefont put
+vf 10 af4 13 scalefont put
+vf 11 af5 13 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+181.408 764 Mt 4 Sf (This is a demonstration ar)S 0.32 R(tic)S
+-0.32 R(le)S
+255.996 744 Mt 6 Sf (With a subtitle)S
+268.119 717 Mt 8 Sf (Philip Hazel)S
+259.396 705 Mt 0 Sf (My Or)S -0.198 R(g)S -0.055 R(anization)S
+72 693 Mt( )S
+72 681 Mt( )S
+72 661.718 Mt(This)S 4.42 R(is)S 4.42 R(the)S 4.42 R 1 Sf (\216)S
+0 Sf (rst)S 4.42 R(paragraph)S 4.42 R(of)S 4.42 R(the)S 4.42 R(a)S
+(rticle.)S 4.42 R(This)S 4.42 R(is)S 4.42 R(the)S 4.42 R 1 Sf
+(\216)S 0 Sf (rst)S 4.42 R(paragraph)S 4.42 R(of)S 4.42 R(the)S
+4.42 R(article.)S 4.42 R(This)S 4.42 R(is)S 4.42 R(the)S 4.42 R
+1 Sf (\216)S 0 Sf (rst)S
+72 649.718 Mt(paragraph)S 4.159 R(of)S 4.159 R(the)S 4.159 R(a)S
+(rticle.)S 4.159 R(This)S 4.159 R(is)S 4.159 R(the)S 4.159 R 1 Sf
+(\216)S 0 Sf (rst)S 4.159 R(paragraph)S 4.159 R(of)S 4.159 R(t)S
+(he)S 4.159 R(article.)S 4.159 R(This)S 4.159 R(is)S 4.159 R(t)S
+(he)S 4.159 R 1 Sf (\216)S 0 Sf (rst)S 4.159 R(paragraph)S 4.159 R(o)S
+(f)S 4.159 R(the)S
+72 637.718 Mt(article.)S 3.73 R(This)S 3.73 R(is)S 3.73 R(the)S
+3.73 R 1 Sf (\216)S 0 Sf (rst)S 3.73 R(paragraph)S 3.73 R(of)S
+3.73 R(the)S 3.73 R(article.)S 3.73 R(This)S 3.73 R(is)S 3.73 R(t)S
+(he)S 3.73 R 1 Sf (\216)S 0 Sf (rst)S 3.73 R(paragraph)S 3.73 R(o)S
+(f)S 3.73 R(the)S 3.73 R(article.)S 3.73 R(This)S 3.73 R(is)S
+3.73 R(the)S
+72 625.718 Mt 1 Sf (\216)S 0 Sf (rst)S 3.039 R(paragraph)S 3.039 R(o)S
+(f)S 3.039 R(the)S 3.039 R(article.)S 3.039 R(This)S 3.039 R(i)S
+(s)S 3.039 R(the)S 3.039 R 1 Sf (\216)S 0 Sf (rst)S 3.039 R(pa)S
+(ragraph)S 3.039 R(of)S 3.039 R(the)S 3.039 R(article.)S 3.039 R(T)S
+(his)S 3.039 R(is)S 3.039 R(the)S 3.039 R 1 Sf (\216)S 0 Sf (r)S
+(st)S 3.039 R(paragraph)S 3.039 R(of)S 3.039 R(the)S
+72 613.718 Mt(article. This is the )S 1 Sf (\216)S 0 Sf (rst p)S
+(aragraph of the article.)S
+72 583.693 Mt 10 Sf (A section title)S
+72 564.411 Mt 0 Sf (This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(se)S
+(ction)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S
+3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S
+3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S
+3.558 R(This)S 3.558 R(is)S 3.558 R(a)S
+72 552.411 Mt(section)S 2.762 R(in)S 2.762 R(an)S 2.762 R(arti)S
+(cle.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S 2.762 R(sectio)S
+(n)S 2.762 R(in)S 2.762 R(an)S 2.762 R(article.)S 2.762 R(This)S
+2.762 R(is)S 2.762 R(a)S 2.762 R(section)S 2.762 R(in)S 2.762 R(a)S
+(n)S 2.762 R(article.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S
+2.762 R(section)S 2.762 R(in)S 2.762 R(an)S
+72 540.411 Mt(article.)S 2.901 R(This)S 2.901 R(is)S 2.901 R(a)S
+2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(article.)S
+2.901 R(This)S 2.901 R(is)S 2.901 R(a)S 2.901 R(section)S 2.901 R(i)S
+(n)S 2.901 R(an)S 2.901 R(article.)S 2.901 R(This)S 2.901 R(is)S
+2.901 R(a)S 2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(a)S
+(rticle.)S 2.901 R(This)S
+72 528.411 Mt(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(in)S
+3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S 3.054 R(a)S
+3.054 R(section)S 3.054 R(in)S 3.054 R(an)S 3.054 R(article.)S
+3.054 R(This)S 3.054 R(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(i)S
+(n)S 3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S
+3.054 R(a)S 3.054 R(section)S
+72 516.411 Mt(in)S 2.802 R(an)S 2.802 R(article.)S 2.802 R(Thi)S
+(s)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(in)S 2.802 R(a)S
+(n)S 2.802 R(article.)S 2.802 R(This)S 2.802 R(is)S 2.802 R(a)S
+2.802 R(section)S 2.802 R(in)S 2.802 R(an)S 2.802 R(article.)S
+2.802 R(This)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(i)S
+(n)S 2.802 R(an)S 2.802 R(article.)S
+72 504.411 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 492.411 Mt(section in an article.)S
+72 472.176 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 460.176 Mt(section)S 2.762 R(in)S 2.762 R(an)S 2.762 R(arti)S
+(cle.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S 2.762 R(sectio)S
+(n)S 2.762 R(in)S 2.762 R(an)S 2.762 R(article.)S 2.762 R(This)S
+2.762 R(is)S 2.762 R(a)S 2.762 R(section)S 2.762 R(in)S 2.762 R(a)S
+(n)S 2.762 R(article.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S
+2.762 R(section)S 2.762 R(in)S 2.762 R(an)S
+72 448.176 Mt(article.)S 2.901 R(This)S 2.901 R(is)S 2.901 R(a)S
+2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(article.)S
+2.901 R(This)S 2.901 R(is)S 2.901 R(a)S 2.901 R(section)S 2.901 R(i)S
+(n)S 2.901 R(an)S 2.901 R(article.)S 2.901 R(This)S 2.901 R(is)S
+2.901 R(a)S 2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(a)S
+(rticle.)S 2.901 R(This)S
+72 436.176 Mt(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(in)S
+3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S 3.054 R(a)S
+3.054 R(section)S 3.054 R(in)S 3.054 R(an)S 3.054 R(article.)S
+3.054 R(This)S 3.054 R(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(i)S
+(n)S 3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S
+3.054 R(a)S 3.054 R(section)S
+72 424.176 Mt(in)S 2.802 R(an)S 2.802 R(article.)S 2.802 R(Thi)S
+(s)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(in)S 2.802 R(a)S
+(n)S 2.802 R(article.)S 2.802 R(This)S 2.802 R(is)S 2.802 R(a)S
+2.802 R(section)S 2.802 R(in)S 2.802 R(an)S 2.802 R(article.)S
+2.802 R(This)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(i)S
+(n)S 2.802 R(an)S 2.802 R(article.)S
+72 412.176 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 400.176 Mt(section in an article.)S
+72 379.941 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 367.941 Mt(section)S 2.762 R(in)S 2.762 R(an)S 2.762 R(arti)S
+(cle.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S 2.762 R(sectio)S
+(n)S 2.762 R(in)S 2.762 R(an)S 2.762 R(article.)S 2.762 R(This)S
+2.762 R(is)S 2.762 R(a)S 2.762 R(section)S 2.762 R(in)S 2.762 R(a)S
+(n)S 2.762 R(article.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S
+2.762 R(section)S 2.762 R(in)S 2.762 R(an)S
+72 355.941 Mt(article.)S 2.901 R(This)S 2.901 R(is)S 2.901 R(a)S
+2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(article.)S
+2.901 R(This)S 2.901 R(is)S 2.901 R(a)S 2.901 R(section)S 2.901 R(i)S
+(n)S 2.901 R(an)S 2.901 R(article.)S 2.901 R(This)S 2.901 R(is)S
+2.901 R(a)S 2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(a)S
+(rticle.)S 2.901 R(This)S
+72 343.941 Mt(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(in)S
+3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S 3.054 R(a)S
+3.054 R(section)S 3.054 R(in)S 3.054 R(an)S 3.054 R(article.)S
+3.054 R(This)S 3.054 R(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(i)S
+(n)S 3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S
+3.054 R(a)S 3.054 R(section)S
+72 331.941 Mt(in)S 2.802 R(an)S 2.802 R(article.)S 2.802 R(Thi)S
+(s)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(in)S 2.802 R(a)S
+(n)S 2.802 R(article.)S 2.802 R(This)S 2.802 R(is)S 2.802 R(a)S
+2.802 R(section)S 2.802 R(in)S 2.802 R(an)S 2.802 R(article.)S
+2.802 R(This)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(i)S
+(n)S 2.802 R(an)S 2.802 R(article.)S
+72 319.941 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 307.941 Mt(section in an article.)S
+72 289.282 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 277.282 Mt(section)S 2.762 R(in)S 2.762 R(an)S 2.762 R(arti)S
+(cle.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S 2.762 R(sectio)S
+(n)S 2.762 R(in)S 2.762 R(an)S 2.762 R(article.)S 2.762 R(This)S
+2.762 R(is)S 2.762 R(a)S 2.762 R(section)S 2.762 R(in)S 2.762 R(a)S
+(n)S 2.762 R(article.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S
+2.762 R(section)S 2.762 R(in)S 2.762 R(an)S
+72 265.282 Mt(article.)S 2.901 R(This)S 2.901 R(is)S 2.901 R(a)S
+2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(article.)S
+2.901 R(This)S 2.901 R(is)S 2.901 R(a)S 2.901 R(section)S 2.901 R(i)S
+(n)S 2.901 R(an)S 2.901 R(article.)S 2.901 R(This)S 2.901 R(is)S
+2.901 R(a)S 2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(a)S
+(rticle.)S 2.901 R(This)S
+72 253.282 Mt(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(in)S
+3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S 3.054 R(a)S
+3.054 R(section)S 3.054 R(in)S 3.054 R(an)S 3.054 R(article.)S
+3.054 R(This)S 3.054 R(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(i)S
+(n)S 3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S
+3.054 R(a)S 3.054 R(section)S
+72 241.282 Mt(in)S 2.802 R(an)S 2.802 R(article.)S 2.802 R(Thi)S
+(s)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(in)S 2.802 R(a)S
+(n)S 2.802 R(article.)S 2.802 R(This)S 2.802 R(is)S 2.802 R(a)S
+2.802 R(section)S 2.802 R(in)S 2.802 R(an)S 2.802 R(article.)S
+2.802 R(This)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(i)S
+(n)S 2.802 R(an)S 2.802 R(article.)S
+72 229.282 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 217.282 Mt(section in an article.)S
+72 199.282 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 187.282 Mt(section)S 2.762 R(in)S 2.762 R(an)S 2.762 R(arti)S
+(cle.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S 2.762 R(sectio)S
+(n)S 2.762 R(in)S 2.762 R(an)S 2.762 R(article.)S 2.762 R(This)S
+2.762 R(is)S 2.762 R(a)S 2.762 R(section)S 2.762 R(in)S 2.762 R(a)S
+(n)S 2.762 R(article.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S
+2.762 R(section)S 2.762 R(in)S 2.762 R(an)S
+72 175.282 Mt(article.)S 2.901 R(This)S 2.901 R(is)S 2.901 R(a)S
+2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(article.)S
+2.901 R(This)S 2.901 R(is)S 2.901 R(a)S 2.901 R(section)S 2.901 R(i)S
+(n)S 2.901 R(an)S 2.901 R(article.)S 2.901 R(This)S 2.901 R(is)S
+2.901 R(a)S 2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(a)S
+(rticle.)S 2.901 R(This)S
+72 163.282 Mt(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(in)S
+3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S 3.054 R(a)S
+3.054 R(section)S 3.054 R(in)S 3.054 R(an)S 3.054 R(article.)S
+3.054 R(This)S 3.054 R(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(i)S
+(n)S 3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S
+3.054 R(a)S 3.054 R(section)S
+72 151.282 Mt(in)S 2.802 R(an)S 2.802 R(article.)S 2.802 R(Thi)S
+(s)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(in)S 2.802 R(a)S
+(n)S 2.802 R(article.)S 2.802 R(This)S 2.802 R(is)S 2.802 R(a)S
+2.802 R(section)S 2.802 R(in)S 2.802 R(an)S 2.802 R(article.)S
+2.802 R(This)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(i)S
+(n)S 2.802 R(an)S 2.802 R(article.)S
+72 139.282 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 127.282 Mt(section in an article.)S
+72 109.282 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S
+3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(i)S
+(s)S 3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 97.282 Mt(section)S 2.762 R(in)S 2.762 R(an)S 2.762 R(artic)S
+(le.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S 2.762 R(section)S
+2.762 R(in)S 2.762 R(an)S 2.762 R(article.)S 2.762 R(This)S 2.762 R(i)S
+(s)S 2.762 R(a)S 2.762 R(section)S 2.762 R(in)S 2.762 R(an)S 2.762 R(a)S
+(rticle.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S 2.762 R(sec)S
+(tion)S 2.762 R(in)S 2.762 R(an)S
+72 85.282 Mt(article.)S 2.901 R(This)S 2.901 R(is)S 2.901 R(a)S
+2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(article.)S
+2.901 R(This)S 2.901 R(is)S 2.901 R(a)S 2.901 R(section)S 2.901 R(i)S
+(n)S 2.901 R(an)S 2.901 R(article.)S 2.901 R(This)S 2.901 R(is)S
+2.901 R(a)S 2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(a)S
+(rticle.)S 2.901 R(This)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+400.702 60 Mt 2 Sf (Demo article/A section title)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(in)S
+3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S 3.054 R(a)S
+3.054 R(section)S 3.054 R(in)S 3.054 R(an)S 3.054 R(article.)S
+3.054 R(This)S 3.054 R(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(i)S
+(n)S 3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S
+3.054 R(a)S 3.054 R(section)S
+72 756 Mt(in)S 2.802 R(an)S 2.802 R(article.)S 2.802 R(This)S
+2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(in)S 2.802 R(a)S
+(n)S 2.802 R(article.)S 2.802 R(This)S 2.802 R(is)S 2.802 R(a)S
+2.802 R(section)S 2.802 R(in)S 2.802 R(an)S 2.802 R(article.)S
+2.802 R(This)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(i)S
+(n)S 2.802 R(an)S 2.802 R(article.)S
+72 744 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S 3.558 R(i)S
+(n)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(is)S
+3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 732 Mt(section in an article.)S
+72 709 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S 3.558 R(i)S
+(n)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(is)S
+3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 697 Mt(section)S 2.762 R(in)S 2.762 R(an)S 2.762 R(article.)S
+2.762 R(This)S 2.762 R(is)S 2.762 R(a)S 2.762 R(section)S 2.762 R(i)S
+(n)S 2.762 R(an)S 2.762 R(article.)S 2.762 R(This)S 2.762 R(is)S
+2.762 R(a)S 2.762 R(section)S 2.762 R(in)S 2.762 R(an)S 2.762 R(a)S
+(rticle.)S 2.762 R(This)S 2.762 R(is)S 2.762 R(a)S 2.762 R(sec)S
+(tion)S 2.762 R(in)S 2.762 R(an)S
+72 685 Mt(article.)S 2.901 R(This)S 2.901 R(is)S 2.901 R(a)S 2.901 R(s)S
+(ection)S 2.901 R(in)S 2.901 R(an)S 2.901 R(article.)S 2.901 R(T)S
+(his)S 2.901 R(is)S 2.901 R(a)S 2.901 R(section)S 2.901 R(in)S
+2.901 R(an)S 2.901 R(article.)S 2.901 R(This)S 2.901 R(is)S 2.901 R(a)S
+2.901 R(section)S 2.901 R(in)S 2.901 R(an)S 2.901 R(article.)S
+2.901 R(This)S
+72 673 Mt(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(in)S 3.054 R(a)S
+(n)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S 3.054 R(a)S
+3.054 R(section)S 3.054 R(in)S 3.054 R(an)S 3.054 R(article.)S
+3.054 R(This)S 3.054 R(is)S 3.054 R(a)S 3.054 R(section)S 3.054 R(i)S
+(n)S 3.054 R(an)S 3.054 R(article.)S 3.054 R(This)S 3.054 R(is)S
+3.054 R(a)S 3.054 R(section)S
+72 661 Mt(in)S 2.802 R(an)S 2.802 R(article.)S 2.802 R(This)S
+2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(in)S 2.802 R(a)S
+(n)S 2.802 R(article.)S 2.802 R(This)S 2.802 R(is)S 2.802 R(a)S
+2.802 R(section)S 2.802 R(in)S 2.802 R(an)S 2.802 R(article.)S
+2.802 R(This)S 2.802 R(is)S 2.802 R(a)S 2.802 R(section)S 2.802 R(i)S
+(n)S 2.802 R(an)S 2.802 R(article.)S
+72 649 Mt(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(section)S 3.558 R(i)S
+(n)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(This)S 3.558 R(is)S
+3.558 R(a)S 3.558 R(section)S 3.558 R(in)S 3.558 R(an)S 3.558 R(a)S
+(rticle.)S 3.558 R(This)S 3.558 R(is)S 3.558 R(a)S 3.558 R(sec)S
+(tion)S 3.558 R(in)S 3.558 R(an)S 3.558 R(article.)S 3.558 R(T)S
+(his)S 3.558 R(is)S 3.558 R(a)S
+72 637 Mt(section in an article.)S
+72 604 Mt 10 Sf (An Appendix Title)S
+72 581 Mt 0 Sf (This is an appendix in an article.)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+382.365 60 Mt 2 Sf (Demo article/An Appendix T)S -0.605 R(itle)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 2

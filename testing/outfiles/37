@@ -1,0 +1,238 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.07
+%%CreationDate: Sat Mar 15 16:13:33 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Times-Bold
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Times-Bold
+/af4 /af5 /Times-Bold inf
+/vf 6 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 11 scalefont put
+vf 5 af5 11 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (Support)S 4.106 R(for)S 4.106 R(the)S 4.106 R(c)S
+(db)S 4.106 R(\(Constant)S 4.106 R(DataBase\))S 4.106 R(lookup)S
+4.106 R(method)S 4.106 R(is)S 4.106 R(pro)S -0.165 R(vided)S 4.106 R(b)S
+(y)S 4.106 R(code)S 4.106 R(contrib)S -0.22 R(uted)S 4.106 R(b)S
+(y)S 4.106 R(Nigel)S
+88 756 Mt(Metheringham)S 3.845 R(of)S 3.845 R(\(at)S 3.845 R(t)S
+(he)S 3.845 R(time)S 3.845 R(he)S 3.845 R(contrib)S -0.22 R(ut)S
+(ed)S 3.845 R(it\))S 3.845 R(Planet)S 3.845 R(Online)S 3.845 R(L)S
+(td.)S 3.845 R(The)S 3.845 R(implementation)S 3.845 R(is)S 3.845 R(c)S
+(om-)S
+88 744 Mt(pletely)S 4.003 R(contained)S 4.003 R(within)S 4.003 R(t)S
+(he)S 4.003 R(code)S 4.003 R(of)S 4.003 R(Exim.)S 4.003 R(It)S
+4.003 R(does)S 4.003 R(not)S 4.003 R(link)S 4.003 R(ag)S -0.055 R(a)S
+(inst)S 4.003 R(an)S 4.003 R(e)S -0.165 R(xternal)S 4.003 R(cd)S
+(b)S 4.003 R(library)S -0.715 R(.)S 4.003 R(The)S
+88 732 Mt(code contains the follo)S -0.275 R(wing statements:)S
+192 709 Mt(Cop)S -0.11 R(yright \251 1998 Nigel Metheringham, )S
+(Planet Online Ltd)S
+192 686 Mt(This)S 3.104 R(program)S 3.104 R(is)S 3.104 R(free)S
+3.104 R(softw)S -0.11 R(are;)S 3.104 R(you)S 3.104 R(can)S 3.104 R(r)S
+(edistrib)S -0.22 R(ute)S 3.104 R(it)S 3.104 R(and/or)S 3.104 R(m)S
+(odify)S 3.104 R(it)S
+212 674 Mt(under)S 3.155 R(the)S 3.155 R(terms)S 3.155 R(of)S
+3.155 R(the)S 3.155 R(GNU)S 3.155 R(General)S 3.155 R(Public)S
+3.155 R(License)S 3.155 R(as)S 3.155 R(published)S
+212 662 Mt(by)S 3.107 R(the)S 3.107 R(Free)S 3.107 R(Softw)S -0.11 R(a)S
+(re)S 3.107 R(F)S -0.165 R(oundation;)S 3.107 R(either)S 3.107 R(v)S
+-0.165 R(ersion)S 3.107 R(2)S 3.107 R(of)S 3.107 R(the)S 3.107 R(L)S
+(icense,)S
+212 650 Mt(or \(at your option\) an)S -0.165 R(y later v)S -0.165 R(e)S
+(rsion.)S
+192 627 Mt(This)S 2.967 R(code)S 2.967 R(implements)S 2.967 R(D)S
+(an)S 2.967 R(Bernstein)S 1 Sf (\242)S 0 Sf -0.605 R(s)S 2.967 R(C)S
+(onstant)S 2.967 R(DataBase)S 2.967 R(\(cdb\))S 2.967 R(spec.)S
+212 615 Mt(Information,)S 4.165 R(the)S 4.165 R(spec)S 4.165 R(a)S
+(nd)S 4.165 R(sample)S 4.165 R(code)S 4.165 R(for)S 4.165 R(cd)S
+(b)S 4.165 R(can)S 4.165 R(be)S 4.165 R(obtained)S
+212 603 Mt(from)S 7.772 R 4 Sf (http://www)S -0.77 R(.pobox.co)S
+(m/~djb/cdb)S -0.44 R(.html)S 0 Sf (.)S 7.772 R(This)S 7.772 R(i)S
+(mplemen-)S
+212 591 Mt(tation)S 3.844 R(borro)S -0.275 R(ws)S 3.844 R(some)S
+3.844 R(code)S 3.844 R(from)S 3.844 R(Dan)S 3.844 R(Bernstein)S
+1 Sf (\242)S 0 Sf -0.605 R(s)S 3.844 R(implementation)S
+212 579 Mt(\(which has no license restrictions applied to it\))S
+(.)S
+72 556 Mt(T)S -0.77 R(esting, testing)S
+82 533 Mt 2 Sf (T)S -1.012 R(erm)S
+112 521 Mt 0 Sf (A)S 5.337 R(paragraph)S 5.337 R(that)S 5.337 R(d)S
+(escribes)S 5.337 R(the)S 5.337 R(term)S 5.337 R(abo)S -0.165 R(v)S
+-0.165 R(e,)S 5.337 R(saying)S 5.337 R(something)S 5.337 R(abo)S
+(ut)S 5.337 R(it,)S 5.337 R(usually)S
+112 509 Mt(running o)S -0.165 R(v)S -0.165 R(er a number of li)S
+(nes.)S
+82 486 Mt 2 Sf (T)S -1.012 R(erm)S
+112 474 Mt 0 Sf (A)S 5.337 R(paragraph)S 5.337 R(that)S 5.337 R(d)S
+(escribes)S 5.337 R(the)S 5.337 R(term)S 5.337 R(abo)S -0.165 R(v)S
+-0.165 R(e,)S 5.337 R(saying)S 5.337 R(something)S 5.337 R(abo)S
+(ut)S 5.337 R(it,)S 5.337 R(usually)S
+112 462 Mt(running o)S -0.165 R(v)S -0.165 R(er a number of li)S
+(nes.)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 1

@@ -1,0 +1,268 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.60
+%%CreationDate: Sun Jul 19 21:04:45 2009
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+/vf 4 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This)S 3.055 R(is)S 3.055 R(a)S 3.055 R(test)S
+3.055 R(of)S 3.055 R(automatic)S 3.055 R(h)S -0.055 R(yphenati)S
+(on.)S 3.055 R(Choose)S 3.055 R(a)S 3.055 R(longish)S 3.055 R(w)S
+-0.11 R(ord)S 3.055 R(that)S 3.055 R(has)S 3.055 R(se)S -0.275 R(v)S
+-0.165 R(eral)S 3.055 R(potential)S 3.055 R(h)S -0.055 R(yphen)S
+(ation)S
+72 756 Mt(points:)S 3.264 R(accelerando)S 3.264 R(accelerando)S
+3.264 R(accelerando)S 3.264 R(accelerando)S 3.264 R(accelerand)S
+(o)S 3.264 R(accelerando)S 3.264 R(accelerando)S 3.264 R(accel-)S
+72 744 Mt(erando)S 3.267 R(accelerando)S 3.267 R(accelerando)S
+3.267 R(accelerando)S 3.267 R(accelerando)S 3.267 R(accelerand)S
+(o)S 3.267 R(accelerando)S 3.267 R(accelerando)S 3.267 R(accel-)S
+72 732 Mt(erando)S 7.484 R(accelerando)S 7.484 R(accelerando)S
+7.484 R(accelerando)S 7.484 R(accelerando)S 7.484 R(accelerand)S
+(o)S 7.484 R(accelerando)S 7.484 R(accelerando)S
+72 720 Mt(accelerando.)S
+72 697 Mt(The)S 4.357 R(last)S 4.357 R(w)S -0.11 R(ord)S 4.357 R(i)S
+(n)S 4.357 R(the)S 4.357 R(paragraph)S 4.357 R(abo)S -0.165 R(v)S
+-0.165 R(e)S 4.357 R(should)S 4.357 R(not)S 4.357 R(be)S 4.357 R(h)S
+-0.055 R(yphenated.)S 4.357 R(But)S 4.357 R(adding)S 4.357 R(a)S
+(nother)S 4.357 R(w)S -0.11 R(ord)S 4.357 R(should)S
+72 685 Mt(change things:)S
+72 662 Mt(This)S 3.055 R(is)S 3.055 R(a)S 3.055 R(test)S 3.055 R(o)S
+(f)S 3.055 R(automatic)S 3.055 R(h)S -0.055 R(yphenation.)S 3.055 R(C)S
+(hoose)S 3.055 R(a)S 3.055 R(longish)S 3.055 R(w)S -0.11 R(ord)S
+3.055 R(that)S 3.055 R(has)S 3.055 R(se)S -0.275 R(v)S -0.165 R(e)S
+(ral)S 3.055 R(potential)S 3.055 R(h)S -0.055 R(yphenation)S
+72 650 Mt(points:)S 3.264 R(accelerando)S 3.264 R(accelerando)S
+3.264 R(accelerando)S 3.264 R(accelerando)S 3.264 R(accelerand)S
+(o)S 3.264 R(accelerando)S 3.264 R(accelerando)S 3.264 R(accel-)S
+72 638 Mt(erando)S 3.267 R(accelerando)S 3.267 R(accelerando)S
+3.267 R(accelerando)S 3.267 R(accelerando)S 3.267 R(accelerand)S
+(o)S 3.267 R(accelerando)S 3.267 R(accelerando)S 3.267 R(accel-)S
+72 626 Mt(erando)S 3.267 R(accelerando)S 3.267 R(accelerando)S
+3.267 R(accelerando)S 3.267 R(accelerando)S 3.267 R(accelerand)S
+(o)S 3.267 R(accelerando)S 3.267 R(accelerando)S 3.267 R(accel-)S
+72 614 Mt(erando con brio.)S
+72 591 Mt(Ne)S -0.165 R(xt we test the case when there is no p)S
+(re)S -0.275 R(vious breakpoint in the line.)S
+72 568 Mt(MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)S
+72 556 Mt(donuts!)S
+72 533 Mt(No)S -0.275 R(w we repeat all that, with h)S -0.055 R(y)S
+(phenation turned of)S -0.275 R(f:)S
+72 510 Mt(This)S 3.055 R(is)S 3.055 R(a)S 3.055 R(test)S 3.055 R(o)S
+(f)S 3.055 R(automatic)S 3.055 R(h)S -0.055 R(yphenation.)S 3.055 R(C)S
+(hoose)S 3.055 R(a)S 3.055 R(longish)S 3.055 R(w)S -0.11 R(ord)S
+3.055 R(that)S 3.055 R(has)S 3.055 R(se)S -0.275 R(v)S -0.165 R(e)S
+(ral)S 3.055 R(potential)S 3.055 R(h)S -0.055 R(yphenation)S
+72 498 Mt(points:)S 7.481 R(accelerando)S 7.481 R(accelerando)S
+7.481 R(accelerando)S 7.481 R(accelerando)S 7.481 R(accelerand)S
+(o)S 7.481 R(accelerando)S 7.481 R(accelerando)S
+72 486 Mt(accelerando)S 4.257 R(accelerando)S 4.257 R(accelera)S
+(ndo)S 4.257 R(accelerando)S 4.257 R(accelerando)S 4.257 R(acc)S
+(elerando)S 4.257 R(accelerando)S 4.257 R(accelerando)S
+72 474 Mt(accelerando)S 4.257 R(accelerando)S 4.257 R(accelera)S
+(ndo)S 4.257 R(accelerando)S 4.257 R(accelerando)S 4.257 R(acc)S
+(elerando)S 4.257 R(accelerando)S 4.257 R(accelerando)S
+72 462 Mt(accelerando.)S
+72 439 Mt(The)S 3.398 R(last)S 3.398 R(w)S -0.11 R(ord)S 3.398 R(i)S
+(n)S 3.398 R(the)S 3.398 R(paragraph)S 3.398 R(abo)S -0.165 R(v)S
+-0.165 R(e)S 3.398 R(should)S 3.398 R(not)S 3.398 R(be)S 3.398 R(h)S
+-0.055 R(yphenated.)S 3.398 R(Ne)S -0.165 R(xt)S 3.398 R(we)S
+3.398 R(test)S 3.398 R(the)S 3.398 R(case)S 3.398 R(when)S 3.398 R(t)S
+(here)S 3.398 R(is)S
+72 427 Mt(no pre)S -0.275 R(vious breakpoint in the line.)S
+72 404 Mt(MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)S
+72 392 Mt(donuts!)S
+72 369 Mt(No)S -0.275 R(w we repeat all that ag)S -0.055 R(ain)S
+(, with h)S -0.055 R(yphenation turned back on:)S
+72 346 Mt(This)S 3.055 R(is)S 3.055 R(a)S 3.055 R(test)S 3.055 R(o)S
+(f)S 3.055 R(automatic)S 3.055 R(h)S -0.055 R(yphenation.)S 3.055 R(C)S
+(hoose)S 3.055 R(a)S 3.055 R(longish)S 3.055 R(w)S -0.11 R(ord)S
+3.055 R(that)S 3.055 R(has)S 3.055 R(se)S -0.275 R(v)S -0.165 R(e)S
+(ral)S 3.055 R(potential)S 3.055 R(h)S -0.055 R(yphenation)S
+72 334 Mt(points:)S 3.264 R(accelerando)S 3.264 R(accelerando)S
+3.264 R(accelerando)S 3.264 R(accelerando)S 3.264 R(accelerand)S
+(o)S 3.264 R(accelerando)S 3.264 R(accelerando)S 3.264 R(accel-)S
+72 322 Mt(erando)S 3.267 R(accelerando)S 3.267 R(accelerando)S
+3.267 R(accelerando)S 3.267 R(accelerando)S 3.267 R(accelerand)S
+(o)S 3.267 R(accelerando)S 3.267 R(accelerando)S 3.267 R(accel-)S
+72 310 Mt(erando)S 7.484 R(accelerando)S 7.484 R(accelerando)S
+7.484 R(accelerando)S 7.484 R(accelerando)S 7.484 R(accelerand)S
+(o)S 7.484 R(accelerando)S 7.484 R(accelerando)S
+72 298 Mt(accelerando.)S
+72 275 Mt(The)S 3.398 R(last)S 3.398 R(w)S -0.11 R(ord)S 3.398 R(i)S
+(n)S 3.398 R(the)S 3.398 R(paragraph)S 3.398 R(abo)S -0.165 R(v)S
+-0.165 R(e)S 3.398 R(should)S 3.398 R(not)S 3.398 R(be)S 3.398 R(h)S
+-0.055 R(yphenated.)S 3.398 R(Ne)S -0.165 R(xt)S 3.398 R(we)S
+3.398 R(test)S 3.398 R(the)S 3.398 R(case)S 3.398 R(when)S 3.398 R(t)S
+(here)S 3.398 R(is)S
+72 263 Mt(no pre)S -0.275 R(vious breakpoint in the line.)S
+72 240 Mt(MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)S
+72 228 Mt(donuts!)S
+72 205 Mt(T)S -0.77 R(est for a bad entity: %$\243; and check )S
+(entity name characters: and check &apos ' and &quot; ".)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 1

@@ -1,0 +1,619 @@
+ChangeLog for SDoP
+------------------
+
+Version 1.00 (10-March-2023)
+----------------------------
+
+1. If an ordered list was nested inside another ordered list, the type of
+ordering was not being remembered for subsequent items in the outer list, which
+took the type of the inner list.
+
+2. Updated the code and the fontmetrics files to include character 160 (0xA0),
+non-breaking space.
+
+3. Minor code reformatting tidies, some because of "sanitize" warnings.
+
+4. Update the Unicode tables that are used for detecting letters when
+hyphenating to a more recent version (data copied from PCRE2).
+
+5. Arrange for all memory to be freed by means of an atexit() function.
+
+6. Hyphenation was broken for words in a hyphenation dictionary that end with
+one or more non-ASCII letters. (There aren't any in the supplied English
+hyphenation dictionary.)
+
+
+Version 0.90 (20-August-2020)
+-----------------------------
+
+1. If any of the characters 0x82, 0x83, 0xA0, or 0xAD were used with a
+non-standardly encoded font, their width was incorrectly taken as zero when
+calculating a string width. This could lead to alignment errors. (In a
+standarly encoded font these Unicode characters don't always appear in the AFM,
+but do have zero width.)
+
+2. When searching for an AFM file, SDoP used to search for "fontmetrics/name"
+within the installed /share/sdop or -S directories. Now, if that search fails,
+it also searches for "name" without the "fontmetrics" prefix. This means that
+-S can list the actual directory where AFM files are, without them having to be
+in a subdirectory called "fontmetrics".
+
+3. Minor code tidies to avoid compiler warnings.
+
+
+Version 0.82 (20-October-2018)
+------------------------------
+
+ 1. Fix typo in src/Makefile (LFLAGS should be LDFLAGS).
+
+ 2. Fix typo in error message.
+
+
+Version 0.81 (29-August-2018)
+-----------------------------
+
+ 1. Code tidies to get rid of compiler and sanitizer warnings.
+
+ 2. Malformed AFM files could cause crashes.
+
+
+Version 0.80 (27-November-2013)
+-------------------------------
+
+ 1. If index_headings_pdf_toc (a local processing parameter) is "yes",
+    "pdfmark" data is inserted so that sections in an index (A, B, C, etc)
+    appear in the PDF table of contents. The default is not to do this. Index
+    sections never appear in the printed TOC.
+
+ 2. Removed three variables that were being set but never used.
+
+ 3. Updated the code to support characters in the Unicode Latin Extended-A code
+    page (U+0100 to U+017F) which are not in the original PostScript fonts, but
+    which can be found in newer versions and alternative fonts. Also updated
+    the fontmetrics files for these characters, though not all alternative
+    fonts support all the characters.
+
+ 4. Recognize --version.
+
+ 5. When table_warn_overflow="overprint" is specified, an actual overprint is
+    not detected until the column that is overprinted is reached. The warning
+    message was reporting the later column instead of the one that actually
+    contained the overlong text.
+
+ 6. Added a facility to specify more fully the fonts for itemized and ordered
+    list tags. Previously only roman/italic/bold/bolditalic could be specified;
+    now the font's size and colour can be set and changed in different parts of
+    the document. As part of this work, the names of some of the processing
+    parameters have been changed to be more meaningful; the old names are
+    retained, but cause a "deprecated" warning message.
+
+ 7. The PDF documentation was being created without embedded fonts, which meant
+    that acroread did not display some characters in the tables at the end
+    because they are not in the default fonts it uses. The fonts are now all
+    embedded in the PDF.
+
+ 8. "Exotic" fonts were not being scaled by scale_typesize_base.
+
+
+Version 0.71 (18-May-2012)
+--------------------------
+
+ 1. There was no check for too many nested lists (maximum 10), leading to a
+    segfault. Now there is a hard error.
+
+
+Version 0.70 (26-Jan-2011)
+--------------------------
+
+ 1. An off-by-one bug has been fixed (detected by valgrind in test 45).
+
+ 2. If the string specified for index_omit_sort contained any entities,
+    references to uninitialized memory could occurn (detected by valgrind
+    in test 48).
+
+ 3. A <literallayout> "paragraph" may contain blank lines. When such a
+    paragraph had to be split at the foot of a page, and the first part
+    consisted only of blank lines, SDoP crashed with a segfault.
+
+ 4. A long <literallayout> "paragraph" that continued over more than one page
+    break caused SDoP to fail with the error "internal error: paragraph split
+    end failure".
+
+ 5. Applied some patches from the Debian and Ubuntu distributors:
+
+    (a) Add support for "make install DESTDIR=..."
+    (b) Fixed a bug in make test that happened when sdop was not previously
+        installed.
+    (c) Make the testsuite die on error when not running interactively.
+    (d) Fix typo LFLAGS (should read LDFLAGS) in src/Makefile.
+    (e) Reorder linker command for the sdop binary, moving $(LIBS) to the end
+        of the line so it gets added after the object files. This seems to be
+        necessary for linking with --as-needed.
+
+ 6. If the text of an itemized list item was not in the roman font, the mark
+    for the item was output in that font instead of roman.
+
+ 7. Added ilist_font and olist_font to specify the style (italic, roman, etc)
+    of the marks for these lists. The size and family are those of the main
+    text or footnote text, as appropriate.
+
+ 8. The colour of the footnote number in all but the first footnote on a page
+    was the same as the last character in the previous footnote, instead of
+    always being black.
+
+ 9. If a bullet character specified for an itemized list was in one of the
+    auxiliary fonts (e.g. a character such as U+2666, a diamond that is in the
+    ZapfDingbats font), the error "internal error: special auxiliary font
+    missing" occurred.
+
+10. Fixed an internal error in a data chain, which doesn't actually seem to
+    have affected anything other than the debugging output.
+
+11. Fixed another failed to initialize error which didn't show up until I was
+    adding a new feature.
+
+12. After certain errors (as well as after warnings), SDoP continues
+    processing, and may even generate output. For some errors  (in particular
+    missing cross references) it now suppresses the output and says so. For
+    other errors, it now warns that the output may be incorrect.
+
+13. The "hard space" character (U+00A0) does not appear in the AFM files for
+    the standard fonts. Consequently, its width was being calculated as zero,
+    thereby potentially affecting some spacings. It is actually output as a
+    space character, so now its width is set equal to the width of a space.
+
+14. Cross-references in the text (<xref>s) and page numbers in indexes now
+    cause additional "pdfmark" data to be generated in the PostScript output.
+    If this is converted to a PDF, the references and page numbers become
+    clickable links. This feature can be disabled by setting the global
+    processing parameter <?sdop xref_links="no"?>. By default, the text of the
+    references is the colour of the surrounding text, and the text of page
+    numbers in indexes is black. However, the xref_rgb parameter can be used to
+    specify a different colour for them.
+
+14. The name of the parameter orderedlist_format is inconsistent with other
+    list parameters, which use olist_, ilist_, etc. Changed it to olist_format,
+    but kept the old name as a synonym for compatibility.
+
+
+Version 0.63
+------------
+
+ 1. The latest gcc gives compiler warnings for discarded function return values
+    when FORTIFY_SOURCE is set, even when the value is explicitly cast to
+    (void). Alternative code has been used to avoid such warnings.
+
+ 2. A couple of "variable may be used unset" warnings have been fixed.
+
+ 3. The way in which the PNG library was being accessed was deprecated. It has
+    been changed to use the "proper" current interface.
+
+ 4. The way JPEG files are decoded sometimes changes slightly between releases;
+    this caused the tests to fail with libjpeg 7 because they were originally
+    created with libjpeg 6. The JPEG test files have been adjusted by making
+    them with cjpeg -sample 1x1 which is supposed to make them be decoded the
+    same by the different libjpeg libraries.
+
+
+Version 0.62
+------------
+
+ 1. If more than one SDoP processing instruction preceded a <preface>, only the
+    first of them was noticed when processing the preface.
+
+
+Version 0.61
+------------
+
+ 1. Added options to ./configure to force disabling of JPEG and PNG support.
+
+ 2. Some #ifdefs for JPEG and PNG support were missing.
+
+ 3. Arrange to skip JPEG and PNG tests in "make test" when the appropriate
+    support is not compiled.
+
+
+Version 0.60
+------------
+
+ 1. Added support for subscript_small and superscript_small, both defaulting to
+    "yes". At present, the small font is the footnote font. These parameters
+    are ignored in titles.
+
+ 2. Added support for subscript_down and superscript_up, both defaulting to 33.
+
+ 3. Do not check for unsupported processing instructions unless output is
+    generated, because when SDoP stops early after errors, not all of them will
+    have been looked at.
+
+ 4. Added some words to the hyphenation list.
+
+ 5. If two index entries for the same item both had processing parameters in
+    their content, the second gave rise to incorrect "unrecognized SDoP
+    processing parameter" errors, because it was never actually processed.
+
+ 6. Index entries that differed only in font sizes, colours, or in having some
+    characters subscripted or superscripted were not being treated as
+    different.
+
+ 7. Allow spaces after commas in settings such as "yes, yes, no".
+
+ 8. Impose a minimum page length of 108 points (1.5").
+
+ 9. Added support for PNG files, but I have only tested a couple, so it may
+    be incomplete.
+
+10. Changed the fontmetrics files in the distribution to a set obtained with
+    clear licensing conditions, and with appropriate licence files. The
+    replacement files have more kerning data, which might be helpful. However,
+    they lacked entries for the Euro character (which is in the fonts). I added
+    Euro entries to the Helvetica, Courier, and Times fonts, copying from the
+    previous AFM files, and noting in a comment that I had done so.
+
+11. The name of the AFM file for the AvantGarde italic font was incorrect in
+    the code ("Oblique" instead of "BookOblique").
+
+12. The numeration in an ordered list item took on the font characteristics
+    (size, italic, etc.) of the first character, which is clearly silly. Now
+    the numeration uses the default font and size for the main text.
+
+13. SDoP was reading all characters between & and ; when processing entities.
+    Now it accepts only letters, digits, underscore, colon, hyphen, and dot.
+
+14. Added &apos; and &quot; to the tables, as these are supposed to be
+    recognized by all XML processors.
+
+15. Added recognition of SDOP_SHARE (can be overridden by -S).
+
+16. Added support for BPH (U+0082, "break permitted here") and NBH (U+0083, "no
+    break here").
+
+17. When SDoP's PostScript output was converted to a PDF, the index pointers
+    for any prefaces were not working. I also added a PDF index item for the
+    title page, when present.
+
+18. Stop SDoP from crashing if an entity is unexpectedly its own partner,
+    for example, <index/>.
+
+
+Version 0.52
+------------
+
+ 1. Because inserted files sometimes have bad bounding box values, and also
+    for general aesthetic reasons, I've added a feature to <imageobject> that
+    allows the image to be moved on the page. To do this, the "role" parameter
+    has been abused, so as not to break the DocBook DTD.
+
+ 2. Added table_indent as a global processing instruction.
+
+ 3. The character U+2027 (a centred dot) was not being recognized; it
+    corresponds to the PostScript character "periodcentered".
+
+ 4. The character U+0145, though correctly handled, was generating a spurious
+    "unrecognized character" error.
+
+ 5. Added support for align="char" to <tgroup> and <colspec>. The defaults for
+    "char" and "charoff" are "." and "50" respectively. If the given character
+    is not found in a cell's text, SDoP behaves as if it were present at the
+    end of the string. If "char" alignment would cause overflow or underflow,
+    an error is generated and right or left alignment (respectively) is used
+    instead.
+
+ 6. Added support for "align", "char", and "charoff" to <entry>.
+
+ 7. SDoP borrows some code from PCRE for checking whether a Unicode character
+    is a letter. This is used when hyphenating. The way PCRE does this has been
+    updated to be more efficient; the revised code has now been installed in
+    SDoP. Efficiency isn't the only point: the main table is auto-generated
+    from the Unicode tables for PCRE. The old way of generating is no longer
+    maintained, so it's best to move to the new scheme.
+
+ 8. Added support for <?sdop extra_leading="n"?>.
+
+ 9. When a non-standardly encoded font (e.g. the PMW-Music font) was used,
+    characters that are special in standard encoding (e.g. 160, the "hard
+    space") were being treated specially, which should not be the case. All
+    characters in such fonts are now just treated as data characters.
+
+10. If a non-standardly encoded font did not contain a width for the '-'
+    character, SDoP could crash.
+
+11. If a non-standardly encoded font did not contain the character used for
+    substituting for unknown characters, a hard internal error was given. Now,
+    instead of trying to use the normal unknown character substitution, the
+    first defined character in the special font is used, and a warning is
+    output to say so.
+
+12. SDoP could loop if a <literallayout> section was sufficiently long that it
+    continued over two page breaks, and there was a forced page break at its
+    end.
+
+13. Added support for <?sdop index_sort_omit="...."?>.
+
+14. Added support for <?sdop toc_printed_sections=".."?>, which limits the
+    contents of the printed TOC, as opposed to the PDF bookmarks TOC. Setting
+    toc_sections also sets toc_printed_sections.
+
+15. Vertical stretching was not being applied to space specified before items;
+    it was only being applied to the "after" spacing.
+
+16. Allowed a little vertical stretching in indexes.
+
+17. Ensure that at least one secondary index line appears in the same column as
+    its primary - that is, avoid having a primary last in a column if it is
+    followed by one or more secondaries.
+
+18. When a list of secondary index entries flows over to a new column, arrange
+    for a "(continued)" primary item to head the column.
+
+19. The default column separation for indexes was not quite right.
+
+
+Version 0.51
+------------
+
+ 1. When a font contained a character with a negative width (the PMW-Music font
+    has such characters), SDoP was generating a spurious "unknown character"
+    error.
+
+ 2. An attempt to specify a single font (e.g. a section title) as bolditalic
+    failed.
+
+ 3. Previously, all section titles, however deeply nested, used the same title
+    font. Now the first uses the "section font" and any nested ones use the
+    "subsection" font, which defaults to 11 point.
+
+ 4. When the table column overflow option was set to "overprint", spurious
+    warnings could be given when an overflowing entry was the last one
+    specified in a row. The code now also checks for overflowing into blank
+    columns (previously overflowing into a blank column could trigger the
+    warning if the justification was appropriate).
+
+
+Version 0.50
+------------
+
+ 1. Added support (or at least recognition) for these elements from Simplified
+    DocBook:
+
+      <abbrev>             No new processing is actually involved.
+      <abstract>           No new processing is actually involved.
+      <acronym>            No new processing is actually involved.
+      <article>
+      <articleinfo>
+      <attribution>
+      <audiodata>          Completely ignored
+      <audioobject>        Completely ignored
+      <authorblurb>        Completely ignored
+      <caption>
+      <citetitle>          Treated as <emphasis>
+      <computeroutput>     Treated as <literal>
+      <corpauthor>         Sets &author_corpauthor;
+      <edition>            Sets &book_edition;
+      <editor>             Sets various &editor_xxx; entities
+      <email>              Italic by default
+      <epigraph>           Works like <blockquote> but no title
+      <example>            Parameters similar to <figure> and <table>
+      <footnoteref>        But only when on the same page as the footnote
+      <inlinemediaobject>  Treated as a synonym for <mediaobject>
+      <issuenum>           Sets &book_issuenum;
+      <jobtitle>
+      <keyword>            Completely ignored
+      <keywordset>         Completely ignored
+      <legalnotice>        Use <?sdop insert="legalnotice"?> to insert
+      <lineannotation>     Uses a small italic font.
+      <link>               Completely ignored
+      <note>               Works like <blockquote>, but no <attribution>
+      <objectinfo>         Completely ignored
+      <othercredit>        Sets various &othercredit_xxx; entities
+      <pubdate>            Sets &book_pubdate;
+      <publishername>      Sets &book_publishername;
+      <releaseinfo>        Sets &book_releaseinfo;
+      <replaceable>        Italic by default
+      <revdescription>     Use <?sdop insert="revdescription"?> to insert
+      <revremark>          Completely ignored
+      <sectioninfo>        Completely ignored
+      <sidebar>            Works like <blockquote>, but no <attribution>
+      <subject>            Completely ignored
+      <subjectset>         Completely ignored
+      <subjectterm>        Completely ignored
+      <systemitem>         Completely ignored
+      <trademark>          Completely ignored
+      <userinput>          Monospaced by default
+      <videodata>          Completely ignored
+      <videoobject>        Completely ignored
+      <volumenum>          Sets &book_volumenum;
+
+    Note that &book_revnumber; gets the value of the last <revnumber> to be
+    encountered if there is more than one.
+
+ 2. Added support for <subtitle> on chapters (previously it was only acted on
+    for book titles), which makes it also work for articles. Added
+    font_chapter_subtitle to vary the font used.
+
+ 3. Nobody had noticed that the PostScript output contained comments like
+    "%%Page 3 5" rather than the correct form "%%Page: 3 5". Fixed.
+
+ 4. Added support for <emphasis role="roman"> to make it possible to revert to
+    roman type in the middle of non-roman (which might have been turned on by
+    some other element, e.g. <citetitle>).
+
+ 5. Added support for <honorific>, <lineage>, and <othername> inside <author>,
+    though all it does is set up special entities. They are not used in the
+    default title templates.
+
+ 6. Added support for <emphasis role="smallfont"> to implement a smaller font
+    that can be used for anything, but in particular, for "legalnotice" type
+    stuff on title verso pages. The small fonts are also used for
+    <lineannotation>s.
+
+ 7. Added support for <title> in <blockquote> and processing instructions
+    font_blockquote_title and blockquote_title_justify.
+
+ 8. Added <?sdop blockquote_ruled="yes"?> to put horizontal rules above and
+    below block quotes.
+
+
+Version 0.06
+------------
+
+ 1. If a chapter or section title contained a special entity, and head or foot
+    lines were set up to contain the chapter or section title, SDoP did not
+    recognize the entities in the head/foot lines, and gave an "unrecognized"
+    error.
+
+ 2. If an automatically inserted hyphen followed an "fi" ligature, or any other
+    character whose code point is greater than 255, the hyphen character was
+    incorrectly output.
+
+ 3. Most Unicode characters greater than 255 in chapter or section titles are
+    converted to '?' in the PDFMARK data that is included in the PostScript so
+    that a PDF table of contents can be created. Some new replacements have
+    been added: opening and closing quotes are converted to ASCII versions, and
+    en and em dashes are converted to hyphens.
+
+
+Version 0.05
+------------
+
+ 1. Treat a paragraph consisting of just a single zero-width space character
+    (&#x200b;) specially by removing the line of data. This causes the vertical
+    white space to be a bit less than the case when an actually blank line is
+    output. The latter can be caused, for example, by using a hard space
+    (&nbsp;).
+
+
+Version 0.04
+------------
+
+ 1. When a title was followed by a mediaobject (image) and the pair of them
+    could not fit on a page, sdop looped because it always tries to keep a
+    title together with what follows. Now it outputs the title on its own; if
+    the media object itself won't fit, that will be caught elsewhere.
+
+ 2. A chapter without a title that contained only a mediaobject and no other
+    text was not forcing a new page.
+
+ 3. Added auth-enti-cation to the hyphenation dictionary.
+
+ 4. Add --help to hytest and buildhy.
+
+ 5. When a background color was set for a page, the PostScript path was not
+    being deleted; if another drawing was on the page, it got messed up.
+
+ 6. The distribution was missing the *-t and *-p data files, and the Makefile
+    wasn't installing them.
+
+ 7. The typo "while isspace(*p)" wasn't noticed because the code was tested
+    on a system where isspace() is a macro that ends up in parentheses. The
+    missing parens have been added.
+
+
+Version 0.03
+------------
+
+ 1. Added page_full_length, page_line_width, page_foot_line_width, and
+    page_head_line_width.
+
+ 2. Added many processing instructions for changing details of specific fonts:
+    scale_typesize_base and lots of font_xxx...
+
+ 3. Missing substrings for toc_line_chapter_strings were not being set empty.
+
+ 4. Added paper_size and margin_{bottom,left_recto,left_verso} processing
+    instructions.
+
+ 5. Re-jigged the font handling to avoid binding different virtual font numbers
+    with the same characteristics.
+
+ 6. Added background_rgb to set background colour.
+
+ 7. Fixed a bug with the indentation of <term>s in <variablelist>s. By default
+    they would end up 2 points to the left the main text (not always
+    noticeable). Invented a separate set of layout parameters for the titles of
+    <variablelists>s.
+
+ 8. Added many processing instructions for changing the indentation of many
+    different types of paragraph.
+
+
+Version 0.02
+------------
+
+ 1. Added -p and -pf to select specific output pages.
+
+ 2. Added processing instruction chapter_head_skip="no" to skip head for a
+    chapter starting page.
+
+ 3. Added a whole lot more character entity definitions.
+
+ 4. Added processing instructions to change the three font familes.
+
+ 5. Added index_headings processing instruction.
+
+ 6. Added support for <figure>.
+
+ 7. Added support for <title> in <table>s.
+
+ 8. Added support for <sectn>, but always as a synonym for <section>.
+
+ 9. Added support for <programlisting> as a synonym for <screen>.
+
+10. Added support for <![CDATA[...]]> sections.
+
+11. Added support for <subscript> and <superscript>.
+
+12. If an unsupported character's code was less than 384, no warning message
+    was given, and the substitute character's width was incorrect.
+
+13. Added -qc, -wc, and processing parameter warn_unsupported_characters.
+
+14. SDoP wasn't properly skipping processing instructions for other processors
+    if they extended over more than one line.
+
+
+Version 0.01
+------------
+
+ 1. When a line that ended with </literal> was joined onto the next line, the
+    inserted space was in the monospaced font and not in the ordinary font,
+    thus often looking far too wide.
+
+ 2. Tidy up error messages for files that fail to open.
+
+ 3. Do not output a table of contents if there is nothing to go in it.
+
+ 4. A hyphen at the start of a line or table cell was being taken as a possible
+    hyphenation point by mistake.
+
+ 5. Added support for one or more <preface> elements.
+
+ 6. The toc_sections processing instruction is now local rather than global, so
+    it can be changed while processing. In parcticular, a different setting can
+    be used within a preface.
+
+ 7. Added separate header and footer templates for the preface and the TOC, and
+    processing instructions to vary the left/centre/right variables. Page
+    numbers in the TOC are now in italic roman numerals by default.
+
+ 8. Added support for appendices and colophons.
+
+ 9. Added support for footnotes.
+
+10. Added support for <mediaobject> with <textobject> and <imageobject> in
+    EPS or JPEG formats.
+
+11. Some refactoring to make the handling of newlines within the markup more
+    straightforward.
+
+12. Added support for exotic fonts via
+
+      <emphasis role="exotic-font-name/size/leading">
+
+    If size and leading are omitted, the values from the current font are used.
+    Size can be given as 0 to mean "the current size" if just additional
+    leading is needed. Leading space happens above the line. Fonts with
+    standard encoding are re-encoded as Unicode; for others, only characters in
+    the range 0-255 are supported, in their native encoding.
+
+** End **

@@ -1,0 +1,34 @@
+<?sdop numbertitles="yes,yes"?>
+<?sdop toc_sections="no"?>
+
+<preface>
+<title>First Preface</title>
+<para>
+This is the first preface.
+</para>
+</preface>
+
+<?sdop toc_sections="yes"?>
+<preface>
+<title>Second Preface</title>
+<para>
+This is the second preface.
+</para>
+</preface>
+
+<?sdop toc_sections="yes, yes"?>
+<chapter>
+<title>First Chapter</title>
+<para>
+This is the first chapter.
+</para>
+
+<section>
+<title>First Section</title>
+<para>
+This is a section.
+</para>
+</section>
+
+</chapter>
+

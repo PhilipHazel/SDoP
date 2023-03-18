@@ -1,0 +1,23 @@
+<?sdop serif_family="Palatino"
+       sanserif_family="AvantGarde"
+       monospace_family="Bookman" 
+       command_style="roman" 
+?>
+<section>
+<title>This is a section title</title>
+<para>
+The quick <emphasis>italic</emphasis> fox jumps over the
+<emphasis role="bold">bold</emphasis> dog. And we also have
+<emphasis><emphasis role="bold">bold italic</emphasis></emphasis>.
+<literal>
+The quick <emphasis>italic</emphasis> fox jumps over the
+<emphasis role="bold">bold</emphasis> dog. And we also have
+<emphasis><emphasis role="bold">bold italic</emphasis></emphasis>.
+</literal>
+</para>
+
+<para>
+This is a command: <command>Halt!</command>
+</para>
+
+</section>

@@ -1,0 +1,513 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.52
+%%CreationDate: Sun Dec 14 17:10:50 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Courier
+%%+ font Times-BoldItalic
+%%+ font Times-Bold
+%%+ font Courier-Oblique
+%%+ font Helvetica-Bold
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Courier
+/af4 /af5 /Courier inf
+%%IncludeResource: font Times-BoldItalic
+/af6 /af7 /Times-BoldItalic inf
+%%IncludeResource: font Times-Bold
+/af8 /af9 /Times-Bold inf
+%%IncludeResource: font Courier-Oblique
+/af10 /af11 /Courier-Oblique inf
+%%IncludeResource: font Helvetica-Bold
+/af12 /af13 /Helvetica-Bold inf
+/vf 14 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 11 scalefont put
+vf 5 af5 11 scalefont put
+vf 6 af6 11 scalefont put
+vf 7 af7 11 scalefont put
+vf 8 af8 11 scalefont put
+vf 9 af9 11 scalefont put
+vf 10 af10 11 scalefont put
+vf 11 af11 11 scalefont put
+vf 12 af12 13 scalefont put
+vf 13 af13 13 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This)S 2.836 R(is)S 2.836 R(the)S 2.836 R 1 Sf
+(\216)S 0 Sf (rst)S 2.836 R(paragraph)S 2.836 R(of)S 2.836 R(t)S
+(he)S 2.836 R(article.)S 2.836 R(W)S -0.44 R(ithin)S 2.836 R(t)S
+(his)S 2.836 R(article,)S 2.836 R(we)S 2.836 R(are)S 2.836 R(g)S
+(oing)S 2.836 R(to)S 2.836 R(include)S 2.836 R(a)S 2.836 R(blo)S
+(ck)S 2.836 R(quote)S 2.836 R(with)S
+72 756 Mt(an attrib)S -0.22 R(ution.)S
+108 733.159 Mt(What say you? W)S -0.44 R(ill you yield, and th)S
+(is a)S -0.22 R(v)S -0.22 R(oid?)S
+108 721.159 Mt(Or)S -0.44 R(, guilty in defence, be thus destr)S
+(o)S -0.11 R(yed?)S
+405.941 698.318 Mt 2 Sf (W)S -0.605 R(illiam Shak)S -0.11 R(es)S
+(pear)S -0.407 R(e)S
+72 675.477 Mt 0 Sf (And)S 3.885 R(no)S -0.275 R(w)S 3.885 R(ba)S
+(ck)S 3.885 R(to)S 3.885 R(your)S 3.885 R(re)S -0.165 R(gular)S
+3.885 R(programme)S 3.885 R(of)S 3.885 R(paragraphs)S 3.885 R(i)S
+(n)S 3.885 R(the)S 3.885 R(normal)S 3.885 R(format,)S 3.885 R(a)S
+(t)S 3.885 R(the)S 3.885 R(usual)S 3.885 R(indents)S
+72 663.477 Mt(and justi)S 1 Sf (\216)S 0 Sf (cation.)S
+72 640.636 Mt(That w)S -0.11 R(as an audio object.)S
+72 617.795 Mt(This is a )S 2 Sf (caption)S 0 Sf (.)S
+72 594.954 Mt(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S 3.836 R(Need)S 3.836 R(t)S
+(o)S 3.836 R 1 Sf (\216)S 0 Sf (ll)S 3.836 R(the)S 3.836 R(pag)S
+(e.)S 3.836 R(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S
+72 582.954 Mt(Need)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S
+4.18 R(the)S 4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S 4.18 R(f)S
+(ollo)S -0.275 R(ws)S 4.18 R(a)S 4.18 R(mediaobject.)S 4.18 R(N)S
+(eed)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(the)S
+4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S
+72 570.954 Mt(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(mediao)S
+(bject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S 0 Sf
+(ll)S 3.738 R(the)S 3.738 R(page.)S 3.738 R(This)S 3.738 R(par)S
+(agraph)S 3.738 R(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(me)S
+(diaobject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S
+0 Sf (ll)S 3.738 R(the)S
+72 558.954 Mt(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S 6.193 R(mediaobject.)S 6.193 R(N)S
+(eed)S 6.193 R(to)S 6.193 R 1 Sf (\216)S 0 Sf (ll)S 6.193 R(th)S
+(e)S 6.193 R(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S
+72 546.954 Mt(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R
+1 Sf (\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(T)S
+(his)S 3.396 R(paragraph)S 3.396 R(follo)S -0.275 R(ws)S 3.396 R(a)S
+3.396 R(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+72 534.954 Mt(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S 2.766 R 1 Sf
+(\216)S 0 Sf (ll)S 2.766 R(the)S 2.766 R(page.)S 2.766 R(This)S
+2.766 R(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S
+72 522.954 Mt 1 Sf (\216)S 0 Sf (ll the page. This paragraph f)S
+(ollo)S -0.275 R(ws a mediaobject. Need to )S 1 Sf (\216)S 0 Sf
+(ll the page.)S
+72 500.113 Mt(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S 3.836 R(Need)S 3.836 R(t)S
+(o)S 3.836 R 1 Sf (\216)S 0 Sf (ll)S 3.836 R(the)S 3.836 R(pag)S
+(e.)S 3.836 R(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S
+72 488.113 Mt(Need)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S
+4.18 R(the)S 4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S 4.18 R(f)S
+(ollo)S -0.275 R(ws)S 4.18 R(a)S 4.18 R(mediaobject.)S 4.18 R(N)S
+(eed)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(the)S
+4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S
+72 476.113 Mt(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(mediao)S
+(bject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S 0 Sf
+(ll)S 3.738 R(the)S 3.738 R(page.)S 3.738 R(This)S 3.738 R(par)S
+(agraph)S 3.738 R(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(me)S
+(diaobject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S
+0 Sf (ll)S 3.738 R(the)S
+72 464.113 Mt(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S 6.193 R(mediaobject.)S 6.193 R(N)S
+(eed)S 6.193 R(to)S 6.193 R 1 Sf (\216)S 0 Sf (ll)S 6.193 R(th)S
+(e)S 6.193 R(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S
+72 452.113 Mt(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R
+1 Sf (\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(T)S
+(his)S 3.396 R(paragraph)S 3.396 R(follo)S -0.275 R(ws)S 3.396 R(a)S
+3.396 R(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+72 440.113 Mt(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S 2.766 R 1 Sf
+(\216)S 0 Sf (ll)S 2.766 R(the)S 2.766 R(page.)S 2.766 R(This)S
+2.766 R(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S
+72 428.113 Mt 1 Sf (\216)S 0 Sf (ll the page. This paragraph f)S
+(ollo)S -0.275 R(ws a mediaobject. Need to )S 1 Sf (\216)S 0 Sf
+(ll the page.)S
+72 407 Mt(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S 3.836 R(Need)S 3.836 R(t)S
+(o)S 3.836 R 1 Sf (\216)S 0 Sf (ll)S 3.836 R(the)S 3.836 R(pag)S
+(e.)S 3.836 R(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S
+72 395 Mt(Need)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(t)S
+(he)S 4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S 4.18 R(f)S
+(ollo)S -0.275 R(ws)S 4.18 R(a)S 4.18 R(mediaobject.)S 4.18 R(N)S
+(eed)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(the)S
+4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S
+72 383 Mt(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(mediaobjec)S
+(t.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S 0 Sf (l)S
+(l)S 3.738 R(the)S 3.738 R(page.)S 3.738 R(This)S 3.738 R(para)S
+(graph)S 3.738 R(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(med)S
+(iaobject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S
+0 Sf (ll)S 3.738 R(the)S
+72 371 Mt(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S 6.193 R(mediaobject.)S 6.193 R(N)S
+(eed)S 6.193 R(to)S 6.193 R 1 Sf (\216)S 0 Sf (ll)S 6.193 R(th)S
+(e)S 6.193 R(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S
+72 359 Mt(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+3.396 R(paragraph)S 3.396 R(follo)S -0.275 R(ws)S 3.396 R(a)S
+3.396 R(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+72 347 Mt(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S 2.766 R 1 Sf
+(\216)S 0 Sf (ll)S 2.766 R(the)S 2.766 R(page.)S 2.766 R(This)S
+2.766 R(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S
+72 335 Mt 1 Sf (\216)S 0 Sf (ll the page. This paragraph follo)S
+-0.275 R(ws a mediaobject. Need to )S 1 Sf (\216)S 0 Sf (ll th)S
+(e page.)S
+72 317 Mt(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S 3.836 R(Need)S 3.836 R(t)S
+(o)S 3.836 R 1 Sf (\216)S 0 Sf (ll)S 3.836 R(the)S 3.836 R(pag)S
+(e.)S 3.836 R(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S
+72 305 Mt(Need)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(t)S
+(he)S 4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S 4.18 R(f)S
+(ollo)S -0.275 R(ws)S 4.18 R(a)S 4.18 R(mediaobject.)S 4.18 R(N)S
+(eed)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(the)S
+4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S
+72 293 Mt(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(mediaobjec)S
+(t.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S 0 Sf (l)S
+(l)S 3.738 R(the)S 3.738 R(page.)S 3.738 R(This)S 3.738 R(para)S
+(graph)S 3.738 R(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(med)S
+(iaobject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S
+0 Sf (ll)S 3.738 R(the)S
+72 281 Mt(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S 6.193 R(mediaobject.)S 6.193 R(N)S
+(eed)S 6.193 R(to)S 6.193 R 1 Sf (\216)S 0 Sf (ll)S 6.193 R(th)S
+(e)S 6.193 R(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S
+72 269 Mt(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+3.396 R(paragraph)S 3.396 R(follo)S -0.275 R(ws)S 3.396 R(a)S
+3.396 R(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+72 257 Mt(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S 2.766 R 1 Sf
+(\216)S 0 Sf (ll)S 2.766 R(the)S 2.766 R(page.)S 2.766 R(This)S
+2.766 R(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S
+72 245 Mt 1 Sf (\216)S 0 Sf (ll the page. This paragraph follo)S
+-0.275 R(ws a mediaobject. Need to )S 1 Sf (\216)S 0 Sf (ll th)S
+(e page.)S
+72 227 Mt(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S 3.836 R(Need)S 3.836 R(t)S
+(o)S 3.836 R 1 Sf (\216)S 0 Sf (ll)S 3.836 R(the)S 3.836 R(pag)S
+(e.)S 3.836 R(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S
+72 215 Mt(Need)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(t)S
+(he)S 4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S 4.18 R(f)S
+(ollo)S -0.275 R(ws)S 4.18 R(a)S 4.18 R(mediaobject.)S 4.18 R(N)S
+(eed)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(the)S
+4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S
+72 203 Mt(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(mediaobjec)S
+(t.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S 0 Sf (l)S
+(l)S 3.738 R(the)S 3.738 R(page.)S 3.738 R(This)S 3.738 R(para)S
+(graph)S 3.738 R(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(med)S
+(iaobject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S
+0 Sf (ll)S 3.738 R(the)S
+72 191 Mt(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S 6.193 R(mediaobject.)S 6.193 R(N)S
+(eed)S 6.193 R(to)S 6.193 R 1 Sf (\216)S 0 Sf (ll)S 6.193 R(th)S
+(e)S 6.193 R(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S
+72 179 Mt(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+3.396 R(paragraph)S 3.396 R(follo)S -0.275 R(ws)S 3.396 R(a)S
+3.396 R(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+72 167 Mt(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S 2.766 R 1 Sf
+(\216)S 0 Sf (ll)S 2.766 R(the)S 2.766 R(page.)S 2.766 R(This)S
+2.766 R(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S
+72 155 Mt 1 Sf (\216)S 0 Sf (ll the page. This paragraph follo)S
+-0.275 R(ws a mediaobject. Need to )S 1 Sf (\216)S 0 Sf (ll th)S
+(e page.)S
+72 137 Mt(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S 3.836 R(Need)S 3.836 R(t)S
+(o)S 3.836 R 1 Sf (\216)S 0 Sf (ll)S 3.836 R(the)S 3.836 R(pag)S
+(e.)S 3.836 R(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S
+72 125 Mt(Need)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(t)S
+(he)S 4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S 4.18 R(f)S
+(ollo)S -0.275 R(ws)S 4.18 R(a)S 4.18 R(mediaobject.)S 4.18 R(N)S
+(eed)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(the)S
+4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S
+72 113 Mt(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(mediaobjec)S
+(t.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S 0 Sf (l)S
+(l)S 3.738 R(the)S 3.738 R(page.)S 3.738 R(This)S 3.738 R(para)S
+(graph)S 3.738 R(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(med)S
+(iaobject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S
+0 Sf (ll)S 3.738 R(the)S
+72 101 Mt(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S 6.193 R(mediaobject.)S 6.193 R(N)S
+(eed)S 6.193 R(to)S 6.193 R 1 Sf (\216)S 0 Sf (ll)S 6.193 R(th)S
+(e)S 6.193 R(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S
+72 89 Mt(mediaobject. Need to )S 1 Sf (\216)S 0 Sf (ll the pag)S
+(e.)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (That w)S -0.11 R(as an audio object.)S
+72 745 Mt(This is a )S 2 Sf (caption)S 0 Sf (.)S
+72 722 Mt(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S 3.836 R(Need)S 3.836 R(t)S
+(o)S 3.836 R 1 Sf (\216)S 0 Sf (ll)S 3.836 R(the)S 3.836 R(pag)S
+(e.)S 3.836 R(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S
+72 710 Mt(Need)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(t)S
+(he)S 4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S 4.18 R(f)S
+(ollo)S -0.275 R(ws)S 4.18 R(a)S 4.18 R(mediaobject.)S 4.18 R(N)S
+(eed)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(the)S
+4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S
+72 698 Mt(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(mediaobjec)S
+(t.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S 0 Sf (l)S
+(l)S 3.738 R(the)S 3.738 R(page.)S 3.738 R(This)S 3.738 R(para)S
+(graph)S 3.738 R(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(med)S
+(iaobject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S
+0 Sf (ll)S 3.738 R(the)S
+72 686 Mt(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S 6.193 R(mediaobject.)S 6.193 R(N)S
+(eed)S 6.193 R(to)S 6.193 R 1 Sf (\216)S 0 Sf (ll)S 6.193 R(th)S
+(e)S 6.193 R(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S
+72 674 Mt(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+3.396 R(paragraph)S 3.396 R(follo)S -0.275 R(ws)S 3.396 R(a)S
+3.396 R(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+72 662 Mt(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S 2.766 R 1 Sf
+(\216)S 0 Sf (ll)S 2.766 R(the)S 2.766 R(page.)S 2.766 R(This)S
+2.766 R(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S
+72 650 Mt 1 Sf (\216)S 0 Sf (ll the page. This paragraph follo)S
+-0.275 R(ws a mediaobject. Need to )S 1 Sf (\216)S 0 Sf (ll th)S
+(e page.)S
+72 627 Mt(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S 3.836 R(Need)S 3.836 R(t)S
+(o)S 3.836 R 1 Sf (\216)S 0 Sf (ll)S 3.836 R(the)S 3.836 R(pag)S
+(e.)S 3.836 R(This)S 3.836 R(paragraph)S 3.836 R(follo)S -0.275 R(w)S
+(s)S 3.836 R(a)S 3.836 R(mediaobject.)S
+72 615 Mt(Need)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(t)S
+(he)S 4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S 4.18 R(f)S
+(ollo)S -0.275 R(ws)S 4.18 R(a)S 4.18 R(mediaobject.)S 4.18 R(N)S
+(eed)S 4.18 R(to)S 4.18 R 1 Sf (\216)S 0 Sf (ll)S 4.18 R(the)S
+4.18 R(page.)S 4.18 R(This)S 4.18 R(paragraph)S
+72 603 Mt(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(mediaobjec)S
+(t.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S 0 Sf (l)S
+(l)S 3.738 R(the)S 3.738 R(page.)S 3.738 R(This)S 3.738 R(para)S
+(graph)S 3.738 R(follo)S -0.275 R(ws)S 3.738 R(a)S 3.738 R(med)S
+(iaobject.)S 3.738 R(Need)S 3.738 R(to)S 3.738 R 1 Sf (\216)S
+0 Sf (ll)S 3.738 R(the)S
+72 591 Mt(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S 6.193 R(mediaobject.)S 6.193 R(N)S
+(eed)S 6.193 R(to)S 6.193 R 1 Sf (\216)S 0 Sf (ll)S 6.193 R(th)S
+(e)S 6.193 R(page.)S 6.193 R(This)S 6.193 R(paragraph)S 6.193 R(f)S
+(ollo)S -0.275 R(ws)S 6.193 R(a)S
+72 579 Mt(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+3.396 R(paragraph)S 3.396 R(follo)S -0.275 R(ws)S 3.396 R(a)S
+3.396 R(mediaobject.)S 3.396 R(Need)S 3.396 R(to)S 3.396 R 1 Sf
+(\216)S 0 Sf (ll)S 3.396 R(the)S 3.396 R(page.)S 3.396 R(This)S
+72 567 Mt(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S 2.766 R 1 Sf
+(\216)S 0 Sf (ll)S 2.766 R(the)S 2.766 R(page.)S 2.766 R(This)S
+2.766 R(paragraph)S 2.766 R(follo)S -0.275 R(ws)S 2.766 R(a)S
+2.766 R(mediaobject.)S 2.766 R(Need)S 2.766 R(to)S
+72 555 Mt 1 Sf (\216)S 0 Sf (ll the page. This paragraph follo)S
+-0.275 R(ws a mediaobject. Need to )S 1 Sf (\216)S 0 Sf (ll th)S
+(e page.)S
+72 532 Mt(T)S -0.77 R(est)S 3.504 R 2 Sf (italic)S 3.504 R 0 Sf
+(roman)S 3.504 R 2 Sf (italic)S 0 Sf (.)S 3.504 R(Cite)S 3.504 R(a)S
+3.504 R(title:)S 3.504 R 2 Sf (Alice)S 3.504 R(in)S 3.504 R(W)S
+-1.012 R(onderland)S 0 Sf (.)S 3.504 R(No)S -0.275 R(w)S 3.504 R(t)S
+(est)S 3.504 R(a)S 3.504 R(roman)S 3.504 R(w)S -0.11 R(ord)S 3.504 R(i)S
+(n)S 3.504 R(the)S 3.504 R(middle)S 3.504 R(of)S 3.504 R(a)S
+72 520 Mt(title: )S 2 Sf (Alice thr)S -0.495 R(ough )S 0 Sf (t)S
+(he )S 2 Sf (Looking Glass)S 0 Sf (.)S
+72 497 Mt(Check)S 2.94 R 4 Sf (computer)S 6.79 R(output)S 0 Sf
+(,)S 2.94 R(which)S 2.94 R(is)S 2.94 R(the)S 2.94 R(same)S 2.94 R(a)S
+(s)S 2.94 R(literal.)S 2.94 R(Here)S 2.94 R(is)S 2.94 R(an)S 2.94 R(e)S
+(mail)S 2.94 R(address:)S 2.94 R 2 Sf (abcd@x.y)S -0.605 R(.z)S
+0 Sf (.)S 2.94 R(T)S -0.77 R(est)S
+72 485 Mt(a)S 3.99 R(bold)S 3.99 R(one:)S 3.99 R 6 Sf (xyz@a.b)S
+-0.44 R(.c)S 3.99 R 0 Sf (and)S 3.99 R(a)S 3.99 R(bold)S 3.99 R(r)S
+(oman)S 3.99 R(one:)S 3.99 R 8 Sf (pqr@m.n.o)S 3.99 R 0 Sf (.)S
+3.99 R(This)S 3.99 R(is)S 3.99 R 2 Sf (r)S -0.407 R(eplaceable)S
+0 Sf (.)S 3.99 R(This)S 3.99 R(is)S 3.99 R 10 Sf (literal)S
+72 473 Mt(replaceable)S 0 Sf (.)S
+72 440 Mt 12 Sf (This is a section title)S
+72 417 Mt 0 Sf (This is a paragraph in a section.)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 2

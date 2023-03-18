@@ -1,0 +1,31 @@
+<?sdop toc_sections="no"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<book>
+<chapter>
+<title>Test chapter</title>
+<para>
+This is a non-empty paragraph, followed by an special empty paragraph, notated
+as a single zero-width space.
+</para>
+<para>
+&#x200b;
+</para>
+<para>
+This is a following paragraph. The space above should be narrower than if
+a true empty line were printed.
+</para>
+<para>
+So is this, to show a normal paragraph gap. Then an empty para that contains 
+one hard space, so it won&#x2019;t be special.
+</para>
+<para>
+&nbsp;
+</para>
+<para>
+Next pargaraph. The gap between this and the last should be larger.
+</para>
+</chapter>
+
+</book>

@@ -1,0 +1,124 @@
+<!-- This is a template for the title pages of a book. The first is done as a
+single table, using empty rows for vertical layout. -->
+
+<informaltable frame="none">
+<tgroup cols="3" colsep="0" rowsep="0">
+<colspec colwidth="1*"/>
+<colspec colwidth="7*" align="center"/>
+<colspec colwidth="1*"/>
+<tbody>
+<row>
+<entry><emphasis role="booktitle1">&nbsp;</emphasis></entry>
+</row>
+<row>
+<entry><emphasis role="booktitle1">&nbsp;</emphasis></entry>
+</row>
+<row>
+<entry><emphasis role="booktitle1">&nbsp;</emphasis></entry>
+</row>
+<row>
+<entry><emphasis role="booktitle1">&nbsp;</emphasis></entry>
+</row>
+
+<row>
+<entry></entry><entry><emphasis role="booktitle1">&book_title;</emphasis></entry>
+</row>
+<row>
+<entry><emphasis role="booktitle1">&nbsp;</emphasis></entry>
+</row>
+
+<?sdop ifdef="book_subtitle"?>
+<row>
+<entry></entry><entry><emphasis role="booktitle2">&book_subtitle;</emphasis></entry>
+</row>
+<row>
+<entry><emphasis role="booktitle2">&nbsp;</emphasis></entry>
+</row>
+<?sdop endif=""?>
+
+<?sdop ifdef="author_surname"?>
+<row>
+<entry></entry><entry><emphasis role="booktitle3">&author_firstname; &author_surname;</emphasis></entry>
+</row>
+<row>
+<entry><emphasis role="booktitle3">&nbsp;</emphasis></entry>
+</row>
+<?sdop endif=""?>
+
+<?sdop ifdef="author_corpauthor"?>
+<row>
+<entry></entry><entry><emphasis role="booktitle3">&author_corpauthor;</emphasis></entry>
+</row>
+<row>
+<entry><emphasis role="booktitle3">&nbsp;</emphasis></entry>
+</row>
+<?sdop endif=""?>
+
+<?sdop ifdef="author_orgname"?>
+<row>
+<entry></entry><entry><emphasis role="booktitle4">&author_orgname;</emphasis></entry>
+</row>
+<row>
+<entry><emphasis role="booktitle4">&nbsp;</emphasis></entry>
+</row>
+<?sdop endif=""?>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+
+<!-- Force a new page, and follow with a template for the title verso page. 
+This uses data from the <bookinfo> element, if the data is available. -->
+
+<?sdop format="newpage"?>
+<section><title>&book_title;</title></section>
+
+<informaltable frame="none">
+<tgroup cols="1" colsep="0" rowsep="0">
+<colspec colwidth="1*"/>
+<tbody>
+<?sdop ifdef="author_surname"?>
+<row>
+<entry>Author: &author_firstname; &author_surname;</entry>
+</row>
+<row><entry>&nbsp;</entry></row>
+<?sdop endif=""?>
+
+<?sdop ifdef="author_orgname"?>
+<row><entry>&author_orgname;</entry></row>
+<?sdop ifdef="author_address"?>
+<row><entry>&author_address;</entry></row>
+<row><entry>&nbsp;</entry></row>
+<?sdop endif=""?>
+<?sdop endif=""?>
+
+</tbody>
+</tgroup>
+</informaltable>
+
+<?sdop ifdef="book_cpyyear"?>
+<para>
+Copyright &copy; &book_cpyyear; &book_cpyholder;
+</para>
+<?sdop endif=""?>
+
+<?sdop ifdef="book_revnumber"?>
+<para>
+Revision &book_revnumber; &nbsp; &nbsp; &book_revdate;
+</para>
+<?sdop endif=""?>
+
+<?sdop ifndef="book_revnumber"?>
+<?sdop ifdef="book_revdate"?>
+<para>
+&book_revdate;
+</para>
+<?sdop endif=""?>
+<?sdop endif=""?>
+
+<emphasis role="smallfont">
+<?sdop insert="legalnotice"?>
+</emphasis>
+
+<!-- End of template for title pages -->

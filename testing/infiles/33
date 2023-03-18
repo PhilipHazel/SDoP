@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN" "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<?sdop toc_sections="no"?>
+
+<book>
+<chapter><title>Chapter title</title>
+
+<para>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+A reference to table <xref linkend="TABfirst"/>.
+</para>
+
+<table id="TABfirst">
+<title>This is the first table title.</title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+This is a paragraph that follows the table.
+Another reference to table <xref linkend="TABfirst"/>.
+</para>
+
+<?sdop table_number_format="%s"
+       table_title_format="Tab. %s:- " ?>
+       
+<table id="TABsecond">
+<title>This is the second table title.</title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Here's a reference to table <xref linkend="TABsecond"/>.
+</para>
+ 
+<?sdop table_number_format=""
+       table_title_format="" ?>
+       
+<table id="TABthird">
+<title>This is the third table title.</title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Here's a reference to table <xref linkend="TABthird"/>.
+</para>
+ 
+<informaltable>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<para>
+We can't reference an informal table.
+</para>
+ 
+
+<?sdop table_number_format="%s"
+       table_title_format="(%s) " ?>
+       
+<table id="TABfourth">
+<title>This is the fourth table title.</title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Here's a reference to table <xref linkend="TABfourth"/>.
+</para>
+ 
+<table id="TABfifth">
+<title>This is the fifth table title.</title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Here's a reference to table <xref linkend="TABfifth"/>.
+</para>
+ 
+<table id="TABsixth">
+<title>This is the sixth table title. It is a rather long title that is going 
+to fill several lines. Let us see how it turns out when it is actually printed 
+above the table. </title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Here's a reference to table <xref linkend="TABsixth"/>.
+</para>
+ 
+
+<?sdop table_title_justify="right" table_title_width="object"?> 
+<table id="TABseventh">
+<title>This is the seventh table title. It is a rather long title that is going 
+to fill several lines. Let us see how it turns out when it is actually printed 
+above the table. </title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Here's a reference to table <xref linkend="TABseventh"/>.
+</para>
+ 
+<?sdop table_title_justify="both"?> 
+<table id="TABeighth">
+<title>This is the eighth table title. It is a rather long title that is going 
+to fill several lines. Let us see how it turns out when it is actually printed 
+above the table. </title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Here's a reference to table <xref linkend="TABeighth"/>.
+</para>
+ 
+<?sdop table_title_justify="centre"
+       table_title_width="200"?> 
+<table id="TABninth">
+<title>This is the ninth table title. It is a rather long title that is going 
+to fill several lines. Let us see how it turns out when it is actually printed 
+above the table. </title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Here's a reference to table <xref linkend="TABninth"/>. The next table is going 
+to overflow the page.
+</para>
+
+<?sdop table_title_justify="left"
+       table_title_width="object"?> 
+<table id="TABtenth">
+<title>This is the tenth table title. It is a rather long title that is going 
+to fill several lines. Let us see how it turns out when it is actually printed 
+above the table. </title>
+<tgroup cols="3">
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<colspec colwidth="100"/>
+<tbody>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+<row><entry>one</entry><entry>two</entry><entry>three</entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<para>
+Here's a reference to table <xref linkend="TABtenth"/>.
+</para>
+
+
+</chapter>
+</book>

@@ -1,0 +1,309 @@
+<?sdop toc_title="Table of contents"?>
+<?sdop bad_param="xxx"?>
+<chapter>
+<title>Introduction</title>
+<para>
+<emphasis
+role = "bold">
+The quick brown fox jumps over the lazy dog.
+</emphasis>
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+Unknown symbol (&#xaaaa;) in a line that is
+to be justified.
+The quick brown fox jumps over the lazy dog.
+Kern test for characters in both halves of the virtual font:
+w&#x014d;w should be w followed by omacron.
+</para>
+<?sdop kern="no"?>
+<para>
+This is a test paragraph where kerning should be turned off.
+Yorkshire is a good test. Try also w&#x014d;w. At the end of
+the paragraph, we'll turn kerning on again so it should happen
+for the lines that follow.
+</para>
+<?sdop kern="yes"?>
+<para>
+Kerning should be back on again now. This paragraph should be
+long enough so that the lines in it are justified. We want to be sure
+that the spacing is worked out correctly.
+Yorkshire is a good test. Try also w&#x014d;w. 
+How does that look? Now try turning kerning off for just one word
+in the middle of a paragraph.
+<?sdop kern="no"?>Yorkshire,<?sdop kern="yes"?> Yorkshire. Extend this 
+paragraph so that the line in which we did that is justified.
+</para>
+<literallayout>
+Yorkshire. This is the first line.
+This is the second, <emphasis>with emphasized</emphasis> text.
+</literallayout>
+<literallayout>
+This is the second first line.
+This is the second second, <emphasis>with emphasized</emphasis> text.
+Here is a third line.
+The fourth line contains a Euro (&#x20ac;) and an unknown (&#xaaaa;) symbol.
+The fifth line is going to be too long for the output so we'll make it quite a bit longer, longer, longer than the others.
+</literallayout>
+<section>
+<title>The finish of the flourishing fish</title>
+<para>
+OK, time for a ligature test. The finish of the flourishing fish. But don't 
+ligaturize fixed pitch. <literal>The finish of the flourishing 
+fish.</literal> And here's more text to fill out the line for yet another
+check on the justification logic.
+</para>
+<para>
+The last line of a paragraph is never right-justified unless is is very nearly
+full already. We will add characters to the last line of this paragraph to 
+check this this logic does work: a. a a a a a a a a a a a aa
+</para>
+<para>
+Now we want to test out the use of hard spaces.
+This&#xa0;next&#xa0;sentence&#xa0;uses&#xa0;only&#xa0;hard&#xa0;spaces.
+The&#xa0;only&#xa0;possible&#xa0;splits&#xa0;are&#xa0;at&#xa0;full&#xa0;stops.
+The&#xa0;only&#xa0;possible&#xa0;splits&#xa0;are&#xa0;at&#xa0;full&#xa0;stops.
+The&#xa0;only&#xa0;possible&#xa0;splits&#xa0;are&#xa0;at&#xa0;full&#xa0;stops.
+The&#xa0;only&#xa0;possible&#xa0;splits&#xa0;are&#xa0;at&#xa0;full&#xa0;stops.
+The&#xa0;only&#xa0;possible&#xa0;splits&#xa0;are&#xa0;at&#xa0;full&#xa0;stops.
+The&#xa0;only&#xa0;possible&#xa0;splits&#xa0;are&#xa0;at&#xa0;full&#xa0;stops.
+</para>
+<para>
+This paragraph is going to test the use of hard hyphens somehow.
+The quick brown ele-phant ele-phant ele-phant ele-phant ele-phant 
+ele-phant ele-phant ele-phant ele-phant ele-phant ele-phant ele-phant trumpets 
+loudly.
+</para>
+<para>
+This paragraph is going to test the use of soft hyphens somehow.
+The quick brown ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant 
+ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant trumpets 
+loudly. All soft hyphens ignored there.
+</para>
+<para>
+This paragraph is going to test the use of soft hyphens somehow. The yellow
++++++
+ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant
+ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant
+ele&#xad;phant ele&#xad;phant ele&#xad;phant trumpets loudly. A soft hyphen
+should have been used there.
+</para>
+<para>
+Now try all those paragraphs again, with hyphenation disabled.
+</para>
+<?sdop hyphenate="no"?>
+<para>
+This paragraph is going to test the use of hard hyphens somehow.
+The quick brown ele-phant ele-phant ele-phant ele-phant ele-phant 
+ele-phant ele-phant ele-phant ele-phant ele-phant ele-phant ele-phant trumpets 
+loudly.
+</para>
+<para>
+This paragraph is going to test the use of soft hyphens somehow.
+The quick brown ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant 
+ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant trumpets 
+loudly. All soft hyphens ignored there.
+</para>
+<para>
+This paragraph is going to test the use of soft hyphens somehow. The yellow
++++++
+ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant
+ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant ele&#xad;phant
+ele&#xad;phant ele&#xad;phant ele&#xad;phant trumpets loudly. A soft hyphen
+should have been used there.
+</para>
+<?sdop hyphenate="yes"?>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+<para>
+We now want to have a number of paragraphs to fill up the page so that we can 
+check out where it puts the paragraphs on the page, and how the alignment of 
+the bottom line of the page works out. This is a paragraphs that we will copy 
+quite a few times.
+</para>
+
+<para>
+URL with text, continue on same line:
+<ulink url="http://some.thing">text</ulink> rhubarb
+</para>
+
+<para>
+URL with text, continue on same line:
+<ulink url="http://some.thing">text</ulink>. Now the rhubarb
+</para>
+
+<para>
+URL with text, continue on next line:
+<ulink url="http://some.thing">text</ulink>
+rhubarb
+</para>
+
+<para>
+URL without text continue on same line:
+<ulink url="http://some.thing"></ulink> rhubarb
+</para>
+
+<para>
+URL without text continue on same line:
+<ulink url="http://some.thing"></ulink>. Now the rhubarb
+</para>
+
+<para>
+URL without text continue on next line:
+<ulink url="http://some.thing"></ulink>
+rhubarb
+</para>
+
+<para>
+URL without text continue on next line: <ulink url="http://some.thing"></ulink>
+rhubarb
+</para>
+
+<para>
+URL with same text: <ulink url="http://x.y.z">http://x.y.z</ulink>
+text on next line
+</para>
+
+<para>
+URL with same text: <ulink url="http://x.y.z">http://x.y.z</ulink> text on same line
+</para>
+
+</section>
+</chapter>

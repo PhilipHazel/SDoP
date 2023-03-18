@@ -1,0 +1,124 @@
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+<emphasis>The first paragraph, in italic, number in roman.</emphasis>
+</para>
+</listitem>
+<listitem>
+<para>
+The second paragraph in roman, number in roman.
+</para>
+</listitem>
+<listitem>
+<para>
+<emphasis role="ZapfDingbats">ABCDE</emphasis> the third paragraph starts with 
+an exotic font. 
+</para>
+</listitem>
+</orderedlist>
+
+<?sdop olist_font="italic"?>
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+<emphasis>The first paragraph in italic, number in italic.</emphasis>
+</para>
+</listitem>
+<listitem>
+<para>
+The second paragraph in roman, number in italic.
+</para>
+</listitem>
+</orderedlist>
+
+<?sdop olist_tag_style="bold"
+       olist_tag_format="%s."
+       olist_format="%s."
+?>        
+<orderedlist numeration="arabic">
+<listitem>
+<para>
+<emphasis>The first paragraph, in italic, number in bold.</emphasis>
+</para>
+</listitem>
+<listitem>
+<para>
+The second paragraph in roman, number in bold.
+</para>
+</listitem>
+<listitem>
+<para>
+<emphasis role="ZapfDingbats">ABCDE</emphasis> the third paragraph starts with 
+an exotic font. 
+</para>
+</listitem>
+</orderedlist>
+
+
+<itemizedlist mark="U+0065">
+<listitem>
+<para>
+<emphasis>The first paragraph in italic, roman lettered.</emphasis>
+</para>
+</listitem>
+<listitem>
+<para>
+The second paragraph in roman, roman lettered.
+</para>
+</listitem>
+</itemizedlist>
+
+<?sdop ilist_font="bold"?>
+<itemizedlist mark="U+0065">
+<listitem>
+<para>
+<emphasis>The first paragraph in italic, bold lettered.</emphasis>
+</para>
+</listitem>
+<listitem>
+<para>
+The second paragraph in roman, bold lettered.
+</para>
+</listitem>
+<listitem>
+<para>
+<emphasis role="ZapfDingbats">ABCDE</emphasis> the third paragraph starts with 
+an exotic font. 
+</para>
+</listitem>
+</itemizedlist>
+
+<para>
+This is a paragraph with a footnote.
+<footnote>
+<para>
+<emphasis role="rgb=1,0,0">This is the text of the footnote, in red.</emphasis>
+</para>
+</footnote>
+This is more of the original paragraph.
+</para>
+
+<para>
+This is a second paragraph with a footnote.
+<footnote>
+<para>
+<emphasis role="rgb=1,0,0">This is the text of the footnote, in red.</emphasis>
+</para>
+</footnote>
+This is more of the original paragraph.
+</para>
+
+<itemizedlist mark="U+2666">
+<listitem>
+<para>
+<emphasis>The first paragraph in italic.</emphasis>
+</para>
+</listitem>
+<listitem>
+<para>
+The second paragraph in roman.
+</para>
+</listitem>
+</itemizedlist>
+
+

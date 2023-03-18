@@ -1,0 +1,358 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.72
+%%CreationDate: Sat Nov 23 17:04:44 2013
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Courier
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Times-BoldItalic
+%%Requirements: numcopies(1)
+%%EndComments
+
+%% Header file for sdop PostScript output
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/Ccircumflex/ccircumflex/Cdotaccent/cdotaccent
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/Ebreve/ebreve/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/Gcircumflex/gcircumflex/Gbreve/gbreve
+/Gdotaccent/gdotaccent/Gcommaaccent/gcommaaccent
+/Hcircumflex/hcircumflex/Hbar/hbar
+/Itilde/itilde/Imacron/imacron
+/Ibreve/ibreve/Iogonek/iogonek
+/Idotaccent/dotlessi/IJ/ij
+/Jcircumflex/jcircumflex/Kcommaaccent/kcommaaccent
+/kgreenlandic/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/Ldot
+/ldot/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/napostrophe/Eng/eng
+/Omacron/omacron/Obreve/obreve
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/Scircumflex/scircumflex/Scedilla/scedilla
+/Scaron/scaron/Tcedilla/tcedilla
+/Tcaron/tcaron/Tbar/tbar
+/Utilde/utilde/Umacron/umacron
+/Ubreve/ubreve/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/Wcircumflex/wcircumflex/Ycircumflex/ycircumflex
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/longs
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark/infinity
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Courier
+/af4 /af5 /Courier inf
+%%IncludeResource: font Helvetica-Bold
+/af6 /af7 /Helvetica-Bold inf
+%%IncludeResource: font Helvetica-Oblique
+/af8 /af9 /Helvetica-Oblique inf
+%%IncludeResource: font Times-BoldItalic
+/af10 /af11 /Times-BoldItalic inf
+/vf 22 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af0 7 scalefont put
+vf 5 af1 7 scalefont put
+vf 6 af0 9 scalefont put
+vf 7 af1 9 scalefont put
+vf 8 af4 9 scalefont put
+vf 9 af5 9 scalefont put
+vf 10 af6 15 scalefont put
+vf 11 af7 15 scalefont put
+vf 12 af0 15 scalefont put
+vf 13 af1 15 scalefont put
+vf 14 af0 12.272 scalefont put
+vf 15 af1 12.272 scalefont put
+vf 16 af6 12.272 scalefont put
+vf 17 af7 12.272 scalefont put
+vf 18 af8 13 scalefont put
+vf 19 af9 13 scalefont put
+vf 20 af10 13 scalefont put
+vf 21 af11 13 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (An)S 3.233 R(initial)S 3.233 R(paragraph)S 3.233 R(t)S
+(o)S 3.233 R(sho)S -0.275 R(w)S 3.233 R(where)S 3.233 R(the)S
+3.233 R(line)S 3.233 R(end)S 3.233 R(is.)S 3.233 R(Add)S 3.233 R(s)S
+(ome)S 3.233 R(te)S -0.165 R(xt)S 3.233 R(to)S 3.233 R(mak)S -0.11 R(e)S
+3.233 R(it)S 3.233 R(long)S 3.233 R(enough)S 3.233 R(to)S 3.233 R(g)S
+(o)S 3.233 R(onto)S
+72 756 Mt(another line so we can see if the justi)S 1 Sf (\216)S
+0 Sf (cation and line length is correct.)S
+72 733 Mt (\267) show 84 733 Mt(First)S 4.3 R(item.)S 4.3 R(Ad)S
+(d)S 4.3 R(some)S 4.3 R(te)S -0.165 R(xt)S 4.3 R(to)S 4.3 R(ma)S
+(k)S -0.11 R(e)S 4.3 R(it)S 4.3 R(long)S 4.3 R(enough)S 4.3 R(t)S
+(o)S 4.3 R(go)S 4.3 R(onto)S 4.3 R(another)S 4.3 R(line)S 4.3 R(s)S
+(o)S 4.3 R(we)S 4.3 R(can)S 4.3 R(see)S 4.3 R(if)S 4.3 R(the)S
+84 721 Mt(justi)S 1 Sf (\216)S 0 Sf (cation and line length is)S
+( correct.)S
+72 698 Mt (\267) show 84 698 Mt(Second)S 3.689 R(item.)S 3.689 R(A)S
+(dd)S 3.689 R(some)S 3.689 R(te)S -0.165 R(xt)S 3.689 R(to)S 3.689 R(m)S
+(ak)S -0.11 R(e)S 3.689 R(it)S 3.689 R(long)S 3.689 R(enough)S
+3.689 R(to)S 3.689 R(go)S 3.689 R(onto)S 3.689 R(another)S 3.689 R(l)S
+(ine)S 3.689 R(so)S 3.689 R(we)S 3.689 R(can)S 3.689 R(see)S 3.689 R(i)S
+(f)S 3.689 R(the)S
+84 686 Mt(justi)S 1 Sf (\216)S 0 Sf (cation and line length is)S
+( correct.)S
+72 663 Mt (\(1\))show 96 663 Mt(First)S 3.7 R(item.)S 3.7 R(Ad)S
+(d)S 3.7 R(some)S 3.7 R(te)S -0.165 R(xt)S 3.7 R(to)S 3.7 R(ma)S
+(k)S -0.11 R(e)S 3.7 R(it)S 3.7 R(long)S 3.7 R(enough)S 3.7 R(t)S
+(o)S 3.7 R(go)S 3.7 R(onto)S 3.7 R(another)S 3.7 R(line)S 3.7 R(s)S
+(o)S 3.7 R(we)S 3.7 R(can)S 3.7 R(see)S 3.7 R(if)S 3.7 R(the)S
+96 651 Mt(justi)S 1 Sf (\216)S 0 Sf (cation and line length is)S
+( correct.)S
+72 628 Mt (\(2\))show 96 628 Mt(Second)S 3.089 R(item.)S 3.089 R(A)S
+(dd)S 3.089 R(some)S 3.089 R(te)S -0.165 R(xt)S 3.089 R(to)S 3.089 R(m)S
+(ak)S -0.11 R(e)S 3.089 R(it)S 3.089 R(long)S 3.089 R(enough)S
+3.089 R(to)S 3.089 R(go)S 3.089 R(onto)S 3.089 R(another)S 3.089 R(l)S
+(ine)S 3.089 R(so)S 3.089 R(we)S 3.089 R(can)S 3.089 R(see)S 3.089 R(i)S
+(f)S 3.089 R(the)S
+96 616 Mt(justi)S 1 Sf (\216)S 0 Sf (cation and line length is)S
+( correct.)S
+72 593 Mt(The quick bro)S -0.275 R(wn fox. Check things in a f)S
+(ootnote.)S 0 4 RMt 4 Sf (1)S
+72 570 Mt 0 Sf (At this point, we change the tag styles.)S
+72 547 Mt  2 Sf (\247) show 84 547 Mt 0 Sf (First item.)S
+72 524 Mt  2 Sf (\247) show 84 524 Mt 0 Sf (Second item.)S
+72 501 Mt ()S 2 Sf (\(1\))show 96 501 Mt 0 Sf (First item.)S
+72 478 Mt ()S 2 Sf (\(2\))show 96 478 Mt 0 Sf (Second item.)S
+72 455 Mt(No)S -0.275 R(w change the tag font sizes.)S
+72 432 Mt  10 Sf (\247) show 84 432 Mt 0 Sf (First)S 4.3 R(ite)S
+(m.)S 4.3 R(Add)S 4.3 R(some)S 4.3 R(te)S -0.165 R(xt)S 4.3 R(t)S
+(o)S 4.3 R(mak)S -0.11 R(e)S 4.3 R(it)S 4.3 R(long)S 4.3 R(eno)S
+(ugh)S 4.3 R(to)S 4.3 R(go)S 4.3 R(onto)S 4.3 R(another)S 4.3 R(l)S
+(ine)S 4.3 R(so)S 4.3 R(we)S 4.3 R(can)S 4.3 R(see)S 4.3 R(if)S
+4.3 R(the)S
+84 420 Mt(justi)S 1 Sf (\216)S 0 Sf (cation and line length is)S
+( correct.)S
+72 397 Mt  10 Sf (\247) show 84 397 Mt 0 Sf (Second)S 3.689 R(i)S
+(tem.)S 3.689 R(Add)S 3.689 R(some)S 3.689 R(te)S -0.165 R(xt)S
+3.689 R(to)S 3.689 R(mak)S -0.11 R(e)S 3.689 R(it)S 3.689 R(lo)S
+(ng)S 3.689 R(enough)S 3.689 R(to)S 3.689 R(go)S 3.689 R(onto)S
+3.689 R(another)S 3.689 R(line)S 3.689 R(so)S 3.689 R(we)S 3.689 R(c)S
+(an)S 3.689 R(see)S 3.689 R(if)S 3.689 R(the)S
+84 385 Mt(justi)S 1 Sf (\216)S 0 Sf (cation and line length is)S
+( correct.)S
+72 362 Mt ()S 12 Sf (\(1\))show 96 362 Mt 0 Sf (First item.)S
+72 339 Mt ()S 12 Sf (\(2\))show 96 339 Mt 0 Sf (Second item.)S
+0.5 Slw 72 320 Mt 72 0 RLt St
+4 Sf 72 312.333 Mt (1)S 82 309 Mt 6 Sf (No)S -0.225 R(w check )S
+(literallayout.)S
+92.5 294 Mt(Literal layout, not monospaced.)S
+92.5 284 Mt(Second line.)S
+92.5 269 Mt 8 Sf (Literal layout, monospaced.)S
+92.5 259 Mt(Second line.)S
+79 244 Mt ()S 6 Sf (\(1\))show 103 244 Mt(First)S
+79 229 Mt (\(2\))show 103 229 Mt(Last)S
+103 214 Mt(Ne)S -0.225 R(w para in last)S
+101.5 199 Mt (\267) show 113.5 199 Mt(Nested)S
+112 184 Mt  7 Sf (\230) show 124 184 Mt 6 Sf (Nest 2)S
+122.5 169 Mt (o) show 134.5 169 Mt(Nest)S 2.874 R(3)S 2.874 R(w)S
+(ith)S 2.874 R(a)S 2.874 R(couple)S 2.874 R(of)S 2.874 R(items)S
+2.874 R(to)S 2.874 R(sho)S -0.225 R(w)S 2.874 R(ho)S -0.225 R(w)S
+2.874 R(it)S 2.874 R(looks.)S 2.874 R(Mak)S -0.09 R(e)S 2.874 R(t)S
+(his)S 2.874 R(one)S 2.874 R(long)S 2.874 R(enough)S 2.874 R(s)S
+(o)S 2.874 R(that)S 2.874 R(it)S 2.874 R(will)S 2.874 R(ha)S -0.18 R(v)S
+-0.135 R(e)S 2.874 R(to)S 2.874 R(be)S
+134.5 159 Mt(split onto more than one line.)S
+122.5 144 Mt (o) show 134.5 144 Mt(Items to sho)S -0.225 R(w h)S
+(o)S -0.225 R(w it looks)S
+133 129 Mt (\267) show 145 129 Mt(Nest 4)S
+142 114 Mt (\(1\))show 166 114 Mt(Nest 5)S
+103 99 Mt(Should be back in outer list.)S
+79 84 Mt (\(3\))show 103 84 Mt(Another item.)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (The quick bro)S -0.275 R(wn fox. Another footn)S
+(ote, with changed tag fonts.)S 0 4 RMt 4 Sf (1)S
+72 745 Mt  1 0 0 setrgbcolor()S 18 Sf (\(1\))show 96 745 Mt 0 0 0 setrgbcolor
+0 Sf (First)S
+72 722 Mt  1 0 0 setrgbcolor()S 18 Sf (\(2\))show 96 722 Mt 0 0 0 setrgbcolor
+0 Sf (Last)S
+96 699 Mt(Ne)S -0.275 R(w para in last)S
+96 676 Mt  0 1 0 setrgbcolor 20 Sf (\267) show 108 676 Mt 0 0 0 setrgbcolor
+0 Sf (Nested)S
+108 653 Mt  0 1 0 setrgbcolor 21 Sf (\230) show 120 653 Mt 0 0 0 setrgbcolor
+0 Sf (Nest 2)S
+120 630 Mt  0 1 0 setrgbcolor 20 Sf (o) show 132 630 Mt 0 0 0 setrgbcolor
+0 Sf (Nest)S 2.823 R(3)S 2.823 R(with)S 2.823 R(a)S 2.823 R(co)S
+(uple)S 2.823 R(of)S 2.823 R(items)S 2.823 R(to)S 2.823 R(sho)S
+-0.275 R(w)S 2.823 R(ho)S -0.275 R(w)S 2.823 R(it)S 2.823 R(lo)S
+(oks.)S 2.823 R(Mak)S -0.11 R(e)S 2.823 R(this)S 2.823 R(one)S
+2.823 R(long)S 2.823 R(enough)S 2.823 R(so)S 2.823 R(that)S 2.823 R(i)S
+(t)S
+132 618 Mt(will ha)S -0.22 R(v)S -0.165 R(e to be split onto m)S
+(ore than one line.)S
+120 595 Mt  0 1 0 setrgbcolor 20 Sf (o) show 132 595 Mt 0 0 0 setrgbcolor
+0 Sf (Items to sho)S -0.275 R(w ho)S -0.275 R(w it looks)S
+132 572 Mt  0 1 0 setrgbcolor 20 Sf (\267) show 144 572 Mt 0 0 0 setrgbcolor
+0 Sf (Nest 4)S
+144 549 Mt  1 0 0 setrgbcolor()S 18 Sf (\(1\))show 168 549 Mt 0 0 0 setrgbcolor
+0 Sf (Nest 5)S
+96 526 Mt(Should be back in outer list.)S
+72 503 Mt  1 0 0 setrgbcolor()S 18 Sf (\(3\))show 96 503 Mt 0 0 0 setrgbcolor
+0 Sf (Another item.)S 0.5 Slw 72 320 Mt 72 0 RLt St
+4 Sf 72 312.333 Mt (1)S 82 309 Mt 6 Sf (No)S -0.225 R(w check )S
+(literallayout.)S
+92.5 294 Mt(Literal layout, not monospaced.)S
+92.5 284 Mt(Second line.)S
+92.5 269 Mt 8 Sf (Literal layout, monospaced.)S
+92.5 259 Mt(Second line.)S
+79 244 Mt ()S 14 Sf (\(1\))show 103 244 Mt 6 Sf (First)S
+79 229 Mt ()S 14 Sf (\(2\))show 103 229 Mt 6 Sf (Last)S
+103 214 Mt(Ne)S -0.225 R(w para in last)S
+101.5 199 Mt  16 Sf (\267) show 113.5 199 Mt 6 Sf (Nested)S
+112 184 Mt  17 Sf (\230) show 124 184 Mt 6 Sf (Nest 2)S
+122.5 169 Mt  16 Sf (o) show 134.5 169 Mt 6 Sf (Nest)S 2.874 R(3)S
+2.874 R(with)S 2.874 R(a)S 2.874 R(couple)S 2.874 R(of)S 2.874 R(i)S
+(tems)S 2.874 R(to)S 2.874 R(sho)S -0.225 R(w)S 2.874 R(ho)S -0.225 R(w)S
+2.874 R(it)S 2.874 R(looks.)S 2.874 R(Mak)S -0.09 R(e)S 2.874 R(t)S
+(his)S 2.874 R(one)S 2.874 R(long)S 2.874 R(enough)S 2.874 R(s)S
+(o)S 2.874 R(that)S 2.874 R(it)S 2.874 R(will)S 2.874 R(ha)S -0.18 R(v)S
+-0.135 R(e)S 2.874 R(to)S 2.874 R(be)S
+134.5 159 Mt(split onto more than one line.)S
+122.5 144 Mt  16 Sf (o) show 134.5 144 Mt 6 Sf (Items to sho)S
+-0.225 R(w ho)S -0.225 R(w it looks)S
+133 129 Mt  16 Sf (\267) show 145 129 Mt 6 Sf (Nest 4)S
+142 114 Mt ()S 14 Sf (\(1\))show 166 114 Mt 6 Sf (Nest 5)S
+103 99 Mt(Should be back in outer list.)S
+79 84 Mt ()S 14 Sf (\(3\))show 103 84 Mt 6 Sf (Another item.)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 2

@@ -1,0 +1,510 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.60
+%%CreationDate: Tue Jul 21 14:13:11 2009
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font Times-Bold
+%%+ font Courier
+%%+ font Helvetica
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 4 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+[/Title (Title page) /Page 1 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (Contents) /Page 3 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (1.  Introduction) /Page 5 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (2.  Block quotes and notes) /Page 6 /View [/XYZ null null 1] /OUT pdfmark
+[/Title (3.  A chapter with sidebars) /Page 8 /View [/XYZ null null 1] /OUT pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font Times-Bold
+/af6 /af7 /Times-Bold inf
+%%IncludeResource: font Courier
+/af8 /af9 /Courier inf
+%%IncludeResource: font Helvetica
+/af10 /af11 /Helvetica inf
+/vf 26 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af0 9 scalefont put
+vf 7 af1 9 scalefont put
+vf 8 af2 9 scalefont put
+vf 9 af3 9 scalefont put
+vf 10 af6 11 scalefont put
+vf 11 af7 11 scalefont put
+vf 12 af8 11 scalefont put
+vf 13 af9 11 scalefont put
+vf 14 af4 24 scalefont put
+vf 15 af5 24 scalefont put
+vf 16 af4 16 scalefont put
+vf 17 af5 16 scalefont put
+vf 18 af4 13 scalefont put
+vf 19 af5 13 scalefont put
+vf 20 af4 11.5 scalefont put
+vf 21 af5 11.5 scalefont put
+vf 22 af10 11 scalefont put
+vf 23 af11 11 scalefont put
+vf 24 af4 11 scalefont put
+vf 25 af5 11 scalefont put
+%%EndSetup
+
+%%Page: i 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 754 Mt 14 Sf ( )S
+72 728 Mt( )S
+72 702 Mt( )S
+72 676 Mt( )S
+146.676 650 Mt(Ho)S -0.36 R(w to sho)S -0.36 R(w a corpauthor)S
+72 624 Mt( )S
+213.432 606.75 Mt 16 Sf (Some Corporation plc)S
+72 589.5 Mt( )S
+240.034 575.5 Mt 18 Sf (A)S -0.39 R(uthor's af)S 19 Sf (\216)S
+18 Sf (liation)S
+72 561.5 Mt( )S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: ii 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768.5 Mt 20 Sf (Ho)S -0.172 R(w to sho)S -0.172 R(w a corpa)S
+(uthor)S
+72 745.5 Mt 0 Sf (Author's af)S 1 Sf (\216)S 0 Sf (liation)S
+72 722.5 Mt(Cop)S -0.11 R(yright \251 2008 Some Corporation pl)S
+(c)S
+72 699.5 Mt(Re)S -0.275 R(vision 0.02     29 April 2008)S
+72 678.5 Mt 6 Sf (This is the )S 7 Sf (\216)S 6 Sf (rst le)S -0.135 R(g)S
+-0.045 R(al notice.)S
+72 657.5 Mt(This is the second le)S -0.135 R(g)S -0.045 R(al n)S
+(otice.)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: iii 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+262.336 764 Mt 4 Sf (Contents)S
+72 737 Mt 24 Sf (1.  Intr)S -0.22 R(oduction)S 3.15 R 0 Sf (..)S
+(.............................................................)S
+(.............................................................)S
+(......)S
+515.883 737 Mt 24 Sf (1)S
+72 725 Mt 22 Sf ( )S
+72 713 Mt 24 Sf (2.  Bloc)S -0.22 R(k quotes and notes)S 3.733 R
+0 Sf (........................................................)S
+(....................................................)S
+515.883 713 Mt 24 Sf (2)S
+72 701 Mt 22 Sf ( )S
+72 689 Mt 24 Sf (3.  A c)S -0.11 R(hapter with sidebar)S -0.165 R(s)S
+3.777 R 0 Sf (................................................)S
+(............................................................)S
+515.883 689 Mt 24 Sf (4)S
+72 72 Mt 0 Sf ( )S
+292.412 60 Mt 2 Sf (iii)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: iv 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 1 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+241.6 764 Mt 4 Sf (1. Intr)S -0.32 R(oduction)S
+84 737 Mt 0 Sf (Author_or)S -0.198 R(gname: Author's af)S 1 Sf
+(\216)S 0 Sf (liation)S
+84 725 Mt(Author_honori)S 1 Sf (\216)S 0 Sf (c: Dr)S
+84 713 Mt(Author_jobtitle: Of)S 1 Sf (\216)S 0 Sf (cial Writer)S
+84 701 Mt(Author_lineage: Snr)S
+84 689 Mt(Author_othername: XXXX)S
+84 677 Mt(Editor: Mr Hitch Q Hik)S -0.11 R(er Jnr)S
+84 665 Mt(Editor_jobtitle: Of)S 1 Sf (\216)S 0 Sf (cial Editor)S
+84 653 Mt(Editor_honori)S 1 Sf (\216)S 0 Sf (c: Mr)S
+84 641 Mt(Editor_lineage: Jnr)S
+84 629 Mt(Editor_othername: Q)S
+84 617 Mt(Othercredit: Dr Other X Credit Snr)S
+84 605 Mt(Othercredit_jobtitle: Other Creditor)S
+84 593 Mt(Othercredit_honori)S 1 Sf (\216)S 0 Sf (c: Dr)S
+84 581 Mt(Othercredit_lineage: Snr)S
+84 569 Mt(Othercredit_othername: X)S
+84 545 Mt(Corpauthor: Some Corporation plc)S
+84 533 Mt(Edition: V0.00)S
+84 521 Mt(Issue: 245)S
+84 509 Mt(Pubdate: 31 February 9999)S
+84 497 Mt(Publishername: A. Publisher)S
+84 485 Mt(Releaseinfo: Release 0.00)S
+84 473 Mt(V)S -1.419 R(olumenum: 42)S
+72 450 Mt(This is the )S 1 Sf (\216)S 0 Sf (rst le)S -0.165 R(g)S
+-0.055 R(al notice.)S
+72 427 Mt(This is the second le)S -0.165 R(g)S -0.055 R(al not)S
+(ice.)S
+72 404 Mt(This is a paragraph description.)S
+72 381 Mt 2 Sf (Re)S -0.165 R(vision Description)S 0.5 Slw 72 372 Mt
+300 0 RLt St
+77 360 Mt 0 Sf (one)S
+177 360 Mt(tw)S -0.11 R(o)S
+277 360 Mt(three)S 72 355 Mt 300 0 RLt St
+77 343 Mt(one)S
+177 343 Mt(tw)S -0.11 R(o)S
+277 343 Mt(three)S 72 338 Mt 300 0 RLt St
+77 326 Mt(one)S
+177 326 Mt(tw)S -0.11 R(o)S
+277 326 Mt(three)S 72 372.25 Mt 0 -50.25 RLt 300 0 RLt 0 50.25 RLt St
+172 372.25 Mt 0 -50.25 RLt St 272 372.25 Mt 0 -50.25 RLt St
+72 299 Mt 6 Sf (This te)S -0.135 R(xt should be in a )S 8 Sf (s)S
+(maller)S 6 Sf ( font. )S 0 Sf (But this is normal.)S
+0.6 Slw 72 280 Mt 450 0 RLt St
+258.5 264 Mt 10 Sf (Block quote title)S
+96 241 Mt 0 Sf (This is the te)S -0.165 R(xt of the block quot)S
+(e.)S
+467.134 218 Mt(A.B.C.)S
+72 210 Mt 450 0 RLt St
+72 183 Mt(This is a normal paragraph.)S
+72 72 Mt( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 6
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+198.024 764 Mt 4 Sf (2. Bloc)S -0.32 R(k quotes and notes)S
+96 737 Mt 0 Sf (This)S 4.275 R(is)S 4.275 R(the)S 4.275 R(te)S
+-0.165 R(xt)S 4.275 R(of)S 4.275 R(an)S 4.275 R(epigraph)S 4.275 R(t)S
+(hat)S 4.275 R(comes)S 4.275 R(at)S 4.275 R(the)S 4.275 R(star)S
+(t)S 4.275 R(of)S 4.275 R(chapter)S -0.605 R(.)S 4.275 R(T)S -0.77 R(e)S
+(st)S 4.275 R(an)S 4.275 R(indented)S 4.275 R(item)S
+96 725 Mt(within it.)S
+96 704.521 Mt (\267) show 108 704.521 Mt(First b)S -0.22 R(ull)S
+(eted point.)S
+96 684.042 Mt (\267) show 108 684.042 Mt(Ne)S -0.165 R(xt b)S
+-0.22 R(ulleted point.)S
+96 663.563 Mt(Back after the indented item.)S
+474.779 643.084 Mt 2 Sf (Anon)S
+72 622.605 Mt 0 Sf (A)S 3.479 R(dummy)S 3.479 R(para.)S 3.479 R(A)S
+3.479 R(dummy)S 3.479 R(para.)S 3.479 R(A)S 3.479 R(dummy)S 3.479 R(p)S
+(ara.)S 3.479 R(A)S 3.479 R(dummy)S 3.479 R(para.)S 3.479 R(A)S
+3.479 R(dummy)S 3.479 R(para.)S 3.479 R(A)S 3.479 R(dummy)S 3.479 R(p)S
+(ara.)S 3.479 R(A)S
+72 610.605 Mt(dummy)S 4.15 R(para.)S 4.15 R(A)S 4.15 R(dummy)S
+4.15 R(para.)S 4.15 R(A)S 4.15 R(dummy)S 4.15 R(para.)S 4.15 R(A)S
+4.15 R(dummy)S 4.15 R(para.)S 4.15 R(A)S 4.15 R(dummy)S 4.15 R(p)S
+(ara.)S 4.15 R(A)S 4.15 R(dummy)S 4.15 R(para.)S 4.15 R(A)S
+72 598.605 Mt(dummy)S 4.15 R(para.)S 4.15 R(A)S 4.15 R(dummy)S
+4.15 R(para.)S 4.15 R(A)S 4.15 R(dummy)S 4.15 R(para.)S 4.15 R(A)S
+4.15 R(dummy)S 4.15 R(para.)S 4.15 R(A)S 4.15 R(dummy)S 4.15 R(p)S
+(ara.)S 4.15 R(A)S 4.15 R(dummy)S 4.15 R(para.)S 4.15 R(A)S
+72 586.605 Mt(dummy)S 4.15 R(para.)S 4.15 R(A)S 4.15 R(dummy)S
+4.15 R(para.)S 4.15 R(A)S 4.15 R(dummy)S 4.15 R(para.)S 4.15 R(A)S
+4.15 R(dummy)S 4.15 R(para.)S 4.15 R(A)S 4.15 R(dummy)S 4.15 R(p)S
+(ara.)S 4.15 R(A)S 4.15 R(dummy)S 4.15 R(para.)S 4.15 R(A)S
+72 574.605 Mt(dummy para. A dummy para. A dummy para. A dummy )S
+(para. A dummy para. A dummy para.)S
+0.6 Slw 72 558.126 Mt 450 0 RLt St
+233.893 542.126 Mt 10 Sf (This block quote has a title)S
+96 521.647 Mt 0 Sf (This)S 2.9 R(is)S 2.9 R(the)S 2.9 R(te)S -0.165 R(x)S
+(t)S 2.9 R(of)S 2.9 R(the)S 2.9 R(block)S 2.9 R(quote.)S 2.9 R(T)S
+(his)S 2.9 R(is)S 2.9 R(the)S 2.9 R(te)S -0.165 R(xt)S 2.9 R(o)S
+(f)S 2.9 R(the)S 2.9 R(block)S 2.9 R(quote.)S 2.9 R(This)S 2.9 R(i)S
+(s)S 2.9 R(the)S 2.9 R(te)S -0.165 R(xt)S 2.9 R(of)S 2.9 R(the)S
+96 509.647 Mt(block)S 3.244 R(quote.)S 3.244 R(This)S 3.244 R(i)S
+(s)S 3.244 R(the)S 3.244 R(te)S -0.165 R(xt)S 3.244 R(of)S 3.244 R(t)S
+(he)S 3.244 R(block)S 3.244 R(quote.)S 3.244 R(This)S 3.244 R(i)S
+(s)S 3.244 R(the)S 3.244 R(te)S -0.165 R(xt)S 3.244 R(of)S 3.244 R(t)S
+(he)S 3.244 R(block)S 3.244 R(quote.)S 3.244 R(This)S 3.244 R(i)S
+(s)S
+96 497.647 Mt(the te)S -0.165 R(xt of the block quote.)S
+467.134 477.168 Mt(A.B.C.)S
+72 469.168 Mt 450 0 RLt St
+72 444.689 Mt(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(normal)S
+3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(n)S
+(ormal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S
+3.224 R(normal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(i)S
+(s)S 3.224 R(a)S 3.224 R(normal)S
+72 432.689 Mt(paragraph. This is a normal paragraph. This is a)S
+( normal paragraph.)S
+72 416.21 Mt 450 0 RLt St
+270.11 400.21 Mt 2 Sf (A titled note)S
+96 379.731 Mt 0 Sf (This)S 3.089 R(is)S 3.089 R(some)S 3.089 R(t)S
+(e)S -0.165 R(xt)S 3.089 R(for)S 3.089 R(a)S 3.089 R(note.)S 3.089 R(T)S
+(his)S 3.089 R(is)S 3.089 R(some)S 3.089 R(te)S -0.165 R(xt)S
+3.089 R(for)S 3.089 R(a)S 3.089 R(note.)S 3.089 R(This)S 3.089 R(i)S
+(s)S 3.089 R(some)S 3.089 R(te)S -0.165 R(xt)S 3.089 R(for)S 3.089 R(a)S
+3.089 R(note.)S 3.089 R(This)S
+96 367.731 Mt(is some te)S -0.165 R(xt for a note. This is som)S
+(e te)S -0.165 R(xt for a note. This is some te)S -0.165 R(xt )S
+(for a note.)S
+72 359.731 Mt 450 0 RLt St
+72 336 Mt(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(normal)S 3.224 R(p)S
+(aragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(n)S
+(ormal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S
+3.224 R(normal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(i)S
+(s)S 3.224 R(a)S 3.224 R(normal)S
+72 324 Mt(paragraph. This is a normal paragraph. This is a nor)S
+(mal paragraph.)S
+72 310 Mt 450 0 RLt St
+96 294 Mt(This)S 3.089 R(is)S 3.089 R(some)S 3.089 R(te)S -0.165 R(x)S
+(t)S 3.089 R(for)S 3.089 R(a)S 3.089 R(note.)S 3.089 R(This)S
+3.089 R(is)S 3.089 R(some)S 3.089 R(te)S -0.165 R(xt)S 3.089 R(f)S
+(or)S 3.089 R(a)S 3.089 R(note.)S 3.089 R(This)S 3.089 R(is)S
+3.089 R(some)S 3.089 R(te)S -0.165 R(xt)S 3.089 R(for)S 3.089 R(a)S
+3.089 R(note.)S 3.089 R(This)S
+96 282 Mt(is some te)S -0.165 R(xt for a note. This is some te)S
+-0.165 R(xt for a note. This is some te)S -0.165 R(xt for a no)S
+(te.)S
+96 264 Mt (\267) show 108 264 Mt(First b)S -0.22 R(ulleted poi)S
+(nt.)S
+96 246 Mt (\267) show 108 246 Mt(Ne)S -0.165 R(xt b)S -0.22 R(u)S
+(lleted point.)S
+96 228 Mt(This)S 3.089 R(is)S 3.089 R(some)S 3.089 R(te)S -0.165 R(x)S
+(t)S 3.089 R(for)S 3.089 R(a)S 3.089 R(note.)S 3.089 R(This)S
+3.089 R(is)S 3.089 R(some)S 3.089 R(te)S -0.165 R(xt)S 3.089 R(f)S
+(or)S 3.089 R(a)S 3.089 R(note.)S 3.089 R(This)S 3.089 R(is)S
+3.089 R(some)S 3.089 R(te)S -0.165 R(xt)S 3.089 R(for)S 3.089 R(a)S
+3.089 R(note.)S 3.089 R(This)S
+96 216 Mt(is some te)S -0.165 R(xt for a note.)S
+72 208 Mt 450 0 RLt St
+72 186 Mt(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(normal)S 3.224 R(p)S
+(aragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(n)S
+(ormal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S
+3.224 R(normal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(i)S
+(s)S 3.224 R(a)S 3.224 R(normal)S
+72 174 Mt(paragraph. This is a normal paragraph. This is a nor)S
+(mal paragraph.)S
+72 156 Mt(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(normal)S 3.224 R(p)S
+(aragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(n)S
+(ormal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S
+3.224 R(normal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(i)S
+(s)S 3.224 R(a)S 3.224 R(normal)S
+72 144 Mt(paragraph. This is a normal paragraph. This is a nor)S
+(mal paragraph.)S
+72 126 Mt(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(normal)S 3.224 R(p)S
+(aragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(n)S
+(ormal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S
+3.224 R(normal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(i)S
+(s)S 3.224 R(a)S 3.224 R(normal)S
+72 114 Mt(paragraph. This is a normal paragraph. This is a nor)S
+(mal paragraph.)S
+72 96 Mt(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(normal)S 3.224 R(p)S
+(aragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(n)S
+(ormal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S
+3.224 R(normal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(i)S
+(s)S 3.224 R(a)S 3.224 R(normal)S
+72 84 Mt(paragraph. This is a normal paragraph. This is a norm)S
+(al paragraph.)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 7
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 768 Mt 0 Sf (This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(normal)S
+3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(n)S
+(ormal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S
+3.224 R(normal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(i)S
+(s)S 3.224 R(a)S 3.224 R(normal)S
+72 756 Mt(paragraph. This is a normal paragraph. This is a nor)S
+(mal paragraph.)S
+72 733 Mt(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(normal)S 3.224 R(p)S
+(aragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S 3.224 R(n)S
+(ormal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(is)S 3.224 R(a)S
+3.224 R(normal)S 3.224 R(paragraph.)S 3.224 R(This)S 3.224 R(i)S
+(s)S 3.224 R(a)S 3.224 R(normal)S
+72 721 Mt(paragraph. This is a normal paragraph. This is a nor)S
+(mal paragraph.)S
+72 72 Mt( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 8
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+198.056 764 Mt 4 Sf (3. A c)S -0.16 R(hapter with sidebar)S -0.24 R(s)S
+72 737 Mt 0 Sf (This is the )S 1 Sf (\216)S 0 Sf (rst paragrap)S
+(h.)S
+0.6 Slw 72 718 Mt 450 0 RLt St
+268.125 702 Mt 10 Sf (Sidebar title)S
+96 679 Mt 0 Sf (This is the te)S -0.165 R(xt of the sidebar)S
+-0.605 R(.)S
+72 671 Mt 450 0 RLt St
+72 644 Mt(This is a normal paragraph, containing a )S(systemit)S
+(em)S(, a )S 12 Sf (userinput)S 0 Sf (, and a )S(trademark)S( )S
+(element.)S
+72 72 Mt( )S
+294.249 60 Mt(4)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 8

@@ -1,0 +1,11 @@
+** Warning: unsupported character &#xaaaa found (first time only is reported)
+   Current font is "Times-Roman"
+   Detected in element starting in line 5 of infiles/02
+
+** Warning: line overflow (69.265pt)
+   Detected in element starting in line 48 of infiles/02
+
+** Warning: unrecognized SDoP processing parameter "bad_param"
+   Detected in element starting in line 2 of infiles/02
+
+** Warning: generated output may be flawed.

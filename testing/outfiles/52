@@ -1,0 +1,397 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.70
+%%CreationDate: Tue Jan 25 17:02:51 2011
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+<< /PageSize [ 505 665 ] >> setpagedevice
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+/vf 14 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af0 12 scalefont put
+vf 5 af1 12 scalefont put
+vf 6 af2 12 scalefont put
+vf 7 af3 12 scalefont put
+vf 8 af0 9 scalefont put
+vf 9 af1 9 scalefont put
+vf 10 af4 16 scalefont put
+vf 11 af5 16 scalefont put
+vf 12 af0 9.6 scalefont put
+vf 13 af1 9.6 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 154.5 Mt 4 Sf (At)S 4.973 R(that)S 4.973 R(time)S 4.973 R(P)S
+(hoenix)S 4.973 R(users)S 4.973 R(still)S 4.973 R(had)S 4.973 R(a)S
+(ccess)S 4.973 R(only)S 4.973 R(to)S 4.973 R(line-by-line)S 4.973 R(t)S
+(erminals,)S 4.973 R(so)S
+72 141 Mt(GCAL)S 6.132 R(w)S -0.12 R(as)S 6.132 R(not)S 6.132 R(a)S
+(n)S 6.132 R(interacti)S -0.3 R(v)S -0.18 R(e)S 6.132 R(WYSIWY)S
+(G)S 6.132 R(w)S -0.12 R(ord)S 6.132 R(processor)S 6.132 R(of)S
+6.132 R(the)S 6.132 R(sort)S 6.132 R(that)S
+72 127.5 Mt(appeared)S 4.064 R(on)S 4.064 R(personal)S 4.064 R(c)S
+(omputers)S 4.064 R(a)S 4.064 R(fe)S -0.3 R(w)S 4.064 R(years)S
+4.064 R(later)S -0.66 R(.)S 4.064 R(In)S 4.064 R(concept)S 4.064 R(i)S
+(t)S 4.064 R(w)S -0.12 R(as)S 4.064 R(similar)S 4.064 R(to)S
+72 114 Mt(T)S 0 -2.16 RMt(E)S 0 2.16 RMt(X,)S 4.751 R(which)S
+4.751 R(w)S -0.12 R(as)S 4.751 R(being)S 4.751 R(de)S -0.3 R(v)S
+-0.18 R(eloped)S 4.751 R(at)S 4.751 R(around)S 4.751 R(the)S 4.751 R(s)S
+(ame)S 4.751 R(time.)S 4.751 R(Ho)S -0.3 R(we)S -0.3 R(v)S -0.18 R(e)S
+(r)S -0.48 R(,)S 4.751 R(GCAL)S
+72 100.5 Mt(w)S -0.12 R(as)S 3.253 R(much)S 3.253 R(less)S 3.253 R(a)S
+(mbitious;)S 3.253 R(I)S 3.253 R(did)S 3.253 R(not)S 3.253 R(a)S
+(ttempt)S 3.253 R(to)S 3.253 R(support)S 3.253 R(mathematical)S
+3.253 R(typesetting,)S
+72 72 Mt 0 Sf ( )S
+262.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 154.5 Mt 4 Sf (nor)S 3.104 R(did)S 3.104 R(I)S 3.104 R(cons)S
+(ider)S 3.104 R(using)S 3.104 R(an)S -0.18 R(y)S 3.104 R(fonts)S
+3.104 R(other)S 3.104 R(than)S 3.104 R(those)S 3.104 R(that)S
+3.104 R(were)S 3.104 R(already)S 3.104 R(a)S -0.24 R(v)S -0.3 R(a)S
+(ilable)S 3.104 R(in)S
+72 141 Mt(the v)S -0.3 R(arious printing de)S -0.3 R(vices.)S
+72 116.5 Mt(Somebody)S 5.453 R(once)S 5.453 R(said)S 5.453 R(t)S
+(hat)S 5.453 R(people)S 5.453 R(are)S 5.453 R(either)S 5.453 R
+6 Sf (doer)S -0.12 R(s)S 5.453 R 4 Sf (or)S 5.453 R 6 Sf (desc)S
+(riber)S -0.12 R(s)S 4 Sf (.)S 5.453 R(The)S 5.453 R(former)S
+72 103 Mt(prefer)S 5.434 R(WYSIWSG)S 5.434 R(interf)S -0.12 R(a)S
+(ces,)S 5.434 R(which)S 5.434 R(you)S 5.434 R(can)S 5.434 R(ma)S
+(k)S -0.12 R(e)S 5.434 R(do)S 5.434 R(things)S 5.434 R(as)S 5.434 R(y)S
+(ou)S 5.434 R(w)S -0.12 R(atch,)S
+72 89.5 Mt(whereas)S 3.623 R(the)S 3.623 R(latter)S 3.623 R(\()S
+(a)S 3.623 R(smaller)S 3.623 R(fraction)S 3.623 R(of)S 3.623 R(t)S
+(he)S 3.623 R(population,)S 3.623 R(I)S 3.623 R(think\))S 3.623 R(p)S
+(refer)S 3.623 R(to)S 3.623 R(create)S
+72 72 Mt 0 Sf ( )S
+262.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 154.5 Mt 5 Sf (\216)S 4 Sf (les)S 4.244 R(that)S 4.244 R(de)S
+(scribe)S 4.244 R(their)S 4.244 R(requirements,)S 4.244 R(that)S
+4.244 R(is,)S 4.244 R(the)S -0.18 R(y)S 4.244 R(lik)S -0.12 R(e)S
+4.244 R(markup)S 4.244 R(languages.)S 4.244 R(The)S
+72 141 Mt(doers)S 3.013 R(prefer)S 3.013 R(applications)S 3.013 R(l)S
+(ik)S -0.12 R(e)S 3.013 R(Microsoft)S 3.013 R(W)S -0.96 R(ord)S
+3.013 R(and)S 3.013 R(Sibelius;)S 3.013 R(the)S 3.013 R(descri)S
+(bers)S 3.013 R(go)S 3.013 R(for)S
+72 127.5 Mt(T)S 0 -2.16 RMt(E)S 0 2.16 RMt(X)S 4.373 R(and)S 4.373 R(P)S
+(MW)S -1.104 R(.)S 4.373 R(I)S 4.373 R(think)S 4.373 R(it)S 4.373 R(i)S
+(s)S 4.373 R(f)S -0.12 R(air)S 4.373 R(to)S 4.373 R(say)S 4.373 R(t)S
+(hat,)S 4.373 R(in)S 4.373 R(general,)S 4.373 R(people)S 4.373 R(w)S
+(ho)S 4.373 R(compose)S
+72 114 Mt(music)S 3.163 R(or)S 3.163 R(who)S 3.163 R(w)S -0.12 R(a)S
+(nt)S 3.163 R(to)S 3.163 R(mak)S -0.12 R(e)S 3.163 R(arrangeme)S
+(nts)S 3.163 R(just)S 3.163 R(for)S 3.163 R(performance)S 3.163 R(a)S
+(re)S 3.163 R(happ)S -0.12 R(y)S 3.163 R(with)S 3.163 R(a)S
+72 100.5 Mt(WYSIWYG)S 5.464 R(approach,)S 5.464 R(b)S -0.24 R(u)S
+(t)S 5.464 R(those)S 5.464 R(who)S 5.464 R(are)S 5.464 R(inter)S
+(ested)S 5.464 R(in)S 5.464 R(creating)S 5.464 R(high)S 5.464 R(q)S
+(uality)S
+72 72 Mt 0 Sf ( )S
+262.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 4 4
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 154.5 Mt 4 Sf (page)S 3.884 R(images)S 3.884 R(for)S 3.884 R(p)S
+(ublication)S 3.884 R(\(in)S 3.884 R(ef)S -0.3 R(fect)S 3.884 R
+5 Sf (\241)S 4 Sf (music)S 3.884 R(engra)S -0.24 R(v)S -0.18 R(e)S
+(rs)S 5 Sf (\242)S 4 Sf (\))S 3.884 R(prefer)S 3.884 R(PMW)S 3.884 R(b)S
+(ecause)S
+72 141 Mt(it gi)S -0.3 R(v)S -0.18 R(es v)S -0.18 R(ery precis)S
+(e control o)S -0.18 R(v)S -0.18 R(er the placing of e)S -0.3 R(v)S
+-0.18 R(ery mark on the page.)S
+72 118.013 Mt(T)S -0.84 R(esting inde)S -0.18 R(xing T)S 0 2.16 RMt(O)S 0 -2.16 RMt(X)S
+(.)S
+72 97.5 Mt(At)S 4.973 R(that)S 4.973 R(time)S 4.973 R(Phoenix)S
+4.973 R(users)S 4.973 R(still)S 4.973 R(had)S 4.973 R(access)S
+4.973 R(only)S 4.973 R(to)S 4.973 R(line-by-line)S 4.973 R(ter)S
+(minals,)S 4.973 R(so)S
+72 84 Mt(GCAL)S 6.132 R(w)S -0.12 R(as)S 6.132 R(not)S 6.132 R(a)S
+(n)S 6.132 R(interacti)S -0.3 R(v)S -0.18 R(e)S 6.132 R(WYSIWY)S
+(G)S 6.132 R(w)S -0.12 R(ord)S 6.132 R(processor)S 6.132 R(of)S
+6.132 R(the)S 6.132 R(sort)S 6.132 R(that)S
+72 72 Mt 0 Sf ( )S
+262.249 60 Mt(4)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 5 5
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 154.5 Mt 4 Sf (appeared)S 4.064 R(on)S 4.064 R(personal)S 4.064 R(c)S
+(omputers)S 4.064 R(a)S 4.064 R(fe)S -0.3 R(w)S 4.064 R(years)S
+4.064 R(later)S -0.66 R(.)S 4.064 R(In)S 4.064 R(concept)S 4.064 R(i)S
+(t)S 4.064 R(w)S -0.12 R(as)S 4.064 R(similar)S 4.064 R(to)S
+72 141 Mt(T)S 0 -2.16 RMt(E)S 0 2.16 RMt(X, which w)S -0.12 R(a)S
+(s being de)S -0.3 R(v)S -0.18 R(eloped at around the same tim)S
+(e.)S
+72 116.5 Mt(At)S 4.973 R(that)S 4.973 R(time)S 4.973 R(Phoenix)S
+4.973 R(users)S 4.973 R(still)S 4.973 R(had)S 4.973 R(access)S
+4.973 R(only)S 4.973 R(to)S 4.973 R(line-by-line)S 4.973 R(ter)S
+(minals,)S 4.973 R(so)S
+72 103 Mt(GCAL)S 6.132 R(w)S -0.12 R(as)S 6.132 R(not)S 6.132 R(a)S
+(n)S 6.132 R(interacti)S -0.3 R(v)S -0.18 R(e)S 6.132 R(WYSIWY)S
+(G)S 6.132 R(w)S -0.12 R(ord)S 6.132 R(processor)S 6.132 R(of)S
+6.132 R(the)S 6.132 R(sort)S 6.132 R(that)S
+72 72 Mt 0 Sf ( )S
+262.249 60 Mt(5)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 6 6
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 154.5 Mt 4 Sf (appeared)S 4.064 R(on)S 4.064 R(personal)S 4.064 R(c)S
+(omputers)S 4.064 R(a)S 4.064 R(fe)S -0.3 R(w)S 4.064 R(years)S
+4.064 R(later)S -0.66 R(.)S 4.064 R(In)S 4.064 R(concept)S 4.064 R(i)S
+(t)S 4.064 R(w)S -0.12 R(as)S 4.064 R(similar)S 4.064 R(to)S
+72 141 Mt(T)S 0 -4.455 RMt(E)S 0 4.455 RMt(X, which w)S -0.12 R(a)S
+(s being de)S -0.3 R(v)S -0.18 R(eloped at around the same tim)S
+(e.)S
+72 116.5 Mt(The)S 4.048 R(doers)S 4.048 R(prefer)S 4.048 R(app)S
+(lications)S 4.048 R(lik)S -0.12 R(e)S 4.048 R(Microsoft)S 4.048 R(W)S
+-0.96 R(ord)S 4.048 R(and)S 4.048 R(Sibelius;)S 4.048 R(the)S
+4.048 R(describers)S
+72 103 Mt(go for T)S 0 -4.455 RMt 8 Sf (E)S 0 4.455 RMt 4 Sf (X)S
+( and PMW)S -1.104 R(.)S
+72 72 Mt 0 Sf ( )S
+262.249 60 Mt(6)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 7 7
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+72 154.5 Mt 4 Sf (Better)S 5.619 R(mak)S -0.12 R(e)S 5.619 R(s)S
+(ure)S 5.619 R(that)S 5.619 R(subscripts)S 5.619 R(and)S 5.619 R(s)S
+(uperscripts,)S 5.619 R(with)S 5.619 R(the)S 5.619 R(same)S 5.619 R(m)S
+(o)S -0.18 R(v)S -0.18 R(ement)S
+72 141 Mt(v)S -0.3 R(alues,)S 3.078 R(are)S 3.078 R(distinguis)S
+(hed.)S 3.078 R(The)S 3.078 R(doers)S 3.078 R(prefer)S 3.078 R(a)S
+(pplications)S 3.078 R(lik)S -0.12 R(e)S 3.078 R(Microsoft)S 3.078 R(W)S
+-0.96 R(ord)S 3.078 R(and)S
+72 127.5 Mt(Sibelius; the describers go for T)S 0 4.455 RMt 8 Sf
+(E)S 0 -4.455 RMt 4 Sf (X and PMW)S -1.104 R(.)S
+72 103 Mt(The)S 4.048 R(doers)S 4.048 R(prefer)S 4.048 R(appli)S
+(cations)S 4.048 R(lik)S -0.12 R(e)S 4.048 R(Microsoft)S 4.048 R(W)S
+-0.96 R(ord)S 4.048 R(and)S 4.048 R(Sibelius;)S 4.048 R(the)S
+4.048 R(describers)S
+72 89.5 Mt(go for )S 1 0 0 setrgbcolor(T)S 0 -4.455 RMt 8 Sf (E)S 0 4.455 RMt
+4 Sf (X)S 0 0 0 setrgbcolor( and PMW)S -1.104 R(.)S
+72 72 Mt 0 Sf ( )S
+262.249 60 Mt(7)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 8 8
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+244.224 152 Mt 10 Sf (Inde)S -0.24 R(x)S
+72 126.4 Mt 12 Sf (T)S 0 3.498 RMt 8 Sf (E)S 0 -3.498 RMt 12 Sf
+(X)S(  7)S
+[/Rect [94.095 123.4 100.895 136] /Page 7 /View [/XYZ 0 208 null] /LNK pdfmark
+72 115.8 Mt(T)S 0 -3.498 RMt 8 Sf (E)S 0 3.498 RMt 12 Sf (X)S( )S
+( 6)S
+[/Rect [94.095 112.8 100.895 125.4] /Page 6 /View [/XYZ 0 208 null] /LNK pdfmark
+72 105.2 Mt(T)S 0 -1.696 RMt(E)S 0 1.696 RMt(X)S(  1, 3, 4)S
+[/Rect [113.661 102.2 120.461 114.8] /Page 4 /View [/XYZ 0 208 null] /LNK pdfmark
+[/Rect [104.061 102.2 110.861 114.8] /Page 3 /View [/XYZ 0 208 null] /LNK pdfmark
+[/Rect [94.461 102.2 101.261 114.8] /Page 1 /View [/XYZ 0 208 null] /LNK pdfmark
+72 94.6 Mt(T)S 0 -3.498 RMt(E)S 0 3.498 RMt(X)S(  5)S
+[/Rect [94.461 91.6 101.261 104.2] /Page 5 /View [/XYZ 0 208 null] /LNK pdfmark
+72 84 Mt 1 0 0 setrgbcolor(T)S 0 -3.498 RMt 8 Sf (E)S 0 3.498 RMt
+12 Sf (X)S 0 0 0 setrgbcolor(  7)S
+[/Rect [94.095 81 100.895 93.6] /Page 7 /View [/XYZ 0 208 null] /LNK pdfmark
+275 125.4 Mt(T)S 0 1.696 RMt(O)S 0 -1.696 RMt(X)S(  4)S
+[/Rect [298.527 122.4 305.327 135] /Page 4 /View [/XYZ 0 208 null] /LNK pdfmark
+72 72 Mt 0 Sf ( )S
+262.249 60 Mt(8)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 8

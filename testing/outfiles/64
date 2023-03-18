@@ -1,0 +1,205 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.90
+%%CreationDate: Thu Aug 20 16:44:31 2020
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Courier
+%%+ font Times-Bold
+%%+ font OmArabicRsimms
+%%Requirements: numcopies(1)
+%%EndComments
+
+%% Header file for sdop PostScript output
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/Ccircumflex/ccircumflex/Cdotaccent/cdotaccent
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/Ebreve/ebreve/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/Gcircumflex/gcircumflex/Gbreve/gbreve
+/Gdotaccent/gdotaccent/Gcommaaccent/gcommaaccent
+/Hcircumflex/hcircumflex/Hbar/hbar
+/Itilde/itilde/Imacron/imacron
+/Ibreve/ibreve/Iogonek/iogonek
+/Idotaccent/dotlessi/IJ/ij
+/Jcircumflex/jcircumflex/Kcommaaccent/kcommaaccent
+/kgreenlandic/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/Ldot
+/ldot/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/napostrophe/Eng/eng
+/Omacron/omacron/Obreve/obreve
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/Scircumflex/scircumflex/Scedilla/scedilla
+/Scaron/scaron/Tcedilla/tcedilla
+/Tcaron/tcaron/Tbar/tbar
+/Utilde/utilde/Umacron/umacron
+/Ubreve/ubreve/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/Wcircumflex/wcircumflex/Ycircumflex/ycircumflex
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/longs
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark/infinity
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Courier
+/af4 /af5 /Courier inf
+%%IncludeResource: font Times-Bold
+/af6 /af7 /Times-Bold inf
+%%IncludeResource: font OmArabicRsimms
+/af8 /af9 /OmArabicRsimms inf
+/vf 10 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 11 scalefont put
+vf 5 af5 11 scalefont put
+vf 6 af6 11 scalefont put
+vf 7 af7 11 scalefont put
+vf 8 af8 12 scalefont put
+vf 9 af9 12 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+80.6 768 Mt 4 Sf (TEST)S
+134.721 768 Mt 0 Sf (TEST)S
+183.058 768 Mt(X)S
+212.029 768 Mt(X)S
+241 768 Mt 6 Sf (test)S
+80.6 756 Mt 4 Sf (062C)S
+133.5 756 Mt 0 Sf (JEEM)S
+187.942 756 Mt(j)S
+212.46 755 Mt 8 Sf (})S
+241 756 Mt 6 Sf (g)S 0 Sf (em)S
+80.6 743 Mt 4 Sf (062D)S
+137.174 743 Mt 0 Sf (HAH)S
+185.5 743 Mt(h)S
+212.46 742 Mt 8 Sf (\202)S
+241 743 Mt 0 Sf (gutteral h)S
+80.6 730 Mt 4 Sf (FECA)S
+129.837 730 Mt 0 Sf (AIN)S 1 Sf (\216)S 0 Sf (n)S
+213.15 729 Mt 8 Sf (\255)S
+241 730 Mt 0 Sf (ain)S 1 Sf (\216)S 0 Sf (n)S
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 1

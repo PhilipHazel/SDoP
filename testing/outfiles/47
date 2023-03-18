@@ -1,0 +1,525 @@
+%!PS-Adobe-3.0
+%%Creator: SDoP 0.52
+%%CreationDate: Sun Dec 14 17:10:58 2008
+%%Pages: (atend)
+%%DocumentNeededResources:
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Helvetica-Bold
+%%+ font ZapfDingbats
+%%+ font Symbol
+%%Requirements: numcopies(1)
+%%EndComments
+
+%%BeginProlog
+/pdfmark where                    % Is pdfmark already available?
+   { pop }                        % Yes: do nothing (use that definition)
+   {                              % No: define pdfmark as follows:
+   /globaldict where              % globaldict is preferred because
+       { pop globaldict }         % globaldict is always visible; else,
+       { userdict }               % use userdict otherwise.
+   ifelse
+   /pdfmark /cleartomark load put
+   }                              % Define pdfmark to remove all objects
+ifelse                            % up to and including the mark object.
+/LowerEncoding 256 array def
+LowerEncoding 0 [
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle
+/parenleft/parenright/asterisk/plus
+/comma/hyphen/period/slash
+/zero/one/two/three
+/four/five/six/seven
+/eight/nine/colon/semicolon
+/less/equal/greater/question
+/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O
+/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft
+/backslash/bracketright/asciicircum/underscore
+/grave/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o
+/p/q/r/s/t/u/v/w/x/y/z/braceleft
+/bar/braceright/asciitilde/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/currency/currency/currency/currency
+/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft
+/logicalnot/hyphen/registered/macron
+/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/bullet
+/cedilla/onesuperior/ordmasculine/guillemotright
+/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde
+/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis
+/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute
+/Ocircumflex/Otilde/Odieresis/multiply
+/Oslash/Ugrave/Uacute/Ucircumflex
+/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde
+/adieresis/aring/ae/ccedilla
+/egrave/eacute/ecircumflex/edieresis
+/igrave/iacute/icircumflex/idieresis
+/eth/ntilde/ograve/oacute
+/ocircumflex/otilde/odieresis/divide
+/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis
+]putinterval
+/UpperEncoding 256 array def
+UpperEncoding 0 [
+/Amacron/amacron/Abreve/abreve
+/Aogonek/aogonek/Cacute/cacute
+/currency/currency/currency/currency
+/Ccaron/ccaron/Dcaron/dcaron
+/Dcroat/dcroat/Emacron/emacron
+/currency/currency/Edotaccent/edotaccent
+/Eogonek/eogonek/Ecaron/ecaron
+/currency/currency/Gbreve/gbreve
+/currency/currency/Gcommaaccent/gcommaaccent
+/currency/currency/currency/currency
+/currency/currency/Imacron/imacron
+/currency/currency/Iogonek/iogonek
+/Idotaccent/dotlessi/currency/currency
+/currency/currency/Kcommaaccent/kcommaaccent
+/currency/Lacute/lacute/Lcommaaccent
+/lcommaaccent/Lcaron/lcaron/currency
+/currency/Lslash/lslash/Nacute
+/nacute/Ncommaaccent/ncommaaccent/Ncaron
+/ncaron/currency/currency/currency
+/Omacron/omacron/currency/currency
+/Ohungarumlaut/ohungarumlaut/OE/oe
+/Racute/racute/Rcommaaccent/rcommaaccent
+/Rcaron/rcaron/Sacute/sacute
+/currency/currency/Scedilla/scedilla
+/Scaron/scaron/currency/currency
+/Tcaron/tcaron/currency/currency
+/currency/currency/Umacron/umacron
+/currency/currency/Uring/uring
+/Uhungarumlaut/uhungarumlaut/Uogonek/uogonek
+/currency/currency/currency/currency
+/Ydieresis/Zacute/zacute/Zdotaccent
+/zdotaccent/Zcaron/zcaron/currency
+/Delta/Euro/Scommaaccent/Tcommaaccent
+/breve/caron/circumflex/commaaccent
+/dagger/daggerdbl/dotaccent/ellipsis
+/emdash/endash/fi/fl
+/florin/fraction/greaterequal/guilsinglleft
+/guilsinglright/hungarumlaut/lessequal/lozenge
+/minus/notequal/ogonek/partialdiff
+/periodcentered/perthousand/quotedblbase/quotedblleft
+/quotedblright/quoteleft/quoteright/quotesinglbase
+/radical/ring/scommaaccent/summation
+/tcommaaccent/tilde/trademark
+]putinterval
+/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
+100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+dup dup/Encoding get StandardEncoding eq
+{maxlength dup dict/newfont0 exch def dict/newfont1 exch def
+dup
+{1 index/FID eq{pop pop}{newfont0 3 1 roll put}ifelse}forall
+{1 index/FID eq{pop pop}{newfont1 3 1 roll put}ifelse}forall
+newfont1/Encoding UpperEncoding put dup newfont1 definefont def
+newfont0/Encoding LowerEncoding put dup newfont0 definefont def
+}
+{3 1 roll def def}ifelse
+}bind def
+/Sf{vf exch get setfont}bind def
+/R{0 rmoveto}bind def
+/Mt/moveto load def
+/RMt/rmoveto load def
+/RLt/rlineto load def
+/S/show load def
+/Slw/setlinewidth load def
+/St/stroke load def
+%%EndProlog
+
+%%BeginSetup
+[ {Catalog} << /PageLabels << /Nums [
+0 << /S /r >> 0 << /S /D >> ] >> >> /PUT pdfmark
+[/View [/XYZ null null 1] /Page 1 /PageMode /UseOutlines /DOCVIEW pdfmark
+%%IncludeResource: font Times-Roman
+/af0 /af1 /Times-Roman inf
+%%IncludeResource: font Times-Italic
+/af2 /af3 /Times-Italic inf
+%%IncludeResource: font Helvetica-Bold
+/af4 /af5 /Helvetica-Bold inf
+%%IncludeResource: font ZapfDingbats
+/af6 /af7 /ZapfDingbats inf
+%%IncludeResource: font Symbol
+/af8 /af9 /Symbol inf
+/vf 14 array def
+vf 0 af0 11 scalefont put
+vf 1 af1 11 scalefont put
+vf 2 af2 11 scalefont put
+vf 3 af3 11 scalefont put
+vf 4 af4 16 scalefont put
+vf 5 af5 16 scalefont put
+vf 6 af0 7 scalefont put
+vf 7 af1 7 scalefont put
+vf 8 af0 9 scalefont put
+vf 9 af1 9 scalefont put
+vf 10 af6 11 scalefont put
+vf 11 af7 11 scalefont put
+vf 12 af8 11 scalefont put
+vf 13 af9 11 scalefont put
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+241.432 764 Mt 4 Sf (1. Chapter title)S
+72 737 Mt 0 Sf (The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(w)S
+(n)S 3.919 R(fox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.919 R(the)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S
+3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(j)S
+(umps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 725 Mt(quick bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S -0.165 R(e)S
+(r the lazy dog. The quick bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S
+-0.165 R(er the lazy dog.)S 0.5 Slw 84 708.667 Mt 438 0 RLt St
+89 696.667 Mt(A)S
+235 696.667 Mt(B)S
+381 696.667 Mt(C)S 84 691.667 Mt 438 0 RLt St
+89 679.667 Mt(A)S
+235 679.667 Mt(B)S
+381 679.667 Mt(C)S 84 708.917 Mt 0 -33.25 RLt 438 0 RLt 0 33.25 RLt St
+230 708.917 Mt 0 -33.25 RLt St 376 708.917 Mt 0 -33.25 RLt St
+72 652.667 Mt(The quick bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S
+-0.165 R(er the lazy dog.)S
+84 634.251 Mt 2 Sf (T)S -1.012 R(able 1-1: A title for the tab)S
+(le)S 84 624.334 Mt 438 0 RLt St
+89 612.334 Mt 0 Sf (A)S
+235 612.334 Mt(B)S
+381 612.334 Mt(C)S 84 607.334 Mt 438 0 RLt St
+89 595.334 Mt(A)S
+235 595.334 Mt(B)S
+381 595.334 Mt(C)S 84 624.584 Mt 0 -33.25 RLt 438 0 RLt 0 33.25 RLt St
+230 624.584 Mt 0 -33.25 RLt St 376 624.584 Mt 0 -33.25 RLt St
+72 568.334 Mt(The quick bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S
+-0.165 R(er the lazy dog.)S
+237.506 549.918 Mt 2 Sf (T)S -1.012 R(able 1-2: A title for th)S
+(e table)S 84 540.001 Mt 438 0 RLt St
+89 528.001 Mt 0 Sf (A)S
+235 528.001 Mt(B)S
+381 528.001 Mt(C)S 84 523.001 Mt 438 0 RLt St
+89 511.001 Mt(A)S
+235 511.001 Mt(B)S
+381 511.001 Mt(C)S 84 506.001 Mt 438 0 RLt St
+89 494.001 Mt(A)S
+235 494.001 Mt(B)S
+381 494.001 Mt(C)S 84 489.001 Mt 438 0 RLt St
+89 477.001 Mt(A)S
+235 477.001 Mt(B)S
+381 477.001 Mt(C)S 84 472.001 Mt 438 0 RLt St
+89 460.001 Mt(A)S
+235 460.001 Mt(B)S
+381 460.001 Mt(C)S 84 455.001 Mt 438 0 RLt St
+89 443.001 Mt(A)S
+235 443.001 Mt(B)S
+381 443.001 Mt(C)S 84 438.001 Mt 438 0 RLt St
+89 426.001 Mt(A)S
+235 426.001 Mt(B)S
+381 426.001 Mt(C)S 84 421.001 Mt 438 0 RLt St
+89 409.001 Mt(A)S
+235 409.001 Mt(B)S
+381 409.001 Mt(C)S 84 540.251 Mt 0 -135.25 RLt 438 0 RLt 0 135.25 RLt St
+230 540.251 Mt 0 -135.25 RLt St 376 540.251 Mt 0 -135.25 RLt St
+72 382.001 Mt(The quick bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S
+-0.165 R(er the lazy dog.)S
+249.506 363.585 Mt 2 Sf (T)S -1.012 R(able 1-3: A title for th)S
+(e table)S 108 353.668 Mt 414 0 RLt St
+113 341.668 Mt 0 Sf (A)S
+251 341.668 Mt(B)S
+389 341.668 Mt(C)S 108 336.668 Mt 414 0 RLt St
+113 324.668 Mt(A)S
+251 324.668 Mt(B)S
+389 324.668 Mt(C)S 108 353.918 Mt 0 -33.25 RLt 414 0 RLt 0 33.25 RLt St
+246 353.918 Mt 0 -33.25 RLt St 384 353.918 Mt 0 -33.25 RLt St
+72 297.668 Mt(The quick bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S
+-0.165 R(er the lazy dog.)S
+72 278.87 Mt(A)S
+223 278.87 Mt(B)S
+369 278.87 Mt(C)S
+84 260.664 Mt(A)S
+235 260.664 Mt(B)S
+381 260.664 Mt(C)S
+84 242.664 Mt(The quick bro)S -0.275 R(wn fox.)S
+72 224.664 Mt(The quick bro)S -0.275 R(wn fox jumps o)S -0.165 R(v)S
+-0.165 R(er the lazy dog.)S 0 4 RMt 6 Sf (1)S 0 -4 RMt 0 Sf ( )S(A)S
+(nother sentence.)S 84 208.664 Mt 426 0 RLt St
+147.058 196.664 Mt(A)S
+291.5 196.664 Mt(1.2)S
+392.063 196.664 Mt(C)S 84 191.664 Mt 426 0 RLt St
+147.058 179.664 Mt(A)S
+286 179.664 Mt(11.23)S
+392.063 179.664 Mt(C)S 84 174.664 Mt 426 0 RLt St 84 208.914 Mt
+0 -33.25 RLt St 510 208.914 Mt 0 -33.25 RLt St 226 208.914 Mt
+0 -33.25 RLt St 368 208.914 Mt 0 -33.25 RLt St 72 159 Mt 72 0 RLt St
+6 Sf 72 151.333 Mt (1)S 82 148 Mt 8 Sf (This is a paragraph in)S
+( a footnote.)S 94 131.667 Mt 426 0 RLt St
+99 121.667 Mt(A)S
+241 121.667 Mt(B)S
+383 121.667 Mt(C)S 94 116.667 Mt 426 0 RLt St
+99 106.667 Mt(A)S
+241 106.667 Mt(B)S
+383 106.667 Mt(C)S 94 131.917 Mt 0 -29.25 RLt 426 0 RLt 0 29.25 RLt St
+236 131.917 Mt 0 -29.25 RLt St 378 131.917 Mt 0 -29.25 RLt St
+82 81.667 Mt(The quick bro)S -0.225 R(wn fox jumps o)S -0.135 R(v)S
+-0.135 R(er the lazy dog.)S
+72 72 Mt 0 Sf ( )S
+294.249 60 Mt(1)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 2 2
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+0.5 Slw 84 780 Mt 426 0 RLt St
+147.058 768 Mt 0 Sf (A)S 10 Sf (7)S 0 Sf (B)S
+280.5 768 Mt(999.)S
+392.063 768 Mt(C)S 12 Sf (\250)S 0 Sf (D)S 84 763 Mt 426 0 RLt St
+132.384 751 Mt(ABC)S 10 Sf (7)S 0 Sf (D)S
+291.5 751 Mt(8.456)S
+377.4 751 Mt(CDE)S 12 Sf (\250)S 0 Sf (XYZ)S 84 746 Mt 426 0 RLt St
+147.058 734 Mt(A)S 10 Sf (7)S
+231 734 Mt 0 Sf (42.42L)S
+420.19 734 Mt(CDE)S 12 Sf (\250)S 0 Sf (C)S 84 729 Mt 426 0 RLt St
+155 717 Mt 10 Sf (7)S 0 Sf (B)S
+319.913 717 Mt(111.222R)S
+392.063 717 Mt(C)S 84 712 Mt 426 0 RLt St
+147.058 700 Mt(A)S
+286 700 Mt(34,456)S
+392.063 700 Mt(C)S 84 695 Mt 426 0 RLt St
+147.058 683 Mt(A)S
+289.663 683 Mt(B)S
+392.063 683 Mt(C)S 84 678 Mt 426 0 RLt St
+147.058 666 Mt(A)S
+289.663 666 Mt(B)S
+392.063 666 Mt(C)S 84 661 Mt 426 0 RLt St
+147.058 649 Mt(A)S
+289.663 649 Mt(B)S
+392.063 649 Mt(C)S 84 644 Mt 426 0 RLt St
+147.058 632 Mt(A)S
+289.663 632 Mt(B)S
+392.063 632 Mt(C)S 84 627 Mt 426 0 RLt St
+147.058 615 Mt(A)S
+289.663 615 Mt(B)S
+392.063 615 Mt(C)S 84 610 Mt 426 0 RLt St
+147.058 598 Mt(A)S
+289.663 598 Mt(B)S
+392.063 598 Mt(C)S 84 593 Mt 426 0 RLt St
+147.058 581 Mt(A)S
+289.663 581 Mt(B)S
+392.063 581 Mt(C)S 84 576 Mt 426 0 RLt St
+147.058 564 Mt(A)S
+289.663 564 Mt(B)S
+392.063 564 Mt(C)S 84 559 Mt 426 0 RLt St
+147.058 547 Mt(A)S
+289.663 547 Mt(B)S
+392.063 547 Mt(C)S 84 542 Mt 426 0 RLt St
+147.058 530 Mt(A)S
+289.663 530 Mt(B)S
+392.063 530 Mt(C)S 84 780.25 Mt 0 -254.25 RLt 426 0 RLt 0 254.25 RLt St
+226 780.25 Mt 0 -254.25 RLt St 368 780.25 Mt 0 -254.25 RLt St
+72 503 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(f)S
+(ox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(t)S
+(he)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S 3.919 R(quic)S
+(k)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(jumps)S
+3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 491 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(j)S
+(umps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S 3.512 R(br)S
+(o)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.512 R(the)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(T)S
+(he)S 3.512 R(quick)S
+72 479 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(d)S
+(og.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(The)S
+3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 467 Mt(fox)S 4.055 R(jumps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 4.055 R(the)S 4.055 R(lazy)S 4.055 R(dog.)S 4.055 R(The)S
+4.055 R(quick)S 4.055 R(bro)S -0.275 R(wn)S 4.055 R(fox)S 4.055 R(j)S
+(umps)S 4.055 R(o)S -0.165 R(v)S -0.165 R(er)S 4.055 R(the)S 4.055 R(l)S
+(azy)S 4.055 R(dog.)S 4.055 R(The)S 4.055 R(quick)S 4.055 R(br)S
+(o)S -0.275 R(wn)S 4.055 R(fox)S
+72 455 Mt(jumps)S 3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(t)S
+(he)S 3.375 R(lazy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quic)S
+(k)S 3.375 R(bro)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+3.375 R(o)S -0.165 R(v)S -0.165 R(er)S 3.375 R(the)S 3.375 R(l)S
+(azy)S 3.375 R(dog.)S 3.375 R(The)S 3.375 R(quick)S 3.375 R(br)S
+(o)S -0.275 R(wn)S 3.375 R(fox)S 3.375 R(jumps)S
+72 443 Mt(o)S -0.165 R(v)S -0.165 R(er the lazy dog.)S 84 423.364 Mt
+426 0 RLt St
+141.558 411.364 Mt(the fox)S
+231 411.364 Mt(123456789.2)S
+410.125 411.364 Mt(123456789.2)S 84 406.364 Mt 426 0 RLt St
+120.79 394.364 Mt(rhubarb custard)S
+232.1 394.364 Mt(1.23456789)S
+412.875 394.364 Mt(1.23456789)S 84 389.364 Mt 426 0 RLt St
+129.953 377.364 Mt(grand central)S
+232.1 377.364 Mt(1.23456789)S
+412.875 377.364 Mt(1.23456789)S 84 423.614 Mt 0 -50.25 RLt 426 0 RLt
+0 50.25 RLt St 226 423.614 Mt 0 -50.25 RLt St 368 423.614 Mt 0 -50.25 RLt St
+84 353.728 Mt 426 0 RLt St
+141.558 341.728 Mt(the fox)S
+300.3 341.728 Mt(123456789.2)S
+410.125 341.728 Mt(123456789.2)S 84 336.728 Mt 426 0 RLt St
+120.79 324.728 Mt(rhubarb custard)S
+310.75 324.728 Mt(1.23456789)S
+412.875 324.728 Mt(1.23456789)S 84 319.728 Mt 426 0 RLt St
+141.25 307.728 Mt(1.5)S
+344.3 307.728 Mt(4.6)S
+429.375 307.728 Mt(99.9)S 84 353.978 Mt 0 -50.25 RLt 426 0 RLt
+0 50.25 RLt St 226 353.978 Mt 0 -50.25 RLt St 368 353.978 Mt 0 -50.25 RLt St
+72 280.728 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S
+3.919 R(fox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.919 R(the)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S
+3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(j)S
+(umps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 268.728 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S
+3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(t)S
+(he)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quic)S
+(k)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S
+3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S
+72 256.728 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S
+3.323 R(o)S -0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(l)S
+(azy)S 3.323 R(dog.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(br)S
+(o)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(T)S
+(he)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 244.728 Mt(fox jumps o)S -0.165 R(v)S -0.165 R(er the lazy )S
+(dog.)S
+72 209.77 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S
+3.919 R(fox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.919 R(the)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S
+3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(j)S
+(umps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 185.77 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S
+3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(t)S
+(he)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quic)S
+(k)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S
+3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S
+72 161.77 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S
+3.323 R(o)S -0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(l)S
+(azy)S 3.323 R(dog.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(br)S
+(o)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(T)S
+(he)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 137.77 Mt(fox jumps o)S -0.165 R(v)S -0.165 R(er the lazy d)S
+(og.)S
+72 118.545 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S
+3.919 R(fox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.919 R(the)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S
+3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(j)S
+(umps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 108.545 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S
+3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(t)S
+(he)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quic)S
+(k)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S
+3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S
+72 98.545 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S
+3.323 R(o)S -0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(l)S
+(azy)S 3.323 R(dog.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(br)S
+(o)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(T)S
+(he)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 88.545 Mt(fox jumps o)S -0.165 R(v)S -0.165 R(er the lazy d)S
+(og.)S
+72 72 Mt( )S
+294.249 60 Mt(2)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Page: 3 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+0.5 Slw 84 780 Mt 438 0 RLt St
+89 768 Mt 0 Sf (A)S
+235 768 Mt(B)S
+381 768 Mt(C)S 84 763 Mt 438 0 RLt St
+89 751 Mt(A)S
+235 751 Mt(B)S
+381 751 Mt(C)S 84 780.25 Mt 0 -33.25 RLt 438 0 RLt 0 33.25 RLt St
+230 780.25 Mt 0 -33.25 RLt St 376 780.25 Mt 0 -33.25 RLt St 84 727 Mt
+438 0 RLt St
+89 712 Mt(A)S
+235 712 Mt(B)S
+381 712 Mt(C)S 84 707 Mt 438 0 RLt St
+89 692 Mt(A)S
+235 692 Mt(B)S
+381 692 Mt(C)S 84 727.25 Mt 0 -39.25 RLt 438 0 RLt 0 39.25 RLt St
+230 727.25 Mt 0 -39.25 RLt St 376 727.25 Mt 0 -39.25 RLt St
+72 665 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(f)S
+(ox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(t)S
+(he)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S 3.919 R(quic)S
+(k)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(jumps)S
+3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 653 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(j)S
+(umps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S 3.512 R(br)S
+(o)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.512 R(the)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(T)S
+(he)S 3.512 R(quick)S
+72 641 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(d)S
+(og.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(The)S
+3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 629 Mt(fox jumps o)S -0.165 R(v)S -0.165 R(er the lazy dog.)S
+72 594 Mt(The)S 3.919 R(quick)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(f)S
+(ox)S 3.919 R(jumps)S 3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(t)S
+(he)S 3.919 R(lazy)S 3.919 R(dog.)S 3.919 R(The)S 3.919 R(quic)S
+(k)S 3.919 R(bro)S -0.275 R(wn)S 3.919 R(fox)S 3.919 R(jumps)S
+3.919 R(o)S -0.165 R(v)S -0.165 R(er)S 3.919 R(the)S 3.919 R(l)S
+(azy)S 3.919 R(dog.)S 3.919 R(The)S
+72 570 Mt(quick)S 3.512 R(bro)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(j)S
+(umps)S 3.512 R(o)S -0.165 R(v)S -0.165 R(er)S 3.512 R(the)S 3.512 R(l)S
+(azy)S 3.512 R(dog.)S 3.512 R(The)S 3.512 R(quick)S 3.512 R(br)S
+(o)S -0.275 R(wn)S 3.512 R(fox)S 3.512 R(jumps)S 3.512 R(o)S -0.165 R(v)S
+-0.165 R(er)S 3.512 R(the)S 3.512 R(lazy)S 3.512 R(dog.)S 3.512 R(T)S
+(he)S 3.512 R(quick)S
+72 546 Mt(bro)S -0.275 R(wn)S 3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S
+-0.165 R(v)S -0.165 R(er)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(d)S
+(og.)S 3.323 R(The)S 3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+3.323 R(fox)S 3.323 R(jumps)S 3.323 R(o)S -0.165 R(v)S -0.165 R(e)S
+(r)S 3.323 R(the)S 3.323 R(lazy)S 3.323 R(dog.)S 3.323 R(The)S
+3.323 R(quick)S 3.323 R(bro)S -0.275 R(wn)S
+72 522 Mt(fox jumps o)S -0.165 R(v)S -0.165 R(er the lazy dog.)S
+72 72 Mt( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
+%%Trailer
+%%Pages: 3

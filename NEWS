@@ -1,0 +1,168 @@
+NEWS ABOUT SDOP
+---------------
+
+
+Version 1.00 10-March-2023
+--------------------------
+
+Fixed one bug related to nested order lists and applied a number ofcode tidies.
+There are no feature changes.
+
+
+Version 0.90 20-August-2020
+---------------------------
+
+A bug fix and code tidy release, with only one significant feature addition. If
+-S or SDOP_SHARE is set, AFM files are first sought in a "fontmetrics"
+subdirectory of each listed directory (this is unchanged). Now, if the AFM file
+is not found, the listed directories are then searched directly.
+
+
+Version 0.81 29-August-2018
+---------------------------
+
+A bug fixed and some compiler and sanitizer warnings worked round.
+
+
+Version 0.80 23-November-2013
+-----------------------------
+
+A small number of new features have been added, and some bugs have been fixed.
+Details are in the ChangeLog file. The PDF documentation now has all its fonts
+embedded, so there should be no missing characters.
+
+
+Version 0.70
+------------
+
+Some bugs fixed. Information is now automatically generated such that when the
+output is converted to a PDF, cross-references and page numbers in indexes
+become clickable links. The font style used for itemized and ordered list marks
+can now be specified.
+
+
+Version 0.60
+------------
+
+Some bugs fixed; support for PNG has been added. Also the ability to adjust the
+position of sub- and superscripts and specify that they should or should not be
+small.
+
+
+Version 0.52
+------------
+
+A small number of new features have been added, and some bugs have been fixed.
+Details are in the ChangeLog file.
+
+
+Version 0.50
+------------
+
+Most of the elements of Simplified DocBook are either supported, or recognized
+but ignored.
+
+
+Version 0.03
+------------
+
+Many new processing instructions for changing font sizes, page sizes,
+indentation, and support for colour.
+
+
+Version 0.02
+------------
+
+ 1. It is possible to change the main font familes for serif, sanserif, and
+    monospaced fonts from the defaults of Times, Helvetica, and Courier, to any
+    of the standard PostScript families.
+
+ 2. The index_headings processing instruction can be used to disable headings
+    in indexes.
+
+ 3. There is support for <figure>s. There are some local processing
+    instructions that control how they are processed:
+
+    figure_number_format controls the format of figure numbers. It is a string
+    that can contain up to two instances of "%s". If there is just one, the
+    figure number, counting from the start of the document, is inserted. If
+    there are two, the first is replaced by the chapter number, and the second
+    by the figure number, counting from the start of the chapter. The default
+    setting is "%s-%s". This is the string that will be replaced in references
+    to the figure.
+
+    figure_title_format controls the format of titles themselves. It is
+    inserted before the text given in the <title> elelment. It may contain a
+    single instance of "%s", which is is replaced by the figure number, in the
+    format defined by figure_number_format. The default setting is the string
+    "Figure %s: "
+
+    figure_title_justify specifies whether titles are left, right, centre, or
+    both justified.
+
+    figure_title_width controls the width of titles. The default is to take the
+    width of a <mediaobject> if available, otherwise the page width. The value
+    may be an absolute dimension, or the word "object", signifying the default.
+
+    If a figure contains a <mediaobject>, its alignment is taken as the
+    figure's alignment. The title is positioned with relation to the figure.
+    For example, if the figure is left aligned but the title is centred, it is
+    centred with the figure, not with the page.
+
+ 4. There is support for <title> in <table>, with similar processing
+    instructions for control to those provided for <figure>.
+
+ 5. There is support for <sect1>...<sect5> elements, but they are all treated
+    as synonyms of <section>.
+
+ 6. There is support for <programlisting> as a synonym for <screen>.
+
+ 7. There is support for <![CDATA[...]]> literal text sections.
+
+ 8. There is support for <subscript> and <superscript>.
+
+
+
+Version 0.01
+------------
+
+ 1. The TOC is now omitted if it has no contents.
+
+ 2. The toc_sections processing instruction is now local rather than global.
+    This means that its value can vary in different parts of the document.
+
+ 3. There is now support for <preface> elements, and there may be more than one
+    preface. By default, sections in a preface are not numbered, nor are they
+    included in the TOC. You can change both these actions by including a
+    suitable processing instruction within the <preface> element. For example,
+    to include preface sections in the TOC:
+
+      <preface><title>Preface</title>
+      <?sdop toc_sections="yes,yes"?>
+      ...
+      </preface>
+
+    You could also put such an instruction before <preface>, but then it would
+    also apply to the body of the document.
+
+ 4. There are now separate template files for headers and footers in the TOC,
+    and also for the preface. Processing instructions for setting the special
+    head/foot entities (such as &footleft) for the preface and the TOC are now
+    provided.
+
+ 5. <appendix> and <colophon> are now supported. Appendices are lettered rather
+    than numbered, controlled as if they were chapters for numbering and
+    including in the TOC purposes. The first colophon is started on a new page,
+    like a chapter, but subsequent ones are not. No headers or footers are
+    output in colophons, and they are not included in the TOC.
+
+ 6. Up to nine <footnote>s per page are supported. If there are more than nine,
+    the footnotes themselves will probably look all right, but the lines
+    containing the references may be mis-formatted. It's a chicken-and-egg
+    problem that I've decided isn't at present worth the effort of solving.
+
+ 7. Encapsulated PostScript and JPEG images are supported via <mediaobject>.
+
+ 8. There is support for "exotic" fonts.
+
+****
