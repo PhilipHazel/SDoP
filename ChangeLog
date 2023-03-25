@@ -1,6 +1,13 @@
 ChangeLog for SDoP
 ------------------
 
+Version 1.01 (25-March-2023)
+----------------------------
+
+1. Revert a mistake in 1.00: the man page is now installed in @mandir@ instead 
+of ${prefix}/man. (I have no idea why I changed it.)
+
+
 Version 1.00 (10-March-2023)
 ----------------------------
 

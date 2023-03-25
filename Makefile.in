@@ -17,7 +17,7 @@ INSTALL_DATA = @INSTALL_DATA@
 prefix  = @prefix@
 BINDIR  = @prefix@/bin
 DATADIR = @prefix@/share/sdop
-MANDIR  = @prefix@/man
+MANDIR  = @mandir@
 
 # BINDIR is the directory in which the commands are installed.
 # DATADIR is the directory in which the hyphen list and font metrics are installed.
