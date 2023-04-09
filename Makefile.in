@@ -50,8 +50,9 @@ build:; @cd src; $(MAKE) all \
 
 clean:; cd src; $(MAKE) clean
 
-distclean:;     rm Makefile config.cache config.log config.status; \
-                cd src; $(MAKE) clean
+distclean:
+	rm -f Makefile config.cache config.log config.status
+	cd src && $(MAKE) clean
 
 test:           build
 		cd testing; ./runtest
