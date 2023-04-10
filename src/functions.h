@@ -3,7 +3,7 @@
 *************************************************/
 
 /* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: March 2023 */
+/* Created in 2006; last modified: April 2023 */
 
 /* This header defines all the global functions. */
 
@@ -116,6 +116,8 @@ extern BOOL          read_write(uschar *);
 extern BOOL          ref_resolve(item *);
 extern BOOL          ref_set_pages(void);
 
+extern BOOL          svg_find_size(FILE *, double *);
+extern void          svg_write(FILE *, FILE *);
 extern BOOL          sys_exists(uschar *);
 
 extern BOOL          table_identify(item *, item *);

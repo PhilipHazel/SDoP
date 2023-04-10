@@ -3,7 +3,7 @@
 *************************************************/
 
 /* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: March 2023 */
+/* Created in 2006; last modified: April 2023 */
 
 /* This module contains code for handling graphics objects. */
 
@@ -218,6 +218,10 @@ if (Ustrcmp(formname, "EPS") == 0 ||
   {
   *piform = IFORM_EPS;
   }
+else if (Ustrcmp(formname, "SVG") == 0)
+  {
+  *piform = IFORM_SVG;
+  }     
 else if (Ustrcmp(formname, "JPEG") == 0 ||
          Ustrcmp(formname, "JPG") == 0)
   {
@@ -263,9 +267,9 @@ return f;
 *     Find depth and scale of an imageobject     *
 *************************************************/
 
-/* At present, only EPS, JPEG, and PNG files are supported. If no "depth"
-parameter is given, get the depth from the bounding box. If no bounding box is
-found, but both "width" and "depth" are available, make up a bounding box.
+/* EPS, SVG, JPEG, and PNG files are supported. If no "depth" parameter is
+given, get the depth from the bounding box. If no bounding box is found, but
+both "width" and "depth" are available, make up a bounding box.
 
 Argument:
   f        the open object file
@@ -322,6 +326,11 @@ switch(iform)
       }
     }
   break;
+  
+  case IFORM_SVG:
+  if (!svg_find_size(f, bb)) error(109, "SVG", "failed to find size"); /* Hard */
+  bbset = TRUE; 
+  break;  
 
   #if SUPPORT_JPEG
   case IFORM_JPG:
@@ -336,7 +345,7 @@ switch(iform)
 
   #if SUPPORT_PNG
   case IFORM_PNG:
-  if (!read_PNG_file(f, &msg, writing)) error(109, msg);  /* Hard */
+  if (!read_PNG_file(f, &msg, writing)) error(109, "PNG", msg);  /* Hard */
   bb[0] = 0.0;
   bb[1] = 0.0;
   bb[2] = (double)image_width;
@@ -373,8 +382,7 @@ if (scale < 0) scale = 1000;
 
 if (bbset)
   {
-  int i;
-  for (i = 0; i <4; i++) bb[i] = MULDIV(bb[i], scale, 1000);
+  for (int i = 0; i <4; i++) bb[i] = MULDIV(bb[i], scale, 1000);
   if (depth < 0) depth = (int)((bb[3] - bb[1]) * 1000);
   }
 else
@@ -520,6 +528,18 @@ switch (iform)
   (void)fprintf(outfile, "picsave restore\n");
   break;
 
+  case IFORM_SVG:
+  (void)fprintf(outfile,
+    "/picsave save def/a4{null pop}def\n"
+    "/showpage{initgraphics}def/copypage{null pop}def\n");
+  (void)fprintf(outfile, "%s ", misc_formatfixed(x));
+  (void)fprintf(outfile, "%s translate\n", misc_formatfixed(y));
+  (void)fprintf(outfile, "%s dup scale\n", misc_formatfixed(scale));
+  rewind(f);
+  svg_write(f, outfile); 
+  (void)fprintf(outfile, "picsave restore\n");
+  break;
+
   #if SUPPORT_JPEG
   case IFORM_JPG:
   (void)fprintf(outfile, "gsave\n");
@@ -557,7 +577,6 @@ switch (iform)
   break;
   #endif
   }
-
 
 fclose(f);
 return depth;

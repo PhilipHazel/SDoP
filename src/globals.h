@@ -3,7 +3,7 @@
 *************************************************/
 
 /* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: March 2023 */
+/* Created in 2006; last modified: April 2023 */
 
 /* Header file for all the global variables */
 
@@ -428,6 +428,8 @@ extern uschar       *paper_size;
 extern double        paper_size_height;
 extern double        paper_size_width;
 extern hfstr         preface_headfoot;
+
+extern BOOL          svg_listignored;
 
 extern int           table_bot_frame_space;
 extern int           table_frame_thickness;
