@@ -57,6 +57,12 @@ Now a paragraph with several images.
 </imageobject>
 </mediaobject>
 
+<mediaobject>
+<imageobject role="100,30">
+<imagedata fileref="svg4.svg" scale="40"/>
+</imageobject>
+</mediaobject>
+
 
 
 </para>
