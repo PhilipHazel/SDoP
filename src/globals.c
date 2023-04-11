@@ -3,7 +3,7 @@
 *************************************************/
 
 /* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: March 2023 */
+/* Created in 2006; last modified: April 2023 */
 
 /* Allocate storage and initialize global variables, apart from those that are
 tables of some kind. Those are in datatables.c. */
@@ -546,8 +546,10 @@ hfstr         preface_headfoot = { US"&romanpage;",    /* foot_centre_recto */
                                    US"",               /* head_right_recto */
                                    US"" };             /* head_right_verso */
 
+BOOL          svg_listignored = FALSE;
+
 int           table_bot_frame_space = 4000;
-int           table_frame_thickness =  500;
+int           table_frame_thickness = 500;
 int           table_left_col_space  = 5000;
 int           table_overall_indent  = 0;
 int           table_right_col_space = 5000;

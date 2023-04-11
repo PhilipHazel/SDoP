@@ -3,21 +3,22 @@
 *************************************************/
 
 /* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: March 2023 */
+/* Created in 2006; last modified: April 2023 */
 
 /* Main SDoP header file, included by all modules. */
 
 #ifndef INCLUDED_SDOP_H
 #define INCLUDED_SDOP_H
 
-#define SDOP_VERSION "1.00"
-#define SDOP_DATE    "10-March-2023"
+#define SDOP_VERSION "1.10"
+#define SDOP_DATE    "09-April-2023"
 
 /* Standard C headers */
 
 #include <ctype.h>
 #include <errno.h>
 #include <limits.h>
+#include <math.h>
 #include <stdarg.h>
 #include <stddef.h>
 #include <stdint.h>
@@ -273,6 +274,7 @@ enum { J_UNSET, J_LEFT, J_CENTRE, J_RIGHT, J_BOTH, J_CHAR };
 #define IFORM_EPS   1
 #define IFORM_JPG   2
 #define IFORM_PNG   3
+#define IFORM_SVG   4
 
 /* Values for main and footnote layout parameter selection. The last one must
 be LP_FOOTNOTE. These are used to index into lptable. */

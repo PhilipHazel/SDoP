@@ -14,5 +14,7 @@ doc/sdop.ps
 src/sdop
 src/buildhy
 src/hytest
+src/svgtest
+testing/test*
 
 # End

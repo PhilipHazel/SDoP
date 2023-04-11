@@ -3,7 +3,7 @@
 *************************************************/
 
 /* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: March 2023 */
+/* Created in 2006; last modified: April 2023 */
 
 /* Error handling functions */
 
@@ -168,7 +168,7 @@ static error_struct error_data[] = {
 { ec_serious,  "subscript_down or superscript_up value is too large" },
 { ec_serious,  "\"yes\" or \"no\" expected but \"%s\" found" },
 { ec_warning,  "page_full_length=%s is too small; set to 108" },
-{ ec_disaster, "error while processing PNG file: %s" },
+{ ec_disaster, "error while processing %s file: %s" },
 /* 110 - 114 */
 { ec_disaster, "internal error: missing <xref> while generating output" },
 { ec_disaster, "internal error: unset reference to %s while generating output" },

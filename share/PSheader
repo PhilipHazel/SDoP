@@ -1,6 +1,6 @@
 %% Header file for sdop PostScript output
 % Created: July 06 2005
-% Last update: November 16 2013
+% Last update: April 10 2023
 
 % Blank lines and lines starting with a single % are not copied to the output.
 
@@ -191,7 +191,7 @@ dup dup/Encoding get StandardEncoding eq
 
 % If the result is true, we obey the following.
 
-% Find the maximum length of the font's dictionary, and make two new 
+% Find the maximum length of the font's dictionary, and make two new
 % dictionaries of the same length.
 
 {maxlength dup dict/newfont0 exch def dict/newfont1 exch def
@@ -231,13 +231,22 @@ newfont0/Encoding LowerEncoding put dup newfont0 definefont def
 /Mt/moveto load def
 /RMt/rmoveto load def
 /RLt/rlineto load def
-/S/show load def
+/Ct/curveto load def
 /Slw/setlinewidth load def
 /St/stroke load def
 
+% Show left-justified, middle-justified, end-justified
 
+/S/show load def
+/SM { dup stringwidth pop 2 div neg 0 RMt show } bind def
+/SE { dup stringwidth pop neg 0 RMt show } bind def
 
+% This PostScript procedure tests a number fonts in order until it finds one
+% that exists.
 
+/multifindfont{
+{dup/Font resourcestatus{pop pop findfont exit}{pop}ifelse}forall
+}bind def 
 
 %%EndProlog
 
