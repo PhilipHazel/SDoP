@@ -37,7 +37,7 @@ static bit_table debug_options[] = {
   { US"param",           D_param },
   { US"read",            D_read },
   { US"ref",             D_ref },
-  { US"svg",             D_svg }, 
+  { US"svg",             D_svg },
   { US"title",           D_title },
   { US"toc",             D_toc },
   { US"write",           D_write }

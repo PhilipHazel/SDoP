@@ -4,11 +4,11 @@ ChangeLog for SDoP
 Version 1.10 (29-April-2023)
 ----------------------------
 
-1. Revert a mistake in 1.00: the man page is now installed in @mandir@ instead 
+1. Revert a mistake in 1.00: the man page is now installed in @mandir@ instead
 of ${prefix}/man. (I have no idea why I changed it.)
 
-2. Add some simple support for SVG illustrations with the help of the nanosvg 
-   source library, modified to add support for <text> elements. To help with 
+2. Add some simple support for SVG illustrations with the help of the nanosvg
+   source library, modified to add support for <text> elements. To help with
    debugging, a small freestanding test program called svgtest is now included.
 
 

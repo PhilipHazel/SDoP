@@ -2,10 +2,16 @@ NEWS ABOUT SDOP
 ---------------
 
 
+Version 1.10 29-April-2023
+--------------------------
+
+Added some basic support for SVG illustrations.
+
+
 Version 1.00 10-March-2023
 --------------------------
 
-Fixed one bug related to nested order lists and applied a number ofcode tidies.
+Fixed one bug related to nested order lists and applied a number of code tidies.
 There are no feature changes.
 
 

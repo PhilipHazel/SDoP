@@ -221,7 +221,7 @@ if (Ustrcmp(formname, "EPS") == 0 ||
 else if (Ustrcmp(formname, "SVG") == 0)
   {
   *piform = IFORM_SVG;
-  }     
+  }
 else if (Ustrcmp(formname, "JPEG") == 0 ||
          Ustrcmp(formname, "JPG") == 0)
   {
@@ -326,11 +326,11 @@ switch(iform)
       }
     }
   break;
-  
+
   case IFORM_SVG:
   if (!svg_find_size(f, bb)) error(109, "SVG", "failed to find size"); /* Hard */
-  bbset = TRUE; 
-  break;  
+  bbset = TRUE;
+  break;
 
   #if SUPPORT_JPEG
   case IFORM_JPG:
@@ -536,7 +536,7 @@ switch (iform)
   (void)fprintf(outfile, "%s translate\n", misc_formatfixed(y));
   (void)fprintf(outfile, "%s dup scale\n", misc_formatfixed(scale));
   rewind(f);
-  svg_write(f, outfile); 
+  svg_write(f, outfile);
   (void)fprintf(outfile, "picsave restore\n");
   break;
 

@@ -11,7 +11,7 @@
 #define INCLUDED_SDOP_H
 
 #define SDOP_VERSION "1.10"
-#define SDOP_DATE    "09-April-2023"
+#define SDOP_DATE    "29-April-2023"
 
 /* Standard C headers */
 
