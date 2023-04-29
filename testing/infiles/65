@@ -62,17 +62,39 @@ Now a paragraph with several images.
 <imagedata fileref="svg4.svg" scale="40"/>
 </imageobject>
 </mediaobject>
-
-
-
 </para>
 
 <para>
-This is a paragraph of normal text. 
+<mediaobject>
+<imageobject>
+<imagedata fileref="svg5.svg" scale="40" align="center"/>
+</imageobject>
+</mediaobject>
 </para>
 
+<para>
+Here follows some colour gradient tests.
+</para>
 
+<para>
+<mediaobject>
+<imageobject>
+<imagedata fileref="svg6.svg" scale="50" align="center"/>
+</imageobject>
+</mediaobject>
+</para>
 
+<para>
+<mediaobject>
+<imageobject>
+<imagedata fileref="svg7.svg" scale="100" align="center"/>
+</imageobject>
+</mediaobject>
+</para>
+
+<para>
+Final paragraph.
+</para>
 
 </chapter>
 </book>

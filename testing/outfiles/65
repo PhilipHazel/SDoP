@@ -1,6 +1,6 @@
 %!PS-Adobe-3.0
 %%Creator: SDoP 1.10
-%%CreationDate: Mon Apr 10 17:13:28 2023
+%%CreationDate: Sat Apr 29 17:04:17 2023
 %%Pages: (atend)
 %%DocumentNeededResources:
 %%+ font Times-Roman
@@ -124,8 +124,7 @@ UpperEncoding 0 [
 /radical/ring/scommaaccent/summation
 /tcommaaccent/tilde/trademark/infinity
 ]putinterval
-/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
-100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+/inf{findfont
 dup dup/Encoding get StandardEncoding eq
 {maxlength dup dict/newfont0 exch def dict/newfont1 exch def
 dup
@@ -142,6 +141,10 @@ newfont0/Encoding LowerEncoding put dup newfont0 definefont def
 /RMt/rmoveto load def
 /RLt/rlineto load def
 /Ct/curveto load def
+/Sd/setdash load def
+/Slc/setlinecap load def
+/Slj/setlinejoin load def
+/Slm/setmiterlimit load def
 /Slw/setlinewidth load def
 /St/stroke load def
 /S/show load def
@@ -149,7 +152,7 @@ newfont0/Encoding LowerEncoding put dup newfont0 definefont def
 /SE { dup stringwidth pop neg 0 RMt show } bind def
 /multifindfont{
 {dup/Font resourcestatus{pop pop findfont exit}{pop}ifelse}forall
-}bind def 
+}bind def
 %%EndProlog
 
 %%BeginSetup
@@ -186,10 +189,10 @@ vf 5 af5 16 scalefont put
 322 230.2 Mt
 214.667 230.2 107.333 230.2 0 230.2 Ct
 0.0980392 0.4 0.498039 setrgbcolor
-9 Slw St
+9 Slw 0 Slc 0 Slj 4 Slm [] 0 Sd St
 322 230.2 Mt
 429.333 230.2 536.667 230.2 644 230.2 Ct
-9 Slw St
+St
 316 387.2 Mt
 262.333 370.533 208.667 353.867 155 337.2 Ct
 155 333.867 155 330.533 155 327.2 Ct
@@ -203,7 +206,7 @@ vf 5 af5 16 scalefont put
 gsave fill grestore 0.4 Slw St
 302 232.2 Mt
 302 223.533 302 214.867 302 206.2 Ct
-0.4 Slw St
+St
 380 387.2 Mt
 380 351.854 351.346 323.2 316 323.2 Ct
 280.654 323.2 252 351.854 252 387.2 Ct
@@ -212,7 +215,7 @@ gsave fill grestore 0.4 Slw St
 380 387.2 380 387.2 380 387.2 Ct
 0.498039 0.6 0.2 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 [/Times-Roman/Times-Regular/Times] multifindfont /sgfont0 exch def
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
@@ -222,13 +225,13 @@ sgfont0 12 scalefont setfont
 252 387.2 Mt
 231.333 387.2 210.667 387.2 190 387.2 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+St
 190 387.2 Mt
 190 388.867 190 390.533 190 392.2 Ct
 186.667 390.533 183.333 388.867 180 387.2 Ct
 183.333 385.533 186.667 383.867 190 382.2 Ct
 190 383.867 190 385.533 190 387.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 50 421.2 Mt
 93.3333 421.2 136.667 421.2 180 421.2 Ct
 180 398.533 180 375.867 180 353.2 Ct
@@ -249,7 +252,7 @@ sgfont0 12 scalefont setfont
 111.667 323.867 113.333 320.533 115 317.2 Ct
 116.667 320.533 118.333 323.867 120 327.2 Ct
 118.333 327.2 116.667 327.2 115 327.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 50 317.2 Mt
 93.3333 317.2 136.667 317.2 180 317.2 Ct
 180 294.533 180 271.867 180 249.2 Ct
@@ -281,7 +284,7 @@ gsave fill grestore 0.4 Slw St
 392 247.2 392 247.2 392 247.2 Ct
 0.498039 0.298039 1 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 322 244.2 moveto (Spool files) SM
@@ -346,7 +349,7 @@ gsave fill grestore 0.4 Slw St
 318.667 192.867 320.333 189.533 322 186.2 Ct
 323.667 189.533 325.333 192.867 327 196.2 Ct
 325.333 196.2 323.667 196.2 322 196.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 257 186.2 Mt
 300.333 186.2 343.667 186.2 387 186.2 Ct
 387 163.533 387 140.867 387 118.2 Ct
@@ -369,7 +372,7 @@ sgfont0 12 scalefont setfont
 250.333 148.867 253.667 150.533 257 152.2 Ct
 253.667 153.867 250.333 155.533 247 157.2 Ct
 247 155.533 247 153.867 247 152.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 55 186.2 Mt
 98.3333 186.2 141.667 186.2 185 186.2 Ct
 185 163.533 185 140.867 185 118.2 Ct
@@ -392,13 +395,13 @@ sgfont0 12 scalefont setfont
 393.667 155.533 390.333 153.867 387 152.2 Ct
 390.333 150.533 393.667 148.867 397 147.2 Ct
 397 148.867 397 150.533 397 152.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 449 152.2 Mt
 449 150.533 449 148.867 449 147.2 Ct
 452.333 148.867 455.667 150.533 459 152.2 Ct
 455.667 153.867 452.333 155.533 449 157.2 Ct
 449 155.533 449 153.867 449 152.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 589 152.2 Mt
 589 138.393 559.898 127.2 524 127.2 Ct
 488.102 127.2 459 138.393 459 152.2 Ct
@@ -407,7 +410,7 @@ gsave fill grestore 0.4 Slw St
 589 152.2 589 152.2 589 152.2 Ct
 0.498039 0.298039 1 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 524 149.2 moveto (Hints data) SM
@@ -454,7 +457,7 @@ gsave fill grestore 0.4 Slw St
 115 44.2 115 44.2 115 44.2 Ct
 0.498039 0.6 0.2 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 71 47.2 moveto (File or) SM
@@ -503,7 +506,7 @@ gsave fill grestore 0.4 Slw St
 617 44.2 617 44.2 617 44.2 Ct
 0.498039 0.6 0.2 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 573 41.2 moveto (SMTP) SM
@@ -521,50 +524,50 @@ gsave fill grestore 0 0 0 setrgbcolor
 302 206.2 Mt
 241.333 206.2 180.667 206.2 120 206.2 Ct
 120 202.867 120 199.533 120 196.2 Ct
-0.4 Slw St
+St
 120 196.2 Mt
 118.333 196.2 116.667 196.2 115 196.2 Ct
 116.667 192.867 118.333 189.533 120 186.2 Ct
 121.667 189.533 123.333 192.867 125 196.2 Ct
 123.333 196.2 121.667 196.2 120 196.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 50 387.2 Mt
 43.3333 387.2 36.6667 387.2 30 387.2 Ct
 30 308.867 30 230.533 30 152.2 Ct
 35 152.2 40 152.2 45 152.2 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 45 152.2 Mt
 45 150.533 45 148.867 45 147.2 Ct
 48.3333 148.867 51.6667 150.533 55 152.2 Ct
 51.6667 153.867 48.3333 155.533 45 157.2 Ct
 45 155.533 45 153.867 45 152.2 Ct
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 115 249.2 Mt
 155.667 223.533 196.333 197.867 237 172.2 Ct
 240.333 172.2 243.667 172.2 247 172.2 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 247 172.2 Mt
 247 170.533 247 168.867 247 167.2 Ct
 250.333 168.867 253.667 170.533 257 172.2 Ct
 253.667 173.867 250.333 175.533 247 177.2 Ct
 247 175.533 247 173.867 247 172.2 Ct
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 529 249.2 Mt
 488.333 223.533 447.667 197.867 407 172.2 Ct
 403.667 172.2 400.333 172.2 397 172.2 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 397 172.2 Mt
 397 173.867 397 175.533 397 177.2 Ct
 393.667 175.533 390.333 173.867 387 172.2 Ct
 390.333 170.533 393.667 168.867 397 167.2 Ct
 397 168.867 397 170.533 397 172.2 Ct
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 showpage
 picsave restore
 72 489 Mt(This is a paragraph of normal te)S -0.165 R(xt.)S
@@ -578,10 +581,10 @@ picsave restore
 322 230.2 Mt
 214.667 230.2 107.333 230.2 0 230.2 Ct
 0.0980392 0.4 0.498039 setrgbcolor
-9 Slw St
+9 Slw 0 Slc 0 Slj 4 Slm [] 0 Sd St
 322 230.2 Mt
 429.333 230.2 536.667 230.2 644 230.2 Ct
-9 Slw St
+St
 316 387.2 Mt
 262.333 370.533 208.667 353.867 155 337.2 Ct
 155 333.867 155 330.533 155 327.2 Ct
@@ -595,7 +598,7 @@ picsave restore
 gsave fill grestore 0.4 Slw St
 302 232.2 Mt
 302 223.533 302 214.867 302 206.2 Ct
-0.4 Slw St
+St
 380 387.2 Mt
 380 351.854 351.346 323.2 316 323.2 Ct
 280.654 323.2 252 351.854 252 387.2 Ct
@@ -604,7 +607,7 @@ gsave fill grestore 0.4 Slw St
 380 387.2 380 387.2 380 387.2 Ct
 0.498039 0.6 0.2 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 [/Times-Roman/Times-Regular/Times] multifindfont /sgfont0 exch def
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
@@ -614,13 +617,13 @@ sgfont0 12 scalefont setfont
 252 387.2 Mt
 231.333 387.2 210.667 387.2 190 387.2 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+St
 190 387.2 Mt
 190 388.867 190 390.533 190 392.2 Ct
 186.667 390.533 183.333 388.867 180 387.2 Ct
 183.333 385.533 186.667 383.867 190 382.2 Ct
 190 383.867 190 385.533 190 387.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 50 421.2 Mt
 93.3333 421.2 136.667 421.2 180 421.2 Ct
 180 398.533 180 375.867 180 353.2 Ct
@@ -641,7 +644,7 @@ sgfont0 12 scalefont setfont
 111.667 323.867 113.333 320.533 115 317.2 Ct
 116.667 320.533 118.333 323.867 120 327.2 Ct
 118.333 327.2 116.667 327.2 115 327.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 50 317.2 Mt
 93.3333 317.2 136.667 317.2 180 317.2 Ct
 180 294.533 180 271.867 180 249.2 Ct
@@ -673,7 +676,7 @@ gsave fill grestore 0.4 Slw St
 392 247.2 392 247.2 392 247.2 Ct
 0.498039 0.298039 1 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 322 244.2 moveto (Spool files) SM
@@ -738,7 +741,7 @@ gsave fill grestore 0.4 Slw St
 318.667 192.867 320.333 189.533 322 186.2 Ct
 323.667 189.533 325.333 192.867 327 196.2 Ct
 325.333 196.2 323.667 196.2 322 196.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 257 186.2 Mt
 300.333 186.2 343.667 186.2 387 186.2 Ct
 387 163.533 387 140.867 387 118.2 Ct
@@ -761,7 +764,7 @@ sgfont0 12 scalefont setfont
 250.333 148.867 253.667 150.533 257 152.2 Ct
 253.667 153.867 250.333 155.533 247 157.2 Ct
 247 155.533 247 153.867 247 152.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 55 186.2 Mt
 98.3333 186.2 141.667 186.2 185 186.2 Ct
 185 163.533 185 140.867 185 118.2 Ct
@@ -784,13 +787,13 @@ sgfont0 12 scalefont setfont
 393.667 155.533 390.333 153.867 387 152.2 Ct
 390.333 150.533 393.667 148.867 397 147.2 Ct
 397 148.867 397 150.533 397 152.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 449 152.2 Mt
 449 150.533 449 148.867 449 147.2 Ct
 452.333 148.867 455.667 150.533 459 152.2 Ct
 455.667 153.867 452.333 155.533 449 157.2 Ct
 449 155.533 449 153.867 449 152.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 589 152.2 Mt
 589 138.393 559.898 127.2 524 127.2 Ct
 488.102 127.2 459 138.393 459 152.2 Ct
@@ -799,7 +802,7 @@ gsave fill grestore 0.4 Slw St
 589 152.2 589 152.2 589 152.2 Ct
 0.498039 0.298039 1 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 524 149.2 moveto (Hints data) SM
@@ -846,7 +849,7 @@ gsave fill grestore 0.4 Slw St
 115 44.2 115 44.2 115 44.2 Ct
 0.498039 0.6 0.2 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 71 47.2 moveto (File or) SM
@@ -895,7 +898,7 @@ gsave fill grestore 0.4 Slw St
 617 44.2 617 44.2 617 44.2 Ct
 0.498039 0.6 0.2 setrgbcolor
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 573 41.2 moveto (SMTP) SM
@@ -913,50 +916,50 @@ gsave fill grestore 0 0 0 setrgbcolor
 302 206.2 Mt
 241.333 206.2 180.667 206.2 120 206.2 Ct
 120 202.867 120 199.533 120 196.2 Ct
-0.4 Slw St
+St
 120 196.2 Mt
 118.333 196.2 116.667 196.2 115 196.2 Ct
 116.667 192.867 118.333 189.533 120 186.2 Ct
 121.667 189.533 123.333 192.867 125 196.2 Ct
 123.333 196.2 121.667 196.2 120 196.2 Ct
-gsave fill grestore 0.4 Slw St
+gsave fill grestore St
 50 387.2 Mt
 43.3333 387.2 36.6667 387.2 30 387.2 Ct
 30 308.867 30 230.533 30 152.2 Ct
 35 152.2 40 152.2 45 152.2 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 45 152.2 Mt
 45 150.533 45 148.867 45 147.2 Ct
 48.3333 148.867 51.6667 150.533 55 152.2 Ct
 51.6667 153.867 48.3333 155.533 45 157.2 Ct
 45 155.533 45 153.867 45 152.2 Ct
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 115 249.2 Mt
 155.667 223.533 196.333 197.867 237 172.2 Ct
 240.333 172.2 243.667 172.2 247 172.2 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 247 172.2 Mt
 247 170.533 247 168.867 247 167.2 Ct
 250.333 168.867 253.667 170.533 257 172.2 Ct
 253.667 173.867 250.333 175.533 247 177.2 Ct
 247 175.533 247 173.867 247 172.2 Ct
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 529 249.2 Mt
 488.333 223.533 447.667 197.867 407 172.2 Ct
 403.667 172.2 400.333 172.2 397 172.2 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 397 172.2 Mt
 397 173.867 397 175.533 397 177.2 Ct
 393.667 175.533 390.333 173.867 387 172.2 Ct
 390.333 170.533 393.667 168.867 397 167.2 Ct
 397 168.867 397 170.533 397 172.2 Ct
 gsave fill grestore 0 0 0 setrgbcolor
-0.4 Slw St
+St
 showpage
 picsave restore
 72 218 Mt(No)S -0.275 R(w a paragraph with se)S -0.275 R(v)S -0.165 R(e)S
@@ -972,7 +975,7 @@ picsave restore
 19.3333 105 12.6667 105 6 105 Ct
 6 108.333 6 111.667 6 115 Ct
 0.498039 0.498039 0.498039 setrgbcolor
-2 Slw St
+2 Slw 0 Slc 0 Slj 4 Slm [] 0 Sd St
 [/Times-Roman/Times-Regular/Times] multifindfont /sgfont0 exch def
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
@@ -1003,7 +1006,7 @@ sgfont0 12 scalefont setfont
 89.3333 105 82.6667 105 76 105 Ct
 76 108.333 76 111.667 76 115 Ct
 0 1 0 setrgbcolor
-2 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 86 107 moveto (D) SM
@@ -1014,7 +1017,7 @@ sgfont0 12 scalefont setfont
 21.5228 85 26 80.5229 26 75 Ct
 26 75 26 75 26 75 Ct
 0.498039 0.498039 0.498039 setrgbcolor
-2 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 16 72 moveto (E) SM
@@ -1047,7 +1050,7 @@ sgfont0 12 scalefont setfont
 85.5229 85 90 80.5229 90 75 Ct
 90 75 90 75 90 75 Ct
 0 1 0 setrgbcolor
-2 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 80 72 moveto (H) SM
@@ -1058,7 +1061,7 @@ sgfont0 12 scalefont setfont
 24.2843 45 31 42.7614 31 40 Ct
 31 40 31 40 31 40 Ct
 0.498039 0.498039 0.498039 setrgbcolor
-2 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 16 37 moveto (E) SM
@@ -1091,14 +1094,14 @@ sgfont0 12 scalefont setfont
 104.284 45 111 42.7614 111 40 Ct
 111 40 111 40 111 40 Ct
 0 1 0 setrgbcolor
-2 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 96 37 moveto (H) SM
 16 15 Mt
 22.6667 15 29.3333 15 36 15 Ct
 0.498039 0.498039 0.498039 setrgbcolor
-2 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 26 17 moveto (I) SM
@@ -1119,14 +1122,14 @@ sgfont0 12 scalefont setfont
 46 0 Mt
 51 5 56 10 61 15 Ct
 0 1 0 setrgbcolor
-2 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 56.5 4.5 moveto (L) S
 61 15 Mt
 67.6667 15 74.3333 15 81 15 Ct
 1 0 0 setrgbcolor
-2 Slw St
+St
 sgfont0 12 scalefont setfont
 0 0 0 setrgbcolor
 71 17 moveto (M) SM
@@ -1155,7 +1158,7 @@ pagesave restore showpage
 56.907 201.446 75.879 219.83 75.982 240.743 Ct
 75.995 241.161 76.001 241.581 76.001 242 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+0.4 Slw 0 Slc 0 Slj 4 Slm [] 0 Sd St
 36 278 Mt
 62.6667 278 89.3333 278 116 278 Ct
 116 266 116 254 116 242 Ct
@@ -1168,80 +1171,80 @@ pagesave restore showpage
 0.4 Slw St
 76.001 277.999 Mt
 66.12 268.654 66.12 251.347 76.001 242.001 Ct
-0.4 Slw St
+St
 75.999 242 Mt
 75.444 221.094 93.829 202.122 114.742 202.02 Ct
 115.16 202.007 115.58 202.001 115.999 202.001 Ct
-0.4 Slw St
+St
 116 260 Mt
 135.228 259.464 152.536 276.771 152 296 Ct
-0.4 Slw St
+St
 36 260 Mt
 16.772 260.536 -0.535999 243.229 0 224.001 Ct
-0.4 Slw St
+St
 76 278 Mt
 76.536 297.228 59.229 314.536 40 314 Ct
-0.4 Slw St
+St
 116 242 Mt
 115.464 222.772 132.771 205.464 152 206.001 Ct
-0.4 Slw St
+St
 36 166 Mt
 55.228 165.464 72.536 182.771 72 202 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 36 238 Mt
 16.772 238.536 -0.535999 221.229 0 202.001 Ct
 0 1 0 setrgbcolor
-0.4 Slw St
+St
 0 202 Mt
 -0.536 182.772 16.771 165.464 36 166.001 Ct
 0 0 1 setrgbcolor
-0.4 Slw St
+St
 72 202 Mt
 72.536 221.228 55.229 238.536 36 238 Ct
-0.4 Slw St
+St
 152 206 Mt
 171.228 205.464 188.536 222.771 188 242 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 152 206 Mt
 132.772 206.536 115.464 189.229 116 170.001 Ct
 0 1 0 setrgbcolor
-0.4 Slw St
+St
 152 206 Mt
 151.464 186.772 168.771 169.464 188 170.001 Ct
 0 0 1 setrgbcolor
-0.4 Slw St
+St
 152 206 Mt
 152.536 225.228 135.229 242.536 116 242 Ct
-0.4 Slw St
+St
 116 242 Mt
 140 254 164 266 188 278 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+St
 188 278 Mt
 207.228 277.464 224.536 294.771 224 314 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 188 278 Mt
 168.772 278.536 151.464 261.229 152 242.001 Ct
 0 1 0 setrgbcolor
-0.4 Slw St
+St
 188 278 Mt
 187.464 258.772 204.771 241.464 224 242.001 Ct
 0 0 1 setrgbcolor
-0.4 Slw St
+St
 188 278 Mt
 188.536 297.228 171.229 314.536 152 314 Ct
-0.4 Slw St
+St
 188 278 Mt
 205.438 286.119 213.178 309.34 204.099 326.299 Ct
 1 0 1 setrgbcolor
-0.4 Slw St
+St
 76 242 Mt
 76 208.667 76 175.333 76 142 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+St
 36 142 Mt
 62.6667 142 89.3333 142 116 142 Ct
 116 130 116 118 116 106 Ct
@@ -1255,97 +1258,97 @@ pagesave restore showpage
 36 124 Mt
 16.772 124.536 -0.535999 107.229 0 88.001 Ct
 0 1 0 setrgbcolor
-0.4 Slw St
+St
 76 106 Mt
 75.464 86.772 92.771 69.464 111.999 70 Ct
 0 0 1 setrgbcolor
-0.4 Slw St
+St
 76 142 Mt
 76.536 161.228 59.229 178.536 40 178 Ct
-0.4 Slw St
+St
 76 106 Mt
 76 89.3333 76 72.6667 76 56 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+St
 86 46 Mt
 86 40.4771 81.5229 36 76 36 Ct
 70.4771 36 66 40.4771 66 46 Ct
 66 51.5229 70.4771 56 76 56 Ct
 81.5229 56 86 51.5229 86 46 Ct
 86 46 86 46 86 46 Ct
-0.4 Slw St
+St
 86 46 Mt
 101.649 45.733 116.563 56.977 120.611 72.096 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 120.611 72.097 Mt
 122.261 71.8657 123.912 71.6343 125.562 71.403 Ct
 124.374 74.9353 123.187 78.4677 121.999 82 Ct
 119.886 78.9303 117.773 75.8607 115.66 72.791 Ct
 117.31 72.5597 118.961 72.3283 120.611 72.097 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+St
 56.097 44.611 Mt
 40.978 40.564 29.733 25.65 30.001 10 Ct
 0 1 0 setrgbcolor
-0.4 Slw St
+St
 56.097 44.611 Mt
 56.3283 42.9607 56.5597 41.3103 56.791 39.66 Ct
 59.8607 41.773 62.9303 43.886 66 45.999 Ct
 62.4677 47.1867 58.9353 48.3743 55.403 49.562 Ct
 55.6343 47.9117 55.8657 46.2613 56.097 44.611 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+St
 77.389 26.097 Mt
 81.436 10.978 96.35 -0.266998 112 0.00100708 Ct
 0 0 1 setrgbcolor
-0.4 Slw St
+St
 77.389 26.097 Mt
 79.0393 26.3283 80.6897 26.5597 82.34 26.791 Ct
 80.227 29.8607 78.114 32.9303 76.001 36 Ct
 74.8133 32.4677 73.6257 28.9353 72.438 25.403 Ct
 74.0883 25.6343 75.7387 25.8657 77.389 26.097 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+St
 74.611 65.903 Mt
 71.359 77.664 61.665 87.358 49.903 90.611 Ct
 0 0 1 setrgbcolor
-0.4 Slw St
+St
 74.611 65.903 Mt
 72.9607 65.6717 71.3103 65.4403 69.66 65.209 Ct
 71.773 62.1393 73.886 59.0697 75.999 56 Ct
 77.1867 59.5323 78.3743 63.0647 79.562 66.597 Ct
 77.9117 66.3657 76.2613 66.1343 74.611 65.903 Ct
 0 0 0 setrgbcolor
-0.4 Slw St
+St
 49.903 90.611 Mt
 50.1343 92.2613 50.3657 93.9117 50.597 95.562 Ct
 47.0647 94.3743 43.5323 93.1867 40 91.999 Ct
 43.0697 89.886 46.1393 87.773 49.209 85.66 Ct
 49.4403 87.3103 49.6717 88.9607 49.903 90.611 Ct
-0.4 Slw St
+St
 116 124 Mt
 111 89 141 49 176 44 Ct
-0.4 Slw St
+St
 176 44 Mt
 195.228 43.464 212.536 60.771 212 80 Ct
 1 0 0 setrgbcolor
-0.4 Slw St
+St
 176 44 Mt
 156.772 44.536 139.464 27.229 140 8.00101 Ct
 0 1 0 setrgbcolor
-0.4 Slw St
+St
 176 44 Mt
 175.464 24.772 192.771 7.46399 212 8.00101 Ct
 0 0 1 setrgbcolor
-0.4 Slw St
+St
 176 44 Mt
 176.536 63.228 159.229 80.536 140 80 Ct
-0.4 Slw St
+St
 176 44 Mt
 194.959 40.751 214.54 55.436 216.729 74.547 Ct
 1 0 1 setrgbcolor
-0.4 Slw St
+St
 showpage
 picsave restore
 
@@ -1374,13 +1377,233 @@ sgfont5 30 scalefont setfont
 322 65.2 moveto (The Quick Brown Fox) SM
 showpage
 picsave restore
-72 593.999 Mt 0 Sf (This is a paragraph of normal te)S -0.165 R(x)S
-(t.)S
+
+
+/picsave save def/a4{null pop}def
+/showpage{initgraphics}def/copypage{null pop}def
+217 434.999 translate
+0.4 dup scale
+70 60 Mt
+70.536 79.228 53.229 96.536 34 96 Ct
+34 78 52 60 70 60 Ct
+0.498039 0.498039 0.498039 setrgbcolor
+5 Slw 0 Slc 0 Slj 4 Slm [] 0 Sd St
+70 60 Mt
+80 60 90 60 100 60 Ct
+100 70 100 80 100 90 Ct
+0 0 0 setrgbcolor
+10 Slw St
+110 60 Mt
+120 60 130 60 140 60 Ct
+140 70 140 80 140 90 Ct
+1 Slj St
+140 90 Mt
+150 90 160 90 170 90 Ct
+170 80 170 70 170 60 Ct
+St
+180 60 Mt
+190 60 200 60 210 60 Ct
+210 70 210 80 210 90 Ct
+2 Slj St
+230 60 Mt
+240 60 250 60 260 60 Ct
+260 70 260 80 260 90 Ct
+2 Slc 0 Slj St
+230 60 Mt
+240 60 250 60 260 60 Ct
+260 70 260 80 260 90 Ct
+1 0 0 setrgbcolor
+0 Slc St
+70 120 Mt
+80 120 90 120 100 120 Ct
+100 130 100 140 100 150 Ct
+0 0 0 setrgbcolor
+1 Slc 1 Slm St
+110 120 Mt
+130 120 150 120 170 120 Ct
+8 Slw 0 Slc 4 Slm [5 2 5 2] 0 Sd St
+95 200 Mt
+95.297 210.682 85.683 220.297 75 220 Ct
+64.318 220.297 54.703 210.683 55 200.001 Ct
+54.703 189.319 64.317 179.704 74.999 180.001 Ct
+85.681 179.704 95.296 189.318 94.999 200.001 Ct
+110 200 Mt
+110.536 219.228 93.229 236.536 74 236 Ct
+54.772 236.536 37.464 219.229 38 200.001 Ct
+37.464 180.773 54.771 163.465 73.999 164.001 Ct
+93.227 163.465 110.535 180.772 109.999 200.001 Ct
+1 0 0 setrgbcolor
+gsave fill grestore 0 0 0 setrgbcolor
+0.4 Slw [] 0 Sd St
+195 200 Mt
+195.297 210.682 185.683 220.297 175 220 Ct
+164.318 220.297 154.703 210.683 155 200.001 Ct
+154.703 189.319 164.317 179.704 174.999 180.001 Ct
+185.681 179.704 195.296 189.318 194.999 200.001 Ct
+210 200 Mt
+210.536 219.228 193.229 236.536 174 236 Ct
+154.772 236.536 137.464 219.229 138 200.001 Ct
+137.464 180.773 154.771 163.465 173.999 164.001 Ct
+193.227 163.465 210.535 180.772 209.999 200.001 Ct
+1 0 0 setrgbcolor
+gsave eofill grestore 0 0 0 setrgbcolor
+St
+55 300 Mt
+54.703 310.682 64.317 320.297 75 319.999 Ct
+85.682 320.296 95.297 310.682 95 299.999 Ct
+95.297 289.317 85.683 279.702 75 279.999 Ct
+64.318 279.702 54.703 289.316 55 299.998 Ct
+110 300 Mt
+110.536 319.228 93.229 336.536 74 336 Ct
+54.772 336.536 37.464 319.229 38 300.001 Ct
+37.464 280.773 54.771 263.465 73.999 264.001 Ct
+93.227 263.465 110.535 280.772 109.999 300.001 Ct
+1 0 0 setrgbcolor
+gsave fill grestore 0 0 0 setrgbcolor
+St
+155 300 Mt
+154.703 310.682 164.317 320.297 175 319.999 Ct
+185.682 320.296 195.297 310.682 195 299.999 Ct
+195.297 289.317 185.683 279.702 175 279.999 Ct
+164.318 279.702 154.703 289.316 155 299.998 Ct
+210 300 Mt
+210.536 319.228 193.229 336.536 174 336 Ct
+154.772 336.536 137.464 319.229 138 300.001 Ct
+137.464 280.773 154.771 263.465 173.999 264.001 Ct
+193.227 263.465 210.535 280.772 209.999 300.001 Ct
+1 0 0 setrgbcolor
+gsave eofill grestore 0 0 0 setrgbcolor
+St
+showpage
+picsave restore
+72 422.999 Mt 0 Sf (Here follo)S -0.275 R(ws some colour gradi)S
+(ent tests.)S
+
+/picsave save def/a4{null pop}def
+/showpage{initgraphics}def/copypage{null pop}def
+222 125.999 translate
+0.5 dup scale
+25 525 Mt
+108.333 525 191.667 525 275 525 Ct
+275 475 275 425 275 375 Ct
+191.667 375 108.333 375 25 375 Ct
+25 425 25 475 25 525 Ct
+<< /PatternType 2
+   /Shading <<
+     /ColorSpace /DeviceRGB
+     /Extend [true true]
+     /ShadingType 2
+     /Coords [25 0 275 0]
+     /Domain [0.05 0.95]
+     /Function <<
+       /FunctionType 2
+       /Domain [0.05 0.95]
+       /C0 [0.666667 0.533333 1]
+       /C1 [1 0.866667 0.8]
+       /N 1
+     >>
+   >>
+>>
+matrix makepattern /svggrad0 exch def
+svggrad0 setpattern
+gsave fill grestore 0 0 0 setrgbcolor
+2 Slw 0 Slc 0 Slj 4 Slm [] 0 Sd St
+25 350 Mt
+108.333 350 191.667 350 275 350 Ct
+275 300 275 250 275 200 Ct
+191.667 200 108.333 200 25 200 Ct
+25 250 25 300 25 350 Ct
+svggrad0 setpattern
+gsave fill grestore 0 0 0 setrgbcolor
+St
+25 175 Mt
+108.333 175 191.667 175 275 175 Ct
+275 125 275 75 275 25 Ct
+191.667 25 108.333 25 25 25 Ct
+25 75 25 125 25 175 Ct
+<< /PatternType 2
+   /Shading <<
+     /ColorSpace /DeviceRGB
+     /Extend [true true]
+     /ShadingType 3
+     /Coords [150 100 0 150 100 100]
+     /Domain [0 1]
+     /Function <<
+       /FunctionType 3
+       /Domain [0 1]
+       /Bounds [0.5]
+       /Encode [0 0.5 0.5 1]
+       /Functions [
+         <<
+         /FunctionType 2
+         /Domain [0 1]
+         /C0 [0.666667 0.533333 1]
+         /C1 [1 0.866667 0.8]
+         /N 1
+         >>
+         <<
+         /FunctionType 2
+         /Domain [0 1]
+         /C0 [1 0.866667 0.8]
+         /C1 [0.666667 0.533333 1]
+         /N 1
+         >>
+       ]
+     >>
+   >>
+>>
+matrix makepattern /svggrad1 exch def
+svggrad1 setpattern
+gsave fill grestore 0 0 0 setrgbcolor
+St
+showpage
+picsave restore
 72 72 Mt( )S
 294.249 60 Mt(2)S
 
 pagesave restore showpage
 %%PageTrailer
 
+%%Page: 3 3
+%%BeginPageSetup
+/pagesave save def
+%%EndPageSetup
+
+
+/picsave save def/a4{null pop}def
+/showpage{initgraphics}def/copypage{null pop}def
+197 680 translate
+1 dup scale
+25 75 Mt
+41.6667 75 58.3333 75 75 75 Ct
+75 58.3333 75 41.6667 75 25 Ct
+58.3333 25 41.6667 25 25 25 Ct
+25 41.6667 25 58.3333 25 75 Ct
+1 0 0 setrgbcolor
+gsave fill grestore 0 0 0 setrgbcolor
+2 Slw 0 Slc 0 Slj 4 Slm [] 0 Sd St
+[/Times-Roman/Times-Regular/Times] multifindfont /sgfont0 exch def
+sgfont0 10 scalefont setfont
+0 0 0 setrgbcolor
+94 65 moveto (AB) S
+sgfont0 10 scalefont setfont
+94 45 moveto (EF) S
+125 75 Mt
+141.667 75 158.333 75 175 75 Ct
+175 58.3333 175 41.6667 175 25 Ct
+158.333 25 141.667 25 125 25 Ct
+125 41.6667 125 58.3333 125 75 Ct
+0 0 1 setrgbcolor
+gsave fill grestore 0 0 0 setrgbcolor
+St
+showpage
+picsave restore
+72 656.999 Mt 0 Sf (Final paragraph.)S
+72 72 Mt( )S
+294.249 60 Mt(3)S
+
+pagesave restore showpage
+%%PageTrailer
+
 %%Trailer
-%%Pages: 2
+%%Pages: 3

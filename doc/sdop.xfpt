@@ -53,13 +53,13 @@
 <bookinfo>
 <title>SDoP: A Simple DocBook Processor</title>
 <titleabbrev>SDoP</titleabbrev>
-<date>10 April 2023</date>
+<date>28 April 2023</date>
 <author><firstname>Philip</firstname><surname>Hazel</surname></author>
 <authorinitials>PH</authorinitials>
 <address>Cambridge, England</address>
 <revhistory><revision>
   <revnumber>1.10</revnumber>
-  <date>10 April 2023</date>
+  <date>28 April 2023</date>
   <authorinitials>PH</authorinitials>
 </revision></revhistory>
 <copyright><year>2023</year><holder>Philip Hazel</holder></copyright>
@@ -81,7 +81,7 @@
 SDoP is a Simple DocBook Processor. It reads DocBook XML input and writes
 PostScript output. The output can easily be converted into PDF form by the
 &(ps2pdf)& command that comes as part of the GhostScript package. This document
-describes SDoP version &version;. Cross-references should be clickable if the 
+describes SDoP version &version;. Cross-references should be clickable if the
 PDF reader you are using supports the feature.
 
 The first version of SDoP was written to support just those features of DocBook
@@ -102,12 +102,13 @@ subtables within tables, and some element attributes. Chapter
 &<<CHAPsuppelems>>& of this document contains a complete list of what SDoP does
 support.
 
-SDoP supports illustrations in several formats. Encapsulated PostScript (.eps)
-files and Scalable Vector Graphics (.svg) files are always supported. The 
-latter makes use of an embedded &(nanosvg)& library, modified to support text 
-items. However, not all SVG features are supported. If the relevant libraries 
-are found when SDoP is being built, there is also support for JPEG and PNG 
-images (&R; &<<SECTillfig>>&).
+SDoP supports illustrations, supplied as separate files, in several formats.
+Encapsulated PostScript (.eps) is always supported. If the relevant libraries
+are found when SDoP is being built, JPEG and PNG files are supported. There is
+also some inbuilt support for Scalable Vector Graphics (.svg) files. This makes
+use of the &(nanosvg)& source library
+(&url(https://github.com/memononen/nanosvg)), modified to support text items.
+For details, see section &<<SECTillfig>>& below.
 
 I wrote SDoP because at that time the available non-commercial processors for
 converting DocBook into PostScript or PDF were not only slow and cumbersome,
@@ -383,8 +384,8 @@ are no relevant &`<indexterm>`& elements.
 .next
 One or more colophons, if present in the input.
 .endlist
-Although this feature is rarely needed, it is in fact possible to mix multiple
-indexes, chapters, and appendices in an arbitrary order.
+You can mix multiple indexes, chapters, and appendices in an arbitrary order,
+though this feature is rarely needed,
 
 .index "article" "title material"
 An article is similar to a single chapter of a book. The output for an article
@@ -1784,9 +1785,9 @@ it contains a function for loading fonts and adjusting their encodings.
 Any typsetting program needs to know the metrics of the fonts it is using. SDoP
 is distributed with AFM files for all the standard Adobe fonts in a
 subdirectory called &_fontmetrics_&. For example, the file for the Times Roman
-font is in &_fontmetrics/Times-Roman.afm_&. If you want to use other fonts, you 
+font is in &_fontmetrics/Times-Roman.afm_&. If you want to use other fonts, you
 must either install their AFM files in this directory, or use the &%-S%&
-command line option or &$SDOP_SHARE$& environment variable to specify where 
+command line option or &$SDOP_SHARE$& environment variable to specify where
 they are (&R; &<<SECTexotic>>&).
 
 
@@ -2057,7 +2058,8 @@ characters.
 Both forms of hyphenation can be disabled by a processing instruction (&R;
 &<<SECTotherpin>>&). This is a local processing instruction, so hyphenation
 can be turned on and off as often as you like throughout the document. SDoP
-uses a dictionary for automatic hyphenation (&R; &<<SECThydict>>&).
+uses a dictionary for automatic hyphenation (&R; &<<SECThydict>>&,
+&<<CHAPmainhydic>>&).
 
 .index "hyphenation" "NBH character"
 It is also possible to disable automatic hyphenation at specific points in
@@ -2286,9 +2288,14 @@ element supports only the &`fileref`& attribute for the source of the image
 data and the &`format`& attribute to specify a format. If no format is given,
 the file name extension is used. The formats currently recognized are EPS for
 encapsulated PostScript, SVG for Scalar Vector Graphics, JPEG or JPG for a JPEG
-image (if JPEG support is available), and PNG for a PNG image (if PNG support
-is available). SVG support is new to release 1.10. Only the very basic features
-of SVG are currently supported.
+image (if &(libjpeg)& is available), and PNG for a PNG image (if &(libpng)&
+is available). SVG support is new to release 1.10, and is fairly basic. If you
+have an SVG image that SDoP does not render correctly, a workaround is to use
+an image processor such as &(ImageMagick)& to convert it to one of the other
+formats. A program for testing SDoP's SVG support, called &(svgtest)&, is built
+with SDoP, but not installed. You can find it in the build &_src_& directory.
+It takes an SVG file name as an argument, and writes free-standing PostScript
+to the standard output.
 
 SDoP recognizes the &`align`&, &`depth`&, &`width`&, &`scale`&, and
 &`scalefit`& attributes on an &`<imagedata>`& element. If either of the width
@@ -2976,8 +2983,8 @@ first table shows those from the first three Unicode pages (U+0000&--U+017F):
 The next table shows the other supported characters that are taken from the
 normal PostScript fonts if possible (some older fonts lack some of these
 characters). U+021A and U+021B are mapped to &'Tcommaaccent'& and
-&'tcommaaccent'&, whereas U+0162 and U+0163 are mapped to &'Tcedilla'& and 
-&'tcedilla'&. Although Unicode specifies these as alternative glyphs, they look 
+&'tcommaaccent'&, whereas U+0162 and U+0163 are mapped to &'Tcedilla'& and
+&'tcedilla'&. Although Unicode specifies these as alternative glyphs, they look
 the same in many fonts.
 
 .itable none 0 0 9 10pt left &&&
@@ -3099,7 +3106,7 @@ called &_HyphenData_&. This is installed with the other SDoP data files (often
 in &_/usr/local/share/sdop/_&). The distribution also contains tools that
 enable you to modify this dictionary, or create entirely different
 dictionaries. These tools are not installed as user commands &-- they are built
-by `make', but remain in the build directory.
+by `make', but remain in the build &_src_& directory.
 
 The &(buildhy)& program reads a file of hyphenated words and adds indexing
 information on the front so that SDoP can then use it as a hyphenation

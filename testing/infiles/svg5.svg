@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="400" height="400" version="1.1" transform="translate(0,300)"
+  xmlns="http://www.w3.org/2000/svg">
+
+<path d="M 70 40
+c 0.536 -19.228 -16.771 -36.536 -36 -36 c 0 18 18 36 36 36" 
+fill="none" stroke="#7F7F7F" stroke-width="5" opacity="0.5"/>
+
+<path d="M 70 40 l 30 0 l 0 -30" 
+fill = "none" stroke="#000000" stroke-width="10" />
+
+<path d="M 110 40 l 30 0 l 0 -30" 
+fill = "none" stroke="#000000" stroke-width="10" stroke-linejoin="round"/>
+
+<path d="M 140 10 l 30 0 l 0 30" 
+fill = "none" stroke="#000000" stroke-width="10" stroke-linejoin="round"/>
+
+<path d="M 180 40 l 30 0 l 0 -30" 
+fill = "none" stroke="#000000" stroke-width="10" stroke-linejoin="bevel"/>
+
+<path d="M 230 40 l 30 0 l 0 -30" 
+fill = "none" stroke="#000000" stroke-width="10" stroke-linejoin="arcs"
+stroke-linecap="square" />
+
+<path d="M 230 40 l 30 0 l 0 -30" 
+fill = "none" stroke="#ff0000" stroke-width="10" />
+
+<path d="M 70 -20 l 30 0 l 0 -30" 
+fill = "none" stroke="#000000" stroke-width="10" stroke-miterlimit="1" 
+stroke-linecap="round" />
+
+<path d="M 110 -20 l 60 0" 
+fill = "none" stroke="#000000" stroke-width="8"
+stroke-dasharray="5 2 5 2" />
+
+<?-- Circle anti-clockwise, inner circle anti-clockwise, nonzero rule. -->
+
+<path d="M 110 -100
+c 0.536 -19.228 -16.771 -36.536 -36 -36
+c -19.228 -0.536 -36.536 16.771 -36 35.999
+c -0.536 19.228 16.771 36.536 35.999 36
+c 19.228 0.536 36.536 -16.771 36 -36
+
+M 95 -100
+c 0.297 -10.682 -9.317 -20.297 -20 -20
+c -10.682 -0.297 -20.297 9.317 -20 19.999
+c -0.297 10.682 9.317 20.297 19.999 20
+c 10.682 0.297 20.297 -9.317 20 -20
+" fill="red" stroke="#000000" stroke-width="0.4"/>
+
+<?-- Circle anti-clockwise, inner circle anti-clockwise, evenodd rule. -->
+
+<path d="M 210 -100
+c 0.536 -19.228 -16.771 -36.536 -36 -36
+c -19.228 -0.536 -36.536 16.771 -36 35.999
+c -0.536 19.228 16.771 36.536 35.999 36
+c 19.228 0.536 36.536 -16.771 36 -36
+
+M 195 -100
+c 0.297 -10.682 -9.317 -20.297 -20 -20
+c -10.682 -0.297 -20.297 9.317 -20 19.999
+c -0.297 10.682 9.317 20.297 19.999 20
+c 10.682 0.297 20.297 -9.317 20 -20
+" fill="red" fill-rule="evenodd" stroke="#000000" stroke-width="0.4"/>
+
+<?-- Circle anti-clockwise, inner circle clockwise, nonzero rule. -->
+
+<path d="M 110 -200
+c 0.536 -19.228 -16.771 -36.536 -36 -36
+c -19.228 -0.536 -36.536 16.771 -36 35.999
+c -0.536 19.228 16.771 36.536 35.999 36
+c 19.228 0.536 36.536 -16.771 36 -36
+
+M 55 -200
+c -0.297 -10.682 9.317 -20.297 20 -19.999
+c 10.682 -0.297 20.297 9.317 20 20
+c 0.297 10.682 -9.317 20.297 -20 20
+c -10.682 0.297 -20.297 -9.317 -20 -19.999
+" fill="red" stroke="#000000" stroke-width="0.4"/>
+
+<?-- Circle anti-clockwise, inner circle clockwise, evenodd rule. -->
+
+<path d="M 210 -200
+c 0.536 -19.228 -16.771 -36.536 -36 -36
+c -19.228 -0.536 -36.536 16.771 -36 35.999
+c -0.536 19.228 16.771 36.536 35.999 36
+c 19.228 0.536 36.536 -16.771 36 -36
+
+M 155 -200
+c -0.297 -10.682 9.317 -20.297 20 -19.999
+c 10.682 -0.297 20.297 9.317 20 20
+c 0.297 10.682 -9.317 20.297 -20 20
+c -10.682 0.297 -20.297 -9.317 -20 -19.999
+" fill="red" fill-rule="evenodd" stroke="#000000" stroke-width="0.4"/>
+
+</svg>
