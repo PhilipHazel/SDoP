@@ -161,9 +161,10 @@ outputting details of head/foot/toc template files every time. */
 #define D_param        0x00008000
 #define D_read         0x00010000
 #define D_ref          0x00020000
-#define D_title        0x00040000
-#define D_toc          0x00080000
-#define D_write        0x00100000
+#define D_svg          0x00040000
+#define D_title        0x00080000
+#define D_toc          0x00100000
+#define D_write        0x00200000
 
 #define D_all         (0xffffffff & ~D_internal)
 

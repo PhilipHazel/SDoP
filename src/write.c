@@ -3,7 +3,7 @@
 *************************************************/
 
 /* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: March 2023 */
+/* Created in 2006; last modified: April 2023 */
 
 /* This module contains code for writing the final PostScript output. */
 
@@ -2833,6 +2833,7 @@ chaptitblock = secttitblock = NULL;
 i = main_item_list->next;       /* The first #PDATA (page data) item */
 
 DEBUG(D_any) if (i != NULL) debug_printf("Writing main body etc.\n");
+svg_listignored = FALSE;        /* Will have already been shown */
 
 while (i != NULL && i->next != NULL)
   {

@@ -1,6 +1,6 @@
 %% Header file for sdop PostScript output
 % Created: July 06 2005
-% Last update: April 10 2023
+% Last update: April 12 2023
 
 % Blank lines and lines starting with a single % are not copied to the output.
 
@@ -178,14 +178,10 @@ UpperEncoding 0 [
 % versions of the font. When the font is not re-encoded, the two will end
 % up the same. Following the two names is the font name.
 
-% We find the font first, and then look to see if it's in the directory,
-% to cope with the case of loading from an auxiliary store.
-
-/inf{dup dup findfont 3 1 roll FontDirectory exch known {pop}{(**** Font ")print
-100 string cvs print (" is not loaded ****\r\n)print stop}ifelse
+/inf{findfont
 
 % At this point we have on the stack the two names, followed by the font.
-% Duplicate it, and test to see whether it uses the Adobe Standard encoding.
+% Test to see whether it uses the Adobe Standard encoding.
 
 dup dup/Encoding get StandardEncoding eq
 
@@ -232,6 +228,10 @@ newfont0/Encoding LowerEncoding put dup newfont0 definefont def
 /RMt/rmoveto load def
 /RLt/rlineto load def
 /Ct/curveto load def
+/Sd/setdash load def
+/Slc/setlinecap load def
+/Slj/setlinejoin load def
+/Slm/setmiterlimit load def
 /Slw/setlinewidth load def
 /St/stroke load def
 
@@ -246,7 +246,7 @@ newfont0/Encoding LowerEncoding put dup newfont0 definefont def
 
 /multifindfont{
 {dup/Font resourcestatus{pop pop findfont exit}{pop}ifelse}forall
-}bind def 
+}bind def
 
 %%EndProlog
 

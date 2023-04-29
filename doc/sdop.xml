@@ -12,13 +12,13 @@
 <bookinfo>
 <title>SDoP: A Simple DocBook Processor</title>
 <titleabbrev>SDoP</titleabbrev>
-<date>10 April 2023</date>
+<date>28 April 2023</date>
 <author><firstname>Philip</firstname><surname>Hazel</surname></author>
 <authorinitials>PH</authorinitials>
 <address>Cambridge, England</address>
 <revhistory><revision>
   <revnumber>1.10</revnumber>
-  <date>10 April 2023</date>
+  <date>28 April 2023</date>
   <authorinitials>PH</authorinitials>
 </revision></revhistory>
 <copyright><year>2023</year><holder>Philip Hazel</holder></copyright>
@@ -69,12 +69,13 @@ subtables within tables, and some element attributes. Chapter
 support.
 </para>
 <para>
-SDoP supports illustrations in several formats. Encapsulated PostScript (.eps)
-files and Scalable Vector Graphics (.svg) files are always supported. The 
-latter makes use of an embedded <command>nanosvg</command> library, modified to support text 
-items. However, not all SVG features are supported. If the relevant libraries 
-are found when SDoP is being built, there is also support for JPEG and PNG 
-images (&#x261e; <xref linkend="SECTillfig"/>).
+SDoP supports illustrations, supplied as separate files, in several formats.
+Encapsulated PostScript (.eps) is always supported. If the relevant libraries
+are found when SDoP is being built, JPEG and PNG files are supported. There is
+also some inbuilt support for Scalable Vector Graphics (.svg) files. This makes
+use of the <command>nanosvg</command> source library
+(<emphasis role="bold"><ulink url="https://github.com/memononen/nanosvg">https://github.com/memononen/nanosvg</ulink></emphasis>), modified to support text items.
+For details, see section <xref linkend="SECTillfig"/> below.
 </para>
 <para>
 I wrote SDoP because at that time the available non-commercial processors for
@@ -569,8 +570,8 @@ One or more colophons, if present in the input.
 </listitem>
 </orderedlist>
 <para>
-Although this feature is rarely needed, it is in fact possible to mix multiple
-indexes, chapters, and appendices in an arbitrary order.
+You can mix multiple indexes, chapters, and appendices in an arbitrary order,
+though this feature is rarely needed,
 </para>
 <para>
 <indexterm>
@@ -3674,7 +3675,8 @@ characters.
 Both forms of hyphenation can be disabled by a processing instruction (&#x261e;
 <xref linkend="SECTotherpin"/>). This is a local processing instruction, so hyphenation
 can be turned on and off as often as you like throughout the document. SDoP
-uses a dictionary for automatic hyphenation (&#x261e; <xref linkend="SECThydict"/>).
+uses a dictionary for automatic hyphenation (&#x261e; <xref linkend="SECThydict"/>,
+<xref linkend="CHAPmainhydic"/>).
 </para>
 <para>
 <indexterm>
@@ -4044,9 +4046,14 @@ element supports only the <literal>fileref</literal> attribute for the source of
 data and the <literal>format</literal> attribute to specify a format. If no format is given,
 the file name extension is used. The formats currently recognized are EPS for
 encapsulated PostScript, SVG for Scalar Vector Graphics, JPEG or JPG for a JPEG
-image (if JPEG support is available), and PNG for a PNG image (if PNG support
-is available). SVG support is new to release 1.10. Only the very basic features
-of SVG are currently supported.
+image (if <command>libjpeg</command> is available), and PNG for a PNG image (if <command>libpng</command>
+is available). SVG support is new to release 1.10, and is fairly basic. If you 
+have an SVG image that SDoP does not render correctly, a workaround is to use 
+an image processor such as <command>ImageMagick</command> to convert it to one of the other 
+formats. A program for testing SDoP&#x2019;s SVG support, called <command>svgtest</command>, is built 
+with SDoP, but not installed. You can find it in the build <filename>src</filename> directory. 
+It takes an SVG file name as an argument, and writes free-standing PostScript 
+to the standard output.
 </para>
 <para>
 SDoP recognizes the <literal>align</literal>, <literal>depth</literal>, <literal>width</literal>, <literal>scale</literal>, and
@@ -8474,7 +8481,7 @@ called <filename>HyphenData</filename>. This is installed with the other SDoP da
 in <filename>/usr/local/share/sdop/</filename>). The distribution also contains tools that
 enable you to modify this dictionary, or create entirely different
 dictionaries. These tools are not installed as user commands &ndash; they are built
-by &#x2018;make&#x2019;, but remain in the build directory.
+by &#x2018;make&#x2019;, but remain in the build <filename>src</filename> directory.
 </para>
 <para>
 The <command>buildhy</command> program reads a file of hyphenated words and adds indexing

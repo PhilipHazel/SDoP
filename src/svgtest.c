@@ -19,8 +19,15 @@ BOOL svg_listignored = TRUE;
 
 int main(int argc, char **argv)
 {
-FILE *f = fopen(argv[1], "rb");
+FILE *f;
 
+if (argc != 2)
+  {
+  fprintf(stderr, "** Just one name of an SVG file required\n");
+  return 1;
+  }
+
+f = fopen(argv[1], "rb");
 if (f == NULL)
   {
   fprintf(stderr, "** Failed to open %s: %s\n", argv[1], strerror(errno));
@@ -34,6 +41,10 @@ printf("/Mt/moveto load def\n"
   "/RLt/rlineto load def\n"
   "/Ct/curveto load def\n"
   "/S/show load def\n"
+  "/Sd/setdash load def\n" 
+  "/Slc/setlinecap load def\n" 
+  "/Slj/setlinejoin load def\n"
+  "/Slm/setmiterlimit load def\n" 
   "/Slw/setlinewidth load def\n"
   "/St/stroke load def\n\n");
 
@@ -46,8 +57,8 @@ that exists. If none are found, Times-Roman is defaulted. */
 printf("/multifindfont{\n"
   "{dup /Font resourcestatus {pop pop findfont exit}{pop}ifelse}forall\n"
   "}bind def\n\n");
-  
-/* Now process the SVG file */ 
+
+/* Now process the SVG file */
 
 svg_write(f, stdout);
 return 0;

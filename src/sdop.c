@@ -3,7 +3,7 @@
 *************************************************/
 
 /* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: March 2023 */
+/* Created in 2006; last modified: April 2023 */
 
 /* This module contains the main program and initialization functions. */
 
@@ -37,6 +37,7 @@ static bit_table debug_options[] = {
   { US"param",           D_param },
   { US"read",            D_read },
   { US"ref",             D_ref },
+  { US"svg",             D_svg }, 
   { US"title",           D_title },
   { US"toc",             D_toc },
   { US"write",           D_write }
@@ -595,6 +596,7 @@ if (share != NULL)
 if (atexit(tidy_up) != 0) error(117);   /* Hard */
 
 yield = sdop_decode_arg(argc, argv);
+DEBUG(D_svg) svg_listignored = TRUE;
 
 main_item_list  = misc_dummy_item();
 title_item_list = misc_dummy_item();
