@@ -3,7 +3,7 @@
 *************************************************/
 
 /* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: March 2023 */
+/* Created in 2006; last modified: June 2024 */
 
 /* This module contains functions for reading a source file and parsing it into
 a sequence of chained item blocks. Chapters and sections are numbered as we
@@ -93,8 +93,8 @@ for (param = new->p.param; param != NULL; param = param->next)
   if (Ustrcmp(param->name, "revisionflag") == 0)
     {
     if (Ustrcmp(param->value, "changed") == 0) continue;
-    (void)sprintf(CS buffer, "+%s=%s:%s", param->name, param->value,
-      new->name);
+    (void)sprintf(CS buffer, "+%s=%.*s:%s", param->name, 256 - 2*DBNAMESIZE - 3,
+      param->value, new->name);
     }
 
   /* See if this attribute is listed as supported unless the first item

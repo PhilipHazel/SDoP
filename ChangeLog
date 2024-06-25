@@ -1,6 +1,13 @@
 ChangeLog for SDoP
 ------------------
 
+Version 1.11 (25-June-2024)
+---------------------------
+
+1. If a revisionflag attribute was given very long value, stack smashing could
+occur (the only valid value for revisionflag is "changed").
+
+
 Version 1.10 (29-April-2023)
 ----------------------------
 

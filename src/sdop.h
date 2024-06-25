@@ -2,16 +2,16 @@
 *          sdop - Simple DocBook Processor       *
 *************************************************/
 
-/* Copyright (c) Philip Hazel, 2023 */
-/* Created in 2006; last modified: April 2023 */
+/* Copyright (c) Philip Hazel, 2024 */
+/* Created in 2006; last modified: June 2024 */
 
 /* Main SDoP header file, included by all modules. */
 
 #ifndef INCLUDED_SDOP_H
 #define INCLUDED_SDOP_H
 
-#define SDOP_VERSION "1.10"
-#define SDOP_DATE    "29-April-2023"
+#define SDOP_VERSION "1.11"
+#define SDOP_DATE    "25-June-2024"
 
 /* Standard C headers */
 
